@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 244" role="img" aria-label="Three ways to answer the same question. An exact lookup table finds a key for only one and a half percent of unseen observations. Nearest-neighbour always answers but must carry every recorded frame to inference. A fitted function answers in fixed time from fixed-size weights">
+
+  <rect x="16" y="40" width="228" height="128" rx="8"
+        fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.6"/>
+  <text x="32" y="66" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--ox, #9c3b2e)">Look it up exactly</text>
+  <text x="32" y="90" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">a dict keyed by the observation</text>
+  <text x="32" y="114" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--ox, #9c3b2e)">1.6%</text>
+  <text x="32" y="132" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">of held-out frames found a key</text>
+  <text x="32" y="152" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">floats do not repeat</text>
+
+  <line x1="244" y1="104" x2="268" y2="104"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m3LadderArrow)"/>
+
+  <rect x="272" y="40" width="228" height="128" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="288" y="66" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--gold, #b07d22)">Use the closest key</text>
+  <text x="288" y="90" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">nearest neighbour over 9,180 rows</text>
+  <text x="288" y="114" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--gold, #b07d22)">always answers</text>
+  <text x="288" y="132" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">but carries the whole dataset</text>
+  <text x="288" y="152" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">to inference, and grows with it</text>
+
+  <line x1="500" y1="104" x2="524" y2="104"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m3LadderArrow)"/>
+
+  <rect x="528" y="40" width="216" height="128" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="544" y="66" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--green, #15614e)">Fit a function</text>
+  <text x="544" y="90" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">weights, not rows</text>
+  <text x="544" y="114" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--green, #15614e)">fixed size</text>
+  <text x="544" y="132" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">fixed time, and it interpolates</text>
+  <text x="544" y="152" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">between the frames it saw</text>
+
+  <text x="380" y="204" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--muted, #6b6053)">All three are policies. All three map an observation to an action.</text>
+  <text x="380" y="224" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">Only the third one is small enough to ship and smooth enough to trust between the frames you recorded.</text>
+
+  <defs>
+    <marker id="m3LadderArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

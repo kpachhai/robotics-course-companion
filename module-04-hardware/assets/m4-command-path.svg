@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 244" role="img" aria-label="The path one joint command takes from your script through the USB port, the control board and the TTL bus to a single motor, with the distinct failure signature of each hop written underneath, and the reminder that most timeout errors are physical rather than code">
+
+  <text x="378" y="24" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">and Present_Position comes back down the same wire</text>
+  <path d="M664,56 L664,32 L92,32 L92,56" fill="none"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m4PathArrow)"/>
+
+  <rect x="30" y="56" width="125" height="70" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="92" y="84" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Your script</text>
+  <text x="92" y="104" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">send_action(…)</text>
+
+  <rect x="173" y="56" width="125" height="70" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="236" y="84" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">USB port</text>
+  <text x="236" y="104" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">/dev/ttyACM0</text>
+
+  <rect x="316" y="56" width="125" height="70" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="378" y="84" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Control board</text>
+  <text x="378" y="104" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">jumpers on B</text>
+
+  <rect x="459" y="56" width="125" height="70" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="522" y="84" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">The TTL bus</text>
+  <text x="522" y="104" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">1 Mbaud · ids 1-6</text>
+
+  <rect x="602" y="56" width="125" height="70" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="664" y="84" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">One motor</text>
+  <text x="664" y="104" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">Goal_Position (42)</text>
+
+  <line x1="157" y1="91" x2="171" y2="91"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m4PathArrow)"/>
+  <line x1="300" y1="91" x2="314" y2="91"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m4PathArrow)"/>
+  <line x1="443" y1="91" x2="457" y2="91"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m4PathArrow)"/>
+  <line x1="586" y1="91" x2="600" y2="91"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m4PathArrow)"/>
+
+  <text x="92" y="146" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">a typo in the port</text>
+  <text x="92" y="160" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">and it never opens</text>
+  <text x="236" y="146" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">unplugged, or no</text>
+  <text x="236" y="160" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">permission on Linux</text>
+  <text x="378" y="146" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">wrong jumper and</text>
+  <text x="378" y="160" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">nothing answers</text>
+  <text x="522" y="146" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">one loose cable and</text>
+  <text x="522" y="160" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">that id times out</text>
+  <text x="664" y="146" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">over-torqued and</text>
+  <text x="664" y="160" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the LED blinks</text>
+
+  <rect x="110" y="182" width="540" height="52" rx="8"
+        fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.6"/>
+  <text x="380" y="208" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--ox, #9c3b2e)">Most timeout errors are physical, not code</text>
+  <text x="380" y="226" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">check the LEDs and the cables before you read the traceback</text>
+
+  <defs>
+    <marker id="m4PathArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

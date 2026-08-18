@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 262" role="img" aria-label="The product T_WB times T_BS times T_SE times T_EH applied to a point in the hand frame, with an arrow above running left to right showing the walk from world out to hand, and an arrow below running right to left showing that the rightmost factor touches the point first">
+  <text x="330" y="34" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">one product, two ways to read it</text>
+
+  <line x1="72" y1="86" x2="470" y2="86"
+        stroke="var(--blue, #2d5d7c)" stroke-width="1.5" marker-end="url(#chainOrderWalk)"/>
+  <text x="271" y="72" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">the walk: W to B to S to E to H</text>
+
+  <text x="90" y="152" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--blue, #2d5d7c)">T_WB</text>
+  <text x="150" y="152" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--muted, #6b6053)">·</text>
+  <text x="210" y="152" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--blue, #2d5d7c)">T_BS</text>
+  <text x="270" y="152" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--muted, #6b6053)">·</text>
+  <text x="330" y="152" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--blue, #2d5d7c)">T_SE</text>
+  <text x="390" y="152" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--muted, #6b6053)">·</text>
+  <text x="450" y="152" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--blue, #2d5d7c)">T_EH</text>
+  <text x="508" y="152" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--muted, #6b6053)">·</text>
+  <text x="560" y="152" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--gold, #b07d22)">p_H</text>
+
+  <line x1="576" y1="216" x2="76" y2="216"
+        stroke="var(--gold, #b07d22)" stroke-width="1.5" marker-end="url(#chainOrderPoint)"/>
+  <text x="326" y="240" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--gold, #b07d22)">the point: T_EH touches p first, T_WB last</text>
+
+  <defs>
+    <marker id="chainOrderWalk" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--blue, #2d5d7c)"/>
+    </marker>
+    <marker id="chainOrderPoint" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--gold, #b07d22)"/>
+    </marker>
+  </defs>
+</svg>

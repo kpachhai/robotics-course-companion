@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 318" role="img" aria-label="The Gemini Robotics 2 split: an embodied-reasoning model runs off the robot and emits a natural-language subtask instruction, which a separate vision-language-action model on the robot turns into motor commands. The reasoning model is reachable through an API, the action model is not">
+  <rect x="230" y="40" width="300" height="56" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="380" y="66" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Gemini Robotics ER 2</text>
+  <text x="380" y="84" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">plans multi-step missions, in language</text>
+
+  <line x1="206" y1="64" x2="226" y2="64" stroke="var(--muted, #6b6053)" stroke-width="1.2"/>
+  <text x="200" y="68" text-anchor="end" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">runs off the robot</text>
+  <line x1="534" y1="64" x2="554" y2="64" stroke="var(--muted, #6b6053)" stroke-width="1.2"/>
+  <text x="560" y="60" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">on AI Studio and in</text>
+  <text x="560" y="74" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">private preview</text>
+
+  <line x1="380" y1="96" x2="380" y2="124" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m5GemArrow)"/>
+
+  <rect x="200" y="128" width="360" height="34" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="380" y="149" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">"pick up the red sock and put it in the dark bin"</text>
+
+  <line x1="380" y1="162" x2="380" y2="190" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m5GemArrow)"/>
+
+  <rect x="230" y="194" width="300" height="56" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="380" y="220" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--green, #15614e)">Gemini Robotics 2</text>
+  <text x="380" y="238" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the VLA: reasons, then emits actions</text>
+
+  <line x1="206" y1="218" x2="226" y2="218" stroke="var(--muted, #6b6053)" stroke-width="1.2"/>
+  <text x="200" y="222" text-anchor="end" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">runs on the robot</text>
+  <line x1="534" y1="218" x2="554" y2="218" stroke="var(--muted, #6b6053)" stroke-width="1.2"/>
+  <text x="560" y="214" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">Trusted Testers only:</text>
+  <text x="560" y="228" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">no weights, no API</text>
+
+  <line x1="380" y1="250" x2="380" y2="276" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m5GemArrow)"/>
+  <text x="380" y="296" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">motor commands, checked August 2026</text>
+
+  <defs>
+    <marker id="m5GemArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

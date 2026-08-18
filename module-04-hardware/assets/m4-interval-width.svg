@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 292" role="img" aria-label="Five evaluations all reporting seventy per cent success, with their ninety-five per cent intervals drawn to scale. At ten trials the interval runs from forty to eighty-nine per cent; at twenty trials forty-eight to eighty-five; at fifty trials fifty-six to eighty-one; at a hundred trials sixty to seventy-eight; and three hundred and twenty trials are needed before the interval is ten points wide">
+  <line x1="170" y1="44" x2="170" y2="242" stroke="var(--line-2, #c8bca3)" stroke-width="1"/>
+  <line x1="435" y1="44" x2="435" y2="242" stroke="var(--ox, #9c3b2e)" stroke-width="1.2"
+        stroke-dasharray="4 4"/>
+  <line x1="700" y1="44" x2="700" y2="242" stroke="var(--line-2, #c8bca3)" stroke-width="1"/>
+  <line x1="541" y1="44" x2="541" y2="242" stroke="var(--muted, #6b6053)" stroke-width="1"
+        stroke-dasharray="2 4"/>
+
+  <text x="170" y="258" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">0%</text>
+  <text x="435" y="258" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--ox, #9c3b2e)">50%</text>
+  <text x="541" y="258" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">70%</text>
+  <text x="700" y="258" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">100%</text>
+
+  <text x="158" y="70" text-anchor="end" class="svg-disp" font-size="13.5" font-weight="600"
+        fill="var(--blue, #2d5d7c)">10 trials</text>
+  <rect x="380" y="59" width="263" height="14" rx="7"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.4"/>
+  <text x="653" y="70" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">40-89%</text>
+
+  <text x="158" y="106" text-anchor="end" class="svg-disp" font-size="13.5" font-weight="600"
+        fill="var(--blue, #2d5d7c)">20 trials</text>
+  <rect x="425" y="95" width="198" height="14" rx="7"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.4"/>
+  <text x="633" y="106" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">48-85%</text>
+
+  <text x="158" y="142" text-anchor="end" class="svg-disp" font-size="13.5" font-weight="600"
+        fill="var(--blue, #2d5d7c)">50 trials</text>
+  <rect x="468" y="131" width="131" height="14" rx="7"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.4"/>
+  <text x="609" y="142" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">56-81%</text>
+
+  <text x="158" y="178" text-anchor="end" class="svg-disp" font-size="13.5" font-weight="600"
+        fill="var(--blue, #2d5d7c)">100 trials</text>
+  <rect x="490" y="167" width="94" height="14" rx="7"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.4"/>
+  <text x="594" y="178" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">60-78%</text>
+
+  <text x="158" y="214" text-anchor="end" class="svg-disp" font-size="13.5" font-weight="600"
+        fill="var(--green, #15614e)">320 trials</text>
+  <rect x="513" y="203" width="53" height="14" rx="7"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.4"/>
+  <text x="576" y="214" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">65-75%</text>
+
+  <text x="428" y="236" text-anchor="end" class="svg-mono" font-size="9.5"
+        fill="var(--ox, #9c3b2e)">a bar crossing this line has not beaten a coin toss</text>
+
+  <text x="370" y="282" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">every bar reports 70%; printed by code/eval_stats.py, Wilson score intervals at 95%</text>
+</svg>

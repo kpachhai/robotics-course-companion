@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 226" role="img" aria-label="One skill call broken into five stages: check the preconditions, run the trained checkpoint, apply the termination rule, re-perceive the scene, and build a structured report. Only the second stage is the trained network">
+
+  <text x="42" y="42" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the planner calls pick(object="red mug")</text>
+  <line x1="102" y1="48" x2="102" y2="72" stroke="var(--muted, #6b6053)" stroke-width="1.3"
+        marker-end="url(#m6FiveStageArrow)"/>
+
+  <rect x="42" y="76" width="120" height="76" rx="8"
+        fill="var(--purple-soft, #ede0f5)" stroke="var(--purple, #5e2d8c)" stroke-width="1.6"/>
+  <text x="102" y="106" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--purple, #5e2d8c)">check</text>
+  <text x="102" y="126" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">preconditions</text>
+  <text x="102" y="140" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">refuse if unmet</text>
+
+  <line x1="162" y1="114" x2="176" y2="114" stroke="var(--muted, #6b6053)" stroke-width="1.3"
+        marker-end="url(#m6FiveStageArrow)"/>
+
+  <rect x="176" y="76" width="120" height="76" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="236" y="106" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">run</text>
+  <text x="236" y="126" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the checkpoint</text>
+  <text x="236" y="140" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">obs in, actions out</text>
+
+  <line x1="296" y1="114" x2="310" y2="114" stroke="var(--muted, #6b6053)" stroke-width="1.3"
+        marker-end="url(#m6FiveStageArrow)"/>
+
+  <rect x="310" y="76" width="120" height="76" rx="8"
+        fill="var(--purple-soft, #ede0f5)" stroke="var(--purple, #5e2d8c)" stroke-width="1.6"/>
+  <text x="370" y="106" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--purple, #5e2d8c)">stop</text>
+  <text x="370" y="126" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">termination rule</text>
+  <text x="370" y="140" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">event, or timeout</text>
+
+  <line x1="430" y1="114" x2="444" y2="114" stroke="var(--muted, #6b6053)" stroke-width="1.3"
+        marker-end="url(#m6FiveStageArrow)"/>
+
+  <rect x="444" y="76" width="120" height="76" rx="8"
+        fill="var(--purple-soft, #ede0f5)" stroke="var(--purple, #5e2d8c)" stroke-width="1.6"/>
+  <text x="504" y="106" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--purple, #5e2d8c)">look</text>
+  <text x="504" y="126" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">re-perceive</text>
+  <text x="504" y="140" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">measure the world</text>
+
+  <line x1="564" y1="114" x2="578" y2="114" stroke="var(--muted, #6b6053)" stroke-width="1.3"
+        marker-end="url(#m6FiveStageArrow)"/>
+
+  <rect x="578" y="76" width="120" height="76" rx="8"
+        fill="var(--purple-soft, #ede0f5)" stroke="var(--purple, #5e2d8c)" stroke-width="1.6"/>
+  <text x="638" y="106" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--purple, #5e2d8c)">report</text>
+  <text x="638" y="126" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">postcondition</text>
+  <text x="638" y="140" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">state, not a boolean</text>
+
+  <text x="236" y="172" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">trained in an earlier module</text>
+  <text x="638" y="172" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">back to the planner</text>
+
+  <text x="370" y="204" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">four of the five stages are code you write, and none of them are in the weights</text>
+
+  <defs>
+    <marker id="m6FiveStageArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

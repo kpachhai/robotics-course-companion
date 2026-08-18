@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 330"
+     role="img" aria-label="Five questions stacked from most to least trustworthy in simulation. Geometry questions at the top are answered exactly; controller stability next; collision checks depend on the scene being right; grasp quality depends on friction numbers you guessed; and whether a vision policy transfers to a real camera is the question simulation answers worst">
+
+  <line x1="60" y1="34" x2="60" y2="286"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#clLadderArrow)"/>
+  <text x="76" y="30" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">answer comes from geometry the model states exactly</text>
+  <text x="76" y="312" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">answer comes from numbers a human typed into an XML file</text>
+
+  <rect x="76" y="38" width="640" height="44" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="96" y="58" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--green, #15614e)">Can the arm physically reach that pose?</text>
+  <text x="96" y="74" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">link lengths and joint limits; the sim is as right as your measurements</text>
+
+  <rect x="76" y="90" width="640" height="44" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="96" y="110" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--green, #15614e)">Does my controller stay stable, and does my IK converge?</text>
+  <text x="96" y="126" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">bugs in your code show up here, and most early bugs are in your code</text>
+
+  <rect x="76" y="142" width="640" height="44" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="96" y="162" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Does this trajectory hit the table or the arm's own elbow?</text>
+  <text x="96" y="178" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">true if the scene matches your desk, which is on you</text>
+
+  <rect x="76" y="194" width="640" height="44" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="96" y="214" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--gold, #b07d22)">Will this grasp hold when the arm lifts and turns?</text>
+  <text x="96" y="230" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">friction, contact stiffness, finger geometry: guessed, guessed, approximated</text>
+
+  <rect x="76" y="246" width="640" height="44" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="96" y="266" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--gold, #b07d22)">Will a policy trained on rendered pixels work on a real camera?</text>
+  <text x="96" y="282" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">not without help; this is the question the rest of the module keeps circling</text>
+
+  <defs>
+    <marker id="clLadderArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

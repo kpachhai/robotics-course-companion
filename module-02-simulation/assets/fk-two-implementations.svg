@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" role="img" aria-label="The same five joint angles go into two independent implementations, your transform chain and MuJoCo's forward pass, and both produce the tool tip pose; the worst disagreement over two thousand random poses is three point five times ten to the minus sixteen metres">
+
+  <rect x="20" y="124" width="140" height="56" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="90" y="148" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--blue, #2d5d7c)">joint angles</text>
+  <text x="90" y="166" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">five numbers, radians</text>
+
+  <path d="M160,152 H196 V74 H232" fill="none" stroke="var(--muted, #6b6053)"
+        stroke-width="1.3" marker-end="url(#fkTwoImplArrow)"/>
+  <path d="M160,152 H196 V230 H232" fill="none" stroke="var(--muted, #6b6053)"
+        stroke-width="1.3" marker-end="url(#fkTwoImplArrow)"/>
+
+  <rect x="232" y="36" width="272" height="76" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="368" y="62" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--blue, #2d5d7c)">your transform chain</text>
+  <text x="368" y="82" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">quaternion to matrix, compose, one hinge per joint</text>
+  <text x="368" y="98" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">fk_so101.py, forty lines of Module 1</text>
+
+  <rect x="232" y="192" width="272" height="76" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="368" y="218" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--gold, #b07d22)">MuJoCo mj_forward</text>
+  <text x="368" y="238" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the engine's own kinematics pass, in C</text>
+  <text x="368" y="254" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">answer lands in data.site_xpos</text>
+
+  <path d="M504,74 H536 V134 H568" fill="none" stroke="var(--muted, #6b6053)"
+        stroke-width="1.3" marker-end="url(#fkTwoImplArrow)"/>
+  <path d="M504,230 H536 V170 H568" fill="none" stroke="var(--muted, #6b6053)"
+        stroke-width="1.3" marker-end="url(#fkTwoImplArrow)"/>
+
+  <rect x="568" y="106" width="172" height="92" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="654" y="132" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--green, #15614e)">one pose</text>
+  <text x="654" y="150" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">worst gap, 2000 poses</text>
+  <text x="654" y="176" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--green, #15614e)">3.5 × 10<tspan font-size="10" dy="-5">−16</tspan><tspan dy="5"> m</tspan></text>
+
+  <text x="90" y="212" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the only shared input</text>
+  <line x1="90" y1="196" x2="90" y2="182" stroke="var(--muted, #6b6053)" stroke-width="1.1"/>
+
+  <defs>
+    <marker id="fkTwoImplArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 262" role="img" aria-label="Three reported attempts at the same task by one practitioner: fifty episodes in a single fixed setup gave zero per cent, a second attempt with fixed cameras and re-recorded episodes gave sixty per cent, and a third attempt with a hundred and fifty episodes spread over six start zones gave ninety per cent">
+  <line x1="320" y1="36" x2="320" y2="212" stroke="var(--line-2, #c8bca3)" stroke-width="1"/>
+  <line x1="510" y1="36" x2="510" y2="212" stroke="var(--line-2, #c8bca3)" stroke-width="1"
+        stroke-dasharray="4 4"/>
+  <line x1="700" y1="36" x2="700" y2="212" stroke="var(--line-2, #c8bca3)" stroke-width="1"
+        stroke-dasharray="4 4"/>
+  <text x="320" y="228" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">0%</text>
+  <text x="510" y="228" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">50%</text>
+  <text x="700" y="228" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">100%</text>
+
+  <text x="20" y="56" class="svg-disp" font-size="14" font-weight="600"
+        fill="var(--ox, #9c3b2e)">Attempt 1</text>
+  <text x="20" y="72" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">50 episodes, one fixed setup</text>
+  <rect x="320" y="49" width="4" height="26" rx="2"
+        fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.6"/>
+  <text x="334" y="67" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--ox, #9c3b2e)">0%</text>
+
+  <text x="20" y="118" class="svg-disp" font-size="14" font-weight="600"
+        fill="var(--gold, #b07d22)">Attempt 2</text>
+  <text x="20" y="134" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">cameras fixed, worst episodes re-recorded</text>
+  <rect x="320" y="111" width="228" height="26" rx="4"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="558" y="129" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--gold, #b07d22)">60%</text>
+
+  <text x="20" y="180" class="svg-disp" font-size="14" font-weight="600"
+        fill="var(--green, #15614e)">Attempt 3</text>
+  <text x="20" y="196" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">150 episodes, six start zones, 25 each</text>
+  <rect x="320" y="173" width="342" height="26" rx="4"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="672" y="191" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--green, #15614e)">90%</text>
+
+  <text x="370" y="252" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">one practitioner, one task, three tries: the shape is the lesson, the numbers are not a law</text>
+</svg>

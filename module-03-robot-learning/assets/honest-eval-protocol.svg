@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 252" role="img" aria-label="An evaluation protocol split by a freeze line: everything decided before the first trial, the trials themselves, and the report, with a return arrow showing that any later edit starts a new experiment">
+
+  <text x="254" y="22" text-anchor="middle" class="svg-disp" font-size="12" font-weight="700"
+        fill="var(--ox, #9c3b2e)">protocol frozen</text>
+  <line x1="254" y1="30" x2="254" y2="196" stroke="var(--ox, #9c3b2e)" stroke-width="1.4"
+        stroke-dasharray="5 4"/>
+
+  <rect x="20" y="52" width="210" height="56" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="125" y="79" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Decide</text>
+  <text x="125" y="97" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">before any trial exists</text>
+
+  <text x="125" y="130" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">n fixed before the first trial</text>
+  <text x="125" y="145" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">seed list and factor ranges</text>
+  <text x="125" y="160" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">success rule written down</text>
+  <text x="125" y="175" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">checkpoint from held-out loss</text>
+
+  <line x1="234" y1="80" x2="274" y2="80" stroke="var(--muted, #6b6053)" stroke-width="1.3"
+        marker-end="url(#evalProtoArrow)"/>
+
+  <rect x="278" y="52" width="210" height="56" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="383" y="79" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Run</text>
+  <text x="383" y="97" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">nothing is decided here</text>
+
+  <text x="383" y="130" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">conditions drawn from the seeds</text>
+  <text x="383" y="145" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">policies interleaved, never blocked</text>
+  <text x="383" y="160" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">nobody watches the running score</text>
+
+  <line x1="492" y1="80" x2="508" y2="80" stroke="var(--muted, #6b6053)" stroke-width="1.3"
+        marker-end="url(#evalProtoArrow)"/>
+
+  <rect x="512" y="52" width="228" height="56" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="626" y="79" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--green, #15614e)">Report</text>
+  <text x="626" y="97" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the claim you can defend</text>
+
+  <text x="626" y="130" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">k out of n, with a 95% interval</text>
+  <text x="626" y="145" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">spread over at least three seeds</text>
+  <text x="626" y="160" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">failure modes, not just the count</text>
+  <text x="626" y="175" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">config and seeds published</text>
+
+  <path d="M626,186 L626,212 L125,212 L125,190"
+        fill="none" stroke="var(--ox, #9c3b2e)" stroke-width="1.3" stroke-dasharray="5 4"
+        marker-end="url(#evalProtoBack)"/>
+  <text x="375" y="234" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--ox, #9c3b2e)">going back to change any of it starts a new experiment, with a new n</text>
+
+  <defs>
+    <marker id="evalProtoArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+    <marker id="evalProtoBack" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--ox, #9c3b2e)"/>
+    </marker>
+  </defs>
+</svg>

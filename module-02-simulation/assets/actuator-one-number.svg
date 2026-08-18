@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 268" role="img" aria-label="The single number in data.ctrl fans out to three actuator types on the same joint: a motor reads it as a torque and the joint settles near 31 degrees, a position actuator reads it as a target angle and settles at 47 degrees, a velocity actuator reads it as a target speed and never stops turning">
+
+  <rect x="16" y="106" width="132" height="60" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="82" y="132" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--green, #15614e)">data.ctrl[0]</text>
+  <text x="82" y="151" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">= 1.0</text>
+
+  <path d="M148 136 L180 136 L180 62 L204 62" fill="none"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#actOneArrow)"/>
+  <path d="M148 136 L204 136" fill="none"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#actOneArrow)"/>
+  <path d="M148 136 L180 136 L180 210 L204 210" fill="none"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#actOneArrow)"/>
+
+  <rect x="208" y="34" width="204" height="56" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="310" y="58" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">&lt;motor&gt;</text>
+  <text x="310" y="77" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">ctrl is a torque, N·m</text>
+
+  <rect x="208" y="108" width="204" height="56" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="310" y="132" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">&lt;position&gt;</text>
+  <text x="310" y="151" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">ctrl is a target angle, rad</text>
+
+  <rect x="208" y="182" width="204" height="56" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="310" y="206" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">&lt;velocity&gt;</text>
+  <text x="310" y="225" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">ctrl is a target speed, rad/s</text>
+
+  <line x1="412" y1="62" x2="448" y2="62"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#actOneArrow)"/>
+  <line x1="412" y1="136" x2="448" y2="136"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#actOneArrow)"/>
+  <line x1="412" y1="210" x2="448" y2="210"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#actOneArrow)"/>
+
+  <rect x="452" y="34" width="292" height="56" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="598" y="58" text-anchor="middle" class="svg-disp" font-size="14" font-weight="600"
+        fill="var(--gold, #b07d22)">settles at 30.7°</text>
+  <text x="598" y="77" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">1 N·m balances gravity at 30.6°, reached slowly</text>
+
+  <rect x="452" y="108" width="292" height="56" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="598" y="132" text-anchor="middle" class="svg-disp" font-size="14" font-weight="600"
+        fill="var(--gold, #b07d22)">settles at 47.0°</text>
+  <text x="598" y="151" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">1 rad is 57.3°; gravity buys back the difference</text>
+
+  <rect x="452" y="182" width="292" height="56" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="598" y="206" text-anchor="middle" class="svg-disp" font-size="14" font-weight="600"
+        fill="var(--gold, #b07d22)">past 934°, still turning</text>
+  <text x="598" y="225" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">no angle was ever asked for, so none is ever reached</text>
+
+  <defs>
+    <marker id="actOneArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

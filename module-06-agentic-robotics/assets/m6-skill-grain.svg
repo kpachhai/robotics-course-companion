@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 258" role="img" aria-label="Two twelve-second timelines of the same robot: with skills shorter than one planner call the robot moves for three seconds and waits for nine, and with skills longer than one planner call it moves for ten seconds and waits for two">
+
+  <text x="16" y="44" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Skills shorter than one decision</text>
+  <text x="676" y="44" text-anchor="end" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">3 s moving, 9 s waiting</text>
+
+  <rect x="16" y="56" width="55" height="36" rx="4" fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <rect x="71" y="56" width="18.33" height="36" rx="4" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <rect x="89.33" y="56" width="55" height="36" rx="4" fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <rect x="144.33" y="56" width="18.33" height="36" rx="4" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <rect x="162.67" y="56" width="55" height="36" rx="4" fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <rect x="217.67" y="56" width="18.33" height="36" rx="4" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <rect x="236" y="56" width="55" height="36" rx="4" fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <rect x="291" y="56" width="18.33" height="36" rx="4" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <rect x="309.33" y="56" width="55" height="36" rx="4" fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <rect x="364.33" y="56" width="18.33" height="36" rx="4" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <rect x="382.67" y="56" width="55" height="36" rx="4" fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <rect x="437.67" y="56" width="18.33" height="36" rx="4" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <rect x="456" y="56" width="55" height="36" rx="4" fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <rect x="511" y="56" width="18.33" height="36" rx="4" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <rect x="529.33" y="56" width="55" height="36" rx="4" fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <rect x="584.33" y="56" width="18.33" height="36" rx="4" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <rect x="602.67" y="56" width="55" height="36" rx="4" fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <rect x="657.67" y="56" width="18.33" height="36" rx="4" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+
+  <text x="16" y="134" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Skills longer than one decision</text>
+  <text x="676" y="134" text-anchor="end" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">10 s moving, 2 s waiting</text>
+
+  <rect x="16" y="146" width="55" height="36" rx="4" fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <rect x="71" y="146" width="275" height="36" rx="4" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <rect x="346" y="146" width="55" height="36" rx="4" fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <rect x="401" y="146" width="275" height="36" rx="4" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+
+  <line x1="16" y1="206" x2="676" y2="206" stroke="var(--line-2, #c8bca3)" stroke-width="1.3"/>
+  <line x1="16" y1="206" x2="16" y2="212" stroke="var(--line-2, #c8bca3)" stroke-width="1.3"/>
+  <line x1="126" y1="206" x2="126" y2="212" stroke="var(--line-2, #c8bca3)" stroke-width="1.3"/>
+  <line x1="236" y1="206" x2="236" y2="212" stroke="var(--line-2, #c8bca3)" stroke-width="1.3"/>
+  <line x1="346" y1="206" x2="346" y2="212" stroke="var(--line-2, #c8bca3)" stroke-width="1.3"/>
+  <line x1="456" y1="206" x2="456" y2="212" stroke="var(--line-2, #c8bca3)" stroke-width="1.3"/>
+  <line x1="566" y1="206" x2="566" y2="212" stroke="var(--line-2, #c8bca3)" stroke-width="1.3"/>
+  <line x1="676" y1="206" x2="676" y2="212" stroke="var(--line-2, #c8bca3)" stroke-width="1.3"/>
+  <text x="16" y="226" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">0</text>
+  <text x="126" y="226" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">2</text>
+  <text x="236" y="226" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">4</text>
+  <text x="346" y="226" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">6</text>
+  <text x="456" y="226" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">8</text>
+  <text x="566" y="226" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">10</text>
+  <text x="676" y="226" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">12 s</text>
+
+  <rect x="16" y="238" width="12" height="10" rx="2" fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.5"/>
+  <text x="34" y="247" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">planner call, about 1 s</text>
+  <rect x="196" y="238" width="12" height="10" rx="2" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.5"/>
+  <text x="214" y="247" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">robot moving</text>
+</svg>

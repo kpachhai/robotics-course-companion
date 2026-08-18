@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 256" role="img" aria-label="A chain of twenty skill calls each ninety-five per cent reliable, with the cumulative probability that the whole task succeeds falling from ninety-five per cent after one call to thirty-six per cent after twenty">
+
+  <text x="80" y="24" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--blue, #2d5d7c)">Twenty skill calls, each 95% reliable</text>
+
+  <rect x="80" y="40" width="24" height="26" rx="6" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <rect x="110" y="40" width="24" height="26" rx="6" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <rect x="140" y="40" width="24" height="26" rx="6" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <rect x="170" y="40" width="24" height="26" rx="6" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <rect x="200" y="40" width="24" height="26" rx="6" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <rect x="230" y="40" width="24" height="26" rx="6" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <rect x="260" y="40" width="24" height="26" rx="6" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <rect x="290" y="40" width="24" height="26" rx="6" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <rect x="320" y="40" width="24" height="26" rx="6" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <rect x="350" y="40" width="24" height="26" rx="6" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <rect x="380" y="40" width="24" height="26" rx="6" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <rect x="410" y="40" width="24" height="26" rx="6" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <rect x="440" y="40" width="24" height="26" rx="6" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <rect x="470" y="40" width="24" height="26" rx="6" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <rect x="500" y="40" width="24" height="26" rx="6" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <rect x="530" y="40" width="24" height="26" rx="6" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <rect x="560" y="40" width="24" height="26" rx="6" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <rect x="590" y="40" width="24" height="26" rx="6" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <rect x="620" y="40" width="24" height="26" rx="6" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <rect x="650" y="40" width="24" height="26" rx="6" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+
+  <line x1="80" y1="212" x2="674" y2="212" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+
+  <polyline fill="none" stroke="var(--ox, #9c3b2e)" stroke-width="2"
+            points="92,96.0 122,101.7 152,107.1 182,112.3 212,117.1 242,121.8 272,126.2 302,130.4 332,134.4 362,138.2 392,141.7 422,145.2 452,148.4 482,151.5 512,154.4 542,157.2 572,159.8 602,162.3 632,164.7 662,167.0"/>
+
+  <circle cx="92" cy="96" r="3.4" fill="var(--ox, #9c3b2e)"/>
+  <circle cx="212" cy="117.1" r="3.4" fill="var(--ox, #9c3b2e)"/>
+  <circle cx="362" cy="138.2" r="3.4" fill="var(--ox, #9c3b2e)"/>
+  <circle cx="662" cy="167" r="3.4" fill="var(--ox, #9c3b2e)"/>
+
+  <text x="92" y="88" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--ox, #9c3b2e)">95%</text>
+  <text x="212" y="109" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--ox, #9c3b2e)">77%</text>
+  <text x="362" y="130" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--ox, #9c3b2e)">60%</text>
+  <text x="662" y="159" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--ox, #9c3b2e)">36%</text>
+
+  <line x1="92" y1="66" x2="92" y2="92" stroke="var(--line-2, #c8bca3)" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="212" y1="66" x2="212" y2="113" stroke="var(--line-2, #c8bca3)" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="362" y1="66" x2="362" y2="134" stroke="var(--line-2, #c8bca3)" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="662" y1="66" x2="662" y2="163" stroke="var(--line-2, #c8bca3)" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <line x1="92" y1="171" x2="92" y2="208" stroke="var(--line-2, #c8bca3)" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="212" y1="121" x2="212" y2="208" stroke="var(--line-2, #c8bca3)" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="362" y1="142" x2="362" y2="208" stroke="var(--line-2, #c8bca3)" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="662" y1="171" x2="662" y2="208" stroke="var(--line-2, #c8bca3)" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <text x="92" y="226" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">after 1</text>
+  <text x="212" y="226" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">after 5</text>
+  <text x="362" y="226" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">after 10</text>
+  <text x="662" y="226" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">after 20</text>
+
+  <text x="377" y="246" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">probability that every call so far has worked</text>
+</svg>

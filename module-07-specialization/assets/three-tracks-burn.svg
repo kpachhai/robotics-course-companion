@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 244" role="img" aria-label="The three specialization tracks compared on capital, compute and calendar to a first showable artifact, where more filled segments mean more burn">
+
+  <text x="250" y="28" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Agentic robotics</text>
+  <text x="430" y="28" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Locomotion</text>
+  <text x="610" y="28" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Data and fleet</text>
+
+  <text x="150" y="72" text-anchor="end" class="svg-disp" font-size="13.5" font-weight="600"
+        fill="var(--blue, #2d5d7c)">Capital</text>
+
+  <rect x="173" y="58" width="34" height="18" rx="4" fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.4"/>
+  <rect x="213" y="58" width="34" height="18" rx="4" fill="none" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <rect x="253" y="58" width="34" height="18" rx="4" fill="none" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <rect x="293" y="58" width="34" height="18" rx="4" fill="none" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <text x="250" y="92" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">hardware you already own</text>
+
+  <rect x="353" y="58" width="34" height="18" rx="4" fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.4"/>
+  <rect x="393" y="58" width="34" height="18" rx="4" fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.4"/>
+  <rect x="433" y="58" width="34" height="18" rx="4" fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.4"/>
+  <rect x="473" y="58" width="34" height="18" rx="4" fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.4"/>
+  <text x="430" y="92" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">a legged platform, and it breaks</text>
+
+  <rect x="533" y="58" width="34" height="18" rx="4" fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.4"/>
+  <rect x="573" y="58" width="34" height="18" rx="4" fill="none" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <rect x="613" y="58" width="34" height="18" rx="4" fill="none" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <rect x="653" y="58" width="34" height="18" rx="4" fill="none" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <text x="610" y="92" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">hardware you already own</text>
+
+  <text x="150" y="136" text-anchor="end" class="svg-disp" font-size="13.5" font-weight="600"
+        fill="var(--blue, #2d5d7c)">Compute</text>
+
+  <rect x="173" y="122" width="34" height="18" rx="4" fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.4"/>
+  <rect x="213" y="122" width="34" height="18" rx="4" fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.4"/>
+  <rect x="253" y="122" width="34" height="18" rx="4" fill="none" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <rect x="293" y="122" width="34" height="18" rx="4" fill="none" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <text x="250" y="156" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">model calls, occasional fine-tune</text>
+
+  <rect x="353" y="122" width="34" height="18" rx="4" fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.4"/>
+  <rect x="393" y="122" width="34" height="18" rx="4" fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.4"/>
+  <rect x="433" y="122" width="34" height="18" rx="4" fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.4"/>
+  <rect x="473" y="122" width="34" height="18" rx="4" fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.4"/>
+  <text x="430" y="156" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">sustained parallel simulation on GPU</text>
+
+  <rect x="533" y="122" width="34" height="18" rx="4" fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.4"/>
+  <rect x="573" y="122" width="34" height="18" rx="4" fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.4"/>
+  <rect x="613" y="122" width="34" height="18" rx="4" fill="none" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <rect x="653" y="122" width="34" height="18" rx="4" fill="none" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <text x="610" y="156" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">CPU, and a lot of storage</text>
+
+  <text x="150" y="193" text-anchor="end" class="svg-disp" font-size="13.5" font-weight="600"
+        fill="var(--blue, #2d5d7c)">Calendar to a</text>
+  <text x="150" y="209" text-anchor="end" class="svg-disp" font-size="13.5" font-weight="600"
+        fill="var(--blue, #2d5d7c)">showable artifact</text>
+
+  <rect x="173" y="186" width="34" height="18" rx="4" fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.4"/>
+  <rect x="213" y="186" width="34" height="18" rx="4" fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.4"/>
+  <rect x="253" y="186" width="34" height="18" rx="4" fill="none" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <rect x="293" y="186" width="34" height="18" rx="4" fill="none" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <text x="250" y="220" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">a week or two</text>
+
+  <rect x="353" y="186" width="34" height="18" rx="4" fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.4"/>
+  <rect x="393" y="186" width="34" height="18" rx="4" fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.4"/>
+  <rect x="433" y="186" width="34" height="18" rx="4" fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.4"/>
+  <rect x="473" y="186" width="34" height="18" rx="4" fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.4"/>
+  <text x="430" y="220" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">a month or more, if nothing breaks</text>
+
+  <rect x="533" y="186" width="34" height="18" rx="4" fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.4"/>
+  <rect x="573" y="186" width="34" height="18" rx="4" fill="none" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <rect x="613" y="186" width="34" height="18" rx="4" fill="none" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <rect x="653" y="186" width="34" height="18" rx="4" fill="none" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <text x="610" y="220" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">days, on data you already have</text>
+</svg>

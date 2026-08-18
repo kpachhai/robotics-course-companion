@@ -1,0 +1,299 @@
+<svg id="nn-scaling" xmlns:xlink="http://www.w3.org/1999/xlink" width="421.422pt" height="280.644pt" viewBox="0 0 421.422 280.644" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">#nn-scaling, #nn-scaling *{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="nn-scaling-figure_1">
+  <g id="nn-scaling-patch_1">
+   <path d="M 0 280.644 
+L 421.422 280.644 
+L 421.422 0 
+L 0 0 
+L 0 280.644 
+z
+" style="fill: none"/>
+  </g>
+  <g id="nn-scaling-axes_1">
+   <g id="nn-scaling-patch_2">
+    <path d="M 45.942 228.96 
+L 414.222 228.96 
+L 414.222 7.2 
+L 45.942 7.2 
+L 45.942 228.96 
+z
+" style="fill: none"/>
+   </g>
+   <g id="nn-scaling-FillBetweenPolyCollection_1">
+    <defs>
+     <path id="nn-scaling-m652a89876c" d="M 54.710571 -190.265259 
+L 54.710571 -120.943546 
+L 63.479143 -108.356132 
+L 72.247714 -95.952985 
+L 89.784857 -99.915086 
+L 116.090571 -94.464585 
+L 159.933429 -94.262096 
+L 221.313429 -92.654288 
+L 308.999143 -91.819604 
+L 396.684857 -91.794108 
+L 396.684857 -91.794108 
+L 396.684857 -91.794108 
+L 308.999143 -93.312128 
+L 221.313429 -95.188329 
+L 159.933429 -94.550554 
+L 116.090571 -99.594205 
+L 89.784857 -104.470427 
+L 72.247714 -128.532936 
+L 63.479143 -159.0522 
+L 54.710571 -190.265259 
+z
+"/>
+    </defs>
+    <g clip-path="url(#nn-scaling-p9100c7fc59)">
+     <use xlink:href="#nn-scaling-m652a89876c" x="0" y="280.644" style="fill: var(--fig-blue); fill-opacity: 0.16"/>
+    </g>
+   </g>
+   <g id="nn-scaling-matplotlib.axis_1">
+    <g id="nn-scaling-xtick_1">
+     <g id="nn-scaling-line2d_1">
+      <defs>
+       <path id="nn-scaling-mabe65c4262" d="M 0 0 
+L 0 3.5 
+" style="stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#nn-scaling-mabe65c4262" x="54.710571" y="228.96" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="nn-scaling-text_1">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="54.710571" y="247.609" transform="rotate(-0 54.710571 247.609)">1</text>
+     </g>
+    </g>
+    <g id="nn-scaling-xtick_2">
+     <g id="nn-scaling-line2d_2">
+      <g>
+       <use xlink:href="#nn-scaling-mabe65c4262" x="133.627714" y="228.96" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="nn-scaling-text_2">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="133.627714" y="247.609" transform="rotate(-0 133.627714 247.609)">10</text>
+     </g>
+    </g>
+    <g id="nn-scaling-xtick_3">
+     <g id="nn-scaling-line2d_3">
+      <g>
+       <use xlink:href="#nn-scaling-mabe65c4262" x="221.313429" y="228.96" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="nn-scaling-text_3">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="221.313429" y="247.609" transform="rotate(-0 221.313429 247.609)">20</text>
+     </g>
+    </g>
+    <g id="nn-scaling-xtick_4">
+     <g id="nn-scaling-line2d_4">
+      <g>
+       <use xlink:href="#nn-scaling-mabe65c4262" x="308.999143" y="228.96" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="nn-scaling-text_4">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="308.999143" y="247.609" transform="rotate(-0 308.999143 247.609)">30</text>
+     </g>
+    </g>
+    <g id="nn-scaling-xtick_5">
+     <g id="nn-scaling-line2d_5">
+      <g>
+       <use xlink:href="#nn-scaling-mabe65c4262" x="396.684857" y="228.96" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="nn-scaling-text_5">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="396.684857" y="247.609" transform="rotate(-0 396.684857 247.609)">40</text>
+     </g>
+    </g>
+    <g id="nn-scaling-text_6">
+     <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-ink)" x="230.082" y="268.351" transform="rotate(-0 230.082 268.351)">demonstrations in the lookup table</text>
+    </g>
+   </g>
+   <g id="nn-scaling-matplotlib.axis_2">
+    <g id="nn-scaling-ytick_1">
+     <g id="nn-scaling-line2d_6">
+      <path d="M 45.942 228.96 
+L 414.222 228.96 
+" clip-path="url(#nn-scaling-p9100c7fc59)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="nn-scaling-line2d_7">
+      <defs>
+       <path id="nn-scaling-mc16693e09f" d="M 0 0 
+L -3.5 0 
+" style="stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#nn-scaling-mc16693e09f" x="45.942" y="228.96" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="nn-scaling-text_7">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="38.942" y="234.7845" transform="rotate(-0 38.942 234.7845)">0</text>
+     </g>
+    </g>
+    <g id="nn-scaling-ytick_2">
+     <g id="nn-scaling-line2d_8">
+      <path d="M 45.942 187.893333 
+L 414.222 187.893333 
+" clip-path="url(#nn-scaling-p9100c7fc59)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="nn-scaling-line2d_9">
+      <g>
+       <use xlink:href="#nn-scaling-mc16693e09f" x="45.942" y="187.893333" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="nn-scaling-text_8">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="38.942" y="193.717833" transform="rotate(-0 38.942 193.717833)">5</text>
+     </g>
+    </g>
+    <g id="nn-scaling-ytick_3">
+     <g id="nn-scaling-line2d_10">
+      <path d="M 45.942 146.826667 
+L 414.222 146.826667 
+" clip-path="url(#nn-scaling-p9100c7fc59)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="nn-scaling-line2d_11">
+      <g>
+       <use xlink:href="#nn-scaling-mc16693e09f" x="45.942" y="146.826667" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="nn-scaling-text_9">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="38.942" y="152.651167" transform="rotate(-0 38.942 152.651167)">10</text>
+     </g>
+    </g>
+    <g id="nn-scaling-ytick_4">
+     <g id="nn-scaling-line2d_12">
+      <path d="M 45.942 105.76 
+L 414.222 105.76 
+" clip-path="url(#nn-scaling-p9100c7fc59)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="nn-scaling-line2d_13">
+      <g>
+       <use xlink:href="#nn-scaling-mc16693e09f" x="45.942" y="105.76" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="nn-scaling-text_10">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="38.942" y="111.5845" transform="rotate(-0 38.942 111.5845)">15</text>
+     </g>
+    </g>
+    <g id="nn-scaling-ytick_5">
+     <g id="nn-scaling-line2d_14">
+      <path d="M 45.942 64.693333 
+L 414.222 64.693333 
+" clip-path="url(#nn-scaling-p9100c7fc59)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="nn-scaling-line2d_15">
+      <g>
+       <use xlink:href="#nn-scaling-mc16693e09f" x="45.942" y="64.693333" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="nn-scaling-text_11">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="38.942" y="70.517833" transform="rotate(-0 38.942 70.517833)">20</text>
+     </g>
+    </g>
+    <g id="nn-scaling-ytick_6">
+     <g id="nn-scaling-line2d_16">
+      <path d="M 45.942 23.626667 
+L 414.222 23.626667 
+" clip-path="url(#nn-scaling-p9100c7fc59)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="nn-scaling-line2d_17">
+      <g>
+       <use xlink:href="#nn-scaling-mc16693e09f" x="45.942" y="23.626667" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="nn-scaling-text_12">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="38.942" y="29.451167" transform="rotate(-0 38.942 29.451167)">25</text>
+     </g>
+    </g>
+    <g id="nn-scaling-text_13">
+     <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-ink)" x="18.849" y="118.08" transform="rotate(-90 18.849 118.08)">held-out action error (units)</text>
+    </g>
+   </g>
+   <g id="nn-scaling-line2d_18">
+    <path d="M 45.942 32.715665 
+L 414.222 32.715665 
+" clip-path="url(#nn-scaling-p9100c7fc59)" style="fill: none; stroke-dasharray: 6,4.8; stroke-dashoffset: 0; stroke: var(--fig-muted); stroke-width: 1.2"/>
+   </g>
+   <g id="nn-scaling-line2d_19">
+    <path d="M 45.942 204.154447 
+L 414.222 204.154447 
+" clip-path="url(#nn-scaling-p9100c7fc59)" style="fill: none; stroke-dasharray: 6,4.8; stroke-dashoffset: 0; stroke: var(--fig-ox); stroke-width: 1.2"/>
+   </g>
+   <g id="nn-scaling-line2d_20">
+    <path d="M 54.710571 125.039598 
+L 63.479143 146.939834 
+L 72.247714 168.40104 
+L 89.784857 178.451243 
+L 116.090571 183.614605 
+L 159.933429 186.237675 
+L 221.313429 186.722691 
+L 308.999143 188.078134 
+L 396.684857 188.849892 
+" clip-path="url(#nn-scaling-p9100c7fc59)" style="fill: none; stroke: var(--fig-blue); stroke-width: 2; stroke-linecap: square"/>
+    <defs>
+     <path id="nn-scaling-m248ad4f449" d="M 0 2.25 
+C 0.596707 2.25 1.169055 2.012926 1.59099 1.59099 
+C 2.012926 1.169055 2.25 0.596707 2.25 0 
+C 2.25 -0.596707 2.012926 -1.169055 1.59099 -1.59099 
+C 1.169055 -2.012926 0.596707 -2.25 0 -2.25 
+C -0.596707 -2.25 -1.169055 -2.012926 -1.59099 -1.59099 
+C -2.012926 -1.169055 -2.25 -0.596707 -2.25 0 
+C -2.25 0.596707 -2.012926 1.169055 -1.59099 1.59099 
+C -1.169055 2.012926 -0.596707 2.25 0 2.25 
+z
+" style="stroke: var(--fig-blue)"/>
+    </defs>
+    <g clip-path="url(#nn-scaling-p9100c7fc59)">
+     <use xlink:href="#nn-scaling-m248ad4f449" x="54.710571" y="125.039598" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+     <use xlink:href="#nn-scaling-m248ad4f449" x="63.479143" y="146.939834" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+     <use xlink:href="#nn-scaling-m248ad4f449" x="72.247714" y="168.40104" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+     <use xlink:href="#nn-scaling-m248ad4f449" x="89.784857" y="178.451243" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+     <use xlink:href="#nn-scaling-m248ad4f449" x="116.090571" y="183.614605" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+     <use xlink:href="#nn-scaling-m248ad4f449" x="159.933429" y="186.237675" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+     <use xlink:href="#nn-scaling-m248ad4f449" x="221.313429" y="186.722691" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+     <use xlink:href="#nn-scaling-m248ad4f449" x="308.999143" y="188.078134" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+     <use xlink:href="#nn-scaling-m248ad4f449" x="396.684857" y="188.849892" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+    </g>
+   </g>
+   <g id="nn-scaling-patch_3">
+    <path d="M 45.942 228.96 
+L 45.942 7.2 
+" style="fill: none; stroke: var(--fig-muted); stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="nn-scaling-patch_4">
+    <path d="M 45.942 228.96 
+L 414.222 228.96 
+" style="fill: none; stroke: var(--fig-muted); stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="nn-scaling-text_14">
+    <text style="font-size: 9.5px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="405.453429" y="22.567832" transform="rotate(-0 405.453429 22.567832)">always command the average pose</text>
+   </g>
+   <g id="nn-scaling-text_15">
+    <text style="font-size: 9.5px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-ox)" x="405.453429" y="219.96428" transform="rotate(-0 405.453429 219.96428)">never move at all</text>
+   </g>
+   <g id="nn-scaling-text_16">
+    <text style="font-size: 9.5px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: start; fill: var(--fig-blue)" x="165.933429" y="174.250667" transform="rotate(-0 165.933429 174.250667)">nearest recorded observation</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="nn-scaling-p9100c7fc59">
+   <rect x="45.942" y="7.2" width="368.28" height="221.76"/>
+  </clipPath>
+ </defs>
+</svg>

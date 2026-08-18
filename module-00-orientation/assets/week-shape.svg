@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 176" role="img" aria-label="One study week split into two two-hour deep blocks, one two-hour lab block, one hour of reading and thirty minutes of community time, about seven and a half protected hours in total, with block widths drawn in proportion to their length">
+  <text x="380" y="24" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">one week · about 7.5 protected hours · widths drawn to scale</text>
+
+  <rect x="42" y="44" width="176" height="52" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="130" y="75" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">2 h</text>
+  <text x="130" y="117" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">deep block</text>
+  <text x="130" y="133" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">lessons and the build</text>
+
+  <rect x="222" y="44" width="176" height="52" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="310" y="75" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">2 h</text>
+  <text x="310" y="117" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">deep block</text>
+  <text x="310" y="133" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">lessons and the build</text>
+
+  <rect x="402" y="44" width="176" height="52" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="490" y="75" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">2 h</text>
+  <text x="490" y="117" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--gold, #b07d22)">lab block</text>
+  <text x="490" y="133" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">run it, break it, log it</text>
+
+  <rect x="582" y="44" width="88" height="52" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="626" y="75" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">1 h</text>
+  <text x="626" y="117" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--green, #15614e)">reading</text>
+  <text x="626" y="133" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">one paper</text>
+
+  <rect x="674" y="44" width="44" height="52" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="696" y="75" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">30 min</text>
+  <text x="696" y="117" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--green, #15614e)">community</text>
+  <text x="696" y="133" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">one answer</text>
+
+  <text x="380" y="160" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">plus one weekend push a month: replicate a result, or ship a small demo</text>
+</svg>

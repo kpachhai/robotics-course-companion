@@ -1,0 +1,488 @@
+<svg id="own-states-error" xmlns:xlink="http://www.w3.org/1999/xlink" width="429.562pt" height="288.6245pt" viewBox="0 0 429.562 288.6245" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">#own-states-error, #own-states-error *{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="own-states-error-figure_1">
+  <g id="own-states-error-patch_1">
+   <path d="M 0 288.6245 
+L 429.562 288.6245 
+L 429.562 0 
+L 0 0 
+L 0 288.6245 
+z
+" style="fill: none"/>
+  </g>
+  <g id="own-states-error-axes_1">
+   <g id="own-states-error-patch_2">
+    <path d="M 54.082 236.9405 
+L 422.362 236.9405 
+L 422.362 15.1805 
+L 54.082 15.1805 
+L 54.082 236.9405 
+z
+" style="fill: none"/>
+   </g>
+   <g id="own-states-error-matplotlib.axis_1">
+    <g id="own-states-error-xtick_1">
+     <g id="own-states-error-line2d_1">
+      <defs>
+       <path id="own-states-error-mabe65c4262" d="M 0 0 
+L 0 3.5 
+" style="stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#own-states-error-mabe65c4262" x="54.082" y="236.9405" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="own-states-error-text_1">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="54.082" y="255.5895" transform="rotate(-0 54.082 255.5895)">0</text>
+     </g>
+    </g>
+    <g id="own-states-error-xtick_2">
+     <g id="own-states-error-line2d_2">
+      <g>
+       <use xlink:href="#own-states-error-mabe65c4262" x="116.502339" y="236.9405" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="own-states-error-text_2">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="116.502339" y="255.5895" transform="rotate(-0 116.502339 255.5895)">10</text>
+     </g>
+    </g>
+    <g id="own-states-error-xtick_3">
+     <g id="own-states-error-line2d_3">
+      <g>
+       <use xlink:href="#own-states-error-mabe65c4262" x="178.922678" y="236.9405" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="own-states-error-text_3">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="178.922678" y="255.5895" transform="rotate(-0 178.922678 255.5895)">20</text>
+     </g>
+    </g>
+    <g id="own-states-error-xtick_4">
+     <g id="own-states-error-line2d_4">
+      <g>
+       <use xlink:href="#own-states-error-mabe65c4262" x="241.343017" y="236.9405" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="own-states-error-text_4">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="241.343017" y="255.5895" transform="rotate(-0 241.343017 255.5895)">30</text>
+     </g>
+    </g>
+    <g id="own-states-error-xtick_5">
+     <g id="own-states-error-line2d_5">
+      <g>
+       <use xlink:href="#own-states-error-mabe65c4262" x="303.763356" y="236.9405" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="own-states-error-text_5">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="303.763356" y="255.5895" transform="rotate(-0 303.763356 255.5895)">40</text>
+     </g>
+    </g>
+    <g id="own-states-error-xtick_6">
+     <g id="own-states-error-line2d_6">
+      <g>
+       <use xlink:href="#own-states-error-mabe65c4262" x="366.183695" y="236.9405" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="own-states-error-text_6">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="366.183695" y="255.5895" transform="rotate(-0 366.183695 255.5895)">50</text>
+     </g>
+    </g>
+    <g id="own-states-error-text_7">
+     <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-ink)" x="238.222" y="276.3315" transform="rotate(-0 238.222 276.3315)">step within the episode</text>
+    </g>
+   </g>
+   <g id="own-states-error-matplotlib.axis_2">
+    <g id="own-states-error-ytick_1">
+     <g id="own-states-error-line2d_7">
+      <path d="M 54.082 203.885939 
+L 422.362 203.885939 
+" clip-path="url(#own-states-error-p70e8345105)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="own-states-error-line2d_8">
+      <defs>
+       <path id="own-states-error-mc16693e09f" d="M 0 0 
+L -3.5 0 
+" style="stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#own-states-error-mc16693e09f" x="54.082" y="203.885939" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="own-states-error-text_8">
+      <!-- $\mathdefault{10^{-4}}$ -->
+      <g style="fill: var(--fig-muted)" transform="translate(27.942 209.710439)">
+       <text>
+        <tspan x="0" y="-0.371063" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-muted)">1</tspan>
+        <tspan x="5.499954" y="-0.371063" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-muted)">0</tspan>
+        <tspan x="11.105182" y="-4.914063" style="font-size: 7.7px; font-family: 'Spectral'; fill: var(--fig-muted)">−</tspan>
+        <tspan x="14.95515" y="-4.914063" style="font-size: 7.7px; font-family: 'Spectral'; fill: var(--fig-muted)">4</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="own-states-error-ytick_2">
+     <g id="own-states-error-line2d_9">
+      <path d="M 54.082 111.946783 
+L 422.362 111.946783 
+" clip-path="url(#own-states-error-p70e8345105)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="own-states-error-line2d_10">
+      <g>
+       <use xlink:href="#own-states-error-mc16693e09f" x="54.082" y="111.946783" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="own-states-error-text_9">
+      <!-- $\mathdefault{10^{-3}}$ -->
+      <g style="fill: var(--fig-muted)" transform="translate(27.942 117.771283)">
+       <text>
+        <tspan x="0" y="-0.2945" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-muted)">1</tspan>
+        <tspan x="5.499954" y="-0.2945" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-muted)">0</tspan>
+        <tspan x="11.105182" y="-4.8375" style="font-size: 7.7px; font-family: 'Spectral'; fill: var(--fig-muted)">−</tspan>
+        <tspan x="14.95515" y="-4.8375" style="font-size: 7.7px; font-family: 'Spectral'; fill: var(--fig-muted)">3</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="own-states-error-ytick_3">
+     <g id="own-states-error-line2d_11">
+      <path d="M 54.082 20.007627 
+L 422.362 20.007627 
+" clip-path="url(#own-states-error-p70e8345105)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="own-states-error-line2d_12">
+      <g>
+       <use xlink:href="#own-states-error-mc16693e09f" x="54.082" y="20.007627" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="own-states-error-text_10">
+      <!-- $\mathdefault{10^{-2}}$ -->
+      <g style="fill: var(--fig-muted)" transform="translate(27.942 25.832127)">
+       <text>
+        <tspan x="0" y="-0.2945" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-muted)">1</tspan>
+        <tspan x="5.499954" y="-0.2945" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-muted)">0</tspan>
+        <tspan x="11.105182" y="-4.8375" style="font-size: 7.7px; font-family: 'Spectral'; fill: var(--fig-muted)">−</tspan>
+        <tspan x="14.95515" y="-4.8375" style="font-size: 7.7px; font-family: 'Spectral'; fill: var(--fig-muted)">2</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="own-states-error-ytick_4">
+     <g id="own-states-error-line2d_13">
+      <defs>
+       <path id="own-states-error-mc8895feba6" d="M 0 0 
+L -2 0 
+" style="stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </defs>
+      <g>
+       <use xlink:href="#own-states-error-mc8895feba6" x="54.082" y="231.562382" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="own-states-error-ytick_5">
+     <g id="own-states-error-line2d_14">
+      <g>
+       <use xlink:href="#own-states-error-mc8895feba6" x="54.082" y="224.282525" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="own-states-error-ytick_6">
+     <g id="own-states-error-line2d_15">
+      <g>
+       <use xlink:href="#own-states-error-mc8895feba6" x="54.082" y="218.127494" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="own-states-error-ytick_7">
+     <g id="own-states-error-line2d_16">
+      <g>
+       <use xlink:href="#own-states-error-mc8895feba6" x="54.082" y="212.795763" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="own-states-error-ytick_8">
+     <g id="own-states-error-line2d_17">
+      <g>
+       <use xlink:href="#own-states-error-mc8895feba6" x="54.082" y="208.092844" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="own-states-error-ytick_9">
+     <g id="own-states-error-line2d_18">
+      <g>
+       <use xlink:href="#own-states-error-mc8895feba6" x="54.082" y="176.209495" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="own-states-error-ytick_10">
+     <g id="own-states-error-line2d_19">
+      <g>
+       <use xlink:href="#own-states-error-mc8895feba6" x="54.082" y="160.019813" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="own-states-error-ytick_11">
+     <g id="own-states-error-line2d_20">
+      <g>
+       <use xlink:href="#own-states-error-mc8895feba6" x="54.082" y="148.533051" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="own-states-error-ytick_12">
+     <g id="own-states-error-line2d_21">
+      <g>
+       <use xlink:href="#own-states-error-mc8895feba6" x="54.082" y="139.623227" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="own-states-error-ytick_13">
+     <g id="own-states-error-line2d_22">
+      <g>
+       <use xlink:href="#own-states-error-mc8895feba6" x="54.082" y="132.34337" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="own-states-error-ytick_14">
+     <g id="own-states-error-line2d_23">
+      <g>
+       <use xlink:href="#own-states-error-mc8895feba6" x="54.082" y="126.188338" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="own-states-error-ytick_15">
+     <g id="own-states-error-line2d_24">
+      <g>
+       <use xlink:href="#own-states-error-mc8895feba6" x="54.082" y="120.856608" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="own-states-error-ytick_16">
+     <g id="own-states-error-line2d_25">
+      <g>
+       <use xlink:href="#own-states-error-mc8895feba6" x="54.082" y="116.153688" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="own-states-error-ytick_17">
+     <g id="own-states-error-line2d_26">
+      <g>
+       <use xlink:href="#own-states-error-mc8895feba6" x="54.082" y="84.270339" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="own-states-error-ytick_18">
+     <g id="own-states-error-line2d_27">
+      <g>
+       <use xlink:href="#own-states-error-mc8895feba6" x="54.082" y="68.080657" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="own-states-error-ytick_19">
+     <g id="own-states-error-line2d_28">
+      <g>
+       <use xlink:href="#own-states-error-mc8895feba6" x="54.082" y="56.593896" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="own-states-error-ytick_20">
+     <g id="own-states-error-line2d_29">
+      <g>
+       <use xlink:href="#own-states-error-mc8895feba6" x="54.082" y="47.684071" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="own-states-error-ytick_21">
+     <g id="own-states-error-line2d_30">
+      <g>
+       <use xlink:href="#own-states-error-mc8895feba6" x="54.082" y="40.404214" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="own-states-error-ytick_22">
+     <g id="own-states-error-line2d_31">
+      <g>
+       <use xlink:href="#own-states-error-mc8895feba6" x="54.082" y="34.249182" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="own-states-error-ytick_23">
+     <g id="own-states-error-line2d_32">
+      <g>
+       <use xlink:href="#own-states-error-mc8895feba6" x="54.082" y="28.917452" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="own-states-error-ytick_24">
+     <g id="own-states-error-line2d_33">
+      <g>
+       <use xlink:href="#own-states-error-mc8895feba6" x="54.082" y="24.214532" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="own-states-error-text_11">
+     <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-ink)" x="18.849" y="126.0605" transform="rotate(-90 18.849 126.0605)">action error (rad)</text>
+    </g>
+   </g>
+   <g id="own-states-error-line2d_34">
+    <path d="M 54.082 57.263067 
+L 60.324034 94.489549 
+L 66.566068 92.345631 
+L 72.808102 100.827998 
+L 79.050136 105.819676 
+L 85.292169 130.645003 
+L 91.534203 120.190448 
+L 97.776237 153.598292 
+L 104.018271 171.404724 
+L 110.260305 212.036904 
+L 116.502339 219.857024 
+L 122.744373 205.673014 
+L 128.986407 208.740079 
+L 135.228441 208.036082 
+L 141.470475 195.954509 
+L 147.712508 186.525121 
+L 153.954542 189.649587 
+L 160.196576 174.155636 
+L 166.43861 192.764589 
+L 172.680644 182.070241 
+L 178.922678 173.846397 
+L 185.164712 178.956124 
+L 191.406746 168.215115 
+L 197.64878 192.344199 
+L 203.890814 175.675544 
+L 210.132847 145.515544 
+L 216.374881 175.55317 
+L 222.616915 138.987234 
+L 228.858949 156.734836 
+L 235.100983 149.295939 
+L 241.343017 146.063725 
+L 247.585051 144.840563 
+L 253.827085 139.75016 
+L 260.069119 136.560927 
+L 266.311153 132.24294 
+L 272.553186 132.367155 
+L 278.79522 127.91982 
+L 285.037254 126.442528 
+L 291.279288 121.426349 
+L 297.521322 120.65973 
+L 303.763356 115.52032 
+L 310.00539 116.322353 
+L 316.247424 120.031513 
+L 322.489458 112.410559 
+L 328.731492 105.272476 
+L 334.973525 107.60708 
+L 341.215559 120.493488 
+L 347.457593 184.881515 
+L 353.699627 170.073561 
+L 359.941661 193.928811 
+L 366.183695 205.275529 
+L 372.425729 217.447658 
+L 378.667763 223.700201 
+L 384.909797 225.601238 
+L 391.151831 226.310064 
+L 397.393864 226.617082 
+L 403.635898 226.754015 
+L 409.877932 226.815492 
+L 416.119966 226.846417 
+L 422.362 226.8605 
+" clip-path="url(#own-states-error-p70e8345105)" style="fill: none; stroke: var(--fig-green); stroke-width: 2; stroke-linecap: square"/>
+   </g>
+   <g id="own-states-error-line2d_35">
+    <path d="M 54.082 57.263067 
+L 60.324034 97.949048 
+L 66.566068 103.926346 
+L 72.808102 111.218527 
+L 79.050136 112.689095 
+L 85.292169 109.182691 
+L 91.534203 100.899621 
+L 97.776237 102.35752 
+L 104.018271 95.332903 
+L 110.260305 98.412371 
+L 116.502339 100.436525 
+L 122.744373 105.67415 
+L 128.986407 109.336397 
+L 135.228441 111.711893 
+L 141.470475 117.015114 
+L 147.712508 119.872889 
+L 153.954542 121.992051 
+L 160.196576 123.871224 
+L 166.43861 124.432713 
+L 172.680644 121.957787 
+L 178.922678 116.471269 
+L 185.164712 110.320471 
+L 191.406746 103.194258 
+L 197.64878 99.292047 
+L 203.890814 95.686854 
+L 210.132847 88.923813 
+L 216.374881 86.581241 
+L 222.616915 83.667022 
+L 228.858949 80.723566 
+L 235.100983 78.576732 
+L 241.343017 78.87197 
+L 247.585051 78.573464 
+L 253.827085 78.979526 
+L 260.069119 78.409426 
+L 266.311153 77.352757 
+L 272.553186 76.036584 
+L 278.79522 74.970298 
+L 285.037254 74.646234 
+L 291.279288 72.463358 
+L 297.521322 70.3217 
+L 303.763356 68.865053 
+L 310.00539 67.17468 
+L 316.247424 63.531373 
+L 322.489458 62.184365 
+L 328.731492 59.035983 
+L 334.973525 57.491191 
+L 341.215559 53.000649 
+L 347.457593 50.606831 
+L 353.699627 48.443715 
+L 359.941661 46.821603 
+L 366.183695 44.642079 
+L 372.425729 42.43393 
+L 378.667763 40.214474 
+L 384.909797 38.033442 
+L 391.151831 35.87543 
+L 397.393864 33.732941 
+L 403.635898 31.601501 
+L 409.877932 29.479518 
+L 416.119966 27.366064 
+L 422.362 25.2605 
+" clip-path="url(#own-states-error-p70e8345105)" style="fill: none; stroke: var(--fig-ox); stroke-width: 2; stroke-linecap: square"/>
+   </g>
+   <g id="own-states-error-patch_3">
+    <path d="M 54.082 236.9405 
+L 54.082 15.1805 
+" style="fill: none; stroke: var(--fig-muted); stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="own-states-error-patch_4">
+    <path d="M 54.082 236.9405 
+L 422.362 236.9405 
+" style="fill: none; stroke: var(--fig-muted); stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="own-states-error-text_12">
+    <text style="font-size: 9.5px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-green)" x="414.362" y="216.8605" transform="rotate(-0 414.362 216.8605)">asked about states the expert visits</text>
+   </g>
+   <g id="own-states-error-text_13">
+    <text style="font-size: 9.5px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-ox)" x="416.362" y="17.2605" transform="rotate(-0 416.362 17.2605)">asked about states it visits itself</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="own-states-error-p70e8345105">
+   <rect x="54.082" y="15.1805" width="368.28" height="221.76"/>
+  </clipPath>
+ </defs>
+</svg>

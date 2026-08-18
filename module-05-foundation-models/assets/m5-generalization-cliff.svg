@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 350" role="img" aria-label="A slope chart of average success on one SO-101 rig, in distribution on the left and out of distribution on the right. ACT falls from 0.18 to 0.075, keeping 42 percent. SmolVLA rises from 0.26 to 0.30. Pi zero point five falls from 0.54 to 0.35 and remains the highest scorer in both columns">
+
+  <line x1="250" y1="46" x2="250" y2="292"
+        stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <line x1="610" y1="46" x2="610" y2="292"
+        stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+
+  <text x="250" y="36" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--muted, #6b6053)">in distribution</text>
+  <text x="610" y="36" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--muted, #6b6053)">out of distribution</text>
+
+  <line x1="250" y1="73" x2="610" y2="146"
+        stroke="var(--green, #15614e)" stroke-width="2"/>
+  <circle cx="250" cy="73" r="4.5" fill="var(--green, #15614e)"/>
+  <circle cx="610" cy="146" r="4.5" fill="var(--green, #15614e)"/>
+  <text x="238" y="77" text-anchor="end" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--green, #15614e)">pi0.5   0.54</text>
+  <text x="622" y="139" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--green, #15614e)">0.35</text>
+  <text x="622" y="153" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">kept 65%</text>
+
+  <line x1="250" y1="180" x2="610" y2="165"
+        stroke="var(--gold, #b07d22)" stroke-width="2"/>
+  <circle cx="250" cy="180" r="4.5" fill="var(--gold, #b07d22)"/>
+  <circle cx="610" cy="165" r="4.5" fill="var(--gold, #b07d22)"/>
+  <text x="238" y="184" text-anchor="end" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--gold, #b07d22)">SmolVLA   0.26</text>
+  <text x="622" y="186" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--gold, #b07d22)">0.30</text>
+  <text x="622" y="200" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">kept 115%</text>
+
+  <line x1="250" y1="211" x2="610" y2="251"
+        stroke="var(--blue, #2d5d7c)" stroke-width="2"/>
+  <circle cx="250" cy="211" r="4.5" fill="var(--blue, #2d5d7c)"/>
+  <circle cx="610" cy="251" r="4.5" fill="var(--blue, #2d5d7c)"/>
+  <text x="238" y="215" text-anchor="end" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">ACT   0.18</text>
+  <text x="622" y="249" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">0.075</text>
+  <text x="622" y="263" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">kept 42%</text>
+
+  <line x1="20" y1="292" x2="610" y2="292"
+        stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <text x="20" y="286" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">0.00 average success</text>
+
+  <text x="20" y="320" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">VLA-REPLICA, May 2026 · one SO-101 rig · 10 tasks · 50 demonstrations each</text>
+  <text x="20" y="336" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">out of distribution = unseen object colours and shapes, unseen repetition counts</text>
+
+</svg>

@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" role="img" aria-label="The experiment design. One teleoperated dataset feeds three separate training paths, each following its own authors' recipe. All three trained policies then enter a single evaluation protocol with a randomised trial order, which produces one results table carrying success rates, intervals, recovery rates, failure modes and cost.">
+
+  <rect x="24" y="100" width="150" height="76" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="99" y="130" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">One dataset</text>
+  <text x="99" y="149" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">4 tasks · 50 demos each</text>
+  <text x="99" y="164" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">one split, never grown</text>
+
+  <line x1="174" y1="138" x2="194" y2="138" stroke="var(--muted, #6b6053)" stroke-width="1.3"/>
+  <line x1="194" y1="58" x2="194" y2="218" stroke="var(--muted, #6b6053)" stroke-width="1.3"/>
+  <line x1="194" y1="58" x2="210" y2="58" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m5pcDesignArrow)"/>
+  <line x1="194" y1="138" x2="210" y2="138" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m5pcDesignArrow)"/>
+  <line x1="194" y1="218" x2="210" y2="218" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m5pcDesignArrow)"/>
+
+  <rect x="214" y="28" width="170" height="60" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="299" y="52" text-anchor="middle" class="svg-disp" font-size="13.5" font-weight="700"
+        fill="var(--gold, #b07d22)">ACT · one per task</text>
+  <text x="299" y="72" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">its own authors' recipe</text>
+
+  <rect x="214" y="108" width="170" height="60" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="299" y="132" text-anchor="middle" class="svg-disp" font-size="13.5" font-weight="700"
+        fill="var(--gold, #b07d22)">SmolVLA fine-tune</text>
+  <text x="299" y="152" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">its own authors' recipe</text>
+
+  <rect x="214" y="188" width="170" height="60" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="299" y="212" text-anchor="middle" class="svg-disp" font-size="13.5" font-weight="700"
+        fill="var(--gold, #b07d22)">pi0.5 LoRA · optional</text>
+  <text x="299" y="232" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">needs 24 GB of VRAM</text>
+
+  <line x1="384" y1="58" x2="410" y2="58" stroke="var(--muted, #6b6053)" stroke-width="1.3"/>
+  <line x1="384" y1="138" x2="410" y2="138" stroke="var(--muted, #6b6053)" stroke-width="1.3"/>
+  <line x1="384" y1="218" x2="410" y2="218" stroke="var(--muted, #6b6053)" stroke-width="1.3"/>
+  <line x1="410" y1="58" x2="410" y2="218" stroke="var(--muted, #6b6053)" stroke-width="1.3"/>
+  <line x1="410" y1="138" x2="426" y2="138" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m5pcDesignArrow)"/>
+
+  <rect x="430" y="100" width="160" height="76" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="510" y="130" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">One protocol</text>
+  <text x="510" y="149" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">randomised, interleaved</text>
+  <text x="510" y="164" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">one timeout, one criterion</text>
+
+  <line x1="590" y1="138" x2="616" y2="138" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m5pcDesignArrow)"/>
+
+  <rect x="620" y="100" width="120" height="76" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="680" y="130" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--green, #15614e)">One table</text>
+  <text x="680" y="149" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">rates, intervals,</text>
+  <text x="680" y="164" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">recovery, cost</text>
+
+  <text x="380" y="282" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the data and the evaluation are held fixed · the training recipe deliberately is not</text>
+
+  <defs>
+    <marker id="m5pcDesignArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

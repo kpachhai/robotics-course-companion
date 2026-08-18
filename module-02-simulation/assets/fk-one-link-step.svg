@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 260" role="img" aria-label="One step of the chain: the parent frame is carried to the child by a fixed offset read from the model file, then rotated by the joint angle about the child's own z axis; only the second factor changes when the robot moves">
+
+  <rect x="16" y="96" width="128" height="60" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="80" y="122" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--blue, #2d5d7c)">parent frame</text>
+  <text x="80" y="140" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">where the last link ended</text>
+
+  <line x1="144" y1="126" x2="196" y2="126" stroke="var(--muted, #6b6053)"
+        stroke-width="1.3" marker-end="url(#fkOneLinkArrow)"/>
+
+  <rect x="200" y="88" width="196" height="76" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="298" y="114" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--blue, #2d5d7c)">fixed offset</text>
+  <text x="298" y="133" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">body_pos and body_quat</text>
+  <text x="298" y="149" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">machined in; never changes</text>
+
+  <line x1="396" y1="126" x2="448" y2="126" stroke="var(--muted, #6b6053)"
+        stroke-width="1.3" marker-end="url(#fkOneLinkArrow)"/>
+
+  <rect x="452" y="88" width="196" height="76" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="550" y="114" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--gold, #b07d22)">hinge about z</text>
+  <text x="550" y="133" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">rotate by this joint's angle</text>
+  <text x="550" y="149" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the only moving part</text>
+
+  <line x1="648" y1="126" x2="700" y2="126" stroke="var(--muted, #6b6053)"
+        stroke-width="1.3" marker-end="url(#fkOneLinkArrow)"/>
+  <text x="712" y="122" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">child</text>
+  <text x="712" y="139" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">frame</text>
+
+  <line x1="298" y1="88" x2="298" y2="60" stroke="var(--muted, #6b6053)" stroke-width="1.1"/>
+  <text x="298" y="50" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">read once, at load time</text>
+
+  <line x1="550" y1="164" x2="550" y2="196" stroke="var(--muted, #6b6053)" stroke-width="1.1"/>
+  <text x="550" y="212" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">rebuilt every call, from one number</text>
+
+  <text x="80" y="60" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">repeat six times</text>
+  <line x1="80" y1="70" x2="80" y2="96" stroke="var(--muted, #6b6053)" stroke-width="1.1"/>
+
+  <defs>
+    <marker id="fkOneLinkArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

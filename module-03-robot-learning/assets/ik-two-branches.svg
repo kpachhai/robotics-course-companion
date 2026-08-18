@@ -1,0 +1,162 @@
+<svg id="ik-two-branches" xmlns:xlink="http://www.w3.org/1999/xlink" width="256.992pt" height="225.072pt" viewBox="0 0 256.992 225.072" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">#ik-two-branches, #ik-two-branches *{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="ik-two-branches-figure_1">
+  <g id="ik-two-branches-patch_1">
+   <path d="M -0 225.072 
+L 256.992 225.072 
+L 256.992 -0 
+L -0 -0 
+L -0 225.072 
+z
+" style="fill: none"/>
+  </g>
+  <g id="ik-two-branches-axes_1">
+   <g id="ik-two-branches-line2d_1">
+    <path d="M 32.736 173.184 
+L 70.61643 51.252645 
+L 147.648 96.576 
+" clip-path="url(#ik-two-branches-pf3e4bd4c2c)" style="fill: none; stroke: var(--fig-green); stroke-opacity: 0.9; stroke-width: 4.5; stroke-linecap: round"/>
+   </g>
+   <g id="ik-two-branches-line2d_2">
+    <path d="M 32.736 173.184 
+L 159.857416 185.114125 
+L 147.648 96.576 
+" clip-path="url(#ik-two-branches-pf3e4bd4c2c)" style="fill: none; stroke: var(--fig-blue); stroke-opacity: 0.9; stroke-width: 4.5; stroke-linecap: round"/>
+   </g>
+   <g id="ik-two-branches-line2d_3">
+    <path d="M 32.736 173.184 
+L 138.972182 102.359879 
+L 213.337509 52.782994 
+" clip-path="url(#ik-two-branches-pf3e4bd4c2c)" style="fill: none; stroke: var(--fig-ox); stroke-opacity: 0.9; stroke-width: 4.5; stroke-linecap: round"/>
+   </g>
+   <g id="ik-two-branches-PathCollection_1">
+    <defs>
+     <path id="ik-two-branches-m8056836f6b" d="M 0 3.24037 
+C 0.859356 3.24037 1.683631 2.898944 2.291288 2.291288 
+C 2.898944 1.683631 3.24037 0.859356 3.24037 0 
+C 3.24037 -0.859356 2.898944 -1.683631 2.291288 -2.291288 
+C 1.683631 -2.898944 0.859356 -3.24037 0 -3.24037 
+C -0.859356 -3.24037 -1.683631 -2.898944 -2.291288 -2.291288 
+C -2.898944 -1.683631 -3.24037 -0.859356 -3.24037 0 
+C -3.24037 0.859356 -2.898944 1.683631 -2.291288 2.291288 
+C -1.683631 2.898944 -0.859356 3.24037 0 3.24037 
+z
+" style="stroke: var(--fig-ink); stroke-opacity: 0.9"/>
+    </defs>
+    <g clip-path="url(#ik-two-branches-pf3e4bd4c2c)">
+     <use xlink:href="#ik-two-branches-m8056836f6b" x="32.736" y="173.184" style="fill: var(--fig-ink); fill-opacity: 0.9; stroke: var(--fig-ink); stroke-opacity: 0.9"/>
+     <use xlink:href="#ik-two-branches-m8056836f6b" x="70.61643" y="51.252645" style="fill: var(--fig-ink); fill-opacity: 0.9; stroke: var(--fig-ink); stroke-opacity: 0.9"/>
+    </g>
+   </g>
+   <g id="ik-two-branches-PathCollection_2">
+    <defs>
+     <path id="ik-two-branches-m07ca1b3bd5" d="M 0 3.24037 
+C 0.859356 3.24037 1.683631 2.898944 2.291288 2.291288 
+C 2.898944 1.683631 3.24037 0.859356 3.24037 0 
+C 3.24037 -0.859356 2.898944 -1.683631 2.291288 -2.291288 
+C 1.683631 -2.898944 0.859356 -3.24037 0 -3.24037 
+C -0.859356 -3.24037 -1.683631 -2.898944 -2.291288 -2.291288 
+C -2.898944 -1.683631 -3.24037 -0.859356 -3.24037 0 
+C -3.24037 0.859356 -2.898944 1.683631 -2.291288 2.291288 
+C -1.683631 2.898944 -0.859356 3.24037 0 3.24037 
+z
+" style="stroke: var(--fig-ink); stroke-opacity: 0.9"/>
+    </defs>
+    <g clip-path="url(#ik-two-branches-pf3e4bd4c2c)">
+     <use xlink:href="#ik-two-branches-m07ca1b3bd5" x="147.648" y="96.576" style="fill: #faf7ef; fill-opacity: 0.9; stroke: var(--fig-ink); stroke-opacity: 0.9"/>
+    </g>
+   </g>
+   <g id="ik-two-branches-text_1">
+    <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-green)" x="62.61643" y="45.252645" transform="rotate(-0 62.61643 45.252645)">elbow up</text>
+   </g>
+   <g id="ik-two-branches-PathCollection_3">
+    <g clip-path="url(#ik-two-branches-pf3e4bd4c2c)">
+     <use xlink:href="#ik-two-branches-m8056836f6b" x="32.736" y="173.184" style="fill: var(--fig-ink); fill-opacity: 0.9; stroke: var(--fig-ink); stroke-opacity: 0.9"/>
+     <use xlink:href="#ik-two-branches-m8056836f6b" x="159.857416" y="185.114125" style="fill: var(--fig-ink); fill-opacity: 0.9; stroke: var(--fig-ink); stroke-opacity: 0.9"/>
+    </g>
+   </g>
+   <g id="ik-two-branches-PathCollection_4">
+    <g clip-path="url(#ik-two-branches-pf3e4bd4c2c)">
+     <use xlink:href="#ik-two-branches-m07ca1b3bd5" x="147.648" y="96.576" style="fill: #faf7ef; fill-opacity: 0.9; stroke: var(--fig-ink); stroke-opacity: 0.9"/>
+    </g>
+   </g>
+   <g id="ik-two-branches-text_2">
+    <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: start; fill: var(--fig-blue)" x="167.857416" y="199.114125" transform="rotate(-0 167.857416 199.114125)">elbow down</text>
+   </g>
+   <g id="ik-two-branches-PathCollection_5">
+    <g clip-path="url(#ik-two-branches-pf3e4bd4c2c)">
+     <use xlink:href="#ik-two-branches-m8056836f6b" x="32.736" y="173.184" style="fill: var(--fig-ink); fill-opacity: 0.9; stroke: var(--fig-ink); stroke-opacity: 0.9"/>
+     <use xlink:href="#ik-two-branches-m8056836f6b" x="138.972182" y="102.359879" style="fill: var(--fig-ink); fill-opacity: 0.9; stroke: var(--fig-ink); stroke-opacity: 0.9"/>
+    </g>
+   </g>
+   <g id="ik-two-branches-PathCollection_6">
+    <g clip-path="url(#ik-two-branches-pf3e4bd4c2c)">
+     <use xlink:href="#ik-two-branches-m07ca1b3bd5" x="213.337509" y="52.782994" style="fill: #faf7ef; fill-opacity: 0.9; stroke: var(--fig-ink); stroke-opacity: 0.9"/>
+    </g>
+   </g>
+   <g id="ik-two-branches-patch_2">
+    <path d="M 90.192 123.54468 
+Q 90.192 128.211921 90.192 132.879161 
+" style="fill: none; stroke: var(--fig-muted); stroke-linecap: round"/>
+   </g>
+   <g id="ik-two-branches-text_3">
+    <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-ox)" x="90.192" y="114.4512" transform="rotate(-0 90.192 114.4512)">their average</text>
+   </g>
+   <g id="ik-two-branches-text_4">
+    <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: start; fill: var(--fig-ink)" x="162.648" y="111.576" transform="rotate(-0 162.648 111.576)">target</text>
+   </g>
+   <g id="ik-two-branches-patch_3">
+    <path d="M 211.682378 58.548573 
+Q 198.356948 100.049444 157.168142 97.508223 
+" style="fill: none; stroke-dasharray: 5.6,4.2; stroke-dashoffset: 0; stroke: var(--fig-muted); stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 161.424316 99.974999 
+L 157.168142 97.508223 
+L 161.695267 95.583349 
+z
+" style="fill: var(--fig-muted); stroke-dasharray: 5.6,4.2; stroke-dashoffset: 0; stroke: var(--fig-muted); stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="ik-two-branches-text_5">
+    <text style="font-size: 9.5px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="205.337509" y="40.782994" transform="rotate(-0 205.337509 40.782994)">0.62 m from the target</text>
+   </g>
+   <g id="ik-two-branches-PathCollection_7">
+    <defs>
+     <path id="ik-two-branches-m6d9432baf7" d="M 0 -6.519202 
+L -1.463652 -2.014544 
+L -6.20013 -2.014544 
+L -2.368239 0.769487 
+L -3.831891 5.274146 
+L -0 2.490114 
+L 3.831891 5.274146 
+L 2.368239 0.769487 
+L 6.20013 -2.014544 
+L 1.463652 -2.014544 
+z
+" style="stroke: var(--fig-ink)"/>
+    </defs>
+    <g clip-path="url(#ik-two-branches-pf3e4bd4c2c)">
+     <use xlink:href="#ik-two-branches-m6d9432baf7" x="147.648" y="96.576" style="fill: var(--fig-ink); stroke: var(--fig-ink)"/>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="ik-two-branches-pf3e4bd4c2c">
+   <rect x="7.2" y="7.2" width="242.592" height="210.672"/>
+  </clipPath>
+ </defs>
+</svg>

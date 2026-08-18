@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 250" role="img" aria-label="What the world contains against what the observation carries: joint angles and two camera frames arrive intact, while contact force, whether the grasp holds, the operator's intent and anything hidden behind the gripper never reach the policy at all">
+
+  <text x="16" y="28" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--muted, #6b6053)">What the world contains</text>
+  <rect x="16" y="40" width="300" height="176" rx="8"
+        fill="none" stroke="var(--line-2, #c8bca3)" stroke-width="1.4"/>
+
+  <rect x="32" y="56" width="268" height="30" rx="6"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.4"/>
+  <text x="46" y="76" class="svg-mono" font-size="9.5" fill="var(--blue, #2d5d7c)">the six joint angles</text>
+
+  <rect x="32" y="92" width="268" height="30" rx="6"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.4"/>
+  <text x="46" y="112" class="svg-mono" font-size="9.5" fill="var(--blue, #2d5d7c)">what the two cameras can see</text>
+
+  <rect x="32" y="128" width="268" height="30" rx="6"
+        fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.4"/>
+  <text x="46" y="148" class="svg-mono" font-size="9.5" fill="var(--ox, #9c3b2e)">how hard the gripper is squeezing</text>
+
+  <rect x="32" y="164" width="268" height="30" rx="6"
+        fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.4"/>
+  <text x="46" y="184" class="svg-mono" font-size="9.5" fill="var(--ox, #9c3b2e)">whether the brick is actually held</text>
+
+  <line x1="316" y1="71" x2="424" y2="71"
+        stroke="var(--blue, #2d5d7c)" stroke-width="1.3" marker-end="url(#m3ObsArrowBlue)"/>
+  <line x1="316" y1="107" x2="424" y2="107"
+        stroke="var(--blue, #2d5d7c)" stroke-width="1.3" marker-end="url(#m3ObsArrowBlue)"/>
+  <line x1="316" y1="143" x2="392" y2="143"
+        stroke="var(--ox, #9c3b2e)" stroke-width="1.3" stroke-dasharray="4 4"/>
+  <line x1="316" y1="179" x2="392" y2="179"
+        stroke="var(--ox, #9c3b2e)" stroke-width="1.3" stroke-dasharray="4 4"/>
+  <path d="M386 137 L398 149 M398 137 L386 149" stroke="var(--ox, #9c3b2e)" stroke-width="1.6"/>
+  <path d="M386 173 L398 185 M398 173 L386 185" stroke="var(--ox, #9c3b2e)" stroke-width="1.6"/>
+
+  <text x="428" y="28" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">What the policy is handed</text>
+  <rect x="428" y="40" width="316" height="176" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="446" y="76" class="svg-mono" font-size="9.5" fill="var(--blue, #2d5d7c)">observation.state, 6 numbers</text>
+  <text x="446" y="112" class="svg-mono" font-size="9.5" fill="var(--blue, #2d5d7c)">two 480 x 640 frames</text>
+  <text x="446" y="150" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">and nothing else at all, so the rest</text>
+  <text x="446" y="164" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">has to be guessed from pixels,</text>
+  <text x="446" y="178" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">or it is simply not available</text>
+
+  <text x="380" y="240" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--muted, #6b6053)">A policy is a function of the observation, never of the state. The gap is where most failures live.</text>
+
+  <defs>
+    <marker id="m3ObsArrowBlue" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--blue, #2d5d7c)"/>
+    </marker>
+  </defs>
+</svg>

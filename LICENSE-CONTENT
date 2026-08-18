@@ -1,0 +1,46 @@
+Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+
+Copyright 2026 Kiran Pachhai
+
+WHAT THIS COVERS
+
+The course prose and its figures:
+
+  - every lesson (`module-*/*.md`)
+  - every module README and the course-level README, ROADMAP and glossary
+  - every diagram under `module-*/assets/`
+  - the setup and resources directories
+
+WHAT THIS DOES NOT COVER
+
+Software in this repository is licensed under Apache License 2.0 instead.
+See LICENSE. That includes:
+
+  - lesson exercises and their solutions (`module-*/code/`,
+    `module-*/solutions/`, `module-*/project/`)
+  - the figure toolchain (`tools/`)
+  - the website (`site/`)
+
+Third-party material redistributed here carries its own licence and is
+governed by neither of the above. See THIRD-PARTY-NOTICES.md.
+
+THE LICENCE
+
+This work is licensed under the Creative Commons
+Attribution-ShareAlike 4.0 International License.
+
+To view a copy of this licence, visit:
+
+    https://creativecommons.org/licenses/by-sa/4.0/
+
+or send a letter to Creative Commons, PO Box 1866, Mountain View,
+CA 94042, USA.
+
+IN PLAIN LANGUAGE
+
+You may share and adapt this material, including commercially, provided
+that you give appropriate credit, link to the licence, and indicate if
+changes were made; and that if you remix or build upon it, you
+distribute your contribution under this same licence.
+
+This summary is not a substitute for the licence text linked above.

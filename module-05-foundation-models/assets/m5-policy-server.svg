@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 322" role="img" aria-label="The split openpi asks you to build: a robot host wired to the arm sends images and joint angles to a policy server holding the GPU, which returns a chunk of fifty future actions, so the network is crossed roughly once per second rather than once per control step">
+
+  <rect x="40" y="72" width="250" height="120" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="165" y="102" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Robot host</text>
+  <text x="165" y="126" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">a laptop or a small board</text>
+  <text x="165" y="144" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">wired to the arm over USB</text>
+  <text x="165" y="162" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">holds the current action chunk</text>
+
+  <rect x="470" y="72" width="250" height="120" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="595" y="102" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--green, #15614e)">Policy server</text>
+  <text x="595" y="126" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the only machine with a big GPU</text>
+  <text x="595" y="144" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">holds the 3B checkpoint</text>
+  <text x="595" y="162" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">one forward pass per request</text>
+
+  <text x="380" y="98" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">camera frames + joint angles</text>
+  <line x1="294" y1="108" x2="464" y2="108"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m5serverArrow)"/>
+
+  <line x1="466" y1="150" x2="296" y2="150"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m5serverArrow)"/>
+  <text x="380" y="168" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">50 future actions, in one reply</text>
+
+  <text x="380" y="204" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--ox, #9c3b2e)">crossed about once a second, not once per control step</text>
+
+  <line x1="165" y1="192" x2="165" y2="238"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m5serverArrow)"/>
+  <text x="176" y="222" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">one action per tick, from the chunk it already has</text>
+
+  <rect x="40" y="244" width="250" height="56" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="165" y="268" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--gold, #b07d22)">SO-101</text>
+  <text x="165" y="288" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">position commands, tens of times a second</text>
+
+  <defs>
+    <marker id="m5serverArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

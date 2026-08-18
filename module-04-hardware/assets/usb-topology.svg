@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 232" role="img" aria-label="Left: both cameras and the motor bus hanging off one USB host controller, the arrangement reported to drop frames. Right: the same three devices split across two host controllers">
+  <text x="190" y="26" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--ox, #9c3b2e)">One host controller</text>
+
+  <rect x="120" y="44" width="140" height="44" rx="8"
+        fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.6"/>
+  <text x="190" y="64" text-anchor="middle" class="svg-disp" font-size="12" font-weight="700"
+        fill="var(--ox, #9c3b2e)">USB controller</text>
+  <text x="190" y="79" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">one shared budget</text>
+
+  <line x1="150" y1="88" x2="76" y2="140" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m4UsbArrow)"/>
+  <line x1="190" y1="88" x2="186" y2="140" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m4UsbArrow)"/>
+  <line x1="230" y1="88" x2="292" y2="140" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m4UsbArrow)"/>
+
+  <rect x="24" y="144" width="100" height="50" rx="8"
+        fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.6"/>
+  <text x="74" y="165" text-anchor="middle" class="svg-disp" font-size="12" font-weight="700"
+        fill="var(--ox, #9c3b2e)">top cam</text>
+  <text x="74" y="181" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">640×480@30</text>
+
+  <rect x="136" y="144" width="100" height="50" rx="8"
+        fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.6"/>
+  <text x="186" y="165" text-anchor="middle" class="svg-disp" font-size="12" font-weight="700"
+        fill="var(--ox, #9c3b2e)">wrist cam</text>
+  <text x="186" y="181" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">640×480@30</text>
+
+  <rect x="248" y="144" width="100" height="50" rx="8"
+        fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.6"/>
+  <text x="298" y="165" text-anchor="middle" class="svg-disp" font-size="12" font-weight="700"
+        fill="var(--ox, #9c3b2e)">motor bus</text>
+  <text x="298" y="181" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">1 Mbaud serial</text>
+
+  <text x="190" y="216" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">dropped frames · sync-read failures</text>
+
+  <line x1="380" y1="16" x2="380" y2="220" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+
+  <text x="570" y="26" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--green, #15614e)">Two host controllers</text>
+
+  <rect x="410" y="44" width="110" height="44" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="465" y="71" text-anchor="middle" class="svg-disp" font-size="12" font-weight="700"
+        fill="var(--green, #15614e)">controller A</text>
+
+  <rect x="560" y="44" width="174" height="44" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="647" y="71" text-anchor="middle" class="svg-disp" font-size="12" font-weight="700"
+        fill="var(--green, #15614e)">controller B</text>
+
+  <line x1="465" y1="88" x2="465" y2="140" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m4UsbArrow)"/>
+  <line x1="620" y1="88" x2="584" y2="140" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m4UsbArrow)"/>
+  <line x1="680" y1="88" x2="689" y2="140" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m4UsbArrow)"/>
+
+  <rect x="410" y="144" width="110" height="50" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="465" y="165" text-anchor="middle" class="svg-disp" font-size="12" font-weight="700"
+        fill="var(--green, #15614e)">top cam</text>
+  <text x="465" y="181" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">640×480@30</text>
+
+  <rect x="534" y="144" width="100" height="50" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="584" y="165" text-anchor="middle" class="svg-disp" font-size="12" font-weight="700"
+        fill="var(--green, #15614e)">wrist cam</text>
+  <text x="584" y="181" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">640×480@30</text>
+
+  <rect x="644" y="144" width="90" height="50" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="689" y="165" text-anchor="middle" class="svg-disp" font-size="12" font-weight="700"
+        fill="var(--green, #15614e)">motor bus</text>
+  <text x="689" y="181" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">1 Mbaud serial</text>
+
+  <text x="570" y="216" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">each stream gets its own budget</text>
+
+  <defs>
+    <marker id="m4UsbArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

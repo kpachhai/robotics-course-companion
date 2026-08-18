@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 246" role="img" aria-label="The teleoperation signal path runs one way: your hand moves the leader arm, a host loop reads six joint angles and writes six goal positions, the follower arm drives to them and touches the object. The return path, contact force arriving back at your hand, is drawn dashed because no wire carries it">
+
+  <rect x="12" y="56" width="104" height="72" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="64" y="88" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--gold, #b07d22)">Your hand</text>
+  <text x="64" y="107" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the only planner</text>
+
+  <rect x="144" y="56" width="140" height="72" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="214" y="83" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Leader arm</text>
+  <text x="214" y="101" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">6 servos, not driving</text>
+  <text x="214" y="115" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">geared low, easy to push</text>
+
+  <rect x="312" y="46" width="168" height="92" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="396" y="73" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--green, #15614e)">Host loop</text>
+  <text x="396" y="92" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">read 6 angles</text>
+  <text x="396" y="106" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">apply both calibrations</text>
+  <text x="396" y="120" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">write 6 goal positions</text>
+
+  <rect x="508" y="56" width="140" height="72" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="578" y="83" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Follower arm</text>
+  <text x="578" y="101" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">6 servos, driven</text>
+  <text x="578" y="115" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">whatever force it takes</text>
+
+  <rect x="676" y="56" width="92" height="72" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="722" y="88" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--gold, #b07d22)">The object</text>
+  <text x="722" y="107" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">and the desk</text>
+
+  <line x1="116" y1="92" x2="140" y2="92"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m4TeleopPathArrow)"/>
+  <line x1="284" y1="92" x2="308" y2="92"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m4TeleopPathArrow)"/>
+  <line x1="480" y1="92" x2="504" y2="92"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m4TeleopPathArrow)"/>
+  <line x1="648" y1="92" x2="672" y2="92"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m4TeleopPathArrow)"/>
+
+  <text x="298" y="34" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">6 measured angles</text>
+  <text x="494" y="34" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">6 goal angles</text>
+  <text x="396" y="18" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">tens of times a second, one direction only</text>
+
+  <path d="M722 128 L722 186 L64 186 L64 132" fill="none"
+        stroke="var(--ox, #9c3b2e)" stroke-width="1.4" stroke-dasharray="5 5"
+        marker-end="url(#m4TeleopMissingArrow)"/>
+  <text x="393" y="178" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--ox, #9c3b2e)">contact force</text>
+  <text x="393" y="204" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the follower feels every gram of this. No wire carries it back,</text>
+  <text x="393" y="218" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">so your hand keeps moving exactly as if nothing were there.</text>
+
+  <defs>
+    <marker id="m4TeleopPathArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+    <marker id="m4TeleopMissingArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--ox, #9c3b2e)"/>
+    </marker>
+  </defs>
+</svg>

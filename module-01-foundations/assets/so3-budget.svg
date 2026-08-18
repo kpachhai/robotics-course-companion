@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 210" role="img" aria-label="A three by three grid of nine numbers feeds into a box of six constraints - three columns of length one and three perpendicular pairs, plus determinant plus one to rule out mirrors - which leaves three genuinely free numbers.">
+  <text x="350" y="24" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">nine numbers go in · six of them are not free</text>
+
+  <!-- ============ the nine numbers ============ -->
+  <text x="105" y="48" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--purple, #5e2d8c)">9 numbers</text>
+  <rect x="50" y="58" width="34" height="34" rx="4"
+        fill="var(--purple-soft, #ede0f5)" stroke="var(--purple, #5e2d8c)" stroke-width="1.4"/>
+  <rect x="88" y="58" width="34" height="34" rx="4"
+        fill="var(--purple-soft, #ede0f5)" stroke="var(--purple, #5e2d8c)" stroke-width="1.4"/>
+  <rect x="126" y="58" width="34" height="34" rx="4"
+        fill="var(--purple-soft, #ede0f5)" stroke="var(--purple, #5e2d8c)" stroke-width="1.4"/>
+  <rect x="50" y="96" width="34" height="34" rx="4"
+        fill="var(--purple-soft, #ede0f5)" stroke="var(--purple, #5e2d8c)" stroke-width="1.4"/>
+  <rect x="88" y="96" width="34" height="34" rx="4"
+        fill="var(--purple-soft, #ede0f5)" stroke="var(--purple, #5e2d8c)" stroke-width="1.4"/>
+  <rect x="126" y="96" width="34" height="34" rx="4"
+        fill="var(--purple-soft, #ede0f5)" stroke="var(--purple, #5e2d8c)" stroke-width="1.4"/>
+  <rect x="50" y="134" width="34" height="34" rx="4"
+        fill="var(--purple-soft, #ede0f5)" stroke="var(--purple, #5e2d8c)" stroke-width="1.4"/>
+  <rect x="88" y="134" width="34" height="34" rx="4"
+        fill="var(--purple-soft, #ede0f5)" stroke="var(--purple, #5e2d8c)" stroke-width="1.4"/>
+  <rect x="126" y="134" width="34" height="34" rx="4"
+        fill="var(--purple-soft, #ede0f5)" stroke="var(--purple, #5e2d8c)" stroke-width="1.4"/>
+  <text x="105" y="188" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">3 columns × 3 entries</text>
+
+  <line x1="166" y1="113" x2="224" y2="113"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#so3BudgetArrow)"/>
+  <text x="195" y="105" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">must obey</text>
+
+  <!-- ============ the constraints ============ -->
+  <rect x="230" y="56" width="210" height="114" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="250" y="84" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--gold, #b07d22)">6 constraints</text>
+  <text x="250" y="110" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">3 · every column has length 1</text>
+  <text x="250" y="128" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">3 · every pair is perpendicular</text>
+  <text x="250" y="154" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">det = +1 rules out the mirrors</text>
+
+  <line x1="446" y1="113" x2="504" y2="113"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#so3BudgetArrow)"/>
+  <text x="475" y="105" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">leaving</text>
+
+  <!-- ============ what is left ============ -->
+  <rect x="510" y="56" width="140" height="114" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="580" y="106" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--green, #15614e)">3 free numbers</text>
+  <text x="580" y="130" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">however you store it</text>
+
+  <defs>
+    <marker id="so3BudgetArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

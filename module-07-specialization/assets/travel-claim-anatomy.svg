@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 258" role="img" aria-label="One claim sentence broken into four parts: both endpoints of the change, the denominator, what was held fixed, and the part most writers omit, which is what did not move">
+
+  <rect x="24" y="24" width="372" height="44" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="210" y="51" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--blue, #2d5d7c)">25% to 65% on transparent lids</text>
+  <line x1="396" y1="46" x2="406" y2="46" stroke="var(--muted, #6b6053)" stroke-width="1.2"/>
+  <text x="412" y="50" text-anchor="start" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">both endpoints, not just the flattering one</text>
+
+  <rect x="24" y="78" width="372" height="44" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="210" y="105" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--blue, #2d5d7c)">20 trials in each condition</text>
+  <line x1="396" y1="100" x2="406" y2="100" stroke="var(--muted, #6b6053)" stroke-width="1.2"/>
+  <text x="412" y="104" text-anchor="start" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the denominator, so the rate can be checked</text>
+
+  <rect x="24" y="132" width="372" height="44" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="210" y="159" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--blue, #2d5d7c)">camera and lighting held fixed</text>
+  <line x1="396" y1="154" x2="406" y2="154" stroke="var(--muted, #6b6053)" stroke-width="1.2"/>
+  <text x="412" y="158" text-anchor="start" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">what was controlled, so it can be repeated</text>
+
+  <rect x="24" y="186" width="372" height="44" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6" stroke-dasharray="4 4"/>
+  <text x="210" y="213" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--gold, #b07d22)">opaque objects unchanged at 85%</text>
+  <line x1="396" y1="208" x2="406" y2="208" stroke="var(--muted, #6b6053)" stroke-width="1.2"/>
+  <text x="412" y="212" text-anchor="start" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">what did not move, which almost nobody writes</text>
+
+  <text x="344" y="248" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the fourth part is what makes the first three believable</text>
+</svg>

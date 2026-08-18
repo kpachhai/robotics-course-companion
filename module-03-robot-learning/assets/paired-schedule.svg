@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 236" role="img" aria-label="Six seeded scenes across a session, each one run by both policies, with the running order alternating from scene to scene">
+
+  <text x="14" y="63" class="svg-mono" font-size="10" fill="var(--muted, #6b6053)">the scene</text>
+  <text x="14" y="117" class="svg-mono" font-size="10" fill="var(--muted, #6b6053)">run first</text>
+  <text x="14" y="161" class="svg-mono" font-size="10" fill="var(--muted, #6b6053)">run second</text>
+
+  <rect x="138" y="40" width="92" height="30" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.5"/>
+  <text x="184" y="60" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--gold, #b07d22)">seed 1000</text>
+  <line x1="184" y1="70" x2="184" y2="88" stroke="var(--muted, #6b6053)" stroke-width="1.2"
+        marker-end="url(#pairedArrow)"/>
+  <rect x="138" y="94" width="92" height="30" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.5"/>
+  <text x="184" y="114" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">act</text>
+  <line x1="184" y1="124" x2="184" y2="132" stroke="var(--muted, #6b6053)" stroke-width="1.2" marker-end="url(#pairedArrow)"/>
+  <rect x="138" y="138" width="92" height="30" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.5"/>
+  <text x="184" y="158" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--green, #15614e)">diffusion</text>
+
+  <rect x="240" y="40" width="92" height="30" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.5"/>
+  <text x="286" y="60" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--gold, #b07d22)">seed 1001</text>
+  <line x1="286" y1="70" x2="286" y2="88" stroke="var(--muted, #6b6053)" stroke-width="1.2"
+        marker-end="url(#pairedArrow)"/>
+  <rect x="240" y="94" width="92" height="30" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.5"/>
+  <text x="286" y="114" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--green, #15614e)">diffusion</text>
+  <line x1="286" y1="124" x2="286" y2="132" stroke="var(--muted, #6b6053)" stroke-width="1.2" marker-end="url(#pairedArrow)"/>
+  <rect x="240" y="138" width="92" height="30" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.5"/>
+  <text x="286" y="158" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">act</text>
+
+  <rect x="342" y="40" width="92" height="30" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.5"/>
+  <text x="388" y="60" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--gold, #b07d22)">seed 1002</text>
+  <line x1="388" y1="70" x2="388" y2="88" stroke="var(--muted, #6b6053)" stroke-width="1.2"
+        marker-end="url(#pairedArrow)"/>
+  <rect x="342" y="94" width="92" height="30" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.5"/>
+  <text x="388" y="114" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">act</text>
+  <line x1="388" y1="124" x2="388" y2="132" stroke="var(--muted, #6b6053)" stroke-width="1.2" marker-end="url(#pairedArrow)"/>
+  <rect x="342" y="138" width="92" height="30" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.5"/>
+  <text x="388" y="158" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--green, #15614e)">diffusion</text>
+
+  <rect x="444" y="40" width="92" height="30" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.5"/>
+  <text x="490" y="60" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--gold, #b07d22)">seed 1003</text>
+  <line x1="490" y1="70" x2="490" y2="88" stroke="var(--muted, #6b6053)" stroke-width="1.2"
+        marker-end="url(#pairedArrow)"/>
+  <rect x="444" y="94" width="92" height="30" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.5"/>
+  <text x="490" y="114" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--green, #15614e)">diffusion</text>
+  <line x1="490" y1="124" x2="490" y2="132" stroke="var(--muted, #6b6053)" stroke-width="1.2" marker-end="url(#pairedArrow)"/>
+  <rect x="444" y="138" width="92" height="30" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.5"/>
+  <text x="490" y="158" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">act</text>
+
+  <rect x="546" y="40" width="92" height="30" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.5"/>
+  <text x="592" y="60" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--gold, #b07d22)">seed 1004</text>
+  <line x1="592" y1="70" x2="592" y2="88" stroke="var(--muted, #6b6053)" stroke-width="1.2"
+        marker-end="url(#pairedArrow)"/>
+  <rect x="546" y="94" width="92" height="30" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.5"/>
+  <text x="592" y="114" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">act</text>
+  <line x1="592" y1="124" x2="592" y2="132" stroke="var(--muted, #6b6053)" stroke-width="1.2" marker-end="url(#pairedArrow)"/>
+  <rect x="546" y="138" width="92" height="30" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.5"/>
+  <text x="592" y="158" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--green, #15614e)">diffusion</text>
+
+  <rect x="648" y="40" width="92" height="30" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.5"/>
+  <text x="694" y="60" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--gold, #b07d22)">seed 1005</text>
+  <line x1="694" y1="70" x2="694" y2="88" stroke="var(--muted, #6b6053)" stroke-width="1.2"
+        marker-end="url(#pairedArrow)"/>
+  <rect x="648" y="94" width="92" height="30" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.5"/>
+  <text x="694" y="114" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--green, #15614e)">diffusion</text>
+  <line x1="694" y1="124" x2="694" y2="132" stroke="var(--muted, #6b6053)" stroke-width="1.2" marker-end="url(#pairedArrow)"/>
+  <rect x="648" y="138" width="92" height="30" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.5"/>
+  <text x="694" y="158" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">act</text>
+
+  <line x1="138" y1="184" x2="740" y2="184" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"
+        marker-end="url(#pairedTime)"/>
+  <text x="138" y="200" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">one session, in order</text>
+
+  <text x="439" y="224" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">one seed makes one initial condition and both policies get it; the running order flips each scene, so whatever drifts lands on both</text>
+
+  <defs>
+    <marker id="pairedArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+    <marker id="pairedTime" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--line-2, #c8bca3)"/>
+    </marker>
+  </defs>
+</svg>

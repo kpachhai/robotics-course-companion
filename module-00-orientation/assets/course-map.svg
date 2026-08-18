@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 170" role="img" aria-label="The course route from Module 0 to Module 7 with week estimates, spanning about twelve months, with the two learning-heavy modules marked">
+  <text x="380" y="24" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">one pass, front to back · about 12 months at 6–10 hours a week</text>
+
+  <rect x="14" y="44" width="81" height="84" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="54.5" y="68" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--blue, #2d5d7c)">M0</text>
+  <text x="54.5" y="93" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">Orientation</text>
+  <text x="54.5" y="117" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">~1 wk</text>
+
+  <path d="M98 81 L104 86 L98 91" fill="none" stroke="var(--muted, #6b6053)"
+        stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="107" y="44" width="81" height="84" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="147.5" y="68" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--blue, #2d5d7c)">M1</text>
+  <text x="147.5" y="93" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">Foundations</text>
+  <text x="147.5" y="117" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">~6–8 wk</text>
+
+  <path d="M191 81 L197 86 L191 91" fill="none" stroke="var(--muted, #6b6053)"
+        stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="200" y="44" width="81" height="84" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="240.5" y="68" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--blue, #2d5d7c)">M2</text>
+  <text x="240.5" y="93" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">Simulation</text>
+  <text x="240.5" y="117" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">~3–4 wk</text>
+
+  <path d="M284 81 L290 86 L284 91" fill="none" stroke="var(--muted, #6b6053)"
+        stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="293" y="44" width="81" height="84" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="333.5" y="68" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--gold, #b07d22)">M3</text>
+  <text x="333.5" y="87" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">Robot</text>
+  <text x="333.5" y="99" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">learning</text>
+  <text x="333.5" y="117" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">~6–8 wk</text>
+
+  <path d="M377 81 L383 86 L377 91" fill="none" stroke="var(--muted, #6b6053)"
+        stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="386" y="44" width="81" height="84" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="426.5" y="68" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--blue, #2d5d7c)">M4</text>
+  <text x="426.5" y="93" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">Hardware</text>
+  <text x="426.5" y="117" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">~6–8 wk</text>
+
+  <path d="M470 81 L476 86 L470 91" fill="none" stroke="var(--muted, #6b6053)"
+        stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="479" y="44" width="81" height="84" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="519.5" y="68" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--gold, #b07d22)">M5</text>
+  <text x="519.5" y="93" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">VLAs</text>
+  <text x="519.5" y="117" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">~8–10 wk</text>
+
+  <path d="M563 81 L569 86 L563 91" fill="none" stroke="var(--muted, #6b6053)"
+        stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="572" y="44" width="81" height="84" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="612.5" y="68" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--blue, #2d5d7c)">M6</text>
+  <text x="612.5" y="93" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">Agentic</text>
+  <text x="612.5" y="117" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">~6–8 wk</text>
+
+  <path d="M656 81 L662 86 L656 91" fill="none" stroke="var(--muted, #6b6053)"
+        stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="665" y="44" width="81" height="84" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="705.5" y="68" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--blue, #2d5d7c)">M7</text>
+  <text x="705.5" y="93" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">Capstone</text>
+  <text x="705.5" y="117" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">~6–8 wk</text>
+
+  <text x="380" y="152" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">M3 and M5 are the learning-heavy modules; most of your hours, and most of the payoff, land there</text>
+</svg>

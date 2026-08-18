@@ -1,0 +1,324 @@
+<svg id="act-vs-mlp-curves" xmlns:xlink="http://www.w3.org/1999/xlink" width="429.672pt" height="275.3805pt" viewBox="0 0 429.672 275.3805" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">#act-vs-mlp-curves, #act-vs-mlp-curves *{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="act-vs-mlp-curves-figure_1">
+  <g id="act-vs-mlp-curves-patch_1">
+   <path d="M 0 275.3805 
+L 429.672 275.3805 
+L 429.672 0 
+L 0 0 
+L 0 275.3805 
+z
+" style="fill: none"/>
+  </g>
+  <g id="act-vs-mlp-curves-axes_1">
+   <g id="act-vs-mlp-curves-patch_2">
+    <path d="M 54.192 223.6965 
+L 422.472 223.6965 
+L 422.472 13.0245 
+L 54.192 13.0245 
+L 54.192 223.6965 
+z
+" style="fill: none"/>
+   </g>
+   <g id="act-vs-mlp-curves-matplotlib.axis_1">
+    <g id="act-vs-mlp-curves-xtick_1">
+     <g id="act-vs-mlp-curves-line2d_1">
+      <defs>
+       <path id="act-vs-mlp-curves-mabe65c4262" d="M 0 0 
+L 0 3.5 
+" style="stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#act-vs-mlp-curves-mabe65c4262" x="76.739755" y="223.6965" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="act-vs-mlp-curves-text_1">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="76.739755" y="242.3455" transform="rotate(-0 76.739755 242.3455)">1</text>
+     </g>
+    </g>
+    <g id="act-vs-mlp-curves-xtick_2">
+     <g id="act-vs-mlp-curves-line2d_2">
+      <g>
+       <use xlink:href="#act-vs-mlp-curves-mabe65c4262" x="151.898939" y="223.6965" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="act-vs-mlp-curves-text_2">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="151.898939" y="242.3455" transform="rotate(-0 151.898939 242.3455)">2</text>
+     </g>
+    </g>
+    <g id="act-vs-mlp-curves-xtick_3">
+     <g id="act-vs-mlp-curves-line2d_3">
+      <g>
+       <use xlink:href="#act-vs-mlp-curves-mabe65c4262" x="227.058122" y="223.6965" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="act-vs-mlp-curves-text_3">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="227.058122" y="242.3455" transform="rotate(-0 227.058122 242.3455)">3</text>
+     </g>
+    </g>
+    <g id="act-vs-mlp-curves-xtick_4">
+     <g id="act-vs-mlp-curves-line2d_4">
+      <g>
+       <use xlink:href="#act-vs-mlp-curves-mabe65c4262" x="302.217306" y="223.6965" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="act-vs-mlp-curves-text_4">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="302.217306" y="242.3455" transform="rotate(-0 302.217306 242.3455)">4</text>
+     </g>
+    </g>
+    <g id="act-vs-mlp-curves-xtick_5">
+     <g id="act-vs-mlp-curves-line2d_5">
+      <g>
+       <use xlink:href="#act-vs-mlp-curves-mabe65c4262" x="377.37649" y="223.6965" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="act-vs-mlp-curves-text_5">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="377.37649" y="242.3455" transform="rotate(-0 377.37649 242.3455)">5</text>
+     </g>
+    </g>
+    <g id="act-vs-mlp-curves-text_6">
+     <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-ink)" x="238.332" y="263.0875" transform="rotate(-0 238.332 263.0875)">epochs over the 45 training episodes</text>
+    </g>
+   </g>
+   <g id="act-vs-mlp-curves-matplotlib.axis_2">
+    <g id="act-vs-mlp-curves-ytick_1">
+     <g id="act-vs-mlp-curves-line2d_6">
+      <path d="M 54.192 223.6965 
+L 422.472 223.6965 
+" clip-path="url(#act-vs-mlp-curves-p35b19c7572)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="act-vs-mlp-curves-line2d_7">
+      <defs>
+       <path id="act-vs-mlp-curves-mc16693e09f" d="M 0 0 
+L -3.5 0 
+" style="stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#act-vs-mlp-curves-mc16693e09f" x="54.192" y="223.6965" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="act-vs-mlp-curves-text_7">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="47.192" y="229.521" transform="rotate(-0 47.192 229.521)">0.20</text>
+     </g>
+    </g>
+    <g id="act-vs-mlp-curves-ytick_2">
+     <g id="act-vs-mlp-curves-line2d_8">
+      <path d="M 54.192 197.3625 
+L 422.472 197.3625 
+" clip-path="url(#act-vs-mlp-curves-p35b19c7572)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="act-vs-mlp-curves-line2d_9">
+      <g>
+       <use xlink:href="#act-vs-mlp-curves-mc16693e09f" x="54.192" y="197.3625" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="act-vs-mlp-curves-text_8">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="47.192" y="203.187" transform="rotate(-0 47.192 203.187)">0.22</text>
+     </g>
+    </g>
+    <g id="act-vs-mlp-curves-ytick_3">
+     <g id="act-vs-mlp-curves-line2d_10">
+      <path d="M 54.192 171.0285 
+L 422.472 171.0285 
+" clip-path="url(#act-vs-mlp-curves-p35b19c7572)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="act-vs-mlp-curves-line2d_11">
+      <g>
+       <use xlink:href="#act-vs-mlp-curves-mc16693e09f" x="54.192" y="171.0285" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="act-vs-mlp-curves-text_9">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="47.192" y="176.853" transform="rotate(-0 47.192 176.853)">0.24</text>
+     </g>
+    </g>
+    <g id="act-vs-mlp-curves-ytick_4">
+     <g id="act-vs-mlp-curves-line2d_12">
+      <path d="M 54.192 144.6945 
+L 422.472 144.6945 
+" clip-path="url(#act-vs-mlp-curves-p35b19c7572)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="act-vs-mlp-curves-line2d_13">
+      <g>
+       <use xlink:href="#act-vs-mlp-curves-mc16693e09f" x="54.192" y="144.6945" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="act-vs-mlp-curves-text_10">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="47.192" y="150.519" transform="rotate(-0 47.192 150.519)">0.26</text>
+     </g>
+    </g>
+    <g id="act-vs-mlp-curves-ytick_5">
+     <g id="act-vs-mlp-curves-line2d_14">
+      <path d="M 54.192 118.3605 
+L 422.472 118.3605 
+" clip-path="url(#act-vs-mlp-curves-p35b19c7572)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="act-vs-mlp-curves-line2d_15">
+      <g>
+       <use xlink:href="#act-vs-mlp-curves-mc16693e09f" x="54.192" y="118.3605" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="act-vs-mlp-curves-text_11">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="47.192" y="124.185" transform="rotate(-0 47.192 124.185)">0.28</text>
+     </g>
+    </g>
+    <g id="act-vs-mlp-curves-ytick_6">
+     <g id="act-vs-mlp-curves-line2d_16">
+      <path d="M 54.192 92.0265 
+L 422.472 92.0265 
+" clip-path="url(#act-vs-mlp-curves-p35b19c7572)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="act-vs-mlp-curves-line2d_17">
+      <g>
+       <use xlink:href="#act-vs-mlp-curves-mc16693e09f" x="54.192" y="92.0265" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="act-vs-mlp-curves-text_12">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="47.192" y="97.851" transform="rotate(-0 47.192 97.851)">0.30</text>
+     </g>
+    </g>
+    <g id="act-vs-mlp-curves-ytick_7">
+     <g id="act-vs-mlp-curves-line2d_18">
+      <path d="M 54.192 65.6925 
+L 422.472 65.6925 
+" clip-path="url(#act-vs-mlp-curves-p35b19c7572)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="act-vs-mlp-curves-line2d_19">
+      <g>
+       <use xlink:href="#act-vs-mlp-curves-mc16693e09f" x="54.192" y="65.6925" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="act-vs-mlp-curves-text_13">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="47.192" y="71.517" transform="rotate(-0 47.192 71.517)">0.32</text>
+     </g>
+    </g>
+    <g id="act-vs-mlp-curves-ytick_8">
+     <g id="act-vs-mlp-curves-line2d_20">
+      <path d="M 54.192 39.3585 
+L 422.472 39.3585 
+" clip-path="url(#act-vs-mlp-curves-p35b19c7572)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="act-vs-mlp-curves-line2d_21">
+      <g>
+       <use xlink:href="#act-vs-mlp-curves-mc16693e09f" x="54.192" y="39.3585" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="act-vs-mlp-curves-text_14">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="47.192" y="45.183" transform="rotate(-0 47.192 45.183)">0.34</text>
+     </g>
+    </g>
+    <g id="act-vs-mlp-curves-ytick_9">
+     <g id="act-vs-mlp-curves-line2d_22">
+      <path d="M 54.192 13.0245 
+L 422.472 13.0245 
+" clip-path="url(#act-vs-mlp-curves-p35b19c7572)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="act-vs-mlp-curves-line2d_23">
+      <g>
+       <use xlink:href="#act-vs-mlp-curves-mc16693e09f" x="54.192" y="13.0245" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="act-vs-mlp-curves-text_15">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="47.192" y="18.849" transform="rotate(-0 47.192 18.849)">0.36</text>
+     </g>
+    </g>
+    <g id="act-vs-mlp-curves-text_16">
+     <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-ink)" x="18.849" y="118.3605" transform="rotate(-90 18.849 118.3605)">held-out action error (L1, normalised units)</text>
+    </g>
+   </g>
+   <g id="act-vs-mlp-curves-line2d_24">
+    <path d="M 76.739755 54.062946 
+L 151.898939 104.487897 
+L 227.058122 121.879259 
+L 302.217306 138.325316 
+L 377.37649 154.876963 
+" clip-path="url(#act-vs-mlp-curves-p35b19c7572)" style="fill: none; stroke: var(--fig-green); stroke-width: 2; stroke-linecap: square"/>
+    <defs>
+     <path id="act-vs-mlp-curves-mddab7014f4" d="M 0 2.25 
+C 0.596707 2.25 1.169055 2.012926 1.59099 1.59099 
+C 2.012926 1.169055 2.25 0.596707 2.25 0 
+C 2.25 -0.596707 2.012926 -1.169055 1.59099 -1.59099 
+C 1.169055 -2.012926 0.596707 -2.25 0 -2.25 
+C -0.596707 -2.25 -1.169055 -2.012926 -1.59099 -1.59099 
+C -2.012926 -1.169055 -2.25 -0.596707 -2.25 0 
+C -2.25 0.596707 -2.012926 1.169055 -1.59099 1.59099 
+C -1.169055 2.012926 -0.596707 2.25 0 2.25 
+z
+" style="stroke: var(--fig-green)"/>
+    </defs>
+    <g clip-path="url(#act-vs-mlp-curves-p35b19c7572)">
+     <use xlink:href="#act-vs-mlp-curves-mddab7014f4" x="76.739755" y="54.062946" style="fill: var(--fig-green); stroke: var(--fig-green)"/>
+     <use xlink:href="#act-vs-mlp-curves-mddab7014f4" x="151.898939" y="104.487897" style="fill: var(--fig-green); stroke: var(--fig-green)"/>
+     <use xlink:href="#act-vs-mlp-curves-mddab7014f4" x="227.058122" y="121.879259" style="fill: var(--fig-green); stroke: var(--fig-green)"/>
+     <use xlink:href="#act-vs-mlp-curves-mddab7014f4" x="302.217306" y="138.325316" style="fill: var(--fig-green); stroke: var(--fig-green)"/>
+     <use xlink:href="#act-vs-mlp-curves-mddab7014f4" x="377.37649" y="154.876963" style="fill: var(--fig-green); stroke: var(--fig-green)"/>
+    </g>
+   </g>
+   <g id="act-vs-mlp-curves-line2d_25">
+    <path d="M 76.739755 90.826478 
+L 151.898939 144.657015 
+L 227.058122 168.852386 
+L 302.217306 183.4528 
+L 377.37649 193.715507 
+" clip-path="url(#act-vs-mlp-curves-p35b19c7572)" style="fill: none; stroke: var(--fig-blue); stroke-width: 2; stroke-linecap: square"/>
+    <defs>
+     <path id="act-vs-mlp-curves-m248ad4f449" d="M 0 2.25 
+C 0.596707 2.25 1.169055 2.012926 1.59099 1.59099 
+C 2.012926 1.169055 2.25 0.596707 2.25 0 
+C 2.25 -0.596707 2.012926 -1.169055 1.59099 -1.59099 
+C 1.169055 -2.012926 0.596707 -2.25 0 -2.25 
+C -0.596707 -2.25 -1.169055 -2.012926 -1.59099 -1.59099 
+C -2.012926 -1.169055 -2.25 -0.596707 -2.25 0 
+C -2.25 0.596707 -2.012926 1.169055 -1.59099 1.59099 
+C -1.169055 2.012926 -0.596707 2.25 0 2.25 
+z
+" style="stroke: var(--fig-blue)"/>
+    </defs>
+    <g clip-path="url(#act-vs-mlp-curves-p35b19c7572)">
+     <use xlink:href="#act-vs-mlp-curves-m248ad4f449" x="76.739755" y="90.826478" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+     <use xlink:href="#act-vs-mlp-curves-m248ad4f449" x="151.898939" y="144.657015" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+     <use xlink:href="#act-vs-mlp-curves-m248ad4f449" x="227.058122" y="168.852386" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+     <use xlink:href="#act-vs-mlp-curves-m248ad4f449" x="302.217306" y="183.4528" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+     <use xlink:href="#act-vs-mlp-curves-m248ad4f449" x="377.37649" y="193.715507" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+    </g>
+   </g>
+   <g id="act-vs-mlp-curves-patch_3">
+    <path d="M 54.192 223.6965 
+L 54.192 13.0245 
+" style="fill: none; stroke: var(--fig-muted); stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="act-vs-mlp-curves-patch_4">
+    <path d="M 54.192 223.6965 
+L 422.472 223.6965 
+" style="fill: none; stroke: var(--fig-muted); stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="act-vs-mlp-curves-text_17">
+    <text style="font-size: 10px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; fill: var(--fig-green)" transform="translate(259.443677 123.026963)">ACT-lite, 1.08M weights</text>
+    <text style="font-size: 10px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; fill: var(--fig-green)" transform="translate(304.403052 138.246963)">96 s per epoch</text>
+   </g>
+   <g id="act-vs-mlp-curves-text_18">
+    <text style="font-size: 10px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; fill: var(--fig-blue)" transform="translate(258.41399 161.865507)">plain MLP, 328k weights</text>
+    <text style="font-size: 10px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; fill: var(--fig-blue)" transform="translate(309.403052 177.085507)">3 s per epoch</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="act-vs-mlp-curves-p35b19c7572">
+   <rect x="54.192" y="13.0245" width="368.28" height="210.672"/>
+  </clipPath>
+ </defs>
+</svg>

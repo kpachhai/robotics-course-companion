@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 752 262" role="img" aria-label="One model with two output paths: a sentence about harm passes through safety training and is refused, while a tool call raising the speed limit passes through nothing at all and reaches the joint">
+
+  <text x="220" y="28" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">what alignment training was built to see</text>
+
+  <rect x="20" y="96" width="140" height="70" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="90" y="127" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">the model</text>
+  <text x="90" y="145" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">one set of weights</text>
+
+  <rect x="220" y="40" width="180" height="52" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="310" y="71" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">a sentence about harm</text>
+
+  <rect x="436" y="40" width="140" height="52" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="506" y="71" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--green, #15614e)">safety training</text>
+
+  <rect x="612" y="40" width="130" height="52" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="677" y="71" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--green, #15614e)">refused</text>
+
+  <rect x="220" y="178" width="180" height="52" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="310" y="203" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">a tool call</text>
+  <text x="310" y="221" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">set_speed_limit(1.0)</text>
+
+  <rect x="436" y="178" width="140" height="52" rx="8" stroke-dasharray="4 4"
+        fill="none" stroke="var(--muted, #6b6053)" stroke-width="1.3"/>
+  <text x="506" y="209" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">nothing reads this</text>
+
+  <rect x="612" y="178" width="130" height="52" rx="8"
+        fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.6"/>
+  <text x="677" y="209" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--ox, #9c3b2e)">the joint moves</text>
+
+  <line x1="160" y1="112" x2="216" y2="72"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m6laneArrow)"/>
+  <line x1="160" y1="150" x2="216" y2="198"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m6laneArrow)"/>
+  <line x1="400" y1="66" x2="432" y2="66"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m6laneArrow)"/>
+  <line x1="576" y1="66" x2="608" y2="66"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m6laneArrow)"/>
+  <line x1="400" y1="204" x2="432" y2="204"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m6laneArrow)"/>
+  <line x1="576" y1="204" x2="608" y2="204"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m6laneArrow)"/>
+
+  <text x="220" y="252" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">what it was never built to see</text>
+
+  <defs>
+    <marker id="m6laneArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

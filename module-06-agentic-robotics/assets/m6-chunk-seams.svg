@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 216" role="img" aria-label="Three ways a newly computed action chunk meets the chunk already executing: waiting leaves a flat gap in the commanded motion, jumping leaves a step discontinuity, and freezing the guaranteed prefix lets the new chunk be generated to continue it">
+
+  <text x="130" y="34" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--ox, #9c3b2e)">Action waiting</text>
+  <line x1="136" y1="52" x2="136" y2="158" stroke="var(--line-2, #c8bca3)" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="168" y1="52" x2="168" y2="158" stroke="var(--line-2, #c8bca3)" stroke-width="1" stroke-dasharray="3 3"/>
+  <polyline fill="none" stroke="var(--blue, #2d5d7c)" stroke-width="2"
+            points="28,124 136,92 168,92 232,60"/>
+  <rect x="28" y="142" width="108" height="13" rx="4"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.4"/>
+  <rect x="168" y="142" width="64" height="13" rx="4"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.4"/>
+  <text x="82" y="172" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">chunk A</text>
+  <text x="200" y="172" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">chunk B</text>
+  <text x="130" y="194" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">A runs out before B arrives,</text>
+  <text x="130" y="208" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">so the arm holds still and stutters</text>
+
+  <text x="370" y="34" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--ox, #9c3b2e)">Action jumping</text>
+  <line x1="386" y1="52" x2="386" y2="158" stroke="var(--line-2, #c8bca3)" stroke-width="1" stroke-dasharray="3 3"/>
+  <polyline fill="none" stroke="var(--blue, #2d5d7c)" stroke-width="2"
+            points="268,124 386,92"/>
+  <line x1="386" y1="92" x2="386" y2="112" stroke="var(--ox, #9c3b2e)" stroke-width="2.4"/>
+  <polyline fill="none" stroke="var(--blue, #2d5d7c)" stroke-width="2"
+            points="386,112 472,66"/>
+  <rect x="268" y="142" width="118" height="13" rx="4"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.4"/>
+  <rect x="386" y="142" width="86" height="13" rx="4"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.4"/>
+  <text x="327" y="172" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">chunk A</text>
+  <text x="429" y="172" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">chunk B</text>
+  <text x="370" y="194" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">B was computed from a stale view,</text>
+  <text x="370" y="208" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">so the command steps at the seam</text>
+
+  <text x="610" y="34" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--green, #15614e)">Frozen prefix</text>
+  <line x1="626" y1="52" x2="626" y2="158" stroke="var(--line-2, #c8bca3)" stroke-width="1" stroke-dasharray="3 3"/>
+  <polyline fill="none" stroke="var(--blue, #2d5d7c)" stroke-width="2"
+            points="508,124 586,102"/>
+  <polyline fill="none" stroke="var(--green, #15614e)" stroke-width="2.6"
+            points="586,102 626,90"/>
+  <polyline fill="none" stroke="var(--blue, #2d5d7c)" stroke-width="2"
+            points="626,90 712,60"/>
+  <rect x="508" y="142" width="118" height="13" rx="4"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.4"/>
+  <rect x="586" y="142" width="40" height="13" rx="4"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.4"/>
+  <rect x="626" y="142" width="86" height="13" rx="4"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.4"/>
+  <text x="547" y="172" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">chunk A</text>
+  <text x="606" y="132" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">frozen</text>
+  <text x="669" y="172" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">chunk B</text>
+  <text x="610" y="194" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the actions certain to run are held,</text>
+  <text x="610" y="208" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">and B is generated to continue them</text>
+</svg>

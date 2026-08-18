@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 316" role="img" aria-label="Four sensor declarations point into one continuous array, data.sensordata. A jointpos sensor owns the single number at address zero, a framepos sensor owns three consecutive numbers at address six, a touch sensor one at thirteen and a rangefinder one at fourteen. The array itself carries no names, units or boundaries.">
+
+  <rect x="16" y="16" width="150" height="56" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="91" y="40" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">jointpos</text>
+  <text x="91" y="59" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">joint = shoulder</text>
+
+  <rect x="206" y="16" width="150" height="56" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="281" y="40" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">framepos</text>
+  <text x="281" y="59" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">site = pad_site</text>
+
+  <rect x="396" y="16" width="150" height="56" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="471" y="40" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">touch</text>
+  <text x="471" y="59" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">site = pad_site</text>
+
+  <rect x="594" y="16" width="150" height="56" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="669" y="40" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">rangefinder</text>
+  <text x="669" y="59" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">site = eye</text>
+
+  <path d="M91 72 L91 122 L51 122 L51 164" fill="none"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#sdMapArrow)"/>
+  <path d="M281 72 L281 122 L301 122 L301 146" fill="none"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#sdMapArrow)"/>
+  <path d="M200 164 L200 152 L402 152 L402 164" fill="none"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3"/>
+  <path d="M471 72 L471 122 L537 122 L537 164" fill="none"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#sdMapArrow)"/>
+  <path d="M669 72 L669 122 L607 122 L607 164" fill="none"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#sdMapArrow)"/>
+
+  <rect x="16" y="168" width="728" height="58" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <line x1="86" y1="168" x2="86" y2="226" stroke="var(--gold, #b07d22)" stroke-width="1.1"/>
+  <line x1="196" y1="168" x2="196" y2="226" stroke="var(--gold, #b07d22)" stroke-width="1.1"/>
+  <line x1="266" y1="168" x2="266" y2="226" stroke="var(--gold, #b07d22)" stroke-width="1.1"/>
+  <line x1="336" y1="168" x2="336" y2="226" stroke="var(--gold, #b07d22)" stroke-width="1.1"/>
+  <line x1="406" y1="168" x2="406" y2="226" stroke="var(--gold, #b07d22)" stroke-width="1.1"/>
+  <line x1="502" y1="168" x2="502" y2="226" stroke="var(--gold, #b07d22)" stroke-width="1.1"/>
+  <line x1="572" y1="168" x2="572" y2="226" stroke="var(--gold, #b07d22)" stroke-width="1.1"/>
+  <line x1="642" y1="168" x2="642" y2="226" stroke="var(--gold, #b07d22)" stroke-width="1.1"/>
+
+  <text x="51" y="203" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--gold, #b07d22)">-0.5974</text>
+  <text x="141" y="203" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">five more</text>
+  <text x="231" y="203" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--gold, #b07d22)">0.301</text>
+  <text x="301" y="203" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--gold, #b07d22)">0.000</text>
+  <text x="371" y="203" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--gold, #b07d22)">0.056</text>
+  <text x="454" y="203" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">a quaternion</text>
+  <text x="537" y="203" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--gold, #b07d22)">3.869</text>
+  <text x="607" y="203" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--gold, #b07d22)">0.0044</text>
+  <text x="693" y="203" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">three more</text>
+
+  <text x="51" y="244" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">0</text>
+  <text x="141" y="244" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">1-5</text>
+  <text x="231" y="244" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">6</text>
+  <text x="301" y="244" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">7</text>
+  <text x="371" y="244" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">8</text>
+  <text x="454" y="244" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">9-12</text>
+  <text x="537" y="244" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">13</text>
+  <text x="607" y="244" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">14</text>
+  <text x="693" y="244" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">15-17</text>
+
+  <line x1="16" y1="262" x2="744" y2="262"
+        stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <text x="16" y="284" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">Eighteen floats, end to end. Nothing in the array says which sensor a number came from, what unit it</text>
+  <text x="16" y="300" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">carries, or how many entries belong together: model.sensor_adr and model.sensor_dim are the whole map.</text>
+
+  <defs>
+    <marker id="sdMapArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

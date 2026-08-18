@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 414" role="img" aria-label="Five robot programming paradigms as a ladder, from scripted motion down to foundation models, each paired with the software practice it resembles and with the artifact the engineer actually authors">
+  <text x="52" y="26" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">the paradigm, and its twin in software</text>
+  <text x="390" y="26" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">what you actually author</text>
+
+  <line x1="24" y1="40" x2="24" y2="384"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#paradigmLadderArrow)"/>
+  <text x="14" y="404" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">downward: you write less of the motion and more of the goal</text>
+
+  <rect x="44" y="40" width="296" height="56" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="60" y="65" class="svg-disp" font-size="14" font-weight="600"
+        fill="var(--blue, #2d5d7c)">1 · Scripted motion</text>
+  <text x="60" y="83" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the twin: constants hardcoded in the source</text>
+  <line x1="340" y1="68" x2="380" y2="68"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#paradigmLadderArrow)"/>
+  <text x="390" y="62" class="svg-disp" font-size="14" font-weight="600"
+        fill="var(--blue, #2d5d7c)">A fixed list of poses</text>
+  <text x="390" y="80" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">no perception; replay the same motion forever</text>
+
+  <rect x="44" y="110" width="296" height="56" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="60" y="135" class="svg-disp" font-size="14" font-weight="600"
+        fill="var(--blue, #2d5d7c)">2 · Classical pipeline</text>
+  <text x="60" y="153" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the twin: a rules engine over typed state</text>
+  <line x1="340" y1="138" x2="380" y2="138"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#paradigmLadderArrow)"/>
+  <text x="390" y="132" class="svg-disp" font-size="14" font-weight="600"
+        fill="var(--blue, #2d5d7c)">A model of the world, and a planner</text>
+  <text x="390" y="150" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">perception, then planning, then control</text>
+
+  <rect x="44" y="180" width="296" height="56" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="60" y="205" class="svg-disp" font-size="14" font-weight="600"
+        fill="var(--blue, #2d5d7c)">3 · Imitation learning</text>
+  <text x="60" y="223" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the twin: supervised learning on labelled data</text>
+  <line x1="340" y1="208" x2="380" y2="208"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#paradigmLadderArrow)"/>
+  <text x="390" y="202" class="svg-disp" font-size="14" font-weight="600"
+        fill="var(--blue, #2d5d7c)">A dataset of demonstrations</text>
+  <text x="390" y="220" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">you do the task; the network copies you</text>
+
+  <rect x="44" y="250" width="296" height="56" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="60" y="275" class="svg-disp" font-size="14" font-weight="600"
+        fill="var(--blue, #2d5d7c)">4 · Reinforcement learning</text>
+  <text x="60" y="293" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the twin: an objective handed to an optimiser</text>
+  <line x1="340" y1="278" x2="380" y2="278"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#paradigmLadderArrow)"/>
+  <text x="390" y="272" class="svg-disp" font-size="14" font-weight="600"
+        fill="var(--blue, #2d5d7c)">A reward function and a simulator</text>
+  <text x="390" y="290" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">millions of attempts, none of them real</text>
+
+  <rect x="44" y="320" width="296" height="56" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="60" y="345" class="svg-disp" font-size="14" font-weight="600"
+        fill="var(--blue, #2d5d7c)">5 · Foundation model (VLA)</text>
+  <text x="60" y="363" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the twin: a pretrained model, fine-tuned</text>
+  <line x1="340" y1="348" x2="380" y2="348"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#paradigmLadderArrow)"/>
+  <text x="390" y="342" class="svg-disp" font-size="14" font-weight="600"
+        fill="var(--blue, #2d5d7c)">A sentence, and a small fine-tuning set</text>
+  <text x="390" y="360" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">somebody else paid for the pretraining</text>
+
+  <defs>
+    <marker id="paradigmLadderArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

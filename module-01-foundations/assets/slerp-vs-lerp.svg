@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 320" role="img" aria-label="Two paths between the same start and end orientation: the slerp path is the shorter arc travelled at constant speed, the component-wise Euler interpolation bulges outward, travels 6.6 percent further and speeds up in the middle, where the two orientations differ by 28.8 degrees">
+
+  <polyline fill="none" stroke="var(--ox, #9c3b2e)" stroke-width="2"
+            points="48.4,68.6 52.5,93.3 59.4,118.0 69.0,142.0 81.2,164.8 95.9,185.9 112.9,204.9 131.8,221.4 152.5,235.0 174.5,245.6 197.4,252.9 220.8,256.8 244.2,257.2 267.3,254.3 289.6,248.1 310.6,238.8 330.0,226.6 347.3,211.7 362.3,194.5 374.8,175.4 384.4,154.6 391.1,132.5 394.9,109.6 395.6,86.2 393.5,62.8"/>
+
+  <polyline fill="none" stroke="var(--blue, #2d5d7c)" stroke-width="2"
+            points="48.4,68.6 52.8,86.7 59.5,104.2 68.4,120.9 79.5,136.4 92.5,150.6 107.3,163.3 123.6,174.2 141.3,183.4 160.1,190.5 179.7,195.6 199.9,198.5 220.4,199.3 240.8,197.8 261.1,194.2 280.7,188.5 299.6,180.7 317.3,171.0 333.8,159.5 348.6,146.3 361.8,131.6 373.0,115.8 382.1,98.8 388.9,81.1 393.5,62.8"/>
+
+  <g fill="var(--blue, #2d5d7c)">
+    <circle cx="68.4" cy="120.9" r="2.6"/><circle cx="107.3" cy="163.3" r="2.6"/>
+    <circle cx="160.1" cy="190.5" r="2.6"/><circle cx="220.4" cy="199.3" r="2.6"/>
+    <circle cx="280.7" cy="188.5" r="2.6"/><circle cx="333.8" cy="159.5" r="2.6"/>
+    <circle cx="373.0" cy="115.8" r="2.6"/>
+  </g>
+  <g fill="var(--ox, #9c3b2e)">
+    <circle cx="69.0" cy="142.0" r="2.6"/><circle cx="112.9" cy="204.9" r="2.6"/>
+    <circle cx="174.5" cy="245.6" r="2.6"/><circle cx="244.2" cy="257.2" r="2.6"/>
+    <circle cx="310.6" cy="238.8" r="2.6"/><circle cx="362.3" cy="194.5" r="2.6"/>
+    <circle cx="391.1" cy="132.5" r="2.6"/>
+  </g>
+
+  <circle cx="48.4" cy="68.6" r="4.4" fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.5"/>
+  <circle cx="393.5" cy="62.8" r="4.4" fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.5"/>
+  <text x="56" y="56" text-anchor="start" class="svg-mono" font-size="9.5"
+        fill="var(--green, #15614e)">start pose</text>
+  <text x="386" y="50" text-anchor="end" class="svg-mono" font-size="9.5"
+        fill="var(--green, #15614e)">end pose</text>
+
+  <line x1="220.4" y1="199.3" x2="244.2" y2="257.2"
+        stroke="var(--muted, #6b6053)" stroke-width="1.2" stroke-dasharray="4 4"/>
+  <text x="214" y="234" text-anchor="end" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">28.8° apart</text>
+
+  <line x1="118" y1="154" x2="133" y2="177"
+        stroke="var(--muted, #6b6053)" stroke-width="1.1"/>
+  <text x="118" y="148" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">slerp</text>
+
+  <line x1="126" y1="280" x2="150" y2="237"
+        stroke="var(--muted, #6b6053)" stroke-width="1.1"/>
+  <text x="126" y="292" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--ox, #9c3b2e)">Euler lerp</text>
+
+  <rect x="440" y="64" width="300" height="88" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="458" y="92" text-anchor="start" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--blue, #2d5d7c)">slerp</text>
+  <text x="458" y="114" text-anchor="start" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">161.49° of turn, start to end</text>
+  <text x="458" y="134" text-anchor="start" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">0.2696° every step, all 600 of them</text>
+
+  <rect x="440" y="168" width="300" height="88" rx="8"
+        fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.6"/>
+  <text x="458" y="196" text-anchor="start" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--ox, #9c3b2e)">component-wise Euler lerp</text>
+  <text x="458" y="218" text-anchor="start" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">172.13° of turn · 6.6% further</text>
+  <text x="458" y="238" text-anchor="start" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">0.2744° to 0.3028° per step · it speeds up</text>
+
+  <text x="48" y="312" text-anchor="start" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">dots mark equal time steps · the Euler dots sit further apart because that path has further to travel in the same time</text>
+</svg>

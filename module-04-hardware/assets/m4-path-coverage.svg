@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 206" role="img" aria-label="The two paths through module 4 differ only across lessons 1 to 6, the build, which the simulation reader reads rather than does; both paths run the loop across lessons 7 to 17 and both reach the milestone, at twenty trials on hardware and two hundred in simulation">
+
+  <text x="249" y="26" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">lessons 1-6</text>
+  <text x="471" y="26" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">lessons 7-17</text>
+  <text x="672" y="26" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">lesson 18</text>
+
+  <text x="146" y="76" text-anchor="end" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">hardware path</text>
+
+  <rect x="164" y="38" width="170" height="64" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="249" y="68" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">build it</text>
+  <text x="249" y="86" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">screws, ids, calibration</text>
+
+  <rect x="348" y="38" width="246" height="64" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="471" y="68" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">run the loop</text>
+  <text x="471" y="86" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">record, train, deploy, diagnose</text>
+
+  <rect x="606" y="38" width="132" height="64" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="672" y="68" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--green, #15614e)">20 trials</text>
+  <text x="672" y="86" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">wide interval</text>
+
+  <text x="146" y="160" text-anchor="end" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">simulation path</text>
+
+  <rect x="164" y="122" width="170" height="64" rx="8"
+        fill="none" stroke="var(--blue, #2d5d7c)" stroke-width="1.6" stroke-dasharray="4 4"/>
+  <text x="249" y="152" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">read it</text>
+  <text x="249" y="170" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">nothing to assemble</text>
+
+  <rect x="348" y="122" width="246" height="64" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="471" y="152" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">run the loop</text>
+  <text x="471" y="170" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">public data and a MuJoCo bench</text>
+
+  <rect x="606" y="122" width="132" height="64" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="672" y="152" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--green, #15614e)">200 trials</text>
+  <text x="672" y="170" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">narrow interval</text>
+
+  <line x1="249" y1="186" x2="249" y2="191"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3"/>
+  <text x="249" y="201" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the only place the paths diverge</text>
+</svg>

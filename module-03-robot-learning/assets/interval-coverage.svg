@@ -1,0 +1,277 @@
+<svg id="interval-coverage" xmlns:xlink="http://www.w3.org/1999/xlink" width="429.672pt" height="277.648047pt" viewBox="0 0 429.672 277.648047" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">#interval-coverage, #interval-coverage *{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="interval-coverage-figure_1">
+  <g id="interval-coverage-patch_1">
+   <path d="M 0 277.648047 
+L 429.672 277.648047 
+L 429.672 0 
+L 0 0 
+L 0 277.648047 
+z
+" style="fill: none"/>
+  </g>
+  <g id="interval-coverage-axes_1">
+   <g id="interval-coverage-patch_2">
+    <path d="M 54.192 225.964047 
+L 422.472 225.964047 
+L 422.472 15.292047 
+L 54.192 15.292047 
+L 54.192 225.964047 
+z
+" style="fill: none"/>
+   </g>
+   <g id="interval-coverage-matplotlib.axis_1">
+    <g id="interval-coverage-xtick_1">
+     <g id="interval-coverage-line2d_1">
+      <defs>
+       <path id="interval-coverage-mabe65c4262" d="M 0 0 
+L 0 3.5 
+" style="stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#interval-coverage-mabe65c4262" x="66.419266" y="225.964047" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="interval-coverage-text_1">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="66.419266" y="244.613047" transform="rotate(-0 66.419266 244.613047)">10</text>
+     </g>
+    </g>
+    <g id="interval-coverage-xtick_2">
+     <g id="interval-coverage-line2d_2">
+      <g>
+       <use xlink:href="#interval-coverage-mabe65c4262" x="146.860169" y="225.964047" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="interval-coverage-text_2">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="146.860169" y="244.613047" transform="rotate(-0 146.860169 244.613047)">20</text>
+     </g>
+    </g>
+    <g id="interval-coverage-xtick_3">
+     <g id="interval-coverage-line2d_3">
+      <g>
+       <use xlink:href="#interval-coverage-mabe65c4262" x="253.197259" y="225.964047" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="interval-coverage-text_3">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="253.197259" y="244.613047" transform="rotate(-0 253.197259 244.613047)">50</text>
+     </g>
+    </g>
+    <g id="interval-coverage-xtick_4">
+     <g id="interval-coverage-line2d_4">
+      <g>
+       <use xlink:href="#interval-coverage-mabe65c4262" x="333.638162" y="225.964047" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="interval-coverage-text_4">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="333.638162" y="244.613047" transform="rotate(-0 333.638162 244.613047)">100</text>
+     </g>
+    </g>
+    <g id="interval-coverage-xtick_5">
+     <g id="interval-coverage-line2d_5">
+      <g>
+       <use xlink:href="#interval-coverage-mabe65c4262" x="414.079065" y="225.964047" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="interval-coverage-text_5">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="414.079065" y="244.613047" transform="rotate(-0 414.079065 244.613047)">200</text>
+     </g>
+    </g>
+    <g id="interval-coverage-xtick_6">
+     <g id="interval-coverage-line2d_6">
+      <defs>
+       <path id="interval-coverage-m2fe1948188" d="M 0 0 
+L 0 2 
+" style="stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </defs>
+      <g>
+       <use xlink:href="#interval-coverage-m2fe1948188" x="54.192" y="225.964047" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="interval-coverage-xtick_7">
+     <g id="interval-coverage-line2d_7">
+      <g>
+       <use xlink:href="#interval-coverage-m2fe1948188" x="193.915081" y="225.964047" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="interval-coverage-xtick_8">
+     <g id="interval-coverage-line2d_8">
+      <g>
+       <use xlink:href="#interval-coverage-m2fe1948188" x="227.301072" y="225.964047" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="interval-coverage-xtick_9">
+     <g id="interval-coverage-line2d_9">
+      <g>
+       <use xlink:href="#interval-coverage-m2fe1948188" x="274.355984" y="225.964047" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="interval-coverage-xtick_10">
+     <g id="interval-coverage-line2d_10">
+      <g>
+       <use xlink:href="#interval-coverage-m2fe1948188" x="292.245431" y="225.964047" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="interval-coverage-xtick_11">
+     <g id="interval-coverage-line2d_11">
+      <g>
+       <use xlink:href="#interval-coverage-m2fe1948188" x="307.741975" y="225.964047" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="interval-coverage-xtick_12">
+     <g id="interval-coverage-line2d_12">
+      <g>
+       <use xlink:href="#interval-coverage-m2fe1948188" x="321.410896" y="225.964047" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="interval-coverage-text_6">
+     <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-ink)" x="238.332" y="265.355047" transform="rotate(-0 238.332 265.355047)">trials run</text>
+    </g>
+   </g>
+   <g id="interval-coverage-matplotlib.axis_2">
+    <g id="interval-coverage-ytick_1">
+     <g id="interval-coverage-line2d_13">
+      <path d="M 54.192 200.27234 
+L 422.472 200.27234 
+" clip-path="url(#interval-coverage-p2a719aab45)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="interval-coverage-line2d_14">
+      <defs>
+       <path id="interval-coverage-mc16693e09f" d="M 0 0 
+L -3.5 0 
+" style="stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#interval-coverage-mc16693e09f" x="54.192" y="200.27234" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="interval-coverage-text_7">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="47.192" y="206.09684" transform="rotate(-0 47.192 206.09684)">65%</text>
+     </g>
+    </g>
+    <g id="interval-coverage-ytick_2">
+     <g id="interval-coverage-line2d_15">
+      <path d="M 54.192 148.888925 
+L 422.472 148.888925 
+" clip-path="url(#interval-coverage-p2a719aab45)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="interval-coverage-line2d_16">
+      <g>
+       <use xlink:href="#interval-coverage-mc16693e09f" x="54.192" y="148.888925" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="interval-coverage-text_8">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="47.192" y="154.713425" transform="rotate(-0 47.192 154.713425)">75%</text>
+     </g>
+    </g>
+    <g id="interval-coverage-ytick_3">
+     <g id="interval-coverage-line2d_17">
+      <path d="M 54.192 97.50551 
+L 422.472 97.50551 
+" clip-path="url(#interval-coverage-p2a719aab45)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="interval-coverage-line2d_18">
+      <g>
+       <use xlink:href="#interval-coverage-mc16693e09f" x="54.192" y="97.50551" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="interval-coverage-text_9">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="47.192" y="103.33001" transform="rotate(-0 47.192 103.33001)">85%</text>
+     </g>
+    </g>
+    <g id="interval-coverage-ytick_4">
+     <g id="interval-coverage-line2d_19">
+      <path d="M 54.192 46.122096 
+L 422.472 46.122096 
+" clip-path="url(#interval-coverage-p2a719aab45)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="interval-coverage-line2d_20">
+      <g>
+       <use xlink:href="#interval-coverage-mc16693e09f" x="54.192" y="46.122096" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="interval-coverage-text_10">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="47.192" y="51.946596" transform="rotate(-0 47.192 51.946596)">95%</text>
+     </g>
+    </g>
+    <g id="interval-coverage-text_11">
+     <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-ink)" x="18.849" y="120.628047" transform="rotate(-90 18.849 120.628047)">how often the interval really contains the truth</text>
+    </g>
+   </g>
+   <g id="interval-coverage-line2d_21">
+    <path d="M 54.192 46.122096 
+L 422.472 46.122096 
+" clip-path="url(#interval-coverage-p2a719aab45)" style="fill: none; stroke-dasharray: 6,4.8; stroke-dashoffset: 0; stroke: var(--fig-muted); stroke-width: 1.2"/>
+   </g>
+   <g id="interval-coverage-line2d_22">
+    <path d="M 66.419266 200.092498 
+L 113.474178 127.19656 
+L 146.860169 84.188642 
+L 193.915081 118.992342 
+L 253.197259 82.749906 
+L 300.252171 49.984416 
+L 333.638162 54.977171 
+L 380.693074 58.120123 
+L 414.079065 58.753852 
+" clip-path="url(#interval-coverage-p2a719aab45)" style="fill: none; stroke: var(--fig-ox); stroke-width: 2; stroke-linecap: square"/>
+   </g>
+   <g id="interval-coverage-line2d_23">
+    <path d="M 66.419266 56.338831 
+L 113.474178 49.64186 
+L 146.860169 43.330263 
+L 193.915081 33.824332 
+L 253.197259 36.230788 
+L 300.252171 46.164915 
+L 333.638162 53.332902 
+L 380.693074 40.221567 
+L 414.079065 43.184677 
+" clip-path="url(#interval-coverage-p2a719aab45)" style="fill: none; stroke: var(--fig-blue); stroke-width: 2; stroke-linecap: square"/>
+   </g>
+   <g id="interval-coverage-patch_3">
+    <path d="M 54.192 225.964047 
+L 54.192 15.292047 
+" style="fill: none; stroke: var(--fig-muted); stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="interval-coverage-patch_4">
+    <path d="M 54.192 225.964047 
+L 422.472 225.964047 
+" style="fill: none; stroke: var(--fig-muted); stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="interval-coverage-text_12">
+    <text style="font-size: 9.5px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="420.84127" y="38.126757" transform="rotate(-0 420.84127 38.126757)">what both of them promise</text>
+   </g>
+   <g id="interval-coverage-text_13">
+    <text style="font-size: 10px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: start; fill: var(--fig-ox)" x="75.419266" y="202.092498" transform="rotate(-0 75.419266 202.092498)">the textbook interval</text>
+   </g>
+   <g id="interval-coverage-text_14">
+    <text style="font-size: 10px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: start; fill: var(--fig-blue)" x="202.915081" y="25.824332" transform="rotate(-0 202.915081 25.824332)">the Wilson interval</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="interval-coverage-p2a719aab45">
+   <rect x="54.192" y="15.292047" width="368.28" height="210.672"/>
+  </clipPath>
+ </defs>
+</svg>

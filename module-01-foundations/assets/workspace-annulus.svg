@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 376" role="img" aria-label="The reachable set of a two-link planar arm is a ring: the outer rim is where the arm is straight, the inner rim is where it is folded back on itself, and the distance from the base depends only on the elbow angle">
+  <path fill-rule="evenodd" fill="var(--blue-soft, #dfeaf0)" stroke="none"
+        d="M35.1,190 a149.9,149.9 0 1,0 299.8,0 a149.9,149.9 0 1,0 -299.8,0
+           M158.5,190 a26.5,26.5 0 1,0 53,0 a26.5,26.5 0 1,0 -53,0"/>
+  <circle cx="185" cy="190" r="149.9" fill="none"
+          stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <circle cx="185" cy="190" r="26.5" fill="none"
+          stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+
+  <line x1="185" y1="190" x2="257.2" y2="139.4"
+        stroke="var(--gold, #b07d22)" stroke-width="4.5" stroke-linecap="round"/>
+  <line x1="257.2" y1="139.4" x2="307.8" y2="104"
+        stroke="var(--gold, #b07d22)" stroke-width="4.5" stroke-linecap="round"/>
+  <circle cx="257.2" cy="139.4" r="4.5"
+          fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.5"/>
+  <circle cx="307.8" cy="104" r="4.5"
+          fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.5"/>
+  <line x1="185" y1="190" x2="102.1" y2="220.2"
+        stroke="var(--gold, #b07d22)" stroke-width="5.5" stroke-linecap="round"/>
+  <line x1="102.1" y1="220.2" x2="160.1" y2="199"
+        stroke="var(--gold-soft, #f3e7c9)" stroke-width="2.2" stroke-linecap="round"/>
+  <circle cx="102.1" cy="220.2" r="4.5"
+          fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.5"/>
+  <circle cx="160.1" cy="199" r="4.5"
+          fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.5"/>
+  <circle cx="185" cy="190" r="6"
+          fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.8"/>
+
+  <text x="185" y="30" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">outer rim: arm straight · r = l1 + l2 = 1.70</text>
+  <line x1="185" y1="216.5" x2="185" y2="344"
+        stroke="var(--muted, #6b6053)" stroke-width="1.1"/>
+  <text x="185" y="360" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">inner rim: arm folded · r = |l1 - l2| = 0.30</text>
+  <text x="316" y="100" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--gold, #b07d22)">θ2 = 0</text>
+  <text x="140" y="250" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--gold, #b07d22)">θ2 = 180°</text>
+  <text x="140" y="266" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">folds back along link 1</text>
+  <text x="185" y="206" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">base</text>
+
+  <text x="380" y="150" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--gold, #b07d22)">r² = l1² + l2² + 2 l1 l2 cos θ2</text>
+  <text x="380" y="174" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">how far out you reach depends on the elbow alone</text>
+  <text x="380" y="190" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">θ1 does not appear: it only spins the picture</text>
+
+  <text x="380" y="226" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--blue, #2d5d7c)">θ2 = 0    →   r = 1.70</text>
+  <text x="380" y="250" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--blue, #2d5d7c)">θ2 = 180°  →   r = 0.30</text>
+
+  <text x="380" y="284" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">everything between is reachable, and reachable twice</text>
+  <text x="380" y="300" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">ring area = 4π l1 l2 = 8.80 square units</text>
+</svg>

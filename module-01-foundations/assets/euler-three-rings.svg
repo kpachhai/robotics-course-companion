@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 372" role="img" aria-label="Three nested rings on three perpendicular axes, one ring per angle: the outer ring is bolted to a base, the middle ring pivots inside it, and the inner ring pivots inside the middle one and carries whatever is being aimed">
+  <text x="350" y="26" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">three numbers means three rings, each pivoted inside the last</text>
+
+  <!-- outer ring: first angle, bolted to the base -->
+  <line x1="200" y1="323.4" x2="200" y2="104.6"
+        stroke="var(--gold, #b07d22)" stroke-width="1.3" stroke-dasharray="5 4"/>
+  <line x1="186" y1="104.6" x2="214" y2="104.6" stroke="var(--gold, #b07d22)" stroke-width="3" stroke-linecap="round"/>
+  <line x1="186" y1="323.4" x2="214" y2="323.4" stroke="var(--gold, #b07d22)" stroke-width="3" stroke-linecap="round"/>
+  <ellipse cx="200" cy="214" rx="112.0" ry="76.6" transform="rotate(180.00 200 214)"
+           fill="none" stroke="var(--gold, #b07d22)" stroke-width="2.4"/>
+  <text x="200" y="96" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--gold, #b07d22)">1st axis</text>
+
+  <!-- middle ring: second angle, pivoted to the outer ring -->
+  <line x1="87.4" y1="155.8" x2="312.6" y2="272.2"
+        stroke="var(--blue, #2d5d7c)" stroke-width="1.3" stroke-dasharray="5 4"/>
+  <ellipse cx="200" cy="214" rx="80.6" ry="35.5" transform="rotate(117.36 200 214)"
+           fill="none" stroke="var(--blue, #2d5d7c)" stroke-width="2.4"/>
+  <line x1="135.7" y1="180.7" x2="110.7" y2="167.8" stroke="var(--blue, #2d5d7c)" stroke-width="2.4"/>
+  <line x1="264.3" y1="247.3" x2="289.3" y2="260.2" stroke="var(--blue, #2d5d7c)" stroke-width="2.4"/>
+  <circle cx="110.7" cy="167.8" r="4" fill="var(--blue, #2d5d7c)"/>
+  <circle cx="289.3" cy="260.2" r="4" fill="var(--blue, #2d5d7c)"/>
+  <text x="81" y="152" text-anchor="end" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">2nd axis</text>
+
+  <!-- inner ring: third angle, pivoted to the middle ring -->
+  <line x1="98.9" y1="272.7" x2="301.1" y2="155.3"
+        stroke="var(--purple, #5e2d8c)" stroke-width="1.3" stroke-dasharray="5 4"/>
+  <ellipse cx="200" cy="214" rx="53.8" ry="39.7" transform="rotate(-120.16 200 214)"
+           fill="none" stroke="var(--purple, #5e2d8c)" stroke-width="2.4"/>
+  <line x1="231.3" y1="195.8" x2="247.0" y2="186.7" stroke="var(--purple, #5e2d8c)" stroke-width="2.4"/>
+  <line x1="168.7" y1="232.2" x2="153.0" y2="241.3" stroke="var(--purple, #5e2d8c)" stroke-width="2.4"/>
+  <circle cx="247.0" cy="186.7" r="4" fill="var(--purple, #5e2d8c)"/>
+  <circle cx="153.0" cy="241.3" r="4" fill="var(--purple, #5e2d8c)"/>
+  <text x="309" y="152" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--purple, #5e2d8c)">3rd axis</text>
+
+  <!-- the chain, in words -->
+  <rect x="392" y="94" width="288" height="228" rx="8"
+        fill="none" stroke="var(--line-2, #c8bca3)" stroke-width="1.6"/>
+  <text x="414" y="122" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">each ring carries the next one</text>
+
+  <text x="414" y="152" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--gold, #b07d22)">1st angle · outer ring</text>
+  <text x="414" y="170" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">bolted to the base · turns everything</text>
+
+  <text x="414" y="202" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">2nd angle · middle ring</text>
+  <text x="414" y="220" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">pivoted to the outer ring at two points</text>
+
+  <text x="414" y="252" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--purple, #5e2d8c)">3rd angle · inner ring</text>
+  <text x="414" y="270" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">turns only what is mounted in it</text>
+
+  <line x1="414" y1="288" x2="658" y2="288"
+        stroke="var(--line-2, #c8bca3)" stroke-width="1.1"/>
+  <text x="414" y="308" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the order is part of the meaning, not a detail</text>
+
+  <text x="350" y="356" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">the same three numbers on a different ring order describe a different orientation</text>
+</svg>

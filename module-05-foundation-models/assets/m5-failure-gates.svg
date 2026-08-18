@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" role="img" aria-label="Three gates a trial must pass: knowing what to pick, grasping and holding it, and noticing a failure in order to retry. Pretraining moves the first gate and the third, but grasp instability appears in over ninety percent of the failed trials of every model tested">
+
+  <rect x="130" y="30" width="170" height="50" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="215" y="52" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Know what to pick</text>
+  <text x="215" y="69" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">language grounding</text>
+
+  <rect x="320" y="30" width="170" height="50" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="405" y="52" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Grasp and hold it</text>
+  <text x="405" y="69" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">execution stability</text>
+
+  <rect x="510" y="30" width="170" height="50" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="595" y="52" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Notice and retry</text>
+  <text x="595" y="69" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">failure recovery</text>
+
+  <text x="118" y="136" text-anchor="end" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--gold, #b07d22)">ACT</text>
+  <text x="118" y="152" text-anchor="end" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">task-specific policy</text>
+
+  <rect x="130" y="106" width="170" height="56" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="215" y="130" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--gold, #b07d22)">98%</text>
+  <text x="215" y="149" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">of failures show mismatch</text>
+
+  <rect x="320" y="106" width="170" height="56" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="405" y="130" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--gold, #b07d22)">over 90%</text>
+  <text x="405" y="149" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">of failures show grasp slip</text>
+
+  <rect x="510" y="106" width="170" height="56" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="595" y="130" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--gold, #b07d22)">6.5%</text>
+  <text x="595" y="149" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">of failures are recovered</text>
+
+  <text x="118" y="216" text-anchor="end" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--green, #15614e)">pi0.5</text>
+  <text x="118" y="232" text-anchor="end" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">3B, pretrained</text>
+
+  <rect x="130" y="186" width="170" height="56" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="215" y="210" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--green, #15614e)">46%</text>
+  <text x="215" y="229" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">of failures show mismatch</text>
+
+  <rect x="320" y="186" width="170" height="56" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="405" y="210" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--gold, #b07d22)">over 90%</text>
+  <text x="405" y="229" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">of failures show grasp slip</text>
+
+  <rect x="510" y="186" width="170" height="56" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="595" y="210" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--green, #15614e)">30.8%</text>
+  <text x="595" y="229" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">of failures are recovered</text>
+
+  <text x="405" y="276" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">pretraining moves the first gate and the third &#183; the middle gate has not moved for anyone</text>
+</svg>

@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 328" role="img" aria-label="A motorized joint holding a link at an angle from vertical: gravity torque pulls the mass down while the motor torque drives the joint up toward the 90 degree target">
+  <line x1="170" y1="26" x2="226" y2="26"
+        stroke="var(--line-2, #c8bca3)" stroke-width="3" stroke-linecap="round"/>
+  <line x1="198" y1="26" x2="198" y2="38"
+        stroke="var(--line-2, #c8bca3)" stroke-width="3"/>
+
+  <line x1="198" y1="74" x2="198" y2="290"
+        stroke="var(--muted, #6b6053)" stroke-width="1.2" stroke-dasharray="4 4"/>
+  <text x="198" y="308" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">θ = 0: hanging straight down</text>
+
+  <line x1="222" y1="54" x2="440" y2="54"
+        stroke="var(--green, #15614e)" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <circle cx="460" cy="54" r="18" fill="none"
+          stroke="var(--green, #15614e)" stroke-width="1.6" stroke-dasharray="4 4"/>
+  <text x="490" y="50" class="svg-disp" font-size="13.5" font-weight="700"
+        fill="var(--green, #15614e)">target: θ = 90°</text>
+  <text x="490" y="68" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">where you asked the joint to be</text>
+
+  <line x1="198" y1="54" x2="420" y2="193"
+        stroke="var(--blue, #2d5d7c)" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="420" cy="193" r="19"
+          fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="420" y="199" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">m</text>
+
+  <path d="M 198 142 A 88 88 0 0 0 273 101" fill="none"
+        stroke="var(--muted, #6b6053)" stroke-width="1.2"/>
+  <text x="225" y="108" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--blue, #2d5d7c)">θ</text>
+  <text x="218" y="168" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">measured from vertical</text>
+
+  <circle cx="198" cy="54" r="16"
+          fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="168" y="50" text-anchor="end" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--green, #15614e)">motor</text>
+  <text x="168" y="68" text-anchor="end" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">commands torque τ</text>
+
+  <path d="M 324 115 A 140 140 0 0 0 338 64" fill="none"
+        stroke="var(--green, #15614e)" stroke-width="2" marker-end="url(#pendTorqueArrow)"/>
+  <text x="354" y="100" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--green, #15614e)">motor torque τ</text>
+  <text x="354" y="118" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">drives θ up toward the target</text>
+
+  <line x1="420" y1="214" x2="420" y2="284"
+        stroke="var(--ox, #9c3b2e)" stroke-width="2" marker-end="url(#pendGravityArrow)"/>
+  <text x="448" y="224" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--ox, #9c3b2e)">gravity</text>
+  <text x="448" y="242" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">torque = m·g·l·sin θ</text>
+  <text x="448" y="256" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">always pulls it back down</text>
+
+  <defs>
+    <marker id="pendTorqueArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--green, #15614e)"/>
+    </marker>
+    <marker id="pendGravityArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--ox, #9c3b2e)"/>
+    </marker>
+  </defs>
+</svg>

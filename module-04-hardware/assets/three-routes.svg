@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" role="img" aria-label="Three routes to a working arm: printing and sourcing every part yourself, buying a kit of printed parts and electronics and assembling it, or buying an arm already assembled">
+
+  <rect x="16" y="20" width="148" height="72" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="90" y="50" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Print and source</text>
+  <text x="90" y="70" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">cheapest, slowest</text>
+
+  <line x1="166" y1="56" x2="186" y2="56"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m4RoutesArrow)"/>
+  <rect x="192" y="30" width="118" height="52" rx="8"
+        fill="none" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="251" y="61" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--blue, #2d5d7c)">print parts</text>
+
+  <line x1="312" y1="56" x2="326" y2="56"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m4RoutesArrow)"/>
+  <rect x="332" y="30" width="126" height="52" rx="8"
+        fill="none" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="395" y="61" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--blue, #2d5d7c)">source motors</text>
+
+  <line x1="460" y1="56" x2="474" y2="56"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m4RoutesArrow)"/>
+  <rect x="480" y="30" width="104" height="52" rx="8"
+        fill="none" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="532" y="61" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--blue, #2d5d7c)">assemble</text>
+
+  <line x1="586" y1="56" x2="600" y2="56"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3"/>
+  <text x="606" y="50" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">needs a printer that</text>
+  <text x="606" y="64" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">passes the gauge test</text>
+
+  <rect x="16" y="112" width="148" height="72" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="90" y="142" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--gold, #b07d22)">Parts kit</text>
+  <text x="90" y="162" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the usual answer</text>
+
+  <line x1="166" y1="148" x2="186" y2="148"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m4RoutesArrow)"/>
+  <rect x="192" y="122" width="184" height="52" rx="8"
+        fill="none" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="284" y="153" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--gold, #b07d22)">printed frame + boards</text>
+
+  <line x1="378" y1="148" x2="392" y2="148"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m4RoutesArrow)"/>
+  <rect x="398" y="122" width="104" height="52" rx="8"
+        fill="none" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="450" y="153" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--gold, #b07d22)">assemble</text>
+
+  <line x1="504" y1="148" x2="518" y2="148"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3"/>
+  <text x="524" y="142" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">somebody else's print,</text>
+  <text x="524" y="156" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">still your build</text>
+
+  <rect x="16" y="204" width="148" height="72" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="90" y="234" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--green, #15614e)">Assembled</text>
+  <text x="90" y="254" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">fastest, dearest</text>
+
+  <line x1="166" y1="240" x2="186" y2="240"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m4RoutesArrow)"/>
+  <rect x="192" y="214" width="184" height="52" rx="8"
+        fill="none" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="284" y="245" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--green, #15614e)">arm arrives built</text>
+
+  <line x1="378" y1="240" x2="392" y2="240"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3"/>
+  <text x="398" y="234" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">you skip the gates, and</text>
+  <text x="398" y="248" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">learn the least about it</text>
+
+  <defs>
+    <marker id="m4RoutesArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 320" role="img" aria-label="Six keys map to six directions in the world frame at the tool tip: I and K move the target forward and back along x, J and L move it left and right along y, U and O move it up and down along z; the keys steer a point in space, not a joint">
+
+  <rect x="50" y="232" width="96" height="42" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="98" y="258" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">base</text>
+
+  <polyline points="98,232 210,120 360,160" fill="none"
+            stroke="var(--blue, #2d5d7c)" stroke-width="2"/>
+  <circle cx="360" cy="160" r="8" fill="var(--blue-soft, #dfeaf0)"
+          stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+
+  <line x1="368" y1="160" x2="474" y2="160" stroke="var(--gold, #b07d22)"
+        stroke-width="1.4" marker-end="url(#teleopJogArrow)"/>
+  <text x="482" y="156" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--gold, #b07d22)">I</text>
+  <text x="482" y="172" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">forward, +x</text>
+
+  <line x1="352" y1="160" x2="246" y2="160" stroke="var(--gold, #b07d22)"
+        stroke-width="1.4" marker-end="url(#teleopJogArrow)"/>
+  <text x="238" y="156" text-anchor="end" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--gold, #b07d22)">K</text>
+  <text x="238" y="172" text-anchor="end" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">back, −x</text>
+
+  <line x1="360" y1="152" x2="360" y2="74" stroke="var(--gold, #b07d22)"
+        stroke-width="1.4" marker-end="url(#teleopJogArrow)"/>
+  <text x="360" y="62" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--gold, #b07d22)">U</text>
+  <text x="360" y="46" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">up, +z</text>
+
+  <line x1="360" y1="168" x2="360" y2="246" stroke="var(--gold, #b07d22)"
+        stroke-width="1.4" marker-end="url(#teleopJogArrow)"/>
+  <text x="360" y="264" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--gold, #b07d22)">O</text>
+  <text x="360" y="280" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">down, −z</text>
+
+  <line x1="354" y1="154" x2="288" y2="96" stroke="var(--gold, #b07d22)"
+        stroke-width="1.4" marker-end="url(#teleopJogArrow)"/>
+  <text x="278" y="90" text-anchor="end" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--gold, #b07d22)">J</text>
+  <text x="278" y="106" text-anchor="end" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">left, +y</text>
+
+  <line x1="366" y1="166" x2="432" y2="224" stroke="var(--gold, #b07d22)"
+        stroke-width="1.4" marker-end="url(#teleopJogArrow)"/>
+  <text x="442" y="230" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--gold, #b07d22)">L</text>
+  <text x="442" y="246" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">right, −y</text>
+
+  <line x1="360" y1="176" x2="360" y2="196" stroke="var(--muted, #6b6053)" stroke-width="1.1"/>
+  <text x="330" y="210" text-anchor="end" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the target point, not the tip</text>
+
+  <text x="98" y="298" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">world origin sits here</text>
+
+  <defs>
+    <marker id="teleopJogArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--gold, #b07d22)"/>
+    </marker>
+  </defs>
+</svg>

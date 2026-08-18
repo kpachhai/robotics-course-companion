@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 344" role="img" aria-label="One dataset frame: on the left the four keys you supply, observation.state, action, an image per camera and a task string, with their dtypes and shapes; on the right the five bookkeeping columns the writer adds by itself; underneath, the three things that must never become features">
+
+  <text x="40" y="28" class="svg-disp" font-size="14" font-weight="700" fill="var(--blue, #2d5d7c)">what you put in the frame</text>
+
+  <rect x="40" y="44" width="320" height="46" rx="8" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="56" y="66" class="svg-disp" font-size="14" font-weight="600" fill="var(--blue, #2d5d7c)">observation.state</text>
+  <text x="56" y="82" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">float32 [6] - measured joint angles, qpos[:6]</text>
+
+  <rect x="40" y="98" width="320" height="46" rx="8" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="56" y="120" class="svg-disp" font-size="14" font-weight="600" fill="var(--blue, #2d5d7c)">action</text>
+  <text x="56" y="136" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">float32 [6] - commanded angles, data.ctrl</text>
+
+  <rect x="40" y="152" width="320" height="46" rx="8" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="56" y="174" class="svg-disp" font-size="14" font-weight="600" fill="var(--blue, #2d5d7c)">observation.images.overhead</text>
+  <text x="56" y="190" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">video, uint8 [128, 128, 3] - one per camera</text>
+
+  <rect x="40" y="206" width="320" height="46" rx="8" fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="56" y="228" class="svg-disp" font-size="14" font-weight="600" fill="var(--green, #15614e)">task</text>
+  <text x="56" y="244" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">str - the same sentence on every frame</text>
+
+  <line x1="366" y1="148" x2="422" y2="148" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#arrowFrameSchema)"/>
+  <text x="394" y="140" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">add_frame</text>
+
+  <text x="428" y="28" class="svg-disp" font-size="14" font-weight="700" fill="var(--gold, #b07d22)">what the writer adds</text>
+
+  <rect x="428" y="44" width="282" height="208" rx="8" fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="446" y="66" class="svg-disp" font-size="13" font-weight="600" fill="var(--gold, #b07d22)">timestamp</text>
+  <text x="446" y="80" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">float32 - frame_index / fps</text>
+  <text x="446" y="100" class="svg-disp" font-size="13" font-weight="600" fill="var(--gold, #b07d22)">frame_index</text>
+  <text x="446" y="114" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">int64 - 0 within the episode</text>
+  <text x="446" y="134" class="svg-disp" font-size="13" font-weight="600" fill="var(--gold, #b07d22)">episode_index</text>
+  <text x="446" y="148" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">int64 - which episode</text>
+  <text x="446" y="168" class="svg-disp" font-size="13" font-weight="600" fill="var(--gold, #b07d22)">index</text>
+  <text x="446" y="182" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">int64 - row in the whole set</text>
+  <text x="446" y="202" class="svg-disp" font-size="13" font-weight="600" fill="var(--gold, #b07d22)">task_index</text>
+  <text x="446" y="216" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">int64 - id of the task string</text>
+  <text x="446" y="240" class="svg-mono" font-size="9.5" fill="var(--gold, #b07d22)">Supplying any of these is an error.</text>
+
+  <rect x="40" y="266" width="670" height="62" rx="8" fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.6"/>
+  <text x="56" y="288" class="svg-disp" font-size="13" font-weight="600" fill="var(--ox, #9c3b2e)">what must never be a feature</text>
+  <text x="56" y="304" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">the cube's true pose, the success flag, the random seed. No real sensor produces them,</text>
+  <text x="56" y="320" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">so a policy trained on them has nothing to read at deployment.</text>
+
+  <defs>
+    <marker id="arrowFrameSchema" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

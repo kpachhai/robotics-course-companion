@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 310" role="img" aria-label="A pose needs six independent numbers, shown as six cells in a row; the SO-101 supplies only five, shown as five wider cells labelled with the five arm joints plus one dashed cell marked none, with the gripper joint shown separately as a jaw opener that does not move the fingertip">
+
+  <text x="60" y="34" class="svg-disp" font-size="14" font-weight="700" fill="var(--blue, #2d5d7c)">what a pose asks for</text>
+  <text x="60" y="49" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">six independent numbers: three of position, three of orientation</text>
+
+  <rect x="60" y="60" width="86" height="44" rx="8" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <rect x="152" y="60" width="86" height="44" rx="8" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <rect x="244" y="60" width="86" height="44" rx="8" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <rect x="336" y="60" width="86" height="44" rx="8" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <rect x="428" y="60" width="86" height="44" rx="8" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <rect x="520" y="60" width="86" height="44" rx="8" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="103" y="88" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700" fill="var(--blue, #2d5d7c)">1</text>
+  <text x="195" y="88" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700" fill="var(--blue, #2d5d7c)">2</text>
+  <text x="287" y="88" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700" fill="var(--blue, #2d5d7c)">3</text>
+  <text x="379" y="88" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700" fill="var(--blue, #2d5d7c)">4</text>
+  <text x="471" y="88" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700" fill="var(--blue, #2d5d7c)">5</text>
+  <text x="563" y="88" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700" fill="var(--blue, #2d5d7c)">6</text>
+
+  <text x="60" y="152" class="svg-disp" font-size="14" font-weight="700" fill="var(--green, #15614e)">what the arm supplies</text>
+  <text x="60" y="167" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">five joints move the fingertip; the sixth only opens the jaw</text>
+
+  <rect x="60" y="178" width="104" height="44" rx="8" fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <rect x="170" y="178" width="104" height="44" rx="8" fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <rect x="280" y="178" width="104" height="44" rx="8" fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <rect x="390" y="178" width="104" height="44" rx="8" fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <rect x="500" y="178" width="104" height="44" rx="8" fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="112" y="199" text-anchor="middle" class="svg-mono" font-size="10" fill="var(--green, #15614e)">shoulder_pan</text>
+  <text x="222" y="199" text-anchor="middle" class="svg-mono" font-size="10" fill="var(--green, #15614e)">shoulder_lift</text>
+  <text x="332" y="199" text-anchor="middle" class="svg-mono" font-size="10" fill="var(--green, #15614e)">elbow_flex</text>
+  <text x="442" y="199" text-anchor="middle" class="svg-mono" font-size="10" fill="var(--green, #15614e)">wrist_flex</text>
+  <text x="552" y="199" text-anchor="middle" class="svg-mono" font-size="10" fill="var(--green, #15614e)">wrist_roll</text>
+  <text x="112" y="214" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">105 mm</text>
+  <text x="222" y="214" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">104 mm</text>
+  <text x="332" y="214" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">88 mm</text>
+  <text x="442" y="214" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">48 mm</text>
+  <text x="552" y="214" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">4 mm</text>
+
+  <rect x="614" y="178" width="66" height="44" rx="8" fill="none" stroke="var(--ox, #9c3b2e)" stroke-width="1.6" stroke-dasharray="4 4"/>
+  <text x="647" y="205" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700" fill="var(--ox, #9c3b2e)">none</text>
+  <line x1="647" y1="222" x2="647" y2="258" stroke="var(--ox, #9c3b2e)" stroke-width="1.2"/>
+  <text x="680" y="272" text-anchor="end" class="svg-mono" font-size="9.5" fill="var(--ox, #9c3b2e)">nothing supplies a sixth direction</text>
+  <text x="680" y="286" text-anchor="end" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">which one is missing depends on where the arm is</text>
+
+  <line x1="60" y1="248" x2="400" y2="248" stroke="var(--line-2, #c8bca3)" stroke-width="1.1"/>
+  <text x="60" y="272" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">fingertip Jacobian rank = 5, at all 200 random poses tested</text>
+  <text x="60" y="286" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">the numbers are fingertip travel for a 0.3 rad nudge</text>
+</svg>

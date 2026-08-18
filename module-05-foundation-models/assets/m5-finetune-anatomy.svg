@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 250" role="img" aria-label="One step feeds two camera images, joint state and an instruction into the SmolVLM2 backbone, which conditions a small flow-matching action expert that emits an action chunk; both backbone and expert are loaded from the pretrained base checkpoint">
+
+  <rect x="16" y="58" width="150" height="124" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="91" y="84" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">one step in</text>
+  <text x="91" y="110" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">camera: top</text>
+  <text x="91" y="130" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">camera: wrist</text>
+  <text x="91" y="150" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">state: 6 joints</text>
+  <text x="91" y="170" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">task: the instruction</text>
+
+  <line x1="166" y1="120" x2="186" y2="120"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m5FtArrow)"/>
+
+  <rect x="192" y="44" width="200" height="152" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="292" y="74" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--gold, #b07d22)">SmolVLM2 backbone</text>
+  <text x="292" y="104" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">SigLIP vision encoder</text>
+  <text x="292" y="124" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">SmolLM2 language decoder</text>
+  <text x="292" y="144" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">64 visual tokens per frame</text>
+  <text x="292" y="164" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">about half the layers used</text>
+
+  <line x1="392" y1="120" x2="412" y2="120"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m5FtArrow)"/>
+
+  <rect x="418" y="44" width="180" height="152" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="508" y="74" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--green, #15614e)">action expert</text>
+  <text x="508" y="104" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">about 100M parameters</text>
+  <text x="508" y="124" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">flow matching</text>
+  <text x="508" y="144" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">hidden size 75% of backbone</text>
+  <text x="508" y="164" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">state and action dims from</text>
+  <text x="508" y="180" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">your dataset config</text>
+
+  <line x1="598" y1="120" x2="618" y2="120"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m5FtArrow)"/>
+
+  <rect x="624" y="90" width="120" height="60" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="684" y="114" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">action chunk</text>
+  <text x="684" y="134" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">H steps x 6 targets</text>
+
+  <path d="M192,208 V216 H598 V208" fill="none"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3"/>
+  <line x1="395" y1="216" x2="395" y2="222"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3"/>
+  <text x="395" y="236" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">both sets of weights load from lerobot/smolvla_base</text>
+
+  <defs>
+    <marker id="m5FtArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

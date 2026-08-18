@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 334" role="img" aria-label="A two-link arm stretched fully straight: the hand can still move perpendicular to the arm, but no joint velocity moves it along the arm's own axis">
+  <text x="370" y="26" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">θ2 = 0 · the arm is fully straight · det J = l1·l2·sin θ2 = 0</text>
+
+  <line x1="48" y1="274" x2="112" y2="274"
+        stroke="var(--line-2, #c8bca3)" stroke-width="3" stroke-linecap="round"/>
+
+  <line x1="80" y1="262" x2="238" y2="205"
+        stroke="var(--blue, #2d5d7c)" stroke-width="5" stroke-linecap="round"/>
+  <line x1="238" y1="205" x2="396" y2="147"
+        stroke="var(--blue, #2d5d7c)" stroke-width="5" stroke-linecap="round"/>
+
+  <circle cx="80" cy="262" r="7"
+          fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <circle cx="238" cy="205" r="7"
+          fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <circle cx="396" cy="147" r="8"
+          fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+
+  <text x="80" y="292" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--blue, #2d5d7c)">joint 1</text>
+  <text x="238" y="236" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--blue, #2d5d7c)">joint 2</text>
+  <text x="238" y="252" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">no bend left: θ2 = 0</text>
+  <text x="396" y="180" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--blue, #2d5d7c)">hand</text>
+  <text x="164" y="247" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">l1</text>
+  <text x="322" y="189" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">l2</text>
+
+  <line x1="410" y1="142" x2="513" y2="105"
+        stroke="var(--ox, #9c3b2e)" stroke-width="1.8" stroke-dasharray="5 4"/>
+  <line x1="521" y1="126" x2="506" y2="84"
+        stroke="var(--ox, #9c3b2e)" stroke-width="3.5" stroke-linecap="round"/>
+  <text x="536" y="104" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--ox, #9c3b2e)">lost direction</text>
+  <text x="536" y="124" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">no joint velocity moves</text>
+  <text x="536" y="138" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the hand along its own axis</text>
+
+  <line x1="392" y1="135" x2="364" y2="58"
+        stroke="var(--green, #15614e)" stroke-width="2" marker-end="url(#singFreeArrow)"/>
+  <text x="342" y="62" text-anchor="end" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--green, #15614e)">still free</text>
+  <text x="342" y="80" text-anchor="end" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">perpendicular to the arm:</text>
+  <text x="342" y="94" text-anchor="end" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">both columns of J point here</text>
+
+  <text x="370" y="314" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">2 joints, but only 1 direction of motion: a whole degree of freedom is gone</text>
+
+  <defs>
+    <marker id="singFreeArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--green, #15614e)"/>
+    </marker>
+  </defs>
+</svg>

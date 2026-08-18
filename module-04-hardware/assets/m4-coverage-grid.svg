@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 268" role="img" aria-label="Two three-by-two grids of the workspace showing how many episodes were recorded in each cell. Recorded by feel, the counts run from one to twenty-six and the corners are almost empty. Recorded to a plan, every cell holds ten episodes">
+  <text x="190" y="34" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--ox, #9c3b2e)">Recorded by feel</text>
+  <text x="550" y="34" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--green, #15614e)">Recorded to a plan</text>
+
+  <rect x="40" y="50" width="100" height="70" rx="4"
+        fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.6"/>
+  <text x="90" y="92" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--ox, #9c3b2e)">1</text>
+  <rect x="140" y="50" width="100" height="70" rx="4"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="190" y="92" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--blue, #2d5d7c)">15</text>
+  <rect x="240" y="50" width="100" height="70" rx="4"
+        fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.6"/>
+  <text x="290" y="92" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--ox, #9c3b2e)">2</text>
+
+  <rect x="40" y="120" width="100" height="70" rx="4"
+        fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.6"/>
+  <text x="90" y="162" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--ox, #9c3b2e)">2</text>
+  <rect x="140" y="120" width="100" height="70" rx="4"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="190" y="162" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--blue, #2d5d7c)">26</text>
+  <rect x="240" y="120" width="100" height="70" rx="4"
+        fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.6"/>
+  <text x="290" y="162" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--ox, #9c3b2e)">4</text>
+
+  <text x="190" y="212" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">50 episodes, 26x imbalance</text>
+  <text x="190" y="228" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the arm has barely seen four of the six cells,</text>
+  <text x="190" y="242" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">and the average success rate will not say so</text>
+
+  <rect x="400" y="50" width="100" height="70" rx="4"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="450" y="92" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--green, #15614e)">10</text>
+  <rect x="500" y="50" width="100" height="70" rx="4"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="550" y="92" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--green, #15614e)">10</text>
+  <rect x="600" y="50" width="100" height="70" rx="4"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="650" y="92" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--green, #15614e)">10</text>
+
+  <rect x="400" y="120" width="100" height="70" rx="4"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="450" y="162" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--green, #15614e)">10</text>
+  <rect x="500" y="120" width="100" height="70" rx="4"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="550" y="162" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--green, #15614e)">10</text>
+  <rect x="600" y="120" width="100" height="70" rx="4"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="650" y="162" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--green, #15614e)">10</text>
+
+  <text x="550" y="212" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">60 episodes, dealt in a shuffled order</text>
+  <text x="550" y="228" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">every cell is covered, so the next batch of</text>
+  <text x="550" y="242" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">episodes can go on a different axis</text>
+
+  <text x="370" y="262" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">both grids printed by code/coverage_grid.py; the top row is the far edge of the table</text>
+</svg>

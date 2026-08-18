@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 340" role="img" aria-label="One simulator state splits into two kinds of number: privileged values such as a body's exact world position, which no hardware sensor can produce, and measured values such as touch, range and camera pixels, which have a counterpart on the real robot. Privileged values are for scripting and scoring; only measured values may be fed to a policy.">
+
+  <rect x="238" y="16" width="264" height="60" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="370" y="42" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--blue, #2d5d7c)">MjData after mj_step</text>
+  <text x="370" y="62" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the complete state, exactly</text>
+
+  <path d="M370 76 L370 96 L184 96 L184 118" fill="none"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#oracleArrow)"/>
+  <path d="M370 76 L370 96 L556 96 L556 118" fill="none"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#oracleArrow)"/>
+
+  <rect x="32" y="122" width="304" height="76" rx="8"
+        fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.6"/>
+  <text x="184" y="148" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--ox, #9c3b2e)">privileged</text>
+  <text x="184" y="168" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">data.body("cube").xpos · framepos · framequat</text>
+  <text x="184" y="184" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">exact, free, and impossible off the simulator</text>
+
+  <rect x="404" y="122" width="304" height="76" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="556" y="148" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--green, #15614e)">measured</text>
+  <text x="556" y="168" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">jointpos · touch · rangefinder · camera pixels</text>
+  <text x="556" y="184" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">each one has a part number you can buy</text>
+
+  <line x1="184" y1="198" x2="184" y2="228"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#oracleArrow)"/>
+  <line x1="556" y1="198" x2="556" y2="228"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#oracleArrow)"/>
+
+  <rect x="32" y="232" width="304" height="76" rx="8"
+        fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.6"/>
+  <text x="184" y="258" text-anchor="middle" class="svg-disp" font-size="14" font-weight="600"
+        fill="var(--ox, #9c3b2e)">scripts, resets, scoring</text>
+  <text x="184" y="278" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">did the episode succeed, is the cube in the bin,</text>
+  <text x="184" y="294" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">where should the scripted expert reach</text>
+
+  <rect x="404" y="232" width="304" height="76" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="556" y="258" text-anchor="middle" class="svg-disp" font-size="14" font-weight="600"
+        fill="var(--green, #15614e)">what a policy may read</text>
+  <text x="556" y="278" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the observation vector you will record into</text>
+  <text x="556" y="294" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">a dataset and later replay on hardware</text>
+
+  <line x1="370" y1="122" x2="370" y2="308"
+        stroke="var(--line-2, #c8bca3)" stroke-width="1.2" stroke-dasharray="5 5"/>
+
+  <defs>
+    <marker id="oracleArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

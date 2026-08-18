@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 412" role="img" aria-label="Top view of the task: the arm base at the origin, an inner reach limit at fourteen centimetres, an outer limit at twenty-eight centimetres along the centre line, the sixteen-centimetre square the cube is sampled from, and the shaded band past the outer limit where every measured failure landed">
+
+  <path d="M 321.5 78 L 350 78 L 350 222 L 321.5 222 A 252 252 0 0 0 321.5 78 Z"
+        fill="var(--ox-soft, #f1ddd6)" stroke="none"/>
+
+  <path d="M 194.2 203.2 A 126 126 0 0 0 194.2 96.8" fill="none"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" stroke-dasharray="5 4"/>
+  <path d="M 308.4 256.5 A 252 252 0 0 0 308.4 43.5" fill="none"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" stroke-dasharray="5 4"/>
+
+  <rect x="206" y="78" width="144" height="144" rx="6" fill="none"
+        stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="278" y="70" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600" fill="var(--blue, #2d5d7c)">sampling box</text>
+  <text x="278" y="154" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">16 cm square</text>
+  <text x="278" y="170" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">centred on (0.22, 0)</text>
+
+  <rect x="75.5" y="271.5" width="99" height="99" rx="6" fill="var(--green-soft, #e3ede7)"
+        stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="125" y="326" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600" fill="var(--green, #15614e)">bin</text>
+
+  <circle cx="80" cy="150" r="9" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="80" y="132" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--blue, #2d5d7c)">base</text>
+
+  <line x1="188" y1="240" x2="200" y2="212" stroke="var(--muted, #6b6053)" stroke-width="1.1"/>
+  <text x="184" y="254" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">14 cm</text>
+
+  <line x1="300" y1="272" x2="312" y2="250" stroke="var(--muted, #6b6053)" stroke-width="1.1"/>
+  <text x="296" y="286" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">28 cm</text>
+
+  <line x1="360" y1="110" x2="404" y2="110" stroke="var(--ox, #9c3b2e)" stroke-width="1.1"/>
+  <text x="410" y="114" class="svg-mono" font-size="9.5" fill="var(--ox, #9c3b2e)">all three failures landed in here</text>
+
+  <text x="410" y="152" class="svg-disp" font-size="14" font-weight="700" fill="var(--blue, #2d5d7c)">measured, n = 100 per row</text>
+  <text x="410" y="176" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">inner limit, any direction: 14 cm from the base</text>
+  <text x="410" y="196" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">outer limit on the centre line: 28 cm</text>
+  <text x="410" y="216" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">outer limit 20 degrees off it: past 34 cm</text>
+  <text x="410" y="236" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">so the usable region is not a circle: a radius on its</text>
+  <text x="410" y="252" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">own does not decide it, the angle matters too</text>
+
+  <text x="410" y="288" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">Widen the box to 20 cm and the near edge crosses</text>
+  <text x="410" y="304" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">the inner limit too: failures at both radii at once.</text>
+
+  <text x="40" y="386" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">Top view. The success rate is the fraction of this box that works.</text>
+  <text x="40" y="402" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">Quoting one without the box is quoting a number with no denominator.</text>
+</svg>

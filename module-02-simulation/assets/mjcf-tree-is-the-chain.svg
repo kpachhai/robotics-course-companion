@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" role="img" aria-label="Nested MJCF body elements on the left map one to one onto the physical chain on the right: the worldbody contains the upper arm body, which contains the forearm body, and each nesting level is a segment hanging off the joint above it.">
+
+  <rect x="24" y="26" width="306" height="250" rx="8"
+        fill="none" stroke="var(--muted, #6b6053)" stroke-width="1.4"/>
+  <text x="42" y="48" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">&lt;worldbody&gt;</text>
+
+  <rect x="48" y="62" width="258" height="192" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="66" y="86" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">body upper_arm</text>
+  <text x="66" y="104" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">pos 0 0 0.6 &#183; joint shoulder</text>
+
+  <rect x="72" y="122" width="210" height="116" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="90" y="146" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--green, #15614e)">body forearm</text>
+  <text x="90" y="164" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">pos 0.30 0 0 &#183; joint elbow</text>
+  <text x="90" y="184" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">that pos is measured from the</text>
+  <text x="90" y="197" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">upper arm, never from the world</text>
+  <text x="90" y="221" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">site tip</text>
+
+  <line x1="306" y1="100" x2="525" y2="88"
+        stroke="var(--muted, #6b6053)" stroke-width="1.2" stroke-dasharray="4 4"/>
+  <line x1="282" y1="190" x2="628" y2="156"
+        stroke="var(--muted, #6b6053)" stroke-width="1.2" stroke-dasharray="4 4"/>
+
+  <line x1="404" y1="268" x2="736" y2="268"
+        stroke="var(--line-2, #c8bca3)" stroke-width="1"/>
+  <text x="736" y="286" text-anchor="end" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">floor</text>
+
+  <line x1="470" y1="70" x2="596" y2="112"
+        stroke="var(--blue, #2d5d7c)" stroke-width="14" stroke-linecap="round"/>
+  <line x1="596" y1="112" x2="668" y2="212"
+        stroke="var(--green, #15614e)" stroke-width="14" stroke-linecap="round"/>
+
+  <circle cx="470" cy="70" r="8"
+          fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.5"/>
+  <circle cx="596" cy="112" r="8"
+          fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.5"/>
+  <circle cx="668" cy="212" r="5.5"
+          fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.5"/>
+
+  <text x="462" y="54" text-anchor="end" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">shoulder</text>
+  <text x="610" y="100" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">elbow</text>
+  <text x="684" y="216" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">tip</text>
+</svg>

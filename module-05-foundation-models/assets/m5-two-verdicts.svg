@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 292" role="img" aria-label="Two evaluations of the same two architectures reach opposite verdicts: the SmolVLA authors report 78.3 percent for SmolVLA against 48.3 percent for ACT, while an independent benchmark on SO-101 reports 32.5 percent against 33.8 percent, a difference too small to measure">
+
+  <text x="194" y="30" text-anchor="middle" class="svg-disp" font-size="14" font-weight="600"
+        fill="var(--muted, #6b6053)">Reported by the model&#8217;s authors</text>
+  <text x="566" y="30" text-anchor="middle" class="svg-disp" font-size="14" font-weight="600"
+        fill="var(--muted, #6b6053)">Reported by an independent lab</text>
+
+  <rect x="24" y="44" width="340" height="200" rx="8"
+        fill="none" stroke="var(--line-2, #c8bca3)" stroke-width="1.4"/>
+  <rect x="396" y="44" width="340" height="200" rx="8"
+        fill="none" stroke="var(--line-2, #c8bca3)" stroke-width="1.4"/>
+
+  <text x="194" y="74" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">SmolVLA paper &#183; 3 real tasks &#183; 50 demos each</text>
+  <text x="566" y="74" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">Hiroshima SO-101 study &#183; 4 tasks &#183; 100 demos each</text>
+
+  <rect x="48" y="94" width="132" height="66" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="114" y="118" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--blue, #2d5d7c)">SmolVLA</text>
+  <text x="114" y="144" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--blue, #2d5d7c)">78.3%</text>
+
+  <rect x="204" y="94" width="132" height="66" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="270" y="118" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--gold, #b07d22)">ACT</text>
+  <text x="270" y="144" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--gold, #b07d22)">48.3%</text>
+
+  <rect x="420" y="94" width="132" height="66" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="486" y="118" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--blue, #2d5d7c)">SmolVLA</text>
+  <text x="486" y="144" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--blue, #2d5d7c)">32.5%</text>
+
+  <rect x="576" y="94" width="132" height="66" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="642" y="118" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--gold, #b07d22)">ACT</text>
+  <text x="642" y="144" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--gold, #b07d22)">33.8%</text>
+
+  <text x="194" y="196" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">the small VLA wins by 30 points</text>
+  <text x="194" y="220" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">tasks, tuning and trials all chosen by the authors</text>
+
+  <text x="566" y="196" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--ox, #9c3b2e)">no difference you could measure</text>
+  <text x="566" y="220" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">20 trials per cell &#183; datasets published</text>
+
+  <text x="380" y="272" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">same two architectures &#183; different tasks, operators and tuning effort &#183; both published in 2026</text>
+</svg>

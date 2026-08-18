@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 244" role="img" aria-label="A small angle error at the shoulder becomes a large position error at the tip: the true arm lies along the axis, the believed arm is rotated slightly, and the wedge between them widens with every centimetre of arm beyond the bad joint">
+  <path d="M56,150 L555.8,150 L550.9,80.4 Z"
+        fill="var(--gold-soft, #f3e7c9)" stroke="none"/>
+
+  <line x1="56" y1="150" x2="56" y2="46"
+        stroke="var(--line-2, #c8bca3)" stroke-width="1.3"/>
+  <line x1="56" y1="150" x2="600" y2="150"
+        stroke="var(--line-2, #c8bca3)" stroke-width="1.3"/>
+
+  <line x1="56" y1="150" x2="347.1" y2="109.1"
+        stroke="var(--ox, #9c3b2e)" stroke-width="3" stroke-linecap="round" stroke-dasharray="7 5"/>
+  <line x1="347.1" y1="109.1" x2="550.9" y2="80.4"
+        stroke="var(--ox, #9c3b2e)" stroke-width="3" stroke-linecap="round" stroke-dasharray="7 5"/>
+
+  <line x1="56" y1="150" x2="350" y2="150"
+        stroke="var(--blue, #2d5d7c)" stroke-width="5" stroke-linecap="round"/>
+  <line x1="350" y1="150" x2="555.8" y2="150"
+        stroke="var(--blue, #2d5d7c)" stroke-width="5" stroke-linecap="round"/>
+
+  <circle cx="56" cy="150" r="6"
+          fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <circle cx="350" cy="150" r="6"
+          fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <circle cx="555.8" cy="150" r="7"
+          fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.8"/>
+  <circle cx="550.9" cy="80.4" r="7"
+          fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.8"/>
+
+  <path d="M134,150 A78,78 0 0 0 133.2,139.1" fill="none"
+        stroke="var(--gold, #b07d22)" stroke-width="1.6" marker-end="url(#fkErrAngle)"/>
+  <text x="140" y="128" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--gold, #b07d22)">Δθ</text>
+
+  <line x1="558" y1="146" x2="553.5" y2="88"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3"
+        marker-start="url(#fkErrTick)" marker-end="url(#fkErrTick)"/>
+  <text x="570" y="110" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--ox, #9c3b2e)">≈ r · Δθ</text>
+  <text x="570" y="126" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">how far the tip is off</text>
+
+  <text x="350" y="172" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">elbow</text>
+  <text x="56" y="172" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">base</text>
+
+  <text x="56" y="200" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">arm at full stretch, r = 1.70 m · the angle here is exaggerated so you can see it at all</text>
+  <text x="56" y="218" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">shoulder off by 0.5° → tip off by 15 mm     ·     1° → 30 mm     ·     5° → 148 mm</text>
+  <text x="56" y="236" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the same 1° at the elbow moves the tip only 12 mm: just 0.70 m of arm sits beyond it</text>
+
+  <defs>
+    <marker id="fkErrAngle" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6" fill="none" stroke="var(--gold, #b07d22)" stroke-width="1.3"/>
+    </marker>
+    <marker id="fkErrTick" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M4,1 L4,7" stroke="var(--muted, #6b6053)" stroke-width="1.3"/>
+    </marker>
+  </defs>
+</svg>

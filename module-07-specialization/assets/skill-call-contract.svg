@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 288" role="img" aria-label="One skill call from goal to result: a precondition checked by a sensor, a fast closed-loop policy, a postcondition checked by a sensor, and the physical residue left behind when the check says no">
+
+  <line x1="666" y1="60" x2="666" y2="32" stroke="var(--muted, #6b6053)" stroke-width="1.3"/>
+  <line x1="666" y1="32" x2="93" y2="32" stroke="var(--muted, #6b6053)" stroke-width="1.3"/>
+  <line x1="93" y1="32" x2="93" y2="58" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m7skillFwd)"/>
+  <text x="380" y="24" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">result: succeeded, or one named failure kind</text>
+
+  <rect x="20" y="60" width="147" height="84" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="93" y="90" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Planner</text>
+  <text x="93" y="112" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">0.1 to 2 Hz</text>
+  <text x="93" y="128" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">and sometimes wrong</text>
+
+  <line x1="169" y1="102" x2="205" y2="102" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m7skillFwd)"/>
+  <text x="187" y="92" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">goal</text>
+
+  <rect x="211" y="60" width="147" height="84" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="284" y="90" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--gold, #b07d22)">Precondition</text>
+  <text x="284" y="112" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">a sensor answers:</text>
+  <text x="284" y="128" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">visible and reachable?</text>
+
+  <line x1="360" y1="102" x2="396" y2="102" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m7skillFwd)"/>
+
+  <rect x="402" y="60" width="147" height="84" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="475" y="90" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Policy</text>
+  <text x="475" y="112" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">30 to 50 Hz, closed loop</text>
+  <text x="475" y="128" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">no pausing, no undo</text>
+
+  <line x1="551" y1="102" x2="587" y2="102" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m7skillFwd)"/>
+
+  <rect x="593" y="60" width="147" height="84" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="666" y="90" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--gold, #b07d22)">Postcondition</text>
+  <text x="666" y="112" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">a sensor answers:</text>
+  <text x="666" y="128" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">on the shelf, upright?</text>
+
+  <line x1="666" y1="146" x2="666" y2="196" stroke="var(--ox, #9c3b2e)" stroke-width="1.4"
+        stroke-dasharray="4 4" marker-end="url(#m7skillOx)"/>
+  <text x="654" y="176" text-anchor="end" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">when the check says no</text>
+
+  <rect x="180" y="200" width="560" height="72" rx="8"
+        fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.6"/>
+  <text x="460" y="226" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--ox, #9c3b2e)">What the failure left behind</text>
+  <text x="460" y="246" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">on the floor, or still in the gripper, or wedged with a servo stalled against it</text>
+  <text x="460" y="262" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">a retry from here is a second real attempt from a state nobody measured</text>
+
+  <defs>
+    <marker id="m7skillFwd" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+    <marker id="m7skillOx" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--ox, #9c3b2e)"/>
+    </marker>
+  </defs>
+</svg>

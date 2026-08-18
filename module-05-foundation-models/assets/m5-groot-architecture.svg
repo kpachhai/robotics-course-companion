@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 342" role="img" aria-label="GR00T N one point seven: one camera view and the instruction enter a Cosmos-Reason two billion parameter vision-language backbone, which passes a hidden state to a sixteen layer diffusion transformer trained with flow matching that produces an action chunk in four integration steps and emits motor commands">
+  <rect x="140" y="32" width="220" height="46" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="250" y="53" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--blue, #2d5d7c)">one camera view</text>
+  <text x="250" y="68" text-anchor="middle" class="svg-mono" font-size="9"
+        fill="var(--muted, #6b6053)">at the fastest published setting</text>
+
+  <rect x="400" y="32" width="220" height="46" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="510" y="53" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--blue, #2d5d7c)">the instruction</text>
+  <text x="510" y="68" text-anchor="middle" class="svg-mono" font-size="9"
+        fill="var(--muted, #6b6053)">plain words</text>
+
+  <line x1="250" y1="78" x2="250" y2="100" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m5GrootArrow)"/>
+  <line x1="510" y1="78" x2="510" y2="100" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m5GrootArrow)"/>
+
+  <rect x="140" y="104" width="480" height="58" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="380" y="130" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Cosmos-Reason 2B backbone</text>
+  <text x="380" y="148" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the slow half: a vision-language model, Qwen3-VL lineage</text>
+
+  <line x1="380" y1="162" x2="380" y2="192" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m5GrootArrow)"/>
+  <text x="392" y="181" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">a hidden state, not a sentence</text>
+
+  <rect x="140" y="196" width="480" height="58" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="380" y="222" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--green, #15614e)">16-layer diffusion transformer</text>
+  <text x="380" y="240" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the fast half: flow matching, 4 integration steps</text>
+
+  <line x1="380" y1="254" x2="380" y2="278" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m5GrootArrow)"/>
+
+  <rect x="230" y="282" width="300" height="48" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="380" y="304" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--gold, #b07d22)">motor commands</text>
+  <text x="380" y="320" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">35.9 Hz on an H100 with TensorRT</text>
+
+  <defs>
+    <marker id="m5GrootArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

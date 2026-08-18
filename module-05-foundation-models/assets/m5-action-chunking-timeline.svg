@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 262" role="img" aria-label="Synchronous versus asynchronous chunked inference. Synchronous alternates a forward pass with an executed chunk, leaving a gap each time the model thinks. Asynchronous runs the next forward pass while the current chunk is still playing, so the chunks join without a gap">
+  <text x="108" y="70" text-anchor="end" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--blue, #2d5d7c)">Synchronous</text>
+
+  <rect x="120" y="50" width="56" height="28" rx="6"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="148" y="68" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">infer</text>
+  <rect x="176" y="50" width="180" height="28" rx="6"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="266" y="68" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">execute chunk, open loop</text>
+  <rect x="356" y="50" width="56" height="28" rx="6"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="384" y="68" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">infer</text>
+  <rect x="412" y="50" width="180" height="28" rx="6"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="502" y="68" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">execute chunk, open loop</text>
+
+  <text x="120" y="102" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">the arm has run out of plan and is waiting for the next forward pass</text>
+
+  <text x="108" y="162" text-anchor="end" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--green, #15614e)">Asynchronous</text>
+
+  <rect x="120" y="142" width="56" height="28" rx="6"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="148" y="160" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">infer</text>
+  <rect x="176" y="142" width="180" height="28" rx="6"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="266" y="160" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">execute chunk, open loop</text>
+  <rect x="356" y="142" width="180" height="28" rx="6"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="446" y="160" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">execute chunk, open loop</text>
+
+  <rect x="270" y="178" width="56" height="20" rx="6"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"
+        stroke-dasharray="4 4"/>
+  <text x="298" y="192" text-anchor="middle" class="svg-mono" font-size="9"
+        fill="var(--muted, #6b6053)">infer</text>
+  <text x="334" y="192" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">the next forward pass runs while the current chunk is still playing</text>
+
+  <line x1="356" y1="44" x2="356" y2="174"
+        stroke="var(--line-2, #c8bca3)" stroke-width="1.2" stroke-dasharray="4 4"/>
+
+  <text x="120" y="218" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">the next chunk is ready before the current one ends, so the motion never stops</text>
+
+  <line x1="120" y1="238" x2="660" y2="238"
+        stroke="var(--line-2, #c8bca3)" stroke-width="1.2" marker-end="url(#m5ChunkArrow)"/>
+  <text x="676" y="242" class="svg-mono" font-size="10" fill="var(--muted, #6b6053)">time</text>
+
+  <defs>
+    <marker id="m5ChunkArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--line-2, #c8bca3)"/>
+    </marker>
+  </defs>
+</svg>

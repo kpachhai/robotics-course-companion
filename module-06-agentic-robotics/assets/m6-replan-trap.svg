@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 250" role="img" aria-label="The recovery loop drawn as detect, attribute, observe, replan, act, cycling back to detect, with a dashed shortcut from attribute straight to replan marked as the trap that plans again from a belief already known to be wrong">
+
+  <text x="383" y="28" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the trap: skip the observation</text>
+  <text x="383" y="42" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">and you plan again from the belief that was already wrong</text>
+
+  <path d="M233,100 C 250,56 516,56 533,100" fill="none" stroke-dasharray="5 4"
+        stroke="var(--ox, #9c3b2e)" stroke-width="1.4" marker-end="url(#m6trapArrow)"/>
+
+  <rect x="20" y="100" width="126" height="56" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="83" y="126" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">detect</text>
+  <text x="83" y="143" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">something is wrong</text>
+
+  <rect x="170" y="100" width="126" height="56" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="233" y="126" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">attribute</text>
+  <text x="233" y="143" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">which layer broke</text>
+
+  <rect x="320" y="100" width="126" height="56" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="383" y="126" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--gold, #b07d22)">observe</text>
+  <text x="383" y="143" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">a fresh frame</text>
+
+  <rect x="470" y="100" width="126" height="56" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="533" y="126" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">replan</text>
+  <text x="533" y="143" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">from what is true</text>
+
+  <rect x="620" y="100" width="126" height="56" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="683" y="126" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">act</text>
+  <text x="683" y="143" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">one skill call</text>
+
+  <line x1="146" y1="128" x2="166" y2="128"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m6loopArrow)"/>
+  <line x1="296" y1="128" x2="316" y2="128"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m6loopArrow)"/>
+  <line x1="446" y1="128" x2="466" y2="128"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m6loopArrow)"/>
+  <line x1="596" y1="128" x2="616" y2="128"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m6loopArrow)"/>
+
+  <path d="M683,156 L683,208 L83,208 L83,160" fill="none"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m6loopArrow)"/>
+  <text x="383" y="226" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">and round again, on a budget you set in advance</text>
+
+  <defs>
+    <marker id="m6loopArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+    <marker id="m6trapArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--ox, #9c3b2e)"/>
+    </marker>
+  </defs>
+</svg>

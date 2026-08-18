@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 268" role="img" aria-label="Two routes from a target pose to joint angles. The closed form takes the target and the link lengths straight through the law of cosines to two exact answers, but only works for this geometry. The iteration starts from a guess, runs a damped loop, and returns one answer on whichever branch the guess was on, for any arm with a forward-kinematics function and a Jacobian">
+  <text x="35" y="34" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">closed form · this geometry only · exact · both answers</text>
+
+  <rect x="35" y="44" width="190" height="66" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="130" y="72" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--gold, #b07d22)">target, l1, l2</text>
+  <text x="130" y="92" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">three side lengths</text>
+
+  <rect x="265" y="44" width="190" height="66" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="360" y="68" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--gold, #b07d22)">law of cosines</text>
+  <text x="360" y="86" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">θ2 from the distance r</text>
+  <text x="360" y="99" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">then θ1 = β - ψ</text>
+
+  <rect x="495" y="44" width="190" height="66" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="590" y="68" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--gold, #b07d22)">two exact answers</text>
+  <text x="590" y="86" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">+θ2 and -θ2 · or a refusal</text>
+  <text x="590" y="99" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">when |cos θ2| &gt; 1</text>
+
+  <line x1="225" y1="77" x2="259" y2="77"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#ikRoutesArrow)"/>
+  <line x1="455" y1="77" x2="489" y2="77"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#ikRoutesArrow)"/>
+
+  <line x1="35" y1="134" x2="685" y2="134"
+        stroke="var(--line-2, #c8bca3)" stroke-width="1"/>
+
+  <text x="35" y="160" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">iteration · any arm with an FK and a Jacobian · approximate · one answer</text>
+
+  <rect x="35" y="170" width="190" height="66" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="130" y="198" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">a guess θ</text>
+  <text x="130" y="218" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">usually the current pose</text>
+
+  <rect x="265" y="170" width="190" height="66" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="360" y="194" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">the damped loop</text>
+  <text x="360" y="212" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">miss, Jacobian, step</text>
+  <text x="360" y="225" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">a median of 22 passes</text>
+
+  <rect x="495" y="170" width="190" height="66" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="590" y="194" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">one answer</text>
+  <text x="590" y="212" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the branch nearest the guess</text>
+  <text x="590" y="225" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">or a stall, if unreachable</text>
+
+  <line x1="225" y1="203" x2="259" y2="203"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#ikRoutesArrow)"/>
+  <line x1="455" y1="203" x2="489" y2="203"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#ikRoutesArrow)"/>
+
+  <text x="35" y="258" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the top route is faster and complete but has to be re-derived for every mechanism · the bottom route is written once</text>
+
+  <defs>
+    <marker id="ikRoutesArrow" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

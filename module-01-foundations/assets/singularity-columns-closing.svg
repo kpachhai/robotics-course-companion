@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 358" role="img" aria-label="Three panels showing the two Jacobian columns drawn from the hand as the elbow straightens: at sixty degrees they are 35.8 degrees apart and span a wide area, at twenty degrees 11.8 degrees apart, and at five degrees only 2.9 degrees apart, leaving a sliver">
+  <text x="370" y="26" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">both columns drawn from the hand, all three panels to the same scale · θ1 = 0 throughout</text>
+
+  <polygon points="130,250 90.6,162.2 51.2,139.4 90.6,227.2"
+           fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.4"/>
+  <polygon points="375,250 359.4,142.2 343.8,99.4 359.4,207.2"
+           fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.4"/>
+  <polygon points="620,250 616,139.7 612,94.4 616,204.7"
+           fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.4"/>
+
+  <line x1="130" y1="250" x2="75.3" y2="274.5"
+        stroke="var(--muted, #6b6053)" stroke-width="1.2" stroke-dasharray="4 4"/>
+  <line x1="375" y1="250" x2="315.6" y2="258.6"
+        stroke="var(--muted, #6b6053)" stroke-width="1.2" stroke-dasharray="4 4"/>
+  <line x1="620" y1="250" x2="560" y2="252.2"
+        stroke="var(--muted, #6b6053)" stroke-width="1.2" stroke-dasharray="4 4"/>
+
+  <line x1="130" y1="250" x2="94.5" y2="170.9"
+        stroke="var(--gold, #b07d22)" stroke-width="2.4" marker-end="url(#singClosingGold)"/>
+  <line x1="375" y1="250" x2="360.8" y2="151.7"
+        stroke="var(--gold, #b07d22)" stroke-width="2.4" marker-end="url(#singClosingGold)"/>
+  <line x1="620" y1="250" x2="616.4" y2="149.3"
+        stroke="var(--gold, #b07d22)" stroke-width="2.4" marker-end="url(#singClosingGold)"/>
+
+  <line x1="130" y1="250" x2="98.9" y2="232"
+        stroke="var(--green, #15614e)" stroke-width="2.4" marker-end="url(#singClosingGreen)"/>
+  <line x1="375" y1="250" x2="362.7" y2="216.2"
+        stroke="var(--green, #15614e)" stroke-width="2.4" marker-end="url(#singClosingGreen)"/>
+  <line x1="620" y1="250" x2="616.8" y2="214.2"
+        stroke="var(--green, #15614e)" stroke-width="2.4" marker-end="url(#singClosingGreen)"/>
+
+  <circle cx="130" cy="250" r="6" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <circle cx="375" cy="250" r="6" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <circle cx="620" cy="250" r="6" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+
+  <text x="96" y="146" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--gold, #b07d22)">column 1</text>
+  <text x="78" y="250" text-anchor="end" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--green, #15614e)">column 2</text>
+  <line x1="72" y1="286" x2="79" y2="276"
+        stroke="var(--muted, #6b6053)" stroke-width="1.1"/>
+  <text x="70" y="298" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">back toward the base</text>
+
+  <text x="130" y="322" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--blue, #2d5d7c)">θ2 = 60°</text>
+  <text x="130" y="340" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">det J = 0.61 · 35.8° apart</text>
+  <text x="375" y="322" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--blue, #2d5d7c)">θ2 = 20°</text>
+  <text x="375" y="340" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">det J = 0.24 · 11.8° apart</text>
+  <text x="620" y="322" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--blue, #2d5d7c)">θ2 = 5°</text>
+  <text x="620" y="340" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">det J = 0.061 · 2.9° apart</text>
+
+  <text x="375" y="286" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">the shaded area is |det J|: the hand motion two joints of motion buys</text>
+
+  <defs>
+    <marker id="singClosingGold" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--gold, #b07d22)"/>
+    </marker>
+    <marker id="singClosingGreen" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--green, #15614e)"/>
+    </marker>
+  </defs>
+</svg>

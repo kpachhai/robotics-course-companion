@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 640" role="img" aria-label="The SO-101 body hierarchy as a vertical chain: world, then base welded to it, then shoulder, upper arm, lower arm, wrist and gripper each attached by one named hinge joint, and finally two children of the gripper, a camera mount welded on with no joint and the moving jaw driven by the gripper joint">
+
+  <rect x="190" y="12" width="220" height="36" rx="8"
+        fill="none" stroke="var(--line-2, #c8bca3)" stroke-width="1.6" stroke-dasharray="4 4"/>
+  <text x="300" y="35" text-anchor="middle" class="svg-disp" font-size="14" font-weight="600"
+        fill="var(--muted, #6b6053)">world</text>
+
+  <line x1="300" y1="48" x2="300" y2="72" stroke="var(--muted, #6b6053)" stroke-width="1.3"
+        stroke-dasharray="4 4" marker-end="url(#chainArrowSo101)"/>
+  <text x="424" y="60" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">no joint: the base is bolted down</text>
+
+  <rect x="190" y="78" width="220" height="44" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="300" y="99" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--blue, #2d5d7c)">base</text>
+  <text x="300" y="114" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">147 g</text>
+
+  <line x1="300" y1="122" x2="300" y2="146" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#chainArrowSo101)"/>
+  <text x="424" y="131" class="svg-disp" font-size="13" font-weight="600" fill="var(--blue, #2d5d7c)">shoulder_pan</text>
+  <text x="424" y="144" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">hinge, -110° to 110°</text>
+
+  <rect x="190" y="152" width="220" height="44" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="300" y="173" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--blue, #2d5d7c)">shoulder</text>
+  <text x="300" y="188" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">100 g</text>
+
+  <line x1="300" y1="196" x2="300" y2="220" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#chainArrowSo101)"/>
+  <text x="424" y="205" class="svg-disp" font-size="13" font-weight="600" fill="var(--blue, #2d5d7c)">shoulder_lift</text>
+  <text x="424" y="218" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">hinge, -100° to 100°</text>
+
+  <rect x="190" y="226" width="220" height="44" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="300" y="247" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--blue, #2d5d7c)">upper_arm</text>
+  <text x="300" y="262" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">103 g</text>
+
+  <line x1="300" y1="270" x2="300" y2="294" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#chainArrowSo101)"/>
+  <text x="424" y="279" class="svg-disp" font-size="13" font-weight="600" fill="var(--blue, #2d5d7c)">elbow_flex</text>
+  <text x="424" y="292" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">hinge, -96.8° to 96.8°</text>
+
+  <rect x="190" y="300" width="220" height="44" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="300" y="321" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--blue, #2d5d7c)">lower_arm</text>
+  <text x="300" y="336" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">104 g</text>
+
+  <line x1="300" y1="344" x2="300" y2="368" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#chainArrowSo101)"/>
+  <text x="424" y="353" class="svg-disp" font-size="13" font-weight="600" fill="var(--blue, #2d5d7c)">wrist_flex</text>
+  <text x="424" y="366" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">hinge, -95° to 95°</text>
+
+  <rect x="190" y="374" width="220" height="44" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="300" y="395" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--blue, #2d5d7c)">wrist</text>
+  <text x="300" y="410" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">79 g</text>
+
+  <line x1="300" y1="418" x2="300" y2="442" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#chainArrowSo101)"/>
+  <text x="424" y="427" class="svg-disp" font-size="13" font-weight="600" fill="var(--blue, #2d5d7c)">wrist_roll</text>
+  <text x="424" y="440" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">hinge, -157.2° to 157.2°</text>
+
+  <rect x="190" y="448" width="220" height="44" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="300" y="469" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--blue, #2d5d7c)">gripper</text>
+  <text x="300" y="484" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">87 g, carries the fingertip frame</text>
+
+  <path d="M300,492 L300,516 L150,516 L150,552" fill="none"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" stroke-dasharray="4 4" marker-end="url(#chainArrowSo101)"/>
+  <path d="M300,516 L470,516 L470,552" fill="none"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#chainArrowSo101)"/>
+  <text x="150" y="540" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">no joint</text>
+  <text x="470" y="540" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600" fill="var(--blue, #2d5d7c)">gripper</text>
+
+  <rect x="40" y="558" width="220" height="44" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="150" y="579" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--gold, #b07d22)">camera_mount</text>
+  <text x="150" y="594" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">12 g, welded to the gripper</text>
+
+  <rect x="330" y="558" width="290" height="44" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="475" y="579" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--blue, #2d5d7c)">moving_jaw_so101_v1</text>
+  <text x="475" y="594" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">12 g, hinge -10° to 100°</text>
+
+  <text x="60" y="99" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">indentation</text>
+  <text x="60" y="112" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">in the XML</text>
+  <line x1="128" y1="96" x2="182" y2="96" stroke="var(--line-2, #c8bca3)" stroke-width="1.1"/>
+  <line x1="128" y1="96" x2="128" y2="470" stroke="var(--line-2, #c8bca3)" stroke-width="1.1"/>
+  <line x1="128" y1="470" x2="182" y2="470" stroke="var(--line-2, #c8bca3)" stroke-width="1.1"/>
+  <text x="60" y="290" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">is the chain</text>
+
+  <defs>
+    <marker id="chainArrowSo101" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

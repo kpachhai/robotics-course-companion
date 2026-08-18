@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 276" role="img" aria-label="Three buckets for robot-model evidence: downloadable weights you can run yourself, published papers with the authors' own numbers, and demonstrated video with no protocol. Each bucket licenses a different conclusion">
+  <rect x="24" y="30" width="228" height="44" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="138" y="58" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--green, #15614e)">Downloadable</text>
+
+  <text x="24" y="98" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">you get: weights, code, a licence</text>
+  <text x="24" y="114" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">you can run it on your own robot</text>
+  <line x1="24" y1="130" x2="252" y2="130" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <text x="24" y="150" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">you may conclude: whether it works</text>
+  <text x="24" y="166" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">for you. this is the only bucket</text>
+  <text x="24" y="182" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">where you get to check.</text>
+
+  <rect x="266" y="30" width="228" height="44" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="380" y="58" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Published</text>
+
+  <text x="266" y="98" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">you get: a method section, an</text>
+  <text x="266" y="114" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">evaluation protocol, numbers</text>
+  <line x1="266" y1="130" x2="494" y2="130" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <text x="266" y="150" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">you may conclude: the idea is</text>
+  <text x="266" y="166" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">real and someone will replicate</text>
+  <text x="266" y="182" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">it. the numbers are theirs.</text>
+
+  <rect x="508" y="30" width="228" height="44" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="622" y="58" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--gold, #b07d22)">Demonstrated</text>
+
+  <text x="508" y="98" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">you get: a blog post and an</text>
+  <text x="508" y="114" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">edited video. no trial count.</text>
+  <line x1="508" y1="130" x2="736" y2="130" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <text x="508" y="150" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">you may conclude: it happened</text>
+  <text x="508" y="166" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">at least once, under conditions</text>
+  <text x="508" y="182" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">you were not told.</text>
+
+  <line x1="24" y1="206" x2="736" y2="206" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <text x="24" y="228" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">SmolVLA, π0.5, GR00T N1.7</text>
+  <text x="266" y="228" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">π0.7, Gemini Robotics 2</text>
+  <text x="508" y="228" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">Figure Helix 02</text>
+  <text x="380" y="254" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">where each one sat in August 2026</text>
+</svg>

@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 268" role="img" aria-label="Behaviour cloning turns ordered demonstration episodes into an unordered bag of state-action rows, fits a network to them with mean squared error, and never sees the time ordering again">
+
+  <rect x="16" y="44" width="196" height="126" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="114" y="70" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Demonstrations</text>
+
+  <line x1="42" y1="96" x2="176" y2="96" stroke="var(--blue, #2d5d7c)" stroke-width="1.3"
+        marker-end="url(#bcPipeTime)"/>
+  <line x1="42" y1="120" x2="176" y2="120" stroke="var(--blue, #2d5d7c)" stroke-width="1.3"
+        marker-end="url(#bcPipeTime)"/>
+  <line x1="42" y1="144" x2="176" y2="144" stroke="var(--blue, #2d5d7c)" stroke-width="1.3"
+        marker-end="url(#bcPipeTime)"/>
+  <circle cx="52" cy="96" r="3" fill="var(--blue, #2d5d7c)"/>
+  <circle cx="86" cy="96" r="3" fill="var(--blue, #2d5d7c)"/>
+  <circle cx="120" cy="96" r="3" fill="var(--blue, #2d5d7c)"/>
+  <circle cx="154" cy="96" r="3" fill="var(--blue, #2d5d7c)"/>
+  <circle cx="52" cy="120" r="3" fill="var(--blue, #2d5d7c)"/>
+  <circle cx="86" cy="120" r="3" fill="var(--blue, #2d5d7c)"/>
+  <circle cx="120" cy="120" r="3" fill="var(--blue, #2d5d7c)"/>
+  <circle cx="154" cy="120" r="3" fill="var(--blue, #2d5d7c)"/>
+  <circle cx="52" cy="144" r="3" fill="var(--blue, #2d5d7c)"/>
+  <circle cx="86" cy="144" r="3" fill="var(--blue, #2d5d7c)"/>
+  <circle cx="120" cy="144" r="3" fill="var(--blue, #2d5d7c)"/>
+  <circle cx="154" cy="144" r="3" fill="var(--blue, #2d5d7c)"/>
+  <text x="114" y="164" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">each row is one episode, in time order</text>
+
+  <line x1="212" y1="107" x2="256" y2="107"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#bcPipeArrow)"/>
+  <text x="234" y="99" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">shuffle</text>
+
+  <rect x="260" y="44" width="196" height="126" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"
+        stroke-dasharray="5 4"/>
+  <text x="358" y="70" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--blue, #2d5d7c)">A bag of rows</text>
+  <circle cx="292" cy="97" r="3" fill="var(--blue, #2d5d7c)"/>
+  <circle cx="341" cy="90" r="3" fill="var(--blue, #2d5d7c)"/>
+  <circle cx="389" cy="103" r="3" fill="var(--blue, #2d5d7c)"/>
+  <circle cx="428" cy="93" r="3" fill="var(--blue, #2d5d7c)"/>
+  <circle cx="306" cy="120" r="3" fill="var(--blue, #2d5d7c)"/>
+  <circle cx="356" cy="114" r="3" fill="var(--blue, #2d5d7c)"/>
+  <circle cx="404" cy="126" r="3" fill="var(--blue, #2d5d7c)"/>
+  <circle cx="437" cy="117" r="3" fill="var(--blue, #2d5d7c)"/>
+  <circle cx="285" cy="141" r="3" fill="var(--blue, #2d5d7c)"/>
+  <circle cx="330" cy="147" r="3" fill="var(--blue, #2d5d7c)"/>
+  <circle cx="379" cy="138" r="3" fill="var(--blue, #2d5d7c)"/>
+  <circle cx="424" cy="145" r="3" fill="var(--blue, #2d5d7c)"/>
+  <text x="358" y="164" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">(observation, action) · order discarded</text>
+
+  <line x1="456" y1="107" x2="500" y2="107"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#bcPipeArrow)"/>
+
+  <rect x="504" y="62" width="128" height="90" rx="8"
+        fill="var(--purple-soft, #ede0f5)" stroke="var(--purple, #5e2d8c)" stroke-width="1.6"/>
+  <text x="568" y="94" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--purple, #5e2d8c)">MLP</text>
+  <text x="568" y="114" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">6 → 256 → 256 → 6</text>
+  <text x="568" y="130" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">69,126 weights</text>
+
+  <line x1="632" y1="107" x2="670" y2="107"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#bcPipeArrow)"/>
+
+  <rect x="674" y="62" width="70" height="90" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="709" y="100" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--gold, #b07d22)">MSE</text>
+  <text x="709" y="120" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">loss</text>
+
+  <path d="M709 152 L709 190 L568 190 L568 156"
+        fill="none" stroke="var(--muted, #6b6053)" stroke-width="1.3"
+        stroke-dasharray="4 4" marker-end="url(#bcPipeArrow)"/>
+  <text x="639" y="205" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">gradients</text>
+
+  <text x="380" y="238" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">nothing downstream of the shuffle knows the robot was ever moving</text>
+
+  <defs>
+    <marker id="bcPipeArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+    <marker id="bcPipeTime" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,1 L7,4 L0,7 Z" fill="var(--blue, #2d5d7c)"/>
+    </marker>
+  </defs>
+</svg>

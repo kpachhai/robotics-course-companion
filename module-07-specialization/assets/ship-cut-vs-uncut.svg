@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 262" role="img" aria-label="A single clean take with an unknown number of hidden attempts before it, compared against an uncut run of twelve consecutive trials showing nine successes and three failures in the order they occurred, with the resets left in frame">
+
+  <text x="56" y="76" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--ox, #9c3b2e)">One clean</text>
+  <text x="56" y="92" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--ox, #9c3b2e)">take</text>
+
+  <rect x="110" y="50" width="50" height="54" rx="8"
+        fill="none" stroke="var(--muted, #6b6053)" stroke-width="1.4" stroke-dasharray="4 4"/>
+  <text x="135" y="82" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">?</text>
+  <rect x="172" y="50" width="50" height="54" rx="8"
+        fill="none" stroke="var(--muted, #6b6053)" stroke-width="1.4" stroke-dasharray="4 4"/>
+  <text x="197" y="82" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">?</text>
+  <rect x="234" y="50" width="50" height="54" rx="8"
+        fill="none" stroke="var(--muted, #6b6053)" stroke-width="1.4" stroke-dasharray="4 4"/>
+  <text x="259" y="82" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">?</text>
+
+  <rect x="300" y="50" width="200" height="54" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="400" y="82" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">the take you kept</text>
+
+  <text x="305" y="126" text-anchor="start" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">everything to the left of it is invisible to the reader, and they know that</text>
+
+  <text x="56" y="182" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--green, #15614e)">The uncut</text>
+  <text x="56" y="198" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--green, #15614e)">run</text>
+
+  <rect x="110" y="160" width="48" height="40" rx="8" fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.5"/>
+  <text x="134" y="186" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700" fill="var(--green, #15614e)">ok</text>
+  <rect x="163" y="160" width="48" height="40" rx="8" fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.5"/>
+  <text x="187" y="186" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700" fill="var(--green, #15614e)">ok</text>
+  <rect x="216" y="160" width="48" height="40" rx="8" fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.5"/>
+  <text x="240" y="186" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700" fill="var(--ox, #9c3b2e)">no</text>
+  <rect x="269" y="160" width="48" height="40" rx="8" fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.5"/>
+  <text x="293" y="186" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700" fill="var(--green, #15614e)">ok</text>
+  <rect x="322" y="160" width="48" height="40" rx="8" fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.5"/>
+  <text x="346" y="186" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700" fill="var(--green, #15614e)">ok</text>
+  <rect x="375" y="160" width="48" height="40" rx="8" fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.5"/>
+  <text x="399" y="186" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700" fill="var(--green, #15614e)">ok</text>
+  <rect x="428" y="160" width="48" height="40" rx="8" fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.5"/>
+  <text x="452" y="186" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700" fill="var(--ox, #9c3b2e)">no</text>
+  <rect x="481" y="160" width="48" height="40" rx="8" fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.5"/>
+  <text x="505" y="186" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700" fill="var(--green, #15614e)">ok</text>
+  <rect x="534" y="160" width="48" height="40" rx="8" fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.5"/>
+  <text x="558" y="186" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700" fill="var(--green, #15614e)">ok</text>
+  <rect x="587" y="160" width="48" height="40" rx="8" fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.5"/>
+  <text x="611" y="186" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700" fill="var(--green, #15614e)">ok</text>
+  <rect x="640" y="160" width="48" height="40" rx="8" fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.5"/>
+  <text x="664" y="186" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700" fill="var(--green, #15614e)">ok</text>
+  <rect x="693" y="160" width="48" height="40" rx="8" fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.5"/>
+  <text x="717" y="186" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700" fill="var(--ox, #9c3b2e)">no</text>
+
+  <line x1="266" y1="200" x2="266" y2="222" stroke="var(--muted, #6b6053)" stroke-width="1.1"/>
+  <text x="266" y="238" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the reset stays in frame</text>
+
+  <text x="600" y="238" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">twelve consecutive trials, real order, 9 of 12</text>
+
+  <text x="134" y="146" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">trial 1</text>
+  <text x="717" y="146" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">trial 12</text>
+</svg>

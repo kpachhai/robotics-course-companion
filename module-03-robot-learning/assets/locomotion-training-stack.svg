@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 286" role="img" aria-label="The locomotion training stack: thousands of simulated robots on one GPU feed a PPO update, and the whole loop lives on the accelerator with nothing crossing to the CPU">
+  <defs>
+    <marker id="locoStackArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+
+  <rect x="24" y="48" width="712" height="140" rx="8"
+        fill="none" stroke="var(--gold, #b07d22)" stroke-width="1.6" stroke-dasharray="6 5"/>
+  <text x="40" y="40" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--gold, #b07d22)">all of this on one accelerator</text>
+  <text x="278" y="40" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">states never leave GPU memory; there is no simulator process to talk to</text>
+
+  <rect x="44" y="72" width="184" height="92" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="136" y="102" text-anchor="middle" class="svg-disp" font-size="15"
+        font-weight="700" fill="var(--blue, #2d5d7c)">4096 robots</text>
+  <text x="136" y="124" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the same physics, batched</text>
+  <text x="136" y="138" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">different terrain, mass, friction,</text>
+  <text x="136" y="152" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">and velocity command each</text>
+
+  <line x1="228" y1="118" x2="284" y2="118" stroke="var(--muted, #6b6053)"
+        stroke-width="1.3" marker-end="url(#locoStackArrow)"/>
+  <text x="256" y="110" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">states</text>
+
+  <rect x="290" y="72" width="176" height="92" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="378" y="102" text-anchor="middle" class="svg-disp" font-size="15"
+        font-weight="700" fill="var(--green, #15614e)">one small MLP</text>
+  <text x="378" y="124" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">512-256-128, about 48 inputs</text>
+  <text x="378" y="138" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">and 12 joint targets out</text>
+  <text x="378" y="152" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">no images, no transformer</text>
+
+  <line x1="466" y1="118" x2="522" y2="118" stroke="var(--muted, #6b6053)"
+        stroke-width="1.3" marker-end="url(#locoStackArrow)"/>
+  <text x="494" y="110" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">actions</text>
+
+  <rect x="528" y="72" width="188" height="92" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="622" y="102" text-anchor="middle" class="svg-disp" font-size="15"
+        font-weight="700" fill="var(--gold, #b07d22)">PPO update</text>
+  <text x="622" y="124" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">collect a few dozen steps</text>
+  <text x="622" y="138" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">from every robot, reuse them</text>
+  <text x="622" y="152" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">a few epochs, discard</text>
+
+  <path d="M622 164 L622 178 L136 178 L136 168" fill="none"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#locoStackArrow)"/>
+
+  <rect x="44" y="212" width="672" height="52" rx="8"
+        fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.6"/>
+  <text x="380" y="234" text-anchor="middle" class="svg-disp" font-size="14"
+        font-weight="700" fill="var(--ox, #9c3b2e)">repeat 100 million times</text>
+  <text x="380" y="253" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">this number is why the loop is on the accelerator; a single-environment CPU loop is a hundred times slower</text>
+</svg>

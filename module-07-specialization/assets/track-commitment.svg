@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 302" role="img" aria-label="A shared spine of systems literacy, logging and writing that feeds a fork into three track-specific capstones, which converge again on a single position">
+
+  <rect x="20" y="90" width="200" height="120" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="120" y="122" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Shared spine</text>
+  <text x="120" y="148" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the honest ROS 2 minimum</text>
+  <text x="120" y="166" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">logging and visualisation</text>
+  <text x="120" y="184" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">writing that travels</text>
+
+  <line x1="222" y1="146" x2="270" y2="66" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m7commitFan)"/>
+  <line x1="222" y1="150" x2="270" y2="150" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m7commitFan)"/>
+  <line x1="222" y1="154" x2="270" y2="234" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m7commitFan)"/>
+
+  <rect x="276" y="30" width="224" height="68" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="388" y="58" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Agentic robotics</text>
+  <text x="388" y="78" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">a planner over learned skills, hardened</text>
+
+  <rect x="276" y="116" width="224" height="68" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="388" y="144" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Locomotion</text>
+  <text x="388" y="164" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">learning in simulation, onto legged hardware</text>
+
+  <rect x="276" y="202" width="224" height="68" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="388" y="230" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Data and fleet</text>
+  <text x="388" y="250" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">pipelines, eval farms, observability</text>
+
+  <line x1="502" y1="64" x2="554" y2="132" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m7commitFan)"/>
+  <line x1="502" y1="150" x2="554" y2="150" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m7commitFan)"/>
+  <line x1="502" y1="236" x2="554" y2="168" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m7commitFan)"/>
+
+  <rect x="560" y="112" width="180" height="76" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="650" y="142" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--green, #15614e)">One position</text>
+  <text x="650" y="164" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">one system, one story,</text>
+  <text x="650" y="178" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">one depth probe you survive</text>
+
+  <text x="388" y="290" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">pick exactly one, six to eight weeks</text>
+
+  <defs>
+    <marker id="m7commitFan" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

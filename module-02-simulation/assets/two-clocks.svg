@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 268"
+     role="img" aria-label="The same thirty-two seconds of wall clock on two rows. On hardware it buys one attempt plus a human putting the cube back. In the simulated world of this lesson's exercise it buys more than a million attempts">
+
+  <text x="20" y="72" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--ox, #9c3b2e)">on hardware</text>
+  <text x="20" y="90" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">one trial</text>
+
+  <rect x="170" y="46" width="199" height="46" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="269" y="68" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">the attempt</text>
+  <text x="269" y="84" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">12 s</text>
+
+  <rect x="369" y="46" width="331" height="46" rx="8"
+        fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.6"/>
+  <text x="534" y="68" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--ox, #9c3b2e)">a person puts the cube back</text>
+  <text x="534" y="84" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">20 s, and it is not optional</text>
+
+  <text x="20" y="162" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--green, #15614e)">in the sim</text>
+  <text x="20" y="180" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">same clock</text>
+
+  <rect x="170" y="136" width="530" height="46" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <g stroke="var(--green, #15614e)" stroke-width="0.6" opacity="0.55">
+    <line x1="182" y1="140" x2="182" y2="178"/><line x1="196" y1="140" x2="196" y2="178"/>
+    <line x1="210" y1="140" x2="210" y2="178"/><line x1="224" y1="140" x2="224" y2="178"/>
+    <line x1="238" y1="140" x2="238" y2="178"/><line x1="252" y1="140" x2="252" y2="178"/>
+    <line x1="266" y1="140" x2="266" y2="178"/><line x1="280" y1="140" x2="280" y2="178"/>
+    <line x1="294" y1="140" x2="294" y2="178"/><line x1="308" y1="140" x2="308" y2="178"/>
+    <line x1="322" y1="140" x2="322" y2="178"/><line x1="336" y1="140" x2="336" y2="178"/>
+    <line x1="350" y1="140" x2="350" y2="178"/><line x1="364" y1="140" x2="364" y2="178"/>
+    <line x1="378" y1="140" x2="378" y2="178"/><line x1="392" y1="140" x2="392" y2="178"/>
+    <line x1="406" y1="140" x2="406" y2="178"/><line x1="420" y1="140" x2="420" y2="178"/>
+    <line x1="434" y1="140" x2="434" y2="178"/><line x1="448" y1="140" x2="448" y2="178"/>
+    <line x1="462" y1="140" x2="462" y2="178"/><line x1="476" y1="140" x2="476" y2="178"/>
+    <line x1="490" y1="140" x2="490" y2="178"/><line x1="504" y1="140" x2="504" y2="178"/>
+    <line x1="518" y1="140" x2="518" y2="178"/><line x1="532" y1="140" x2="532" y2="178"/>
+    <line x1="546" y1="140" x2="546" y2="178"/><line x1="560" y1="140" x2="560" y2="178"/>
+    <line x1="574" y1="140" x2="574" y2="178"/><line x1="588" y1="140" x2="588" y2="178"/>
+    <line x1="602" y1="140" x2="602" y2="178"/><line x1="616" y1="140" x2="616" y2="178"/>
+    <line x1="630" y1="140" x2="630" y2="178"/><line x1="644" y1="140" x2="644" y2="178"/>
+    <line x1="658" y1="140" x2="658" y2="178"/><line x1="672" y1="140" x2="672" y2="178"/>
+    <line x1="686" y1="140" x2="686" y2="178"/>
+  </g>
+  <text x="435" y="164" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--green, #15614e)">more than a million attempts</text>
+
+  <line x1="170" y1="206" x2="700" y2="206"
+        stroke="var(--line-2, #c8bca3)" stroke-width="1"/>
+  <line x1="170" y1="206" x2="170" y2="214" stroke="var(--line-2, #c8bca3)" stroke-width="1"/>
+  <line x1="369" y1="206" x2="369" y2="214" stroke="var(--line-2, #c8bca3)" stroke-width="1"/>
+  <line x1="700" y1="206" x2="700" y2="214" stroke="var(--line-2, #c8bca3)" stroke-width="1"/>
+  <text x="170" y="228" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">0 s</text>
+  <text x="369" y="228" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">12 s</text>
+  <text x="700" y="228" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">32 s</text>
+
+  <text x="435" y="252" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">each hairline is tens of thousands of trials; the reset is the expensive half of a real one</text>
+</svg>

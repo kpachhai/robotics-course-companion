@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" role="img" aria-label="Success rates on familiar objects compared with unfamiliar ones on the same rig: ACT falls from 0.18 to 0.08, SmolVLA holds roughly flat from 0.26 to 0.30, and pi0.5 falls from 0.54 to 0.35 while staying highest. The slope matters more than the height">
+
+  <text x="200" y="34" text-anchor="middle" class="svg-disp" font-size="14" font-weight="600"
+        fill="var(--muted, #6b6053)">The objects it trained on</text>
+  <text x="200" y="50" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">in distribution</text>
+
+  <text x="560" y="34" text-anchor="middle" class="svg-disp" font-size="14" font-weight="600"
+        fill="var(--muted, #6b6053)">Objects it never saw</text>
+  <text x="560" y="50" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">new colours, new shapes, new counts</text>
+
+  <line x1="200" y1="62" x2="200" y2="264" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <line x1="560" y1="62" x2="560" y2="264" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+
+  <line x1="200" y1="79" x2="560" y2="139" stroke="var(--green, #15614e)" stroke-width="2"/>
+  <circle cx="200" cy="79" r="5" fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <circle cx="560" cy="139" r="5" fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="188" y="83" text-anchor="end" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--green, #15614e)">pi0.5  0.54</text>
+  <text x="572" y="130" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--green, #15614e)">0.35</text>
+
+  <line x1="200" y1="168" x2="560" y2="155" stroke="var(--blue, #2d5d7c)" stroke-width="2"/>
+  <circle cx="200" cy="168" r="5" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <circle cx="560" cy="155" r="5" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="188" y="172" text-anchor="end" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">SmolVLA  0.26</text>
+  <text x="572" y="174" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">0.30</text>
+
+  <line x1="200" y1="193" x2="560" y2="226" stroke="var(--gold, #b07d22)" stroke-width="2"/>
+  <circle cx="200" cy="193" r="5" fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <circle cx="560" cy="226" r="5" fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="188" y="197" text-anchor="end" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--gold, #b07d22)">ACT  0.18</text>
+  <text x="572" y="230" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--gold, #b07d22)">0.08</text>
+
+  <text x="380" y="286" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">one SO-101 rig &#183; 10 tasks &#183; 50 demos each &#183; the slope is the story, not the height</text>
+</svg>

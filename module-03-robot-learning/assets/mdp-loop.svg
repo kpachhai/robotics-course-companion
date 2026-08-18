@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 296" role="img" aria-label="The reinforcement learning loop: a policy sends an action into the environment, which returns the next state and a scalar reward that the engineer wrote">
+  <defs>
+    <marker id="mdpLoopArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+
+  <rect x="44" y="96" width="196" height="80" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="142" y="128" text-anchor="middle" class="svg-disp" font-size="16"
+        font-weight="700" fill="var(--blue, #2d5d7c)">Policy</text>
+  <text x="142" y="150" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">a distribution over actions,</text>
+  <text x="142" y="164" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">given the state</text>
+
+  <rect x="452" y="96" width="196" height="80" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="550" y="128" text-anchor="middle" class="svg-disp" font-size="16"
+        font-weight="700" fill="var(--gold, #b07d22)">Environment</text>
+  <text x="550" y="150" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the simulator, almost always,</text>
+  <text x="550" y="164" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">because failure has to be cheap</text>
+
+  <path d="M240 118 L448 118" fill="none" stroke="var(--muted, #6b6053)"
+        stroke-width="1.3" marker-end="url(#mdpLoopArrow)"/>
+  <text x="344" y="110" text-anchor="middle" class="svg-disp" font-size="13"
+        font-weight="600" fill="var(--muted, #6b6053)">action</text>
+
+  <path d="M448 156 L240 156" fill="none" stroke="var(--muted, #6b6053)"
+        stroke-width="1.3" marker-end="url(#mdpLoopArrow)"/>
+  <text x="344" y="174" text-anchor="middle" class="svg-disp" font-size="13"
+        font-weight="600" fill="var(--muted, #6b6053)">next state</text>
+
+  <path d="M550 96 L550 58 L142 58 L142 92" fill="none"
+        stroke="var(--ox, #9c3b2e)" stroke-width="1.6" marker-end="url(#mdpLoopArrow)"/>
+  <rect x="264" y="26" width="164" height="30" rx="8"
+        fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.6"/>
+  <text x="346" y="46" text-anchor="middle" class="svg-disp" font-size="14"
+        font-weight="700" fill="var(--ox, #9c3b2e)">reward, one number</text>
+
+  <rect x="264" y="222" width="336" height="52" rx="8"
+        fill="none" stroke="var(--ox, #9c3b2e)" stroke-width="1.6" stroke-dasharray="5 4"/>
+  <text x="432" y="242" text-anchor="middle" class="svg-disp" font-size="13"
+        font-weight="600" fill="var(--ox, #9c3b2e)">you write this function</text>
+  <text x="432" y="261" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">it is the specification, and the optimiser reads it adversarially</text>
+  <line x1="346" y1="222" x2="346" y2="60" stroke="var(--ox, #9c3b2e)"
+        stroke-width="1.1" stroke-dasharray="4 4"/>
+
+  <text x="142" y="212" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">nothing here was ever demonstrated:</text>
+  <text x="142" y="226" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the policy generates its own data</text>
+  <line x1="142" y1="180" x2="142" y2="200" stroke="var(--muted, #6b6053)"
+        stroke-width="1.1" stroke-dasharray="4 4"/>
+</svg>

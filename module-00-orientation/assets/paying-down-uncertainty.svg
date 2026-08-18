@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 344" role="img" aria-label="Five ways the world is arranged in advance - fixture, map, cage, prior model and a remote human operator - all feeding into a robot that works, alongside a dashed unbuilt path labelled general competence">
+  <text x="135" y="16" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">ways the world gets arranged first</text>
+
+  <rect x="30" y="28" width="210" height="44" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="44" y="48" class="svg-disp" font-size="13.5" font-weight="600"
+        fill="var(--blue, #2d5d7c)">Fixture</text>
+  <text x="44" y="63" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the press puts it there</text>
+
+  <rect x="30" y="80" width="210" height="44" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="44" y="100" class="svg-disp" font-size="13.5" font-weight="600"
+        fill="var(--blue, #2d5d7c)">Map</text>
+  <text x="44" y="115" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">floor codes, prior maps</text>
+
+  <rect x="30" y="132" width="210" height="44" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="44" y="152" class="svg-disp" font-size="13.5" font-weight="600"
+        fill="var(--blue, #2d5d7c)">Cage</text>
+  <text x="44" y="167" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">humans excluded</text>
+
+  <rect x="30" y="184" width="210" height="44" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="44" y="204" class="svg-disp" font-size="13.5" font-weight="600"
+        fill="var(--blue, #2d5d7c)">Prior model</text>
+  <text x="44" y="219" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">objects known ahead</text>
+
+  <rect x="30" y="236" width="210" height="44" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="44" y="256" class="svg-disp" font-size="13.5" font-weight="600"
+        fill="var(--blue, #2d5d7c)">A person watching</text>
+  <text x="44" y="271" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">teleoperation</text>
+
+  <line x1="240" y1="50" x2="432" y2="140" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#payDebtArrow)"/>
+  <line x1="240" y1="102" x2="432" y2="153" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#payDebtArrow)"/>
+  <line x1="240" y1="154" x2="432" y2="166" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#payDebtArrow)"/>
+  <line x1="240" y1="206" x2="432" y2="179" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#payDebtArrow)"/>
+  <line x1="240" y1="258" x2="432" y2="192" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#payDebtArrow)"/>
+
+  <rect x="440" y="124" width="230" height="84" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="555" y="158" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--green, #15614e)">A robot that works</text>
+  <text x="555" y="178" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">1961 to 2026, without exception</text>
+
+  <rect x="30" y="288" width="210" height="44" rx="8"
+        fill="none" stroke="var(--ox, #9c3b2e)" stroke-width="1.6" stroke-dasharray="5 4"/>
+  <text x="44" y="308" class="svg-disp" font-size="13.5" font-weight="600"
+        fill="var(--ox, #9c3b2e)">General competence</text>
+  <text x="44" y="323" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">needs no arrangement</text>
+
+  <path d="M240 310 L520 310 L520 216"
+        fill="none" stroke="var(--ox, #9c3b2e)" stroke-width="1.3" stroke-dasharray="5 4"
+        marker-end="url(#payDebtDashArrow)"/>
+  <text x="312" y="302" class="svg-mono" font-size="9.5"
+        fill="var(--ox, #9c3b2e)">no era has produced this</text>
+
+  <defs>
+    <marker id="payDebtArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+    <marker id="payDebtDashArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--ox, #9c3b2e)"/>
+    </marker>
+  </defs>
+</svg>

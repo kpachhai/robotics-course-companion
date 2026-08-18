@@ -1,0 +1,54 @@
+<mujoco model="two-link">
+  <!-- Global physics settings. Everything here applies to the whole scene. -->
+  <option gravity="0 0 -9.81" timestep="0.002"/>
+
+  <!-- Defaults are the stylesheet: attributes every element inherits unless it says otherwise. -->
+  <default>
+    <joint type="hinge" axis="0 1 0" damping="0.4"/>
+    <geom type="capsule" size="0.02" rgba="0.18 0.36 0.49 1"/>
+    <position kp="12" kv="1.2"/>
+    <default class="cube">
+      <geom type="box" size="0.03 0.03 0.03" rgba="0.61 0.23 0.18 1"/>
+    </default>
+  </default>
+
+  <!-- The tree. Nesting is parenthood; pos/quat are relative to the parent body. -->
+  <worldbody>
+    <light pos="0 0 2" dir="0 0 -1"/>
+    <geom name="floor" type="plane" size="2 2 0.05" rgba="0.92 0.90 0.85 1"/>
+
+    <body name="upper_arm" pos="0 0 0.6">
+      <joint name="shoulder"/>
+      <geom name="upper_arm" fromto="0 0 0  0.30 0 0"/>
+
+      <body name="forearm" pos="0.30 0 0">
+        <joint name="elbow"/>
+        <geom name="forearm" fromto="0 0 0  0.22 0 0"/>
+        <!-- A site is a labelled point: no mass, no collision, just somewhere to measure. -->
+        <site name="tip" pos="0.22 0 0" size="0.012" rgba="0.08 0.38 0.31 1"/>
+      </body>
+    </body>
+
+    <body name="cube" pos="0.42 0 0.03">
+      <freejoint name="cube_free"/>
+      <geom name="cube" class="cube"/>
+    </body>
+  </worldbody>
+
+  <!-- Actuators are a flat list, not part of the tree. They name the joint they drive. -->
+  <actuator>
+    <position name="shoulder" joint="shoulder" ctrlrange="-3.14 3.14"/>
+    <position name="elbow" joint="elbow" ctrlrange="-2.60 2.60"/>
+  </actuator>
+
+  <!-- Sensors are also a flat list. This one reports the tip's world position every step. -->
+  <sensor>
+    <framepos name="tip_pos" objtype="site" objname="tip"/>
+    <jointpos name="shoulder_q" joint="shoulder"/>
+  </sensor>
+
+  <!-- qpos order follows the tree: shoulder, elbow, then the cube's 7-number free joint. -->
+  <keyframe>
+    <key name="home" qpos="-0.9 1.6  0.42 0 0.03  1 0 0 0"/>
+  </keyframe>
+</mujoco>

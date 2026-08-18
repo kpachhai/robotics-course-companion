@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 378" role="img" aria-label="A chain of frames from world to base to shoulder to elbow to hand, with one transform per link, multiplying out left to right into T_WH, and the reversed product shown as the classic error">
+  <text x="380" y="30" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">read T_AB as 'the pose of frame B, expressed in frame A'</text>
+
+  <rect x="14" y="68" width="108" height="66" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="68" y="100" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--blue, #2d5d7c)">{W}</text>
+  <text x="68" y="120" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the room</text>
+
+  <rect x="170" y="68" width="108" height="66" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="224" y="100" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--blue, #2d5d7c)">{B}</text>
+  <text x="224" y="120" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">robot base</text>
+
+  <rect x="326" y="68" width="108" height="66" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="380" y="100" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--blue, #2d5d7c)">{S}</text>
+  <text x="380" y="120" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">shoulder joint</text>
+
+  <rect x="482" y="68" width="108" height="66" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="536" y="100" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--blue, #2d5d7c)">{E}</text>
+  <text x="536" y="120" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">elbow joint</text>
+
+  <rect x="638" y="68" width="108" height="66" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="692" y="100" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--blue, #2d5d7c)">{H}</text>
+  <text x="692" y="120" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">hand / gripper</text>
+
+  <line x1="126" y1="101" x2="164" y2="101"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#transformChainArrow)"/>
+  <line x1="282" y1="101" x2="320" y2="101"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#transformChainArrow)"/>
+  <line x1="438" y1="101" x2="476" y2="101"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#transformChainArrow)"/>
+  <line x1="594" y1="101" x2="632" y2="101"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#transformChainArrow)"/>
+
+  <text x="146" y="88" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--gold, #b07d22)">T_WB</text>
+  <text x="302" y="88" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--gold, #b07d22)">T_BS</text>
+  <text x="458" y="88" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--gold, #b07d22)">T_SE</text>
+  <text x="614" y="88" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--gold, #b07d22)">T_EH</text>
+
+  <line x1="146" y1="110" x2="146" y2="180"
+        stroke="var(--line-2, #c8bca3)" stroke-width="1.1" stroke-dasharray="3 4"/>
+  <line x1="302" y1="110" x2="302" y2="180"
+        stroke="var(--line-2, #c8bca3)" stroke-width="1.1" stroke-dasharray="3 4"/>
+  <line x1="458" y1="110" x2="458" y2="180"
+        stroke="var(--line-2, #c8bca3)" stroke-width="1.1" stroke-dasharray="3 4"/>
+  <line x1="614" y1="110" x2="614" y2="180"
+        stroke="var(--line-2, #c8bca3)" stroke-width="1.1" stroke-dasharray="3 4"/>
+
+  <rect x="24" y="184" width="722" height="96" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="110" y="214" text-anchor="end" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--gold, #b07d22)">T_WH  =</text>
+  <text x="146" y="214" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--gold, #b07d22)">T_WB</text>
+  <text x="224" y="214" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--gold, #b07d22)">·</text>
+  <text x="302" y="214" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--gold, #b07d22)">T_BS</text>
+  <text x="380" y="214" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--gold, #b07d22)">·</text>
+  <text x="458" y="214" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--gold, #b07d22)">T_SE</text>
+  <text x="536" y="214" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--gold, #b07d22)">·</text>
+  <text x="614" y="214" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--gold, #b07d22)">T_EH</text>
+
+  <path d="M160,224 Q226,250 292,224" fill="none"
+        stroke="var(--muted, #6b6053)" stroke-width="1.2"/>
+  <path d="M316,224 Q382,250 448,224" fill="none"
+        stroke="var(--muted, #6b6053)" stroke-width="1.2"/>
+  <path d="M470,224 Q537,250 604,224" fill="none"
+        stroke="var(--muted, #6b6053)" stroke-width="1.2"/>
+  <text x="226" y="250" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">B</text>
+  <text x="382" y="250" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">S</text>
+  <text x="537" y="250" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">E</text>
+
+  <text x="385" y="270" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">touching subscripts must match, then cancel · W←B, B←S, S←E, E←H leaves W←H</text>
+
+  <text x="380" y="304" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--ox, #9c3b2e)">The classic error</text>
+  <rect x="150" y="312" width="460" height="54" rx="8"
+        fill="none" stroke="var(--ox, #9c3b2e)" stroke-width="1.6" stroke-dasharray="5 4"/>
+  <text x="380" y="336" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--ox, #9c3b2e)">T_EH · T_SE · T_BS · T_WB</text>
+  <text x="380" y="354" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the same four factors reversed · H and S never touch, so nothing cancels</text>
+
+  <defs>
+    <marker id="transformChainArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

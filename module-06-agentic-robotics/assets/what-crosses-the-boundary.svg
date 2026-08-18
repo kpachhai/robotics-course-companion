@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 280" role="img" aria-label="Two answers to what crosses the planner-to-policy boundary: on the left words, which are inspectable and correctable, and on the right a single continuous latent vector, which is faster and higher bandwidth but unreadable">
+
+  <text x="360" y="18" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">same boundary, two different things crossing it</text>
+
+  <line x1="360" y1="34" x2="360" y2="256" stroke="var(--line-2, #c8bca3)"
+        stroke-width="1.2" stroke-dasharray="4 4"/>
+
+  <rect x="34" y="34" width="290" height="46" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="179" y="55" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Planner</text>
+  <text x="179" y="71" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">a VLM reasoning about the scene</text>
+
+  <line x1="110" y1="84" x2="110" y2="176"
+        stroke="var(--blue, #2d5d7c)" stroke-width="1.6" marker-end="url(#m6BoundaryArrowBlue)"/>
+  <text x="124" y="106" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">words</text>
+  <text x="124" y="124" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">"pick up the red mug"</text>
+  <text x="124" y="140" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">you can read it, log it, diff it,</text>
+  <text x="124" y="154" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">and speak a correction over it</text>
+
+  <rect x="34" y="180" width="290" height="46" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="179" y="201" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Policy</text>
+  <text x="179" y="217" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">conditioned on the text</text>
+
+  <text x="179" y="250" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">RT-H · Gemini Robotics 2 · Hi-VLA</text>
+
+  <rect x="396" y="34" width="290" height="46" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="541" y="55" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--gold, #b07d22)">Planner</text>
+  <text x="541" y="71" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">a VLM reasoning about the scene</text>
+
+  <line x1="472" y1="84" x2="472" y2="176"
+        stroke="var(--gold, #b07d22)" stroke-width="1.6" marker-end="url(#m6BoundaryArrowGold)"/>
+  <text x="486" y="106" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--gold, #b07d22)">a latent vector</text>
+  <text x="486" y="124" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">one continuous vector, no words</text>
+  <text x="486" y="140" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">higher bandwidth, trained end to end,</text>
+  <text x="486" y="154" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">and there is nothing to read</text>
+
+  <rect x="396" y="180" width="290" height="46" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="541" y="201" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--gold, #b07d22)">Policy</text>
+  <text x="541" y="217" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">vector projected into its tokens</text>
+
+  <text x="541" y="250" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">Figure Helix: 7B at 7-9 Hz into 80M at 200 Hz</text>
+
+  <defs>
+    <marker id="m6BoundaryArrowBlue" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--blue, #2d5d7c)"/>
+    </marker>
+    <marker id="m6BoundaryArrowGold" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--gold, #b07d22)"/>
+    </marker>
+  </defs>
+</svg>

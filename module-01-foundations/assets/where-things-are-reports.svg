@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 296"
+     role="img" aria-label="One cup on a table, reported by three devices. The robot base says 0.39, 0.01, 0.05; the ceiling camera says 0.05, 0.08, 1.05; the wrist camera says minus 0.02, 0.08, 0.26. All three describe the same cup.">
+
+  <!-- the one physical object -->
+  <circle cx="112" cy="150" r="46"
+          fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.6"/>
+  <text x="112" y="146" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--ox, #9c3b2e)">the cup</text>
+  <text x="112" y="165" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">never moves</text>
+  <line x1="112" y1="198" x2="112" y2="209"
+        stroke="var(--muted, #6b6053)" stroke-width="1.1"/>
+  <text x="112" y="222" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">all three are correct</text>
+
+  <!-- fan out to the three reporters -->
+  <line x1="154.6" y1="132.6" x2="322.6" y2="64.0"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#reportsArrow)"/>
+  <line x1="158" y1="150" x2="322" y2="150"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#reportsArrow)"/>
+  <line x1="154.6" y1="167.4" x2="322.6" y2="236.0"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#reportsArrow)"/>
+
+  <rect x="330" y="32" width="350" height="58" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="352" y="57" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the robot&#8217;s own base says</text>
+  <text x="352" y="79" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--blue, #2d5d7c)">(0.39, 0.01, 0.05) m</text>
+
+  <rect x="330" y="121" width="350" height="58" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="352" y="146" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the camera on the ceiling says</text>
+  <text x="352" y="168" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--blue, #2d5d7c)">(0.05, 0.08, 1.05) m</text>
+
+  <rect x="330" y="210" width="350" height="58" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="352" y="235" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the camera on the wrist says</text>
+  <text x="352" y="257" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--blue, #2d5d7c)">(-0.02, 0.08, 0.26) m</text>
+
+  <defs>
+    <marker id="reportsArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

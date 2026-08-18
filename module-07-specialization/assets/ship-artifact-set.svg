@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 220" role="img" aria-label="Five artifacts a reviewer can consume without the author present, each with the question it answers above and the assumption a reviewer makes when it is missing below">
+
+  <text x="380" y="24" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the artifact, and the question it answers</text>
+
+  <rect x="16" y="36" width="132" height="80" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="82" y="64" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--green, #15614e)">README</text>
+  <text x="82" y="86" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">what is claimed,</text>
+  <text x="82" y="100" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">and where to look</text>
+
+  <rect x="165" y="36" width="132" height="80" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="231" y="64" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Uncut video</text>
+  <text x="231" y="86" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">did it really work,</text>
+  <text x="231" y="100" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">at real speed</text>
+
+  <rect x="314" y="36" width="132" height="80" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="380" y="64" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--green, #15614e)">Results table</text>
+  <text x="380" y="86" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">how often, and</text>
+  <text x="380" y="100" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">under what</text>
+
+  <rect x="463" y="36" width="132" height="80" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="529" y="64" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Recording</text>
+  <text x="529" y="86" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">what one episode</text>
+  <text x="529" y="100" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">actually looked like</text>
+
+  <rect x="612" y="36" width="132" height="80" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="678" y="64" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Dataset</text>
+  <text x="678" y="86" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">can anyone else</text>
+  <text x="678" y="100" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">use any of this</text>
+
+  <text x="380" y="140" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">and what a reviewer assumes when it is absent</text>
+
+  <rect x="16" y="152" width="132" height="52" rx="8"
+        fill="none" stroke="var(--ox, #9c3b2e)" stroke-width="1.4" stroke-dasharray="4 4"/>
+  <text x="82" y="176" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">there is no claim,</text>
+  <text x="82" y="190" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">only a repository</text>
+
+  <rect x="165" y="152" width="132" height="52" rx="8"
+        fill="none" stroke="var(--ox, #9c3b2e)" stroke-width="1.4" stroke-dasharray="4 4"/>
+  <text x="231" y="176" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">it worked once,</text>
+  <text x="231" y="190" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">on attempt N</text>
+
+  <rect x="314" y="152" width="132" height="52" rx="8"
+        fill="none" stroke="var(--ox, #9c3b2e)" stroke-width="1.4" stroke-dasharray="4 4"/>
+  <text x="380" y="176" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">it was measured</text>
+  <text x="380" y="190" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">and came out badly</text>
+
+  <rect x="463" y="152" width="132" height="52" rx="8"
+        fill="none" stroke="var(--ox, #9c3b2e)" stroke-width="1.4" stroke-dasharray="4 4"/>
+  <text x="529" y="176" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">no tooling</text>
+  <text x="529" y="190" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">literacy shown</text>
+
+  <rect x="612" y="152" width="132" height="52" rx="8"
+        fill="none" stroke="var(--ox, #9c3b2e)" stroke-width="1.4" stroke-dasharray="4 4"/>
+  <text x="678" y="176" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">nothing here is</text>
+  <text x="678" y="190" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">reusable by others</text>
+</svg>

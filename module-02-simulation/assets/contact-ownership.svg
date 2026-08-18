@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 300"
+     role="img" aria-label="How MuJoCo decides a contact's friction: when the two geoms have equal priority it takes the element-wise maximum of their friction values, so the slipperier one is ignored; when one geom has higher priority its parameters are used outright and the other geom's are ignored entirely">
+
+  <rect x="16" y="26" width="150" height="56" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="91" y="50" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">the cube</text>
+  <text x="91" y="68" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">friction you wrote</text>
+
+  <rect x="16" y="106" width="150" height="56" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="91" y="130" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">the finger</text>
+  <text x="91" y="148" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">friction the model ships</text>
+
+  <line x1="166" y1="54" x2="216" y2="82" stroke="var(--muted, #6b6053)" stroke-width="1.3"
+        marker-end="url(#ownArrow)"/>
+  <line x1="166" y1="134" x2="216" y2="106" stroke="var(--muted, #6b6053)" stroke-width="1.3"
+        marker-end="url(#ownArrow)"/>
+
+  <rect x="222" y="66" width="150" height="56" rx="8"
+        fill="var(--purple-soft, #ede0f5)" stroke="var(--purple, #5e2d8c)" stroke-width="1.6"/>
+  <text x="297" y="90" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--purple, #5e2d8c)">same priority?</text>
+  <text x="297" y="108" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">geom_priority</text>
+
+  <line x1="372" y1="82" x2="424" y2="56" stroke="var(--muted, #6b6053)" stroke-width="1.3"
+        marker-end="url(#ownArrow)"/>
+  <text x="382" y="52" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">yes</text>
+
+  <line x1="372" y1="106" x2="424" y2="168" stroke="var(--muted, #6b6053)" stroke-width="1.3"
+        marker-end="url(#ownArrow)"/>
+  <text x="380" y="142" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">no</text>
+
+  <rect x="430" y="20" width="294" height="66" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="577" y="44" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--gold, #b07d22)">element-wise maximum</text>
+  <text x="577" y="62" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the rougher surface wins every component</text>
+  <text x="577" y="76" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">making one side slippery changes nothing</text>
+
+  <rect x="430" y="140" width="294" height="66" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="577" y="164" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--green, #15614e)">the higher priority wins outright</text>
+  <text x="577" y="182" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">its friction, condim and solref are used</text>
+  <text x="577" y="196" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the other geom's values are ignored</text>
+
+  <text x="430" y="240" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">the SO-101 gripper geoms carry priority 1, so on this arm the second branch is the live one</text>
+  <text x="430" y="256" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">and the only friction that matters at the fingertips is the finger's</text>
+
+  <defs>
+    <marker id="ownArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

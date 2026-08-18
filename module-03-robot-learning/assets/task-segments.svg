@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 264" role="img" aria-label="One pick-and-place task cut into four segments along a timeline. Reaching above the tray and retracting to the bin are scripted geometry. Grasping the part under variation is imitation learned from demonstrations. Seating the part in the fixture, the last three millimetres, is reinforcement fine-tuning against a pass or fail signal. The decision is made per segment, not per project">
+
+  <line x1="24" y1="150" x2="736" y2="150" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+
+  <rect x="24" y="60" width="150" height="76" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="99" y="86" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">reach above tray</text>
+  <text x="99" y="106" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">known pose, free space</text>
+  <text x="99" y="122" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">nothing to perceive</text>
+
+  <rect x="186" y="60" width="176" height="76" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="274" y="86" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--gold, #b07d22)">grasp the part</text>
+  <text x="274" y="106" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">pose varies, shape varies</text>
+  <text x="274" y="122" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">easy to show, hard to write</text>
+
+  <rect x="374" y="60" width="188" height="76" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="468" y="86" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--green, #15614e)">seat it, last 3 mm</text>
+  <text x="468" y="106" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">contact, jamming, feel</text>
+  <text x="468" y="122" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">scores itself: seated or not</text>
+
+  <rect x="574" y="60" width="162" height="76" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="655" y="86" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">retract to bin</text>
+  <text x="655" y="106" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">known pose again</text>
+  <text x="655" y="122" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">nothing to perceive</text>
+
+  <line x1="99" y1="136" x2="99" y2="150" stroke="var(--muted, #6b6053)" stroke-width="1.2"/>
+  <line x1="274" y1="136" x2="274" y2="150" stroke="var(--muted, #6b6053)" stroke-width="1.2"/>
+  <line x1="468" y1="136" x2="468" y2="150" stroke="var(--muted, #6b6053)" stroke-width="1.2"/>
+  <line x1="655" y1="136" x2="655" y2="150" stroke="var(--muted, #6b6053)" stroke-width="1.2"/>
+
+  <text x="99" y="172" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">scripted</text>
+  <text x="274" y="172" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--gold, #b07d22)">imitation</text>
+  <text x="468" y="172" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--green, #15614e)">reinforcement</text>
+  <text x="655" y="172" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">scripted</text>
+
+  <text x="99" y="190" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">a rule</text>
+  <text x="274" y="190" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">demonstrations</text>
+  <text x="468" y="190" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">a pass-or-fail signal</text>
+  <text x="655" y="190" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">a rule</text>
+
+  <text x="380" y="228" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--muted, #6b6053)">The unit of decision is the segment, not the project.</text>
+  <text x="380" y="248" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">Three quarters of a task usually wants the cheapest answer, and one contact-rich sliver wants the expensive one.</text>
+</svg>

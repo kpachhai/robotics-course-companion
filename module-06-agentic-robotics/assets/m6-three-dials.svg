@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 256" role="img" aria-label="Three failure dials in the milestone harness mapped to what each one breaks and what recovers it: unreliable grasping recovered by bounded retry, world change recovered by re-perceiving each cycle, and detection error recovered by nothing inside the loop">
+
+  <text x="105" y="32" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the dial</text>
+  <text x="343" y="32" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">what it breaks</text>
+  <text x="608" y="32" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">what recovers it</text>
+
+  <rect x="20" y="46" width="170" height="54" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="105" y="78" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">--grasp-p</text>
+  <line x1="190" y1="73" x2="214" y2="73" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m6dialsArrow)"/>
+  <rect x="218" y="46" width="250" height="54" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="343" y="70" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the pick fails and the gripper is empty,</text>
+  <text x="343" y="86" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">and the result says so</text>
+  <line x1="468" y1="73" x2="492" y2="73" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m6dialsArrow)"/>
+  <rect x="496" y="46" width="224" height="54" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="608" y="70" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--green, #15614e)">bounded retry</text>
+  <text x="608" y="88" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">50 points in the reference run</text>
+
+  <rect x="20" y="116" width="170" height="54" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="105" y="148" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">--drift-p</text>
+  <line x1="190" y1="143" x2="214" y2="143" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m6dialsArrow)"/>
+  <rect x="218" y="116" width="250" height="54" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="343" y="140" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">another object appears mid-run</text>
+  <text x="343" y="156" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">and nothing reports it</text>
+  <line x1="468" y1="143" x2="492" y2="143" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m6dialsArrow)"/>
+  <rect x="496" y="116" width="224" height="54" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="608" y="140" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--green, #15614e)">re-perceive each cycle</text>
+  <text x="608" y="158" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">81 points in the reference run</text>
+
+  <rect x="20" y="186" width="170" height="54" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="105" y="218" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">--miss-p</text>
+  <line x1="190" y1="213" x2="214" y2="213" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m6dialsArrow)"/>
+  <rect x="218" y="186" width="250" height="54" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="343" y="210" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">look omits or mislabels an object,</text>
+  <text x="343" y="226" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">confidently and without warning</text>
+  <line x1="468" y1="213" x2="492" y2="213" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m6dialsArrow)"/>
+  <rect x="496" y="186" width="224" height="54" rx="8"
+        fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.6"/>
+  <text x="608" y="210" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--ox, #9c3b2e)">nothing in the loop</text>
+  <text x="608" y="228" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the fix lives below the agent</text>
+
+  <defs>
+    <marker id="m6dialsArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

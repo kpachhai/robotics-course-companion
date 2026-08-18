@@ -1,0 +1,367 @@
+<svg id="dr-latency-transfer" xmlns:xlink="http://www.w3.org/1999/xlink" width="437.922pt" height="264.833378pt" viewBox="0 0 437.922 264.833378" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">#dr-latency-transfer, #dr-latency-transfer *{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="dr-latency-transfer-figure_1">
+  <g id="dr-latency-transfer-patch_1">
+   <path d="M 0 264.833378 
+L 437.922 264.833378 
+L 437.922 0 
+L 0 0 
+L 0 264.833378 
+z
+" style="fill: none"/>
+  </g>
+  <g id="dr-latency-transfer-axes_1">
+   <g id="dr-latency-transfer-patch_2">
+    <path d="M 54.192 213.149378 
+L 422.472 213.149378 
+L 422.472 8.021378 
+L 54.192 8.021378 
+L 54.192 213.149378 
+z
+" style="fill: none"/>
+   </g>
+   <g id="dr-latency-transfer-patch_3">
+    <path d="M 54.192 213.149378 
+L 275.16 213.149378 
+L 275.16 8.021378 
+L 54.192 8.021378 
+z
+" clip-path="url(#dr-latency-transfer-p97681dcae2)" style="fill: var(--fig-grid); opacity: 0.6"/>
+   </g>
+   <g id="dr-latency-transfer-matplotlib.axis_1">
+    <g id="dr-latency-transfer-xtick_1">
+     <g id="dr-latency-transfer-line2d_1">
+      <defs>
+       <path id="dr-latency-transfer-mabe65c4262" d="M 0 0 
+L 0 3.5 
+" style="stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#dr-latency-transfer-mabe65c4262" x="54.192" y="213.149378" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="dr-latency-transfer-text_1">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="54.192" y="231.798378" transform="rotate(-0 54.192 231.798378)">0</text>
+     </g>
+    </g>
+    <g id="dr-latency-transfer-xtick_2">
+     <g id="dr-latency-transfer-line2d_2">
+      <g>
+       <use xlink:href="#dr-latency-transfer-mabe65c4262" x="127.848" y="213.149378" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="dr-latency-transfer-text_2">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="127.848" y="231.798378" transform="rotate(-0 127.848 231.798378)">20</text>
+     </g>
+    </g>
+    <g id="dr-latency-transfer-xtick_3">
+     <g id="dr-latency-transfer-line2d_3">
+      <g>
+       <use xlink:href="#dr-latency-transfer-mabe65c4262" x="201.504" y="213.149378" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="dr-latency-transfer-text_3">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="201.504" y="231.798378" transform="rotate(-0 201.504 231.798378)">40</text>
+     </g>
+    </g>
+    <g id="dr-latency-transfer-xtick_4">
+     <g id="dr-latency-transfer-line2d_4">
+      <g>
+       <use xlink:href="#dr-latency-transfer-mabe65c4262" x="275.16" y="213.149378" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="dr-latency-transfer-text_4">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="275.16" y="231.798378" transform="rotate(-0 275.16 231.798378)">60</text>
+     </g>
+    </g>
+    <g id="dr-latency-transfer-xtick_5">
+     <g id="dr-latency-transfer-line2d_5">
+      <g>
+       <use xlink:href="#dr-latency-transfer-mabe65c4262" x="348.816" y="213.149378" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="dr-latency-transfer-text_5">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="348.816" y="231.798378" transform="rotate(-0 348.816 231.798378)">80</text>
+     </g>
+    </g>
+    <g id="dr-latency-transfer-xtick_6">
+     <g id="dr-latency-transfer-line2d_6">
+      <g>
+       <use xlink:href="#dr-latency-transfer-mabe65c4262" x="422.472" y="213.149378" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="dr-latency-transfer-text_6">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="422.472" y="231.798378" transform="rotate(-0 422.472 231.798378)">100</text>
+     </g>
+    </g>
+    <g id="dr-latency-transfer-text_7">
+     <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-ink)" x="238.332" y="252.540378" transform="rotate(-0 238.332 252.540378)">measurement latency on the deployed plant (ms)</text>
+    </g>
+   </g>
+   <g id="dr-latency-transfer-matplotlib.axis_2">
+    <g id="dr-latency-transfer-ytick_1">
+     <g id="dr-latency-transfer-line2d_7">
+      <path d="M 54.192 213.149378 
+L 422.472 213.149378 
+" clip-path="url(#dr-latency-transfer-p97681dcae2)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="dr-latency-transfer-line2d_8">
+      <defs>
+       <path id="dr-latency-transfer-mc16693e09f" d="M 0 0 
+L -3.5 0 
+" style="stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#dr-latency-transfer-mc16693e09f" x="54.192" y="213.149378" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="dr-latency-transfer-text_8">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="47.192" y="218.973878" transform="rotate(-0 47.192 218.973878)">0.00</text>
+     </g>
+    </g>
+    <g id="dr-latency-transfer-ytick_2">
+     <g id="dr-latency-transfer-line2d_9">
+      <path d="M 54.192 188.133768 
+L 422.472 188.133768 
+" clip-path="url(#dr-latency-transfer-p97681dcae2)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="dr-latency-transfer-line2d_10">
+      <g>
+       <use xlink:href="#dr-latency-transfer-mc16693e09f" x="54.192" y="188.133768" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="dr-latency-transfer-text_9">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="47.192" y="193.958268" transform="rotate(-0 47.192 193.958268)">0.25</text>
+     </g>
+    </g>
+    <g id="dr-latency-transfer-ytick_3">
+     <g id="dr-latency-transfer-line2d_11">
+      <path d="M 54.192 163.118159 
+L 422.472 163.118159 
+" clip-path="url(#dr-latency-transfer-p97681dcae2)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="dr-latency-transfer-line2d_12">
+      <g>
+       <use xlink:href="#dr-latency-transfer-mc16693e09f" x="54.192" y="163.118159" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="dr-latency-transfer-text_10">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="47.192" y="168.942659" transform="rotate(-0 47.192 168.942659)">0.50</text>
+     </g>
+    </g>
+    <g id="dr-latency-transfer-ytick_4">
+     <g id="dr-latency-transfer-line2d_13">
+      <path d="M 54.192 138.102549 
+L 422.472 138.102549 
+" clip-path="url(#dr-latency-transfer-p97681dcae2)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="dr-latency-transfer-line2d_14">
+      <g>
+       <use xlink:href="#dr-latency-transfer-mc16693e09f" x="54.192" y="138.102549" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="dr-latency-transfer-text_11">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="47.192" y="143.927049" transform="rotate(-0 47.192 143.927049)">0.75</text>
+     </g>
+    </g>
+    <g id="dr-latency-transfer-ytick_5">
+     <g id="dr-latency-transfer-line2d_15">
+      <path d="M 54.192 113.086939 
+L 422.472 113.086939 
+" clip-path="url(#dr-latency-transfer-p97681dcae2)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="dr-latency-transfer-line2d_16">
+      <g>
+       <use xlink:href="#dr-latency-transfer-mc16693e09f" x="54.192" y="113.086939" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="dr-latency-transfer-text_12">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="47.192" y="118.911439" transform="rotate(-0 47.192 118.911439)">1.00</text>
+     </g>
+    </g>
+    <g id="dr-latency-transfer-ytick_6">
+     <g id="dr-latency-transfer-line2d_17">
+      <path d="M 54.192 88.071329 
+L 422.472 88.071329 
+" clip-path="url(#dr-latency-transfer-p97681dcae2)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="dr-latency-transfer-line2d_18">
+      <g>
+       <use xlink:href="#dr-latency-transfer-mc16693e09f" x="54.192" y="88.071329" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="dr-latency-transfer-text_13">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="47.192" y="93.895829" transform="rotate(-0 47.192 93.895829)">1.25</text>
+     </g>
+    </g>
+    <g id="dr-latency-transfer-ytick_7">
+     <g id="dr-latency-transfer-line2d_19">
+      <path d="M 54.192 63.05572 
+L 422.472 63.05572 
+" clip-path="url(#dr-latency-transfer-p97681dcae2)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="dr-latency-transfer-line2d_20">
+      <g>
+       <use xlink:href="#dr-latency-transfer-mc16693e09f" x="54.192" y="63.05572" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="dr-latency-transfer-text_14">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="47.192" y="68.88022" transform="rotate(-0 47.192 68.88022)">1.50</text>
+     </g>
+    </g>
+    <g id="dr-latency-transfer-ytick_8">
+     <g id="dr-latency-transfer-line2d_21">
+      <path d="M 54.192 38.04011 
+L 422.472 38.04011 
+" clip-path="url(#dr-latency-transfer-p97681dcae2)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="dr-latency-transfer-line2d_22">
+      <g>
+       <use xlink:href="#dr-latency-transfer-mc16693e09f" x="54.192" y="38.04011" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="dr-latency-transfer-text_15">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="47.192" y="43.86461" transform="rotate(-0 47.192 43.86461)">1.75</text>
+     </g>
+    </g>
+    <g id="dr-latency-transfer-ytick_9">
+     <g id="dr-latency-transfer-line2d_23">
+      <path d="M 54.192 13.0245 
+L 422.472 13.0245 
+" clip-path="url(#dr-latency-transfer-p97681dcae2)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="dr-latency-transfer-line2d_24">
+      <g>
+       <use xlink:href="#dr-latency-transfer-mc16693e09f" x="54.192" y="13.0245" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="dr-latency-transfer-text_16">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="47.192" y="18.849" transform="rotate(-0 47.192 18.849)">2.00</text>
+     </g>
+    </g>
+    <g id="dr-latency-transfer-text_17">
+     <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-ink)" x="18.849" y="110.585378" transform="rotate(-90 18.849 110.585378)">settling error (radians, lower is better)</text>
+    </g>
+   </g>
+   <g id="dr-latency-transfer-line2d_25">
+    <path d="M 54.192 210.696888 
+L 91.02 174.866527 
+L 127.848 63.987778 
+L 164.676 31.065695 
+L 201.504 27.639498 
+L 238.332 23.704501 
+L 275.16 20.476445 
+L 311.988 23.736183 
+L 348.816 19.774238 
+L 385.644 19.337883 
+L 422.472 18.971071 
+" clip-path="url(#dr-latency-transfer-p97681dcae2)" style="fill: none; stroke: var(--fig-ox); stroke-width: 2.1; stroke-linecap: square"/>
+    <defs>
+     <path id="dr-latency-transfer-m5b438ec1e3" d="M 0 2 
+C 0.530406 2 1.03916 1.789267 1.414214 1.414214 
+C 1.789267 1.03916 2 0.530406 2 0 
+C 2 -0.530406 1.789267 -1.03916 1.414214 -1.414214 
+C 1.03916 -1.789267 0.530406 -2 0 -2 
+C -0.530406 -2 -1.03916 -1.789267 -1.414214 -1.414214 
+C -1.789267 -1.03916 -2 -0.530406 -2 0 
+C -2 0.530406 -1.789267 1.03916 -1.414214 1.414214 
+C -1.03916 1.789267 -0.530406 2 0 2 
+z
+" style="stroke: var(--fig-ox)"/>
+    </defs>
+    <g clip-path="url(#dr-latency-transfer-p97681dcae2)">
+     <use xlink:href="#dr-latency-transfer-m5b438ec1e3" x="54.192" y="210.696888" style="fill: var(--fig-ox); stroke: var(--fig-ox)"/>
+     <use xlink:href="#dr-latency-transfer-m5b438ec1e3" x="91.02" y="174.866527" style="fill: var(--fig-ox); stroke: var(--fig-ox)"/>
+     <use xlink:href="#dr-latency-transfer-m5b438ec1e3" x="127.848" y="63.987778" style="fill: var(--fig-ox); stroke: var(--fig-ox)"/>
+     <use xlink:href="#dr-latency-transfer-m5b438ec1e3" x="164.676" y="31.065695" style="fill: var(--fig-ox); stroke: var(--fig-ox)"/>
+     <use xlink:href="#dr-latency-transfer-m5b438ec1e3" x="201.504" y="27.639498" style="fill: var(--fig-ox); stroke: var(--fig-ox)"/>
+     <use xlink:href="#dr-latency-transfer-m5b438ec1e3" x="238.332" y="23.704501" style="fill: var(--fig-ox); stroke: var(--fig-ox)"/>
+     <use xlink:href="#dr-latency-transfer-m5b438ec1e3" x="275.16" y="20.476445" style="fill: var(--fig-ox); stroke: var(--fig-ox)"/>
+     <use xlink:href="#dr-latency-transfer-m5b438ec1e3" x="311.988" y="23.736183" style="fill: var(--fig-ox); stroke: var(--fig-ox)"/>
+     <use xlink:href="#dr-latency-transfer-m5b438ec1e3" x="348.816" y="19.774238" style="fill: var(--fig-ox); stroke: var(--fig-ox)"/>
+     <use xlink:href="#dr-latency-transfer-m5b438ec1e3" x="385.644" y="19.337883" style="fill: var(--fig-ox); stroke: var(--fig-ox)"/>
+     <use xlink:href="#dr-latency-transfer-m5b438ec1e3" x="422.472" y="18.971071" style="fill: var(--fig-ox); stroke: var(--fig-ox)"/>
+    </g>
+   </g>
+   <g id="dr-latency-transfer-line2d_26">
+    <path d="M 54.192 204.644431 
+L 91.02 204.644431 
+L 127.848 204.644431 
+L 164.676 204.644432 
+L 201.504 204.180965 
+L 238.332 185.924588 
+L 275.16 159.996284 
+L 311.988 118.968399 
+L 348.816 57.8534 
+L 385.644 34.62342 
+L 422.472 29.002728 
+" clip-path="url(#dr-latency-transfer-p97681dcae2)" style="fill: none; stroke: var(--fig-blue); stroke-width: 2.1; stroke-linecap: square"/>
+    <defs>
+     <path id="dr-latency-transfer-m2034040bb7" d="M 0 2 
+C 0.530406 2 1.03916 1.789267 1.414214 1.414214 
+C 1.789267 1.03916 2 0.530406 2 0 
+C 2 -0.530406 1.789267 -1.03916 1.414214 -1.414214 
+C 1.03916 -1.789267 0.530406 -2 0 -2 
+C -0.530406 -2 -1.03916 -1.789267 -1.414214 -1.414214 
+C -1.789267 -1.03916 -2 -0.530406 -2 0 
+C -2 0.530406 -1.789267 1.03916 -1.414214 1.414214 
+C -1.03916 1.789267 -0.530406 2 0 2 
+z
+" style="stroke: var(--fig-blue)"/>
+    </defs>
+    <g clip-path="url(#dr-latency-transfer-p97681dcae2)">
+     <use xlink:href="#dr-latency-transfer-m2034040bb7" x="54.192" y="204.644431" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+     <use xlink:href="#dr-latency-transfer-m2034040bb7" x="91.02" y="204.644431" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+     <use xlink:href="#dr-latency-transfer-m2034040bb7" x="127.848" y="204.644431" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+     <use xlink:href="#dr-latency-transfer-m2034040bb7" x="164.676" y="204.644432" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+     <use xlink:href="#dr-latency-transfer-m2034040bb7" x="201.504" y="204.180965" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+     <use xlink:href="#dr-latency-transfer-m2034040bb7" x="238.332" y="185.924588" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+     <use xlink:href="#dr-latency-transfer-m2034040bb7" x="275.16" y="159.996284" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+     <use xlink:href="#dr-latency-transfer-m2034040bb7" x="311.988" y="118.968399" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+     <use xlink:href="#dr-latency-transfer-m2034040bb7" x="348.816" y="57.8534" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+     <use xlink:href="#dr-latency-transfer-m2034040bb7" x="385.644" y="34.62342" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+     <use xlink:href="#dr-latency-transfer-m2034040bb7" x="422.472" y="29.002728" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+    </g>
+   </g>
+   <g id="dr-latency-transfer-patch_4">
+    <path d="M 54.192 213.149378 
+L 54.192 8.021378 
+" style="fill: none; stroke: var(--fig-muted); stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="dr-latency-transfer-patch_5">
+    <path d="M 54.192 213.149378 
+L 422.472 213.149378 
+" style="fill: none; stroke: var(--fig-muted); stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="dr-latency-transfer-text_18">
+    <text style="font-size: 10px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: start; fill: var(--fig-ox)" x="176.676" y="65.065695" transform="rotate(-0 176.676 65.065695)">tuned on the nominal plant only</text>
+   </g>
+   <g id="dr-latency-transfer-text_19">
+    <text style="font-size: 10px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: start; fill: var(--fig-blue)" x="137.848" y="190.644431" transform="rotate(-0 137.848 190.644431)">tuned on a randomised family</text>
+   </g>
+   <g id="dr-latency-transfer-text_20">
+    <text style="font-size: 9.5px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: start; fill: var(--fig-muted)" x="61.5576" y="21.029495" transform="rotate(-0 61.5576 21.029495)">latencies inside the randomised family</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="dr-latency-transfer-p97681dcae2">
+   <rect x="54.192" y="8.021378" width="368.28" height="205.128"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -1,0 +1,330 @@
+<svg id="ninety-versus-eighty" xmlns:xlink="http://www.w3.org/1999/xlink" width="445.543953pt" height="248.814pt" viewBox="0 0 445.543953 248.814" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">#ninety-versus-eighty, #ninety-versus-eighty *{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="ninety-versus-eighty-figure_1">
+  <g id="ninety-versus-eighty-patch_1">
+   <path d="M 0 248.814 
+L 445.543953 248.814 
+L 445.543953 0 
+L 0 0 
+L 0 248.814 
+z
+" style="fill: none"/>
+  </g>
+  <g id="ninety-versus-eighty-axes_1">
+   <g id="ninety-versus-eighty-patch_2">
+    <path d="M 59.692 217.872 
+L 427.972 217.872 
+L 427.972 7.2 
+L 59.692 7.2 
+L 59.692 217.872 
+z
+" style="fill: none"/>
+   </g>
+   <g id="ninety-versus-eighty-matplotlib.axis_1">
+    <g id="ninety-versus-eighty-xtick_1">
+     <g id="ninety-versus-eighty-line2d_1">
+      <defs>
+       <path id="ninety-versus-eighty-mabe65c4262" d="M 0 0 
+L 0 3.5 
+" style="stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#ninety-versus-eighty-mabe65c4262" x="93.479156" y="217.872" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="ninety-versus-eighty-text_1">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="93.479156" y="236.521" transform="rotate(-0 93.479156 236.521)">n = 10</text>
+     </g>
+    </g>
+    <g id="ninety-versus-eighty-xtick_2">
+     <g id="ninety-versus-eighty-line2d_2">
+      <g>
+       <use xlink:href="#ninety-versus-eighty-mabe65c4262" x="161.053468" y="217.872" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="ninety-versus-eighty-text_2">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="161.053468" y="236.521" transform="rotate(-0 161.053468 236.521)">n = 20</text>
+     </g>
+    </g>
+    <g id="ninety-versus-eighty-xtick_3">
+     <g id="ninety-versus-eighty-line2d_3">
+      <g>
+       <use xlink:href="#ninety-versus-eighty-mabe65c4262" x="228.62778" y="217.872" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="ninety-versus-eighty-text_3">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="228.62778" y="236.521" transform="rotate(-0 228.62778 236.521)">n = 50</text>
+     </g>
+    </g>
+    <g id="ninety-versus-eighty-xtick_4">
+     <g id="ninety-versus-eighty-line2d_4">
+      <g>
+       <use xlink:href="#ninety-versus-eighty-mabe65c4262" x="296.202092" y="217.872" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="ninety-versus-eighty-text_4">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="296.202092" y="236.521" transform="rotate(-0 296.202092 236.521)">n = 100</text>
+     </g>
+    </g>
+    <g id="ninety-versus-eighty-xtick_5">
+     <g id="ninety-versus-eighty-line2d_5">
+      <g>
+       <use xlink:href="#ninety-versus-eighty-mabe65c4262" x="363.776404" y="217.872" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="ninety-versus-eighty-text_5">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="363.776404" y="236.521" transform="rotate(-0 363.776404 236.521)">n = 200</text>
+     </g>
+    </g>
+   </g>
+   <g id="ninety-versus-eighty-matplotlib.axis_2">
+    <g id="ninety-versus-eighty-ytick_1">
+     <g id="ninety-versus-eighty-line2d_6">
+      <path d="M 59.692 184.16448 
+L 427.972 184.16448 
+" clip-path="url(#ninety-versus-eighty-p7184d62896)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="ninety-versus-eighty-line2d_7">
+      <defs>
+       <path id="ninety-versus-eighty-mc16693e09f" d="M 0 0 
+L -3.5 0 
+" style="stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#ninety-versus-eighty-mc16693e09f" x="59.692" y="184.16448" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="ninety-versus-eighty-text_6">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="52.692" y="189.98898" transform="rotate(-0 52.692 189.98898)">40%</text>
+     </g>
+    </g>
+    <g id="ninety-versus-eighty-ytick_2">
+     <g id="ninety-versus-eighty-line2d_8">
+      <path d="M 59.692 127.98528 
+L 427.972 127.98528 
+" clip-path="url(#ninety-versus-eighty-p7184d62896)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="ninety-versus-eighty-line2d_9">
+      <g>
+       <use xlink:href="#ninety-versus-eighty-mc16693e09f" x="59.692" y="127.98528" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="ninety-versus-eighty-text_7">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="52.692" y="133.80978" transform="rotate(-0 52.692 133.80978)">60%</text>
+     </g>
+    </g>
+    <g id="ninety-versus-eighty-ytick_3">
+     <g id="ninety-versus-eighty-line2d_10">
+      <path d="M 59.692 71.80608 
+L 427.972 71.80608 
+" clip-path="url(#ninety-versus-eighty-p7184d62896)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="ninety-versus-eighty-line2d_11">
+      <g>
+       <use xlink:href="#ninety-versus-eighty-mc16693e09f" x="59.692" y="71.80608" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="ninety-versus-eighty-text_8">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="52.692" y="77.63058" transform="rotate(-0 52.692 77.63058)">80%</text>
+     </g>
+    </g>
+    <g id="ninety-versus-eighty-ytick_4">
+     <g id="ninety-versus-eighty-line2d_12">
+      <path d="M 59.692 15.62688 
+L 427.972 15.62688 
+" clip-path="url(#ninety-versus-eighty-p7184d62896)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="ninety-versus-eighty-line2d_13">
+      <g>
+       <use xlink:href="#ninety-versus-eighty-mc16693e09f" x="59.692" y="15.62688" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="ninety-versus-eighty-text_9">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="52.692" y="21.45138" transform="rotate(-0 52.692 21.45138)">100%</text>
+     </g>
+    </g>
+    <g id="ninety-versus-eighty-text_10">
+     <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-ink)" x="18.849" y="112.536" transform="rotate(-90 18.849 112.536)">true success rate consistent with the result</text>
+    </g>
+   </g>
+   <g id="ninety-versus-eighty-LineCollection_1">
+    <path d="M 86.045982 129.151006 
+L 86.045982 20.648237 
+" clip-path="url(#ninety-versus-eighty-p7184d62896)" style="fill: none; stroke: var(--fig-blue); stroke-width: 1.8"/>
+    <path d="M 153.620294 100.186027 
+L 153.620294 23.454463 
+" clip-path="url(#ninety-versus-eighty-p7184d62896)" style="fill: none; stroke: var(--fig-blue); stroke-width: 1.8"/>
+    <path d="M 221.194606 75.626916 
+L 221.194606 27.839048 
+" clip-path="url(#ninety-versus-eighty-p7184d62896)" style="fill: none; stroke: var(--fig-blue); stroke-width: 1.8"/>
+    <path d="M 288.768917 64.605497 
+L 288.768917 31.140524 
+" clip-path="url(#ninety-versus-eighty-p7184d62896)" style="fill: none; stroke: var(--fig-blue); stroke-width: 1.8"/>
+    <path d="M 356.343229 57.594375 
+L 356.343229 34.073446 
+" clip-path="url(#ninety-versus-eighty-p7184d62896)" style="fill: none; stroke: var(--fig-blue); stroke-width: 1.8"/>
+   </g>
+   <g id="ninety-versus-eighty-line2d_14">
+    <defs>
+     <path id="ninety-versus-eighty-mf1e38f7c8a" d="M 4 0 
+L -4 -0 
+" style="stroke: var(--fig-blue)"/>
+    </defs>
+    <g clip-path="url(#ninety-versus-eighty-p7184d62896)">
+     <use xlink:href="#ninety-versus-eighty-mf1e38f7c8a" x="86.045982" y="129.151006" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+     <use xlink:href="#ninety-versus-eighty-mf1e38f7c8a" x="153.620294" y="100.186027" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+     <use xlink:href="#ninety-versus-eighty-mf1e38f7c8a" x="221.194606" y="75.626916" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+     <use xlink:href="#ninety-versus-eighty-mf1e38f7c8a" x="288.768917" y="64.605497" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+     <use xlink:href="#ninety-versus-eighty-mf1e38f7c8a" x="356.343229" y="57.594375" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+    </g>
+   </g>
+   <g id="ninety-versus-eighty-line2d_15">
+    <g clip-path="url(#ninety-versus-eighty-p7184d62896)">
+     <use xlink:href="#ninety-versus-eighty-mf1e38f7c8a" x="86.045982" y="20.648237" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+     <use xlink:href="#ninety-versus-eighty-mf1e38f7c8a" x="153.620294" y="23.454463" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+     <use xlink:href="#ninety-versus-eighty-mf1e38f7c8a" x="221.194606" y="27.839048" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+     <use xlink:href="#ninety-versus-eighty-mf1e38f7c8a" x="288.768917" y="31.140524" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+     <use xlink:href="#ninety-versus-eighty-mf1e38f7c8a" x="356.343229" y="34.073446" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+    </g>
+   </g>
+   <g id="ninety-versus-eighty-LineCollection_2">
+    <path d="M 100.91233 158.838202 
+L 100.91233 31.54867 
+" clip-path="url(#ninety-versus-eighty-p7184d62896)" style="fill: none; stroke: var(--fig-ox); stroke-width: 1.8"/>
+    <path d="M 168.486642 132.484513 
+L 168.486642 38.283295 
+" clip-path="url(#ninety-versus-eighty-p7184d62896)" style="fill: none; stroke: var(--fig-ox); stroke-width: 1.8"/>
+    <path d="M 236.060954 108.426789 
+L 236.060954 47.210124 
+" clip-path="url(#ninety-versus-eighty-p7184d62896)" style="fill: none; stroke: var(--fig-ox); stroke-width: 1.8"/>
+    <path d="M 303.635266 96.757837 
+L 303.635266 53.089118 
+" clip-path="url(#ninety-versus-eighty-p7184d62896)" style="fill: none; stroke: var(--fig-ox); stroke-width: 1.8"/>
+    <path d="M 371.209578 88.900058 
+L 371.209578 57.888248 
+" clip-path="url(#ninety-versus-eighty-p7184d62896)" style="fill: none; stroke: var(--fig-ox); stroke-width: 1.8"/>
+   </g>
+   <g id="ninety-versus-eighty-line2d_16">
+    <defs>
+     <path id="ninety-versus-eighty-mb8884136ef" d="M 4 0 
+L -4 -0 
+" style="stroke: var(--fig-ox)"/>
+    </defs>
+    <g clip-path="url(#ninety-versus-eighty-p7184d62896)">
+     <use xlink:href="#ninety-versus-eighty-mb8884136ef" x="100.91233" y="158.838202" style="fill: var(--fig-ox); stroke: var(--fig-ox)"/>
+     <use xlink:href="#ninety-versus-eighty-mb8884136ef" x="168.486642" y="132.484513" style="fill: var(--fig-ox); stroke: var(--fig-ox)"/>
+     <use xlink:href="#ninety-versus-eighty-mb8884136ef" x="236.060954" y="108.426789" style="fill: var(--fig-ox); stroke: var(--fig-ox)"/>
+     <use xlink:href="#ninety-versus-eighty-mb8884136ef" x="303.635266" y="96.757837" style="fill: var(--fig-ox); stroke: var(--fig-ox)"/>
+     <use xlink:href="#ninety-versus-eighty-mb8884136ef" x="371.209578" y="88.900058" style="fill: var(--fig-ox); stroke: var(--fig-ox)"/>
+    </g>
+   </g>
+   <g id="ninety-versus-eighty-line2d_17">
+    <g clip-path="url(#ninety-versus-eighty-p7184d62896)">
+     <use xlink:href="#ninety-versus-eighty-mb8884136ef" x="100.91233" y="31.54867" style="fill: var(--fig-ox); stroke: var(--fig-ox)"/>
+     <use xlink:href="#ninety-versus-eighty-mb8884136ef" x="168.486642" y="38.283295" style="fill: var(--fig-ox); stroke: var(--fig-ox)"/>
+     <use xlink:href="#ninety-versus-eighty-mb8884136ef" x="236.060954" y="47.210124" style="fill: var(--fig-ox); stroke: var(--fig-ox)"/>
+     <use xlink:href="#ninety-versus-eighty-mb8884136ef" x="303.635266" y="53.089118" style="fill: var(--fig-ox); stroke: var(--fig-ox)"/>
+     <use xlink:href="#ninety-versus-eighty-mb8884136ef" x="371.209578" y="57.888248" style="fill: var(--fig-ox); stroke: var(--fig-ox)"/>
+    </g>
+   </g>
+   <g id="ninety-versus-eighty-line2d_18">
+    <defs>
+     <path id="ninety-versus-eighty-m6b40f3dce0" d="M 0 2.5 
+C 0.663008 2.5 1.29895 2.236584 1.767767 1.767767 
+C 2.236584 1.29895 2.5 0.663008 2.5 0 
+C 2.5 -0.663008 2.236584 -1.29895 1.767767 -1.767767 
+C 1.29895 -2.236584 0.663008 -2.5 0 -2.5 
+C -0.663008 -2.5 -1.29895 -2.236584 -1.767767 -1.767767 
+C -2.236584 -1.29895 -2.5 -0.663008 -2.5 0 
+C -2.5 0.663008 -2.236584 1.29895 -1.767767 1.767767 
+C -1.29895 2.236584 -0.663008 2.5 0 2.5 
+z
+" style="stroke: var(--fig-blue)"/>
+    </defs>
+    <g clip-path="url(#ninety-versus-eighty-p7184d62896)">
+     <use xlink:href="#ninety-versus-eighty-m6b40f3dce0" x="86.045982" y="43.71648" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+     <use xlink:href="#ninety-versus-eighty-m6b40f3dce0" x="153.620294" y="43.71648" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+     <use xlink:href="#ninety-versus-eighty-m6b40f3dce0" x="221.194606" y="43.71648" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+     <use xlink:href="#ninety-versus-eighty-m6b40f3dce0" x="288.768917" y="43.71648" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+     <use xlink:href="#ninety-versus-eighty-m6b40f3dce0" x="356.343229" y="43.71648" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+    </g>
+   </g>
+   <g id="ninety-versus-eighty-line2d_19">
+    <defs>
+     <path id="ninety-versus-eighty-m18255dce93" d="M 0 2.5 
+C 0.663008 2.5 1.29895 2.236584 1.767767 1.767767 
+C 2.236584 1.29895 2.5 0.663008 2.5 0 
+C 2.5 -0.663008 2.236584 -1.29895 1.767767 -1.767767 
+C 1.29895 -2.236584 0.663008 -2.5 0 -2.5 
+C -0.663008 -2.5 -1.29895 -2.236584 -1.767767 -1.767767 
+C -2.236584 -1.29895 -2.5 -0.663008 -2.5 0 
+C -2.5 0.663008 -2.236584 1.29895 -1.767767 1.767767 
+C -1.29895 2.236584 -0.663008 2.5 0 2.5 
+z
+" style="stroke: var(--fig-ox)"/>
+    </defs>
+    <g clip-path="url(#ninety-versus-eighty-p7184d62896)">
+     <use xlink:href="#ninety-versus-eighty-m18255dce93" x="100.91233" y="71.80608" style="fill: var(--fig-ox); stroke: var(--fig-ox)"/>
+     <use xlink:href="#ninety-versus-eighty-m18255dce93" x="168.486642" y="71.80608" style="fill: var(--fig-ox); stroke: var(--fig-ox)"/>
+     <use xlink:href="#ninety-versus-eighty-m18255dce93" x="236.060954" y="71.80608" style="fill: var(--fig-ox); stroke: var(--fig-ox)"/>
+     <use xlink:href="#ninety-versus-eighty-m18255dce93" x="303.635266" y="71.80608" style="fill: var(--fig-ox); stroke: var(--fig-ox)"/>
+     <use xlink:href="#ninety-versus-eighty-m18255dce93" x="371.209578" y="71.80608" style="fill: var(--fig-ox); stroke: var(--fig-ox)"/>
+    </g>
+   </g>
+   <g id="ninety-versus-eighty-patch_3">
+    <path d="M 59.692 217.872 
+L 59.692 7.2 
+" style="fill: none; stroke: var(--fig-muted); stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="ninety-versus-eighty-patch_4">
+    <path d="M 59.692 217.872 
+L 427.972 217.872 
+" style="fill: none; stroke: var(--fig-muted); stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="ninety-versus-eighty-text_11">
+    <text style="font-size: 10px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: start; fill: var(--fig-blue)" x="370.343229" y="46.71648" transform="rotate(-0 370.343229 46.71648)">the new policy</text>
+   </g>
+   <g id="ninety-versus-eighty-text_12">
+    <text style="font-size: 10px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: start; fill: var(--fig-ox)" x="385.209578" y="74.80608" transform="rotate(-0 385.209578 74.80608)">the baseline</text>
+   </g>
+   <g id="ninety-versus-eighty-text_13">
+    <text style="font-size: 9.5px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: start; fill: var(--fig-muted)" x="63.070716" y="186.78838" transform="rotate(-0 63.070716 186.78838)">two-sided exact test on each pair</text>
+   </g>
+   <g id="ninety-versus-eighty-text_14">
+    <text style="font-size: 9.5px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="93.479156" y="206.63616" transform="rotate(-0 93.479156 206.63616)">p = 1.000</text>
+   </g>
+   <g id="ninety-versus-eighty-text_15">
+    <text style="font-size: 9.5px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="161.053468" y="206.63616" transform="rotate(-0 161.053468 206.63616)">p = 0.661</text>
+   </g>
+   <g id="ninety-versus-eighty-text_16">
+    <text style="font-size: 9.5px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="228.62778" y="206.63616" transform="rotate(-0 228.62778 206.63616)">p = 0.262</text>
+   </g>
+   <g id="ninety-versus-eighty-text_17">
+    <text style="font-size: 9.5px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="296.202092" y="206.63616" transform="rotate(-0 296.202092 206.63616)">p = 0.073</text>
+   </g>
+   <g id="ninety-versus-eighty-text_18">
+    <text style="font-size: 9.5px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="363.776404" y="206.63616" transform="rotate(-0 363.776404 206.63616)">p = 0.007</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="ninety-versus-eighty-p7184d62896">
+   <rect x="59.692" y="7.2" width="368.28" height="210.672"/>
+  </clipPath>
+ </defs>
+</svg>

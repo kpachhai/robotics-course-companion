@@ -1,0 +1,178 @@
+<svg id="peeking-false-wins" xmlns:xlink="http://www.w3.org/1999/xlink" width="495.702187pt" height="231.258268pt" viewBox="0 0 495.702187 231.258268" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">#peeking-false-wins, #peeking-false-wins *{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="peeking-false-wins-figure_1">
+  <g id="peeking-false-wins-patch_1">
+   <path d="M 0 231.258268 
+L 495.702187 231.258268 
+L 495.702187 -0 
+L 0 -0 
+L 0 231.258268 
+z
+" style="fill: none"/>
+  </g>
+  <g id="peeking-false-wins-axes_1">
+   <g id="peeking-false-wins-patch_2">
+    <path d="M 110.597187 179.574268 
+L 478.877187 179.574268 
+L 478.877187 24.342268 
+L 110.597187 24.342268 
+L 110.597187 179.574268 
+z
+" style="fill: none"/>
+   </g>
+   <g id="peeking-false-wins-line2d_1">
+    <path d="M 233.357187 179.574268 
+L 233.357187 24.342268 
+" clip-path="url(#peeking-false-wins-p4d3ac82288)" style="fill: none; stroke-dasharray: 6,4.8; stroke-dashoffset: 0; stroke: var(--fig-muted); stroke-width: 1.2"/>
+   </g>
+   <g id="peeking-false-wins-matplotlib.axis_1">
+    <g id="peeking-false-wins-xtick_1">
+     <g id="peeking-false-wins-line2d_2">
+      <defs>
+       <path id="peeking-false-wins-mabe65c4262" d="M 0 0 
+L 0 3.5 
+" style="stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#peeking-false-wins-mabe65c4262" x="110.597187" y="179.574268" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="peeking-false-wins-text_1">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="110.597187" y="198.223268" transform="rotate(-0 110.597187 198.223268)">0%</text>
+     </g>
+    </g>
+    <g id="peeking-false-wins-xtick_2">
+     <g id="peeking-false-wins-line2d_3">
+      <g>
+       <use xlink:href="#peeking-false-wins-mabe65c4262" x="233.357187" y="179.574268" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="peeking-false-wins-text_2">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="233.357187" y="198.223268" transform="rotate(-0 233.357187 198.223268)">5%</text>
+     </g>
+    </g>
+    <g id="peeking-false-wins-xtick_3">
+     <g id="peeking-false-wins-line2d_4">
+      <g>
+       <use xlink:href="#peeking-false-wins-mabe65c4262" x="356.117188" y="179.574268" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="peeking-false-wins-text_3">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="356.117188" y="198.223268" transform="rotate(-0 356.117188 198.223268)">10%</text>
+     </g>
+    </g>
+    <g id="peeking-false-wins-xtick_4">
+     <g id="peeking-false-wins-line2d_5">
+      <g>
+       <use xlink:href="#peeking-false-wins-mabe65c4262" x="478.877187" y="179.574268" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="peeking-false-wins-text_4">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="478.877187" y="198.223268" transform="rotate(-0 478.877187 198.223268)">15%</text>
+     </g>
+    </g>
+    <g id="peeking-false-wins-text_5">
+     <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-ink)" x="294.737188" y="218.965268" transform="rotate(-0 294.737188 218.965268)">experiments declaring a winner between two identical policies</text>
+    </g>
+   </g>
+   <g id="peeking-false-wins-matplotlib.axis_2">
+    <g id="peeking-false-wins-ytick_1">
+     <g id="peeking-false-wins-line2d_6"/>
+     <g id="peeking-false-wins-text_6">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="107.097187" y="48.154599" transform="rotate(-0 107.097187 48.154599)">fix n = 40, test once</text>
+     </g>
+    </g>
+    <g id="peeking-false-wins-ytick_2">
+     <g id="peeking-false-wins-line2d_7"/>
+     <g id="peeking-false-wins-text_7">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="107.097187" y="87.906711" transform="rotate(-0 107.097187 87.906711)">peek every 10 trials</text>
+     </g>
+    </g>
+    <g id="peeking-false-wins-ytick_3">
+     <g id="peeking-false-wins-line2d_8"/>
+     <g id="peeking-false-wins-text_8">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="107.097187" y="127.658824" transform="rotate(-0 107.097187 127.658824)">peek every 5 trials</text>
+     </g>
+    </g>
+    <g id="peeking-false-wins-ytick_4">
+     <g id="peeking-false-wins-line2d_9"/>
+     <g id="peeking-false-wins-text_9">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="107.097187" y="167.410937" transform="rotate(-0 107.097187 167.410937)">peek after every trial</text>
+     </g>
+    </g>
+   </g>
+   <g id="peeking-false-wins-patch_3">
+    <path d="M 110.597187 53.26193 
+L 180.373971 53.26193 
+L 180.373971 31.398268 
+L 110.597187 31.398268 
+z
+" clip-path="url(#peeking-false-wins-p4d3ac82288)" style="fill: var(--fig-green)"/>
+   </g>
+   <g id="peeking-false-wins-patch_4">
+    <path d="M 110.597187 93.014042 
+L 258.719403 93.014042 
+L 258.719403 71.15038 
+L 110.597187 71.15038 
+z
+" clip-path="url(#peeking-false-wins-p4d3ac82288)" style="fill: var(--fig-ox)"/>
+   </g>
+   <g id="peeking-false-wins-patch_5">
+    <path d="M 110.597187 132.766155 
+L 307.725195 132.766155 
+L 307.725195 110.902493 
+L 110.597187 110.902493 
+z
+" clip-path="url(#peeking-false-wins-p4d3ac82288)" style="fill: var(--fig-ox)"/>
+   </g>
+   <g id="peeking-false-wins-patch_6">
+    <path d="M 110.597187 172.518268 
+L 381.479403 172.518268 
+L 381.479403 150.654606 
+L 110.597187 150.654606 
+z
+" clip-path="url(#peeking-false-wins-p4d3ac82288)" style="fill: var(--fig-ox)"/>
+   </g>
+   <g id="peeking-false-wins-patch_7">
+    <path d="M 110.597187 179.574268 
+L 478.877187 179.574268 
+" style="fill: none; stroke: var(--fig-muted); stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="peeking-false-wins-text_10">
+    <text style="font-size: 9.5px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: start; fill: var(--fig-muted)" x="238.267587" y="17.2605" transform="rotate(-0 238.267587 17.2605)">the 5% you thought you were buying</text>
+   </g>
+   <g id="peeking-false-wins-text_11">
+    <text style="font-size: 9.5px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: start; fill: var(--fig-ink)" x="190.194772" y="45.161099" transform="rotate(-0 190.194772 45.161099)">2.8%</text>
+   </g>
+   <g id="peeking-false-wins-text_12">
+    <text style="font-size: 9.5px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: start; fill: var(--fig-ink)" x="268.540203" y="84.913211" transform="rotate(-0 268.540203 84.913211)">6.0%</text>
+   </g>
+   <g id="peeking-false-wins-text_13">
+    <text style="font-size: 9.5px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: start; fill: var(--fig-ink)" x="317.545996" y="124.665324" transform="rotate(-0 317.545996 124.665324)">8.0%</text>
+   </g>
+   <g id="peeking-false-wins-text_14">
+    <text style="font-size: 9.5px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: start; fill: var(--fig-ink)" x="391.300203" y="164.417437" transform="rotate(-0 391.300203 164.417437)">11.0%</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="peeking-false-wins-p4d3ac82288">
+   <rect x="110.597187" y="24.342268" width="368.28" height="155.232"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -1,0 +1,377 @@
+<svg id="chunk-index-error" xmlns:xlink="http://www.w3.org/1999/xlink" width="429.672pt" height="258.468pt" viewBox="0 0 429.672 258.468" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">#chunk-index-error, #chunk-index-error *{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="chunk-index-error-figure_1">
+  <g id="chunk-index-error-patch_1">
+   <path d="M 0 258.468 
+L 429.672 258.468 
+L 429.672 0 
+L 0 0 
+L 0 258.468 
+z
+" style="fill: none"/>
+  </g>
+  <g id="chunk-index-error-axes_1">
+   <g id="chunk-index-error-patch_2">
+    <path d="M 54.192 206.784 
+L 422.472 206.784 
+L 422.472 7.2 
+L 54.192 7.2 
+L 54.192 206.784 
+z
+" style="fill: none"/>
+   </g>
+   <g id="chunk-index-error-matplotlib.axis_1">
+    <g id="chunk-index-error-xtick_1">
+     <g id="chunk-index-error-line2d_1">
+      <defs>
+       <path id="chunk-index-error-mabe65c4262" d="M 0 0 
+L 0 3.5 
+" style="stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#chunk-index-error-mabe65c4262" x="65.13101" y="206.784" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="chunk-index-error-text_1">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="65.13101" y="225.433" transform="rotate(-0 65.13101 225.433)">0</text>
+     </g>
+    </g>
+    <g id="chunk-index-error-xtick_2">
+     <g id="chunk-index-error-line2d_2">
+      <g>
+       <use xlink:href="#chunk-index-error-mabe65c4262" x="156.289426" y="206.784" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="chunk-index-error-text_2">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="156.289426" y="225.433" transform="rotate(-0 156.289426 225.433)">5</text>
+     </g>
+    </g>
+    <g id="chunk-index-error-xtick_3">
+     <g id="chunk-index-error-line2d_3">
+      <g>
+       <use xlink:href="#chunk-index-error-mabe65c4262" x="247.447842" y="206.784" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="chunk-index-error-text_3">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="247.447842" y="225.433" transform="rotate(-0 247.447842 225.433)">10</text>
+     </g>
+    </g>
+    <g id="chunk-index-error-xtick_4">
+     <g id="chunk-index-error-line2d_4">
+      <g>
+       <use xlink:href="#chunk-index-error-mabe65c4262" x="338.606257" y="206.784" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="chunk-index-error-text_4">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="338.606257" y="225.433" transform="rotate(-0 338.606257 225.433)">15</text>
+     </g>
+    </g>
+    <g id="chunk-index-error-xtick_5">
+     <g id="chunk-index-error-line2d_5">
+      <g>
+       <use xlink:href="#chunk-index-error-mabe65c4262" x="411.53299" y="206.784" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="chunk-index-error-text_5">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="411.53299" y="225.433" transform="rotate(-0 411.53299 225.433)">19</text>
+     </g>
+    </g>
+    <g id="chunk-index-error-text_6">
+     <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-ink)" x="238.332" y="246.175" transform="rotate(-0 238.332 246.175)">position in the predicted chunk (0 is the next action)</text>
+    </g>
+   </g>
+   <g id="chunk-index-error-matplotlib.axis_2">
+    <g id="chunk-index-error-ytick_1">
+     <g id="chunk-index-error-line2d_6">
+      <path d="M 54.192 206.784 
+L 422.472 206.784 
+" clip-path="url(#chunk-index-error-pd8af3e7053)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="chunk-index-error-line2d_7">
+      <defs>
+       <path id="chunk-index-error-mc16693e09f" d="M 0 0 
+L -3.5 0 
+" style="stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#chunk-index-error-mc16693e09f" x="54.192" y="206.784" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="chunk-index-error-text_7">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="47.192" y="212.6085" transform="rotate(-0 47.192 212.6085)">0.00</text>
+     </g>
+    </g>
+    <g id="chunk-index-error-ytick_2">
+     <g id="chunk-index-error-line2d_8">
+      <path d="M 54.192 179.802305 
+L 422.472 179.802305 
+" clip-path="url(#chunk-index-error-pd8af3e7053)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="chunk-index-error-line2d_9">
+      <g>
+       <use xlink:href="#chunk-index-error-mc16693e09f" x="54.192" y="179.802305" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="chunk-index-error-text_8">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="47.192" y="185.626805" transform="rotate(-0 47.192 185.626805)">0.05</text>
+     </g>
+    </g>
+    <g id="chunk-index-error-ytick_3">
+     <g id="chunk-index-error-line2d_10">
+      <path d="M 54.192 152.820609 
+L 422.472 152.820609 
+" clip-path="url(#chunk-index-error-pd8af3e7053)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="chunk-index-error-line2d_11">
+      <g>
+       <use xlink:href="#chunk-index-error-mc16693e09f" x="54.192" y="152.820609" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="chunk-index-error-text_9">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="47.192" y="158.645109" transform="rotate(-0 47.192 158.645109)">0.10</text>
+     </g>
+    </g>
+    <g id="chunk-index-error-ytick_4">
+     <g id="chunk-index-error-line2d_12">
+      <path d="M 54.192 125.838914 
+L 422.472 125.838914 
+" clip-path="url(#chunk-index-error-pd8af3e7053)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="chunk-index-error-line2d_13">
+      <g>
+       <use xlink:href="#chunk-index-error-mc16693e09f" x="54.192" y="125.838914" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="chunk-index-error-text_10">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="47.192" y="131.663414" transform="rotate(-0 47.192 131.663414)">0.15</text>
+     </g>
+    </g>
+    <g id="chunk-index-error-ytick_5">
+     <g id="chunk-index-error-line2d_14">
+      <path d="M 54.192 98.857218 
+L 422.472 98.857218 
+" clip-path="url(#chunk-index-error-pd8af3e7053)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="chunk-index-error-line2d_15">
+      <g>
+       <use xlink:href="#chunk-index-error-mc16693e09f" x="54.192" y="98.857218" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="chunk-index-error-text_11">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="47.192" y="104.681718" transform="rotate(-0 47.192 104.681718)">0.20</text>
+     </g>
+    </g>
+    <g id="chunk-index-error-ytick_6">
+     <g id="chunk-index-error-line2d_16">
+      <path d="M 54.192 71.875523 
+L 422.472 71.875523 
+" clip-path="url(#chunk-index-error-pd8af3e7053)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="chunk-index-error-line2d_17">
+      <g>
+       <use xlink:href="#chunk-index-error-mc16693e09f" x="54.192" y="71.875523" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="chunk-index-error-text_12">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="47.192" y="77.700023" transform="rotate(-0 47.192 77.700023)">0.25</text>
+     </g>
+    </g>
+    <g id="chunk-index-error-ytick_7">
+     <g id="chunk-index-error-line2d_18">
+      <path d="M 54.192 44.893828 
+L 422.472 44.893828 
+" clip-path="url(#chunk-index-error-pd8af3e7053)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="chunk-index-error-line2d_19">
+      <g>
+       <use xlink:href="#chunk-index-error-mc16693e09f" x="54.192" y="44.893828" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="chunk-index-error-text_13">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="47.192" y="50.718328" transform="rotate(-0 47.192 50.718328)">0.30</text>
+     </g>
+    </g>
+    <g id="chunk-index-error-ytick_8">
+     <g id="chunk-index-error-line2d_20">
+      <path d="M 54.192 17.912132 
+L 422.472 17.912132 
+" clip-path="url(#chunk-index-error-pd8af3e7053)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="chunk-index-error-line2d_21">
+      <g>
+       <use xlink:href="#chunk-index-error-mc16693e09f" x="54.192" y="17.912132" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="chunk-index-error-text_14">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="47.192" y="23.736632" transform="rotate(-0 47.192 23.736632)">0.35</text>
+     </g>
+    </g>
+    <g id="chunk-index-error-text_15">
+     <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-ink)" x="18.849" y="106.992" transform="rotate(-90 18.849 106.992)">held-out action error (L1)</text>
+    </g>
+   </g>
+   <g id="chunk-index-error-line2d_22">
+    <path d="M 65.13101 110.57121 
+L 83.362693 111.223815 
+L 101.594376 102.385257 
+L 119.826059 100.213079 
+L 138.057743 97.44234 
+L 156.289426 95.731541 
+L 174.521109 90.132553 
+L 192.752792 86.077977 
+L 210.984475 82.068046 
+L 229.216158 76.010744 
+L 247.447842 70.616259 
+L 265.679525 65.985397 
+L 283.911208 60.834061 
+L 302.142891 55.751156 
+L 320.374574 48.014857 
+L 338.606257 43.344094 
+L 356.837941 37.418635 
+L 375.069624 28.572188 
+L 393.301307 21.733606 
+L 411.53299 14.307407 
+" clip-path="url(#chunk-index-error-pd8af3e7053)" style="fill: none; stroke: var(--fig-green); stroke-width: 2; stroke-linecap: square"/>
+    <defs>
+     <path id="chunk-index-error-mabdafbca9b" d="M 0 1.75 
+C 0.464105 1.75 0.909265 1.565609 1.237437 1.237437 
+C 1.565609 0.909265 1.75 0.464105 1.75 0 
+C 1.75 -0.464105 1.565609 -0.909265 1.237437 -1.237437 
+C 0.909265 -1.565609 0.464105 -1.75 0 -1.75 
+C -0.464105 -1.75 -0.909265 -1.565609 -1.237437 -1.237437 
+C -1.565609 -0.909265 -1.75 -0.464105 -1.75 0 
+C -1.75 0.464105 -1.565609 0.909265 -1.237437 1.237437 
+C -0.909265 1.565609 -0.464105 1.75 0 1.75 
+z
+" style="stroke: var(--fig-green)"/>
+    </defs>
+    <g clip-path="url(#chunk-index-error-pd8af3e7053)">
+     <use xlink:href="#chunk-index-error-mabdafbca9b" x="65.13101" y="110.57121" style="fill: var(--fig-green); stroke: var(--fig-green)"/>
+     <use xlink:href="#chunk-index-error-mabdafbca9b" x="83.362693" y="111.223815" style="fill: var(--fig-green); stroke: var(--fig-green)"/>
+     <use xlink:href="#chunk-index-error-mabdafbca9b" x="101.594376" y="102.385257" style="fill: var(--fig-green); stroke: var(--fig-green)"/>
+     <use xlink:href="#chunk-index-error-mabdafbca9b" x="119.826059" y="100.213079" style="fill: var(--fig-green); stroke: var(--fig-green)"/>
+     <use xlink:href="#chunk-index-error-mabdafbca9b" x="138.057743" y="97.44234" style="fill: var(--fig-green); stroke: var(--fig-green)"/>
+     <use xlink:href="#chunk-index-error-mabdafbca9b" x="156.289426" y="95.731541" style="fill: var(--fig-green); stroke: var(--fig-green)"/>
+     <use xlink:href="#chunk-index-error-mabdafbca9b" x="174.521109" y="90.132553" style="fill: var(--fig-green); stroke: var(--fig-green)"/>
+     <use xlink:href="#chunk-index-error-mabdafbca9b" x="192.752792" y="86.077977" style="fill: var(--fig-green); stroke: var(--fig-green)"/>
+     <use xlink:href="#chunk-index-error-mabdafbca9b" x="210.984475" y="82.068046" style="fill: var(--fig-green); stroke: var(--fig-green)"/>
+     <use xlink:href="#chunk-index-error-mabdafbca9b" x="229.216158" y="76.010744" style="fill: var(--fig-green); stroke: var(--fig-green)"/>
+     <use xlink:href="#chunk-index-error-mabdafbca9b" x="247.447842" y="70.616259" style="fill: var(--fig-green); stroke: var(--fig-green)"/>
+     <use xlink:href="#chunk-index-error-mabdafbca9b" x="265.679525" y="65.985397" style="fill: var(--fig-green); stroke: var(--fig-green)"/>
+     <use xlink:href="#chunk-index-error-mabdafbca9b" x="283.911208" y="60.834061" style="fill: var(--fig-green); stroke: var(--fig-green)"/>
+     <use xlink:href="#chunk-index-error-mabdafbca9b" x="302.142891" y="55.751156" style="fill: var(--fig-green); stroke: var(--fig-green)"/>
+     <use xlink:href="#chunk-index-error-mabdafbca9b" x="320.374574" y="48.014857" style="fill: var(--fig-green); stroke: var(--fig-green)"/>
+     <use xlink:href="#chunk-index-error-mabdafbca9b" x="338.606257" y="43.344094" style="fill: var(--fig-green); stroke: var(--fig-green)"/>
+     <use xlink:href="#chunk-index-error-mabdafbca9b" x="356.837941" y="37.418635" style="fill: var(--fig-green); stroke: var(--fig-green)"/>
+     <use xlink:href="#chunk-index-error-mabdafbca9b" x="375.069624" y="28.572188" style="fill: var(--fig-green); stroke: var(--fig-green)"/>
+     <use xlink:href="#chunk-index-error-mabdafbca9b" x="393.301307" y="21.733606" style="fill: var(--fig-green); stroke: var(--fig-green)"/>
+     <use xlink:href="#chunk-index-error-mabdafbca9b" x="411.53299" y="14.307407" style="fill: var(--fig-green); stroke: var(--fig-green)"/>
+    </g>
+   </g>
+   <g id="chunk-index-error-line2d_23">
+    <path d="M 65.13101 156.45554 
+L 83.362693 147.57606 
+L 101.594376 139.146342 
+L 119.826059 131.909851 
+L 138.057743 124.609809 
+L 156.289426 116.963162 
+L 174.521109 110.154219 
+L 192.752792 103.339752 
+L 210.984475 97.860731 
+L 229.216158 89.004104 
+L 247.447842 81.998828 
+L 265.679525 76.647484 
+L 283.911208 69.600643 
+L 302.142891 61.367915 
+L 320.374574 53.286891 
+L 338.606257 45.210836 
+L 356.837941 37.79115 
+L 375.069624 30.206347 
+L 393.301307 21.892338 
+L 411.53299 15.270176 
+" clip-path="url(#chunk-index-error-pd8af3e7053)" style="fill: none; stroke: var(--fig-blue); stroke-width: 2; stroke-linecap: square"/>
+    <defs>
+     <path id="chunk-index-error-m3ebbf756e4" d="M 0 1.75 
+C 0.464105 1.75 0.909265 1.565609 1.237437 1.237437 
+C 1.565609 0.909265 1.75 0.464105 1.75 0 
+C 1.75 -0.464105 1.565609 -0.909265 1.237437 -1.237437 
+C 0.909265 -1.565609 0.464105 -1.75 0 -1.75 
+C -0.464105 -1.75 -0.909265 -1.565609 -1.237437 -1.237437 
+C -1.565609 -0.909265 -1.75 -0.464105 -1.75 0 
+C -1.75 0.464105 -1.565609 0.909265 -1.237437 1.237437 
+C -0.909265 1.565609 -0.464105 1.75 0 1.75 
+z
+" style="stroke: var(--fig-blue)"/>
+    </defs>
+    <g clip-path="url(#chunk-index-error-pd8af3e7053)">
+     <use xlink:href="#chunk-index-error-m3ebbf756e4" x="65.13101" y="156.45554" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+     <use xlink:href="#chunk-index-error-m3ebbf756e4" x="83.362693" y="147.57606" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+     <use xlink:href="#chunk-index-error-m3ebbf756e4" x="101.594376" y="139.146342" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+     <use xlink:href="#chunk-index-error-m3ebbf756e4" x="119.826059" y="131.909851" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+     <use xlink:href="#chunk-index-error-m3ebbf756e4" x="138.057743" y="124.609809" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+     <use xlink:href="#chunk-index-error-m3ebbf756e4" x="156.289426" y="116.963162" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+     <use xlink:href="#chunk-index-error-m3ebbf756e4" x="174.521109" y="110.154219" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+     <use xlink:href="#chunk-index-error-m3ebbf756e4" x="192.752792" y="103.339752" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+     <use xlink:href="#chunk-index-error-m3ebbf756e4" x="210.984475" y="97.860731" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+     <use xlink:href="#chunk-index-error-m3ebbf756e4" x="229.216158" y="89.004104" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+     <use xlink:href="#chunk-index-error-m3ebbf756e4" x="247.447842" y="81.998828" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+     <use xlink:href="#chunk-index-error-m3ebbf756e4" x="265.679525" y="76.647484" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+     <use xlink:href="#chunk-index-error-m3ebbf756e4" x="283.911208" y="69.600643" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+     <use xlink:href="#chunk-index-error-m3ebbf756e4" x="302.142891" y="61.367915" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+     <use xlink:href="#chunk-index-error-m3ebbf756e4" x="320.374574" y="53.286891" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+     <use xlink:href="#chunk-index-error-m3ebbf756e4" x="338.606257" y="45.210836" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+     <use xlink:href="#chunk-index-error-m3ebbf756e4" x="356.837941" y="37.79115" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+     <use xlink:href="#chunk-index-error-m3ebbf756e4" x="375.069624" y="30.206347" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+     <use xlink:href="#chunk-index-error-m3ebbf756e4" x="393.301307" y="21.892338" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+     <use xlink:href="#chunk-index-error-m3ebbf756e4" x="411.53299" y="15.270176" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+    </g>
+   </g>
+   <g id="chunk-index-error-patch_3">
+    <path d="M 54.192 206.784 
+L 54.192 7.2 
+" style="fill: none; stroke: var(--fig-muted); stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="chunk-index-error-patch_4">
+    <path d="M 54.192 206.784 
+L 422.472 206.784 
+" style="fill: none; stroke: var(--fig-muted); stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="chunk-index-error-patch_5">
+    <path d="M 119.826059 49.894636 
+Q 119.826059 73.553579 119.826059 97.212522 
+" style="fill: none; stroke: var(--fig-muted); stroke-linecap: round"/>
+   </g>
+   <g id="chunk-index-error-text_16">
+    <text style="font-size: 10px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-green)" x="119.826059" y="40.263828" transform="rotate(-0 119.826059 40.263828)">ACT-lite</text>
+   </g>
+   <g id="chunk-index-error-patch_6">
+    <path d="M 192.752792 177.500791 
+Q 192.752792 141.920783 192.752792 106.340775 
+" style="fill: none; stroke: var(--fig-muted); stroke-linecap: round"/>
+   </g>
+   <g id="chunk-index-error-text_17">
+    <text style="font-size: 10px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-blue)" x="192.752792" y="193.090474" transform="rotate(-0 192.752792 193.090474)">plain MLP</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="chunk-index-error-pd8af3e7053">
+   <rect x="54.192" y="7.2" width="368.28" height="199.584"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 306" role="img" aria-label="Two quaternions q and minus q, read as 90 degrees about plus z and 270 degrees about minus z, both mapping to the same physical turn, and the loss-function trap where mean squared error scores the identical rotation as maximally wrong">
+
+  <rect x="18" y="34" width="248" height="74" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="142" y="62" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--blue, #2d5d7c)">q = (0, 0, +0.7071, +0.7071)</text>
+  <text x="142" y="86" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">reads as: turn 90° about +z</text>
+
+  <rect x="18" y="126" width="248" height="74" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="142" y="154" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--blue, #2d5d7c)">−q = (0, 0, −0.7071, −0.7071)</text>
+  <text x="142" y="178" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">reads as: turn 270° about −z</text>
+
+  <line x1="272" y1="71" x2="406" y2="104"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#doubleCoverArrow)"/>
+  <line x1="272" y1="163" x2="406" y2="130"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#doubleCoverArrow)"/>
+
+  <rect x="414" y="64" width="264" height="106" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="546" y="94" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--green, #15614e)">one physical turn</text>
+  <text x="546" y="118" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">x̂ → ŷ · ŷ → −x̂ · ẑ → ẑ</text>
+  <text x="546" y="140" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">byte-identical rotation matrices</text>
+  <text x="546" y="158" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">every rotated vector agrees to the last bit</text>
+
+  <rect x="18" y="214" width="660" height="78" rx="8"
+        fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.6"/>
+  <text x="348" y="240" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--ox, #9c3b2e)">what a naive loss sees</text>
+  <text x="348" y="262" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">MSE(q, −q) = 1.0000 · a perfect answer, 0° of error</text>
+  <text x="348" y="280" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">MSE(q, q′) = 0.0170 · q′ is genuinely 30° wrong · the right answer is punished 59× harder</text>
+
+  <defs>
+    <marker id="doubleCoverArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

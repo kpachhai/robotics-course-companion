@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 690 366" role="img" aria-label="Frame B sits one unit along frame A's x axis and is turned ninety degrees. The walk from B's origin back to A's origin reads as zero comma one in B's own axes, which is minus R transpose t. Reading it as minus t, or minus one comma zero, points one unit the wrong way and lands 1.41 units from A's origin">
+  <text x="345" y="34" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">the inverse has to re-read the offset in the other frame's directions</text>
+
+  <line x1="80" y1="200" x2="124" y2="200" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"
+        stroke-dasharray="4 4" marker-end="url(#homoInvAxisA)"/>
+  <line x1="80" y1="200" x2="80" y2="148" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"
+        stroke-dasharray="4 4" marker-end="url(#homoInvAxisA)"/>
+  <circle cx="80" cy="200" r="4" fill="var(--muted, #6b6053)"/>
+  <text x="106" y="192" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">x_A</text>
+  <text x="80" y="138" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">y_A</text>
+  <text x="66" y="222" text-anchor="end" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--muted, #6b6053)">{A}</text>
+
+  <line x1="210" y1="200" x2="210" y2="148" stroke="var(--blue, #2d5d7c)" stroke-width="1.7"
+        marker-end="url(#homoInvAxisB)"/>
+  <line x1="210" y1="200" x2="166" y2="200" stroke="var(--blue, #2d5d7c)" stroke-width="1.7"
+        marker-end="url(#homoInvAxisB)"/>
+  <circle cx="210" cy="200" r="4.5" fill="var(--blue, #2d5d7c)"/>
+  <text x="210" y="138" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">x_B</text>
+  <text x="184" y="186" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">y_B</text>
+  <text x="228" y="196" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">{B}</text>
+
+  <path d="M204,212 Q145,250 86,212" fill="none"
+        stroke="var(--green, #15614e)" stroke-width="1.8" marker-end="url(#homoInvGood)"/>
+  <text x="145" y="272" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--green, #15614e)">−Rᵀt</text>
+  <text x="145" y="288" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">lands on A's origin</text>
+
+  <line x1="210" y1="214" x2="210" y2="318" stroke="var(--ox, #9c3b2e)" stroke-width="1.6"
+        stroke-dasharray="5 4" marker-end="url(#homoInvBad)"/>
+  <circle cx="210" cy="330" r="4" fill="var(--ox, #9c3b2e)"/>
+  <text x="226" y="268" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--ox, #9c3b2e)">−t</text>
+  <text x="226" y="284" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">back along B's own x axis</text>
+  <text x="226" y="338" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">not A's origin: out by 1.41</text>
+
+  <rect x="400" y="150" width="250" height="170" rx="8"
+        fill="none" stroke="var(--line-2, #c8bca3)" stroke-width="1.6"/>
+  <text x="418" y="178" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">one displacement, two readings</text>
+  <text x="418" y="212" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--green, #15614e)">−Rᵀt  =  (0, 1)</text>
+  <text x="418" y="230" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">read in B's axes: correct</text>
+  <line x1="418" y1="252" x2="632" y2="252" stroke="var(--line-2, #c8bca3)" stroke-width="1.1"/>
+  <text x="418" y="284" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--ox, #9c3b2e)">−t  =  (−1, 0)</text>
+  <text x="418" y="302" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">read in A's axes: the bug</text>
+
+  <defs>
+    <marker id="homoInvAxisA" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--line-2, #c8bca3)"/>
+    </marker>
+    <marker id="homoInvAxisB" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--blue, #2d5d7c)"/>
+    </marker>
+    <marker id="homoInvGood" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--green, #15614e)"/>
+    </marker>
+    <marker id="homoInvBad" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--ox, #9c3b2e)"/>
+    </marker>
+  </defs>
+</svg>

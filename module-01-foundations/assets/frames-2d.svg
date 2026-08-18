@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 362" role="img" aria-label="One physical point drawn once and measured against two coordinate frames: the world frame reads it as 3.05 and 2.18, while the rotated, translated base frame reads the same point as 1.50 and 0.50">
+  <text x="380" y="32" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">the point never moves · only the description changes</text>
+
+  <!-- world frame {W} -->
+  <line x1="58" y1="320" x2="412" y2="320"
+        stroke="var(--green, #15614e)" stroke-width="1.6" marker-end="url(#frames2dArrowW)"/>
+  <line x1="58" y1="320" x2="58" y2="70"
+        stroke="var(--green, #15614e)" stroke-width="1.6" marker-end="url(#frames2dArrowW)"/>
+  <text x="426" y="325" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--green, #15614e)">x<tspan font-size="9.5" dy="3">W</tspan></text>
+  <text x="58" y="52" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--green, #15614e)">y<tspan font-size="9.5" dy="3">W</tspan></text>
+  <text x="72" y="344" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--green, #15614e)">{W}</text>
+
+  <!-- translation from {W} origin to {B} origin -->
+  <line x1="63.4" y1="317.3" x2="228.6" y2="234.7"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#frames2dArrowT)"/>
+  <text x="136" y="298" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">t</text>
+
+  <!-- the angle between the two frames -->
+  <line x1="234" y1="232" x2="292" y2="232"
+        stroke="var(--line-2, #c8bca3)" stroke-width="1.1" stroke-dasharray="4 4"/>
+  <path d="M274,232 A40,40 0 0 0 268.64,212"
+        fill="none" stroke="var(--muted, #6b6053)" stroke-width="1.3"/>
+  <text x="296" y="228" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">θ = 30°</text>
+
+  <!-- base frame {B}: rotated 30°, origin at t -->
+  <line x1="234" y1="232" x2="378.8" y2="148.4"
+        stroke="var(--blue, #2d5d7c)" stroke-width="1.6" marker-end="url(#frames2dArrowB)"/>
+  <line x1="234" y1="232" x2="150.4" y2="87.2"
+        stroke="var(--blue, #2d5d7c)" stroke-width="1.6" marker-end="url(#frames2dArrowB)"/>
+  <text x="390" y="142" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--blue, #2d5d7c)">x<tspan font-size="9.5" dy="3">B</tspan></text>
+  <text x="138" y="74" text-anchor="end" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--blue, #2d5d7c)">y<tspan font-size="9.5" dy="3">B</tspan></text>
+  <text x="240" y="256" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--blue, #2d5d7c)">{B}</text>
+
+  <!-- reading the point off {W}: drop to each world axis -->
+  <line x1="326.3" y1="127.9" x2="326.3" y2="320"
+        stroke="var(--green, #15614e)" stroke-width="1.1" stroke-dasharray="4 4"/>
+  <line x1="326.3" y1="127.9" x2="58" y2="127.9"
+        stroke="var(--green, #15614e)" stroke-width="1.1" stroke-dasharray="4 4"/>
+  <line x1="326.3" y1="315" x2="326.3" y2="325"
+        stroke="var(--green, #15614e)" stroke-width="1.4"/>
+  <line x1="53" y1="127.9" x2="63" y2="127.9"
+        stroke="var(--green, #15614e)" stroke-width="1.4"/>
+  <text x="326" y="338" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--green, #15614e)">3.05</text>
+  <text x="66" y="122" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--green, #15614e)">2.18</text>
+
+  <!-- reading the same point off {B}: drop to each base axis -->
+  <line x1="326.3" y1="127.9" x2="348.3" y2="166"
+        stroke="var(--blue, #2d5d7c)" stroke-width="1.1" stroke-dasharray="4 4"/>
+  <line x1="326.3" y1="127.9" x2="212" y2="193.9"
+        stroke="var(--blue, #2d5d7c)" stroke-width="1.1" stroke-dasharray="4 4"/>
+  <circle cx="348.3" cy="166" r="2.6" fill="var(--blue, #2d5d7c)"/>
+  <circle cx="212" cy="193.9" r="2.6" fill="var(--blue, #2d5d7c)"/>
+  <text x="283" y="185" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--blue, #2d5d7c)">1.50</text>
+  <text x="203" y="222" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--blue, #2d5d7c)">0.50</text>
+
+  <!-- the one physical point -->
+  <circle cx="326.3" cy="127.9" r="6"
+          fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.6"/>
+  <text x="326" y="112" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--ox, #9c3b2e)">p</text>
+
+  <!-- the two readings, side by side -->
+  <rect x="480" y="112" width="260" height="184" rx="8"
+        fill="none" stroke="var(--line-2, #c8bca3)" stroke-width="1.6"/>
+  <text x="500" y="138" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">p<tspan font-size="10" dy="3">B</tspan><tspan dy="-3"> = (1.50, 0.50)</tspan></text>
+  <text x="500" y="156" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the point, seen from {B}</text>
+  <text x="500" y="190" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--green, #15614e)">p<tspan font-size="10" dy="3">W</tspan><tspan dy="-3"> = (3.05, 2.18)</tspan></text>
+  <text x="500" y="208" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the point, seen from {W}</text>
+  <line x1="500" y1="226" x2="720" y2="226"
+        stroke="var(--line-2, #c8bca3)" stroke-width="1.1"/>
+  <text x="500" y="248" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">p_W = R(30°) · p_B + t</text>
+  <text x="500" y="264" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">rotate into world directions,</text>
+  <text x="500" y="278" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">then shift by t = (2.00, 1.00)</text>
+
+  <defs>
+    <marker id="frames2dArrowW" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--green, #15614e)"/>
+    </marker>
+    <marker id="frames2dArrowB" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--blue, #2d5d7c)"/>
+    </marker>
+    <marker id="frames2dArrowT" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

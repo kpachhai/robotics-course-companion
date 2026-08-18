@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 408" role="img" aria-label="Inside a MuJoCo position actuator: your commanded target, the current joint angle and the current joint speed feed one PD expression, the result is clipped to the force range, and the number that comes out is data.actuator_force, which simulation lets you read and a real servo does not report">
+
+  <rect x="24" y="20" width="196" height="56" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="122" y="44" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">data.ctrl[0]</text>
+  <text x="122" y="63" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the angle you asked for</text>
+
+  <rect x="244" y="20" width="196" height="56" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="342" y="44" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">data.qpos[0]</text>
+  <text x="342" y="63" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the angle right now</text>
+
+  <rect x="464" y="20" width="196" height="56" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="562" y="44" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">data.qvel[0]</text>
+  <text x="562" y="63" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the speed right now</text>
+
+  <rect x="24" y="100" width="636" height="214" rx="8"
+        fill="none" stroke="var(--muted, #6b6053)" stroke-width="1.4"/>
+
+  <path d="M122 76 L122 128" fill="none"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#posInsideArrow)"/>
+  <path d="M342 76 L342 128" fill="none"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#posInsideArrow)"/>
+  <path d="M562 76 L562 128" fill="none"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#posInsideArrow)"/>
+
+  <rect x="60" y="132" width="564" height="64" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="342" y="160" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--blue, #2d5d7c)">k<tspan font-size="10" dy="4">p</tspan><tspan dy="-4"> · (ctrl − qpos)  −  k</tspan><tspan font-size="10" dy="4">v</tspan><tspan dy="-4"> · qvel</tspan></text>
+  <text x="342" y="182" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the same P and D terms you wrote by hand, gains read from the XML</text>
+
+  <line x1="342" y1="196" x2="342" y2="218"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#posInsideArrow)"/>
+
+  <rect x="180" y="222" width="324" height="52" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="342" y="246" text-anchor="middle" class="svg-disp" font-size="14" font-weight="600"
+        fill="var(--gold, #b07d22)">clip to forcerange</text>
+  <text x="342" y="264" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">±3 N·m here; the only ceiling on contact force</text>
+
+  <text x="42" y="302" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">runs every timestep, in code you did not write</text>
+
+  <line x1="342" y1="314" x2="342" y2="338"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#posInsideArrow)"/>
+
+  <rect x="152" y="342" width="380" height="56" rx="8"
+        fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.6"/>
+  <text x="342" y="366" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--ox, #9c3b2e)">data.actuator_force[0]</text>
+  <text x="342" y="385" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">free to read in simulation; no wire carries it on the real arm</text>
+
+  <defs>
+    <marker id="posInsideArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

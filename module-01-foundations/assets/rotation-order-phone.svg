@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-label="A phone lying flat on a desk is given the same two ninety-degree turns in the two possible orders: tilting first then turning leaves the screen facing right, while turning first then tilting leaves the screen facing the reader, so the two results are different orientations">
+  <text x="360" y="24" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">seen from the left front of the desk, looking down · the gold bar is the phone's top edge · the dashed panel is the screen</text>
+
+  <!-- start -->
+  <polygon points="96.1,224.6 125.6,214.6 75.9,193.6 46.4,203.7" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6" stroke-linejoin="round"/>
+  <polygon points="96.1,230.4 96.1,224.6 46.4,203.7 46.4,209.4" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6" stroke-linejoin="round"/>
+  <polygon points="96.1,230.4 125.6,220.3 125.6,214.6 96.1,224.6" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6" stroke-linejoin="round"/>
+  <polygon points="94.1,220.2 114.4,213.3 78.7,198.3 58.4,205.2" fill="none" stroke="var(--blue, #2d5d7c)" stroke-width="1.1" stroke-dasharray="3 3"/>
+  <circle cx="65.3" cy="200.3" r="3.1" fill="var(--blue, #2d5d7c)"/>
+  <line x1="46.4" y1="203.7" x2="75.9" y2="193.6" stroke="var(--gold, #b07d22)" stroke-width="3.4" stroke-linecap="round"/>
+  <text x="86" y="256" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">start</text>
+  <text x="86" y="272" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">flat on the desk</text>
+  <text x="86" y="286" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">screen up · top away</text>
+
+  <!-- top branch: tilt, then turn -->
+  <path d="M126,196 C190,180 230,152 266,134" fill="none"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#rotOrderPhoneArrow)"/>
+  <text x="198" y="152" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--blue, #2d5d7c)">1 · tilt up 90°</text>
+
+  <polygon points="335.3,158.3 364.8,148.3 364.8,79.4 335.3,89.5" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6" stroke-linejoin="round"/>
+  <polygon points="331.2,156.6 335.3,158.3 335.3,89.5 331.2,87.7" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6" stroke-linejoin="round"/>
+  <polygon points="331.2,87.7 335.3,89.5 364.8,79.4 360.7,77.7" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6" stroke-linejoin="round"/>
+  <polygon points="340.0,147.6 360.3,140.7 360.3,91.3 340.0,98.2" fill="none" stroke="var(--blue, #2d5d7c)" stroke-width="1.1" stroke-dasharray="3 3"/>
+  <circle cx="350.2" cy="90.2" r="3.1" fill="var(--blue, #2d5d7c)"/>
+  <line x1="335.3" y1="89.5" x2="364.8" y2="79.4" stroke="var(--gold, #b07d22)" stroke-width="3.4" stroke-linecap="round"/>
+  <text x="348" y="180" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">standing · screen faces you</text>
+
+  <line x1="392" y1="118" x2="566" y2="118"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#rotOrderPhoneArrow)"/>
+  <text x="479" y="106" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--blue, #2d5d7c)">2 · turn left 90°</text>
+
+  <polygon points="615.0,158.8 615.0,89.9 588.4,78.8 588.4,147.6" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6" stroke-linejoin="round"/>
+  <polygon points="615.0,158.8 619.6,157.2 619.6,88.4 615.0,89.9" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6" stroke-linejoin="round"/>
+  <polygon points="615.0,89.9 619.6,88.4 593.0,77.2 588.4,78.8" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6" stroke-linejoin="round"/>
+  <line x1="619.6" y1="88.4" x2="593.0" y2="77.2" stroke="var(--gold, #b07d22)" stroke-width="3.4" stroke-linecap="round"/>
+  <text x="604" y="182" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">screen faces right</text>
+  <text x="604" y="198" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">no screen in sight</text>
+
+  <!-- bottom branch: turn, then tilt -->
+  <path d="M126,230 C192,258 244,286 286,302" fill="none"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#rotOrderPhoneArrow)"/>
+  <text x="206" y="300" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--blue, #2d5d7c)">1 · turn left 90°</text>
+
+  <polygon points="388.9,299.3 362.4,288.1 307.1,307.0 333.6,318.1" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6" stroke-linejoin="round"/>
+  <polygon points="388.9,305.0 388.9,299.3 333.6,318.1 333.6,323.9" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6" stroke-linejoin="round"/>
+  <polygon points="333.6,323.9 333.6,318.1 307.1,307.0 307.1,312.7" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6" stroke-linejoin="round"/>
+  <polygon points="377.4,300.0 359.2,292.3 319.5,305.8 337.8,313.5" fill="none" stroke="var(--blue, #2d5d7c)" stroke-width="1.1" stroke-dasharray="3 3"/>
+  <circle cx="325.0" cy="310.9" r="3.1" fill="var(--blue, #2d5d7c)"/>
+  <line x1="333.6" y1="318.1" x2="307.1" y2="307.0" stroke="var(--gold, #b07d22)" stroke-width="3.4" stroke-linecap="round"/>
+  <text x="348" y="348" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">still flat · top now points left</text>
+
+  <line x1="406" y1="306" x2="556" y2="306"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#rotOrderPhoneArrow)"/>
+  <text x="481" y="294" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--blue, #2d5d7c)">2 · tilt up 90°</text>
+
+  <polygon points="633.7,315.8 633.7,279.1 578.4,297.9 578.4,334.7" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6" stroke-linejoin="round"/>
+  <polygon points="629.6,277.3 574.3,296.2 578.4,297.9 633.7,279.1" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6" stroke-linejoin="round"/>
+  <polygon points="574.3,332.9 578.4,334.7 578.4,297.9 574.3,296.2" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6" stroke-linejoin="round"/>
+  <polygon points="626.4,312.6 626.4,287.4 586.8,300.9 586.8,326.1" fill="none" stroke="var(--blue, #2d5d7c)" stroke-width="1.1" stroke-dasharray="3 3"/>
+  <circle cx="583.1" cy="314.8" r="3.1" fill="var(--blue, #2d5d7c)"/>
+  <line x1="578.4" y1="334.7" x2="578.4" y2="297.9" stroke="var(--gold, #b07d22)" stroke-width="3.4" stroke-linecap="round"/>
+  <text x="604" y="360" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">screen faces you</text>
+  <text x="604" y="376" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">top edge on the left</text>
+
+  <text x="360" y="410" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">same two turns, opposite orders · the two results are 120° apart</text>
+
+  <defs>
+    <marker id="rotOrderPhoneArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 396" role="img" aria-label="The same inverse-kinematics solver aimed at a target 50 millimetres beyond the outer rim: damped it parks on the rim pointing at the target, undamped it winds the joints through several turns and ends up behind the base, 2.45 metres away">
+  <text x="370" y="26" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">start θ = (0.3, 0.5) · step 0.5 · 100 iterations · target 50 mm out of reach</text>
+
+  <path d="M499.3,67.9 A221,221 0 0,1 511,336.8" fill="none"
+        stroke="var(--blue, #2d5d7c)" stroke-width="1.8"/>
+  <line x1="504" y1="66" x2="499" y2="68"
+        stroke="var(--muted, #6b6053)" stroke-width="1.1"/>
+  <text x="508" y="62" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">the outer rim · det J = 0</text>
+  <text x="508" y="78" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">arm straight, r = 1.70</text>
+
+  <line x1="330" y1="210" x2="314.6" y2="339.1"
+        stroke="var(--ox, #9c3b2e)" stroke-width="4.5" stroke-linecap="round"/>
+  <line x1="314.6" y1="339.1" x2="246.6" y2="278.6"
+        stroke="var(--ox, #9c3b2e)" stroke-width="4.5" stroke-linecap="round"/>
+
+  <line x1="330" y1="210" x2="459.2" y2="224.3"
+        stroke="var(--green, #15614e)" stroke-width="4.5" stroke-linecap="round"/>
+  <line x1="459.2" y1="224.3" x2="549.1" y2="210"
+        stroke="var(--green, #15614e)" stroke-width="4.5" stroke-linecap="round"/>
+
+  <circle cx="330" cy="210" r="6.5"
+          fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <circle cx="246.6" cy="278.6" r="5" fill="var(--ox, #9c3b2e)"/>
+  <circle cx="549.1" cy="210" r="5" fill="var(--green, #15614e)"/>
+  <circle cx="557.5" cy="210" r="5.5"
+          fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="2"/>
+
+  <text x="316" y="196" text-anchor="end" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--blue, #2d5d7c)">base</text>
+
+  <text x="570" y="200" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--gold, #b07d22)">target</text>
+  <text x="570" y="216" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">50 mm past the rim</text>
+
+  <line x1="472" y1="242" x2="480" y2="223"
+        stroke="var(--muted, #6b6053)" stroke-width="1.1"/>
+  <text x="470" y="256" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--green, #15614e)">λ = 0.01 · damped</text>
+  <text x="470" y="272" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">largest step 2.50 rad · parks 0.065 m short</text>
+
+  <line x1="206" y1="288" x2="240" y2="280"
+        stroke="var(--muted, #6b6053)" stroke-width="1.1"/>
+  <text x="200" y="292" text-anchor="end" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--ox, #9c3b2e)">λ = 0 · undamped</text>
+  <text x="200" y="308" text-anchor="end" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">largest step 22.42 rad</text>
+  <text x="200" y="324" text-anchor="end" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">ends behind the base, 2.45 m off</text>
+
+  <text x="370" y="368" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">an unreachable target has no answer · the useful behaviour is to stretch toward it and stop,</text>
+  <text x="370" y="384" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">and that is what the damping term buys</text>
+</svg>

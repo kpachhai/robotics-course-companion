@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 306" role="img" aria-label="Three clock domains in a robot: a semantic layer at about one hertz, a policy layer at ten to fifty hertz, and a servo layer at two hundred to a thousand hertz, each with the question it answers and the physical fact that sets its deadline">
+  <text x="76" y="28" class="svg-mono" font-size="10" fill="var(--muted, #6b6053)">the layer</text>
+  <text x="250" y="28" class="svg-mono" font-size="10" fill="var(--muted, #6b6053)">what it decides</text>
+  <text x="498" y="28" class="svg-mono" font-size="10" fill="var(--muted, #6b6053)">what sets its deadline</text>
+
+  <rect x="56" y="44" width="668" height="68" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="76" y="74" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Semantic layer</text>
+  <text x="76" y="94" class="svg-mono" font-size="10" fill="var(--muted, #6b6053)">about 1 Hz</text>
+  <text x="250" y="72" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">which object, which step, what the</text>
+  <text x="250" y="90" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">instruction is actually asking for</text>
+  <text x="498" y="72" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">nothing physical. a person will</text>
+  <text x="498" y="90" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">wait a second for an answer.</text>
+
+  <rect x="56" y="132" width="668" height="68" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="76" y="162" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--green, #15614e)">Policy layer</text>
+  <text x="76" y="182" class="svg-mono" font-size="10" fill="var(--muted, #6b6053)">10 to 50 Hz</text>
+  <text x="250" y="160" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">where the hand goes next, emitted</text>
+  <text x="250" y="178" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">as a chunk of future actions</text>
+  <text x="498" y="160" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">the scene goes stale. objects</text>
+  <text x="498" y="178" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">move, contact changes.</text>
+
+  <rect x="56" y="220" width="668" height="68" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="76" y="250" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--gold, #b07d22)">Servo layer</text>
+  <text x="76" y="270" class="svg-mono" font-size="10" fill="var(--muted, #6b6053)">200 to 1000 Hz</text>
+  <text x="250" y="248" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">how much current goes into each</text>
+  <text x="250" y="266" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">motor, right now</text>
+  <text x="498" y="248" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">contact and balance. feedback</text>
+  <text x="498" y="266" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">has to outrun the physics.</text>
+
+  <line x1="38" y1="48" x2="38" y2="284"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m5ClockArrow)"/>
+  <text x="22" y="166" text-anchor="middle" transform="rotate(-90 22 166)" class="svg-mono"
+        font-size="10" fill="var(--muted, #6b6053)">faster, and simpler</text>
+
+  <defs>
+    <marker id="m5ClockArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" role="img" aria-label="The same five blocks of a technical piece in two orders: the chronological order puts the finding last and loses the reader after the setup, while the result-first order puts the finding and its conditions at the top and loses far fewer">
+
+  <text x="180" y="26" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--ox, #9c3b2e)">The order it happened in</text>
+
+  <rect x="40" y="40" width="280" height="42" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="180" y="66" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--blue, #2d5d7c)">background and motivation</text>
+
+  <rect x="40" y="92" width="280" height="42" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="180" y="118" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--blue, #2d5d7c)">setup and method</text>
+
+  <rect x="40" y="144" width="280" height="42" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="180" y="170" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--blue, #2d5d7c)">the story of the debugging</text>
+
+  <rect x="40" y="196" width="280" height="42" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="180" y="222" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--green, #15614e)">the result, with conditions</text>
+
+  <rect x="40" y="248" width="280" height="42" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="180" y="274" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--blue, #2d5d7c)">what I would do next</text>
+
+  <line x1="34" y1="88" x2="330" y2="88"
+        stroke="var(--ox, #9c3b2e)" stroke-width="1.4" stroke-dasharray="4 4"/>
+  <text x="180" y="312" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the dashed line is where most readers leave</text>
+
+  <text x="580" y="26" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--green, #15614e)">The order it is read in</text>
+
+  <rect x="440" y="40" width="280" height="42" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="580" y="66" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--green, #15614e)">the result, with conditions</text>
+
+  <rect x="440" y="92" width="280" height="42" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="580" y="118" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--blue, #2d5d7c)">method, compactly</text>
+
+  <rect x="440" y="144" width="280" height="42" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="580" y="170" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--blue, #2d5d7c)">the story, wrong theories included</text>
+
+  <rect x="440" y="196" width="280" height="42" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="580" y="222" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--blue, #2d5d7c)">what I did not measure</text>
+
+  <rect x="440" y="248" width="280" height="42" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="580" y="274" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--blue, #2d5d7c)">what I would do next</text>
+
+  <line x1="434" y1="192" x2="730" y2="192"
+        stroke="var(--green, #15614e)" stroke-width="1.4" stroke-dasharray="4 4"/>
+  <text x="580" y="312" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">whoever leaves here already has the finding</text>
+</svg>

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 316" role="img" aria-label="The same Jacobian used two ways: J maps joint speeds to hand velocity, and J transposed maps a hand force to the joint torques that produce it">
+  <text x="370" y="26" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">one matrix, computed once per pose, doing two jobs</text>
+
+  <rect x="60" y="58" width="214" height="66" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="167" y="88" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--blue, #2d5d7c)">joint speeds</text>
+  <text x="167" y="108" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">θ̇1, θ̇2 in rad/s</text>
+
+  <rect x="452" y="58" width="214" height="66" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="559" y="88" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--blue, #2d5d7c)">hand velocity</text>
+  <text x="559" y="108" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">vx, vy in m/s</text>
+
+  <line x1="274" y1="91" x2="446" y2="91"
+        stroke="var(--muted, #6b6053)" stroke-width="1.4" marker-end="url(#jacTwoWayArrow)"/>
+  <text x="360" y="80" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--blue, #2d5d7c)">v = J θ̇</text>
+  <text x="360" y="110" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">nudge the joints, watch the hand</text>
+
+  <rect x="60" y="172" width="214" height="66" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="167" y="202" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--gold, #b07d22)">hand force</text>
+  <text x="167" y="222" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">Fx, Fy in newtons</text>
+
+  <rect x="452" y="172" width="214" height="66" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="559" y="202" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--gold, #b07d22)">joint torques</text>
+  <text x="559" y="222" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">τ1, τ2 in newton-metres</text>
+
+  <line x1="274" y1="205" x2="446" y2="205"
+        stroke="var(--muted, #6b6053)" stroke-width="1.4" marker-end="url(#jacTwoWayArrow)"/>
+  <text x="360" y="194" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--gold, #b07d22)">τ = Jᵀ F</text>
+  <text x="360" y="224" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">name a push, get the motor torques</text>
+
+  <line x1="60" y1="264" x2="666" y2="264"
+        stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <text x="60" y="286" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">pressing straight down with 5 N: the shoulder needs 5.00 N·m with the elbow at 90°,</text>
+  <text x="60" y="302" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">and 8.50 N·m with the elbow at 2° · same force, same arm, different pose</text>
+
+  <defs>
+    <marker id="jacTwoWayArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 200" role="img" aria-label="The same see-decide-move correction loop closed at two different tiers: at the policy tier one turn takes 33 milliseconds, and through the planner one turn takes 2 seconds, during which a sliding mug travels 60 centimetres">
+
+  <text x="185" y="26" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">closed at the policy tier</text>
+
+  <rect x="24" y="42" width="88" height="42" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="68" y="68" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--blue, #2d5d7c)">see</text>
+  <line x1="112" y1="63" x2="132" y2="63" stroke="var(--muted, #6b6053)" stroke-width="1.3"
+        marker-end="url(#m6PlannerLoopArrow)"/>
+  <rect x="136" y="42" width="88" height="42" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="180" y="68" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--blue, #2d5d7c)">decide</text>
+  <line x1="224" y1="63" x2="244" y2="63" stroke="var(--muted, #6b6053)" stroke-width="1.3"
+        marker-end="url(#m6PlannerLoopArrow)"/>
+  <rect x="248" y="42" width="88" height="42" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="292" y="68" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--blue, #2d5d7c)">move</text>
+  <path d="M336,84 L336,106 L24,106 L24,88" fill="none"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m6PlannerLoopArrow)"/>
+
+  <text x="185" y="140" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">one turn: 33 ms</text>
+  <text x="185" y="158" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">a mug sliding at 0.3 m/s moves 1 cm</text>
+  <text x="185" y="176" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">between two glances</text>
+
+  <line x1="370" y1="14" x2="370" y2="186" stroke="var(--line-2, #c8bca3)"
+        stroke-width="1.2" stroke-dasharray="4 4"/>
+
+  <text x="555" y="26" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--ox, #9c3b2e)">closed through the planner</text>
+
+  <rect x="394" y="42" width="88" height="42" rx="8"
+        fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.6"/>
+  <text x="438" y="68" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--ox, #9c3b2e)">see</text>
+  <line x1="482" y1="63" x2="502" y2="63" stroke="var(--muted, #6b6053)" stroke-width="1.3"
+        marker-end="url(#m6PlannerLoopArrow)"/>
+  <rect x="506" y="42" width="88" height="42" rx="8"
+        fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.6"/>
+  <text x="550" y="68" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--ox, #9c3b2e)">decide</text>
+  <line x1="594" y1="63" x2="614" y2="63" stroke="var(--muted, #6b6053)" stroke-width="1.3"
+        marker-end="url(#m6PlannerLoopArrow)"/>
+  <rect x="618" y="42" width="88" height="42" rx="8"
+        fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.6"/>
+  <text x="662" y="68" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--ox, #9c3b2e)">move</text>
+  <path d="M706,84 L706,106 L394,106 L394,88" fill="none"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m6PlannerLoopArrow)"/>
+
+  <text x="555" y="140" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">one turn: 2 s</text>
+  <text x="555" y="158" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the same mug moves 60 cm</text>
+  <text x="555" y="176" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">and is off the desk</text>
+
+  <defs>
+    <marker id="m6PlannerLoopArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" role="img" aria-label="Calibration as a map: the raw 0 to 4095 encoder count track at the top, the two numbers calibration writes in the middle, and the resulting joint-angle scale at the bottom, clipped to the range you swept">
+
+  <text x="70" y="28" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">what the motor reports · register 56</text>
+
+  <rect x="70" y="40" width="620" height="28" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="380" y="59" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">0 … 4095 raw counts, one full turn</text>
+
+  <line x1="130" y1="68" x2="130" y2="84" stroke="var(--muted, #6b6053)" stroke-width="1.3"/>
+  <line x1="250" y1="68" x2="250" y2="84" stroke="var(--muted, #6b6053)" stroke-width="1.3"/>
+  <line x1="560" y1="68" x2="560" y2="84" stroke="var(--muted, #6b6053)" stroke-width="1.3"/>
+
+  <text x="130" y="98" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">range_min</text>
+  <text x="250" y="98" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">your 'middle'</text>
+  <text x="560" y="98" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">range_max</text>
+
+  <line x1="380" y1="76" x2="380" y2="114"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m4CalMapArrow)"/>
+
+  <rect x="190" y="118" width="380" height="80" rx="8"
+        fill="var(--purple-soft, #ede0f5)" stroke="var(--purple, #5e2d8c)" stroke-width="1.6"/>
+  <text x="380" y="144" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--purple, #5e2d8c)">What calibration writes, per motor</text>
+  <text x="380" y="166" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">homing offset (reg 31) · which count reads zero</text>
+  <text x="380" y="182" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">range min / max (regs 9, 11) · the ends you can reach</text>
+
+  <line x1="380" y1="198" x2="380" y2="224"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m4CalMapArrow)"/>
+
+  <rect x="130" y="228" width="430" height="28" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="345" y="247" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--green, #15614e)">degrees, with zero where you put it</text>
+
+  <line x1="70" y1="242" x2="124" y2="242" stroke="var(--muted, #6b6053)"
+        stroke-width="1.3" stroke-dasharray="4 4"/>
+  <line x1="566" y1="242" x2="690" y2="242" stroke="var(--muted, #6b6053)"
+        stroke-width="1.3" stroke-dasharray="4 4"/>
+  <text x="97" y="272" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">unreachable</text>
+  <text x="628" y="272" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">unreachable</text>
+
+  <text x="70" y="292" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the gripper is the exception: always normalised 0 … 100, never degrees</text>
+
+  <defs>
+    <marker id="m4CalMapArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 336" role="img" aria-label="The same gripper finger drawn twice: on the left the smooth visual mesh that is rendered but never collides, on the right the same outline in dashed grey overlaid with the boxes and three tiny spheres that actually take part in contact">
+
+  <text x="40" y="30" class="svg-disp" font-size="14" font-weight="700" fill="var(--blue, #2d5d7c)">what you look at</text>
+  <text x="40" y="45" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">class="visual", group 2, contype=0 conaffinity=0</text>
+
+  <path d="M140,72 L226,72 L234,166 L212,262 L204,300 L166,300 L158,262 L136,166 Z"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6" stroke-linejoin="round"/>
+  <text x="185" y="130" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--blue, #2d5d7c)">STL mesh</text>
+  <text x="185" y="144" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--blue, #2d5d7c)">hundreds of</text>
+  <text x="185" y="158" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--blue, #2d5d7c)">triangles</text>
+  <text x="185" y="322" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">18 geoms in this model, 0 of them collide</text>
+
+  <line x1="360" y1="62" x2="360" y2="306" stroke="var(--line-2, #c8bca3)" stroke-width="1.1"/>
+
+  <text x="420" y="30" class="svg-disp" font-size="14" font-weight="700" fill="var(--gold, #b07d22)">what the solver touches</text>
+  <text x="420" y="45" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">class="collision_gripper", groups 3 and 4, condim=6</text>
+
+  <path d="M520,72 L606,72 L614,166 L592,262 L584,300 L546,300 L538,262 L516,166 Z"
+        fill="none" stroke="var(--line-2, #c8bca3)" stroke-width="1.2" stroke-dasharray="4 4" stroke-linejoin="round"/>
+  <rect x="534" y="78" width="62" height="82" rx="6" fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <rect x="546" y="170" width="40" height="66" rx="6" fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <rect x="552" y="244" width="26" height="42" rx="5" fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <circle cx="558" cy="298" r="6" fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.5"/>
+  <circle cx="572" cy="298" r="6" fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.5"/>
+  <circle cx="565" cy="284" r="6" fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.5"/>
+
+  <line x1="596" y1="119" x2="646" y2="119" stroke="var(--muted, #6b6053)" stroke-width="1.1"/>
+  <text x="652" y="116" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">boxes, not</text>
+  <text x="652" y="129" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">meshes</text>
+
+  <line x1="578" y1="294" x2="640" y2="270" stroke="var(--muted, #6b6053)" stroke-width="1.1"/>
+  <text x="646" y="262" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">three spheres,</text>
+  <text x="646" y="275" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">radius 0.75 mm</text>
+
+  <text x="480" y="322" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">30 geoms in this model, all of them collide</text>
+</svg>

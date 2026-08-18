@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 386" role="img" aria-label="Web captions and robot trajectories written as token strings both enter one transformer with one vocabulary and one next-token objective. It emits a string of numbers, which is de-tokenized into a change in end-effector pose plus a gripper command">
+
+  <rect x="60" y="26" width="250" height="66" rx="8"
+        fill="var(--purple-soft, #ede0f5)" stroke="var(--purple, #5e2d8c)" stroke-width="1.6"/>
+  <text x="185" y="53" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--purple, #5e2d8c)">Web images and captions</text>
+  <text x="185" y="74" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">"a plastic dinosaur on a table"</text>
+
+  <rect x="450" y="26" width="250" height="66" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="575" y="53" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--gold, #b07d22)">Robot trajectories</text>
+  <text x="575" y="74" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">each action binned, then written as text</text>
+
+  <path d="M185 92 L185 118 L340 118 L340 132" fill="none"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m5TokArrow)"/>
+  <path d="M575 92 L575 118 L420 118 L420 132" fill="none"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m5TokArrow)"/>
+  <text x="380" y="108" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">one training mixture, both kept in throughout</text>
+
+  <rect x="140" y="136" width="480" height="80" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="380" y="167" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--blue, #2d5d7c)">One transformer, one vocabulary</text>
+  <text x="380" y="188" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the same next-token objective that emits a word emits an action bin;</text>
+  <text x="380" y="202" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">nothing about the architecture or the loss changes</text>
+
+  <line x1="380" y1="216" x2="380" y2="248"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m5TokArrow)"/>
+
+  <rect x="200" y="252" width="360" height="60" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="380" y="280" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--gold, #b07d22)">1 128 91 241 5 101 127 217</text>
+  <text x="380" y="299" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">one bin index per action dimension</text>
+
+  <line x1="380" y1="312" x2="380" y2="336"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m5TokArrow)"/>
+
+  <rect x="200" y="340" width="360" height="42" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="380" y="366" text-anchor="middle" class="svg-disp" font-size="14" font-weight="600"
+        fill="var(--green, #15614e)">a change in pose, plus a gripper command</text>
+
+  <defs>
+    <marker id="m5TokArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

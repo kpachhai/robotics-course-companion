@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 344"
+     role="img" aria-label="Frame B's two unit axes drawn against frame W's axes after a 30 degree turn. The x axis of B reads 0.866 along x of W and 0.500 along y of W; the y axis of B reads minus 0.500 and 0.866. Those two readings are the two columns of the rotation matrix.">
+
+  <!-- world axes -->
+  <line x1="260" y1="280" x2="510" y2="280"
+        stroke="var(--green, #15614e)" stroke-width="1.6" marker-end="url(#axImgArrowW)"/>
+  <line x1="260" y1="280" x2="260" y2="60"
+        stroke="var(--green, #15614e)" stroke-width="1.6" marker-end="url(#axImgArrowW)"/>
+  <text x="522" y="285" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--green, #15614e)">x<tspan font-size="9.5" dy="3">W</tspan></text>
+  <text x="260" y="44" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--green, #15614e)">y<tspan font-size="9.5" dy="3">W</tspan></text>
+
+  <!-- readings dropped onto the world axes -->
+  <line x1="424.5" y1="185" x2="424.5" y2="280"
+        stroke="var(--blue, #2d5d7c)" stroke-width="1.1" stroke-dasharray="4 4"/>
+  <line x1="424.5" y1="185" x2="260" y2="185"
+        stroke="var(--blue, #2d5d7c)" stroke-width="1.1" stroke-dasharray="4 4"/>
+  <line x1="165" y1="115.5" x2="165" y2="280"
+        stroke="var(--blue, #2d5d7c)" stroke-width="1.1" stroke-dasharray="4 4"/>
+  <line x1="165" y1="115.5" x2="260" y2="115.5"
+        stroke="var(--blue, #2d5d7c)" stroke-width="1.1" stroke-dasharray="4 4"/>
+
+  <text x="424.5" y="298" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">0.866</text>
+  <text x="165" y="298" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">-0.500</text>
+  <text x="253" y="181" text-anchor="end" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">0.500</text>
+  <text x="253" y="111" text-anchor="end" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">0.866</text>
+
+  <!-- the turned axes of B -->
+  <line x1="260" y1="280" x2="424.5" y2="185"
+        stroke="var(--blue, #2d5d7c)" stroke-width="1.6" marker-end="url(#axImgArrowB)"/>
+  <line x1="260" y1="280" x2="165" y2="115.5"
+        stroke="var(--blue, #2d5d7c)" stroke-width="1.6" marker-end="url(#axImgArrowB)"/>
+  <text x="436" y="180" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--blue, #2d5d7c)">x<tspan font-size="9.5" dy="3">B</tspan></text>
+  <text x="436" y="196" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">first column of R</text>
+  <text x="165" y="86" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--blue, #2d5d7c)">y<tspan font-size="9.5" dy="3">B</tspan></text>
+  <text x="165" y="100" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">second column of R</text>
+
+  <!-- the turn itself -->
+  <path d="M316,280 A56,56 0 0 0 308.5,252"
+        fill="none" stroke="var(--muted, #6b6053)" stroke-width="1.3"/>
+  <text x="322" y="262" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">30&#176;</text>
+
+  <text x="260" y="316" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">both axis pairs drawn from one origin</text>
+  <text x="260" y="330" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">this figure is about directions only</text>
+
+  <defs>
+    <marker id="axImgArrowW" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--green, #15614e)"/>
+    </marker>
+    <marker id="axImgArrowB" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--blue, #2d5d7c)"/>
+    </marker>
+  </defs>
+</svg>

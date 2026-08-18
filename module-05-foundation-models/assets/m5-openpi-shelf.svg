@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 346" role="img" aria-label="The openpi shelf as of August 2026: three base checkpoints and seven fine-tuned ones are downloadable, cached locally on first use, while pi-star-0.6 and pi0.7 exist only as papers with no released weights">
+
+  <text x="224" y="44" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--green, #15614e)">Weights you can download today</text>
+  <text x="592" y="44" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--ox, #9c3b2e)">A paper, and nothing to run</text>
+
+  <rect x="24" y="56" width="400" height="250" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+
+  <text x="52" y="86" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">base checkpoints</text>
+  <text x="52" y="110" class="svg-mono" font-size="10"
+        fill="var(--green, #15614e)">pi0_base</text>
+  <text x="52" y="128" class="svg-mono" font-size="10"
+        fill="var(--green, #15614e)">pi0_fast_base</text>
+  <text x="52" y="146" class="svg-mono" font-size="10"
+        fill="var(--green, #15614e)">pi05_base</text>
+
+  <text x="52" y="178" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">fine-tuned checkpoints</text>
+  <text x="52" y="202" class="svg-mono" font-size="10"
+        fill="var(--green, #15614e)">pi0-DROID &#183; pi0-FAST-DROID</text>
+  <text x="52" y="220" class="svg-mono" font-size="10"
+        fill="var(--green, #15614e)">pi0-ALOHA-towel / -tupperware / -pen-uncap</text>
+  <text x="52" y="238" class="svg-mono" font-size="10"
+        fill="var(--green, #15614e)">pi0.5-DROID &#183; pi0.5-LIBERO</text>
+
+  <line x1="52" y1="256" x2="396" y2="256" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <text x="52" y="276" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">gs://openpi-assets &#8594; cached in ~/.cache/openpi</text>
+  <text x="52" y="294" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">PyTorch: pi0, pi0.5 &#183; JAX only: pi0-FAST</text>
+
+  <rect x="448" y="56" width="288" height="250" rx="8"
+        fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.6"/>
+
+  <text x="476" y="104" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--ox, #9c3b2e)">pi*0.6 + RECAP</text>
+  <text x="476" y="124" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">Nov 2025 &#183; learns from its own trials</text>
+
+  <text x="476" y="174" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--ox, #9c3b2e)">pi0.7</text>
+  <text x="476" y="194" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">Apr 2026 &#183; steerable generalist</text>
+
+  <line x1="476" y1="222" x2="708" y2="222" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <text x="476" y="248" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">every number is the lab&#8217;s own</text>
+  <text x="476" y="266" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">nothing here points at your robot</text>
+
+  <text x="380" y="332" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">checked 2026-08-09 &#183; what sits in each column changes &#183; the line between them does not</text>
+</svg>

@@ -1,0 +1,724 @@
+<svg id="chunk-drift" xmlns:xlink="http://www.w3.org/1999/xlink" width="432.422pt" height="269.556pt" viewBox="0 0 432.422 269.556" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">#chunk-drift, #chunk-drift *{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="chunk-drift-figure_1">
+  <g id="chunk-drift-patch_1">
+   <path d="M 0 269.556 
+L 432.422 269.556 
+L 432.422 0 
+L 0 0 
+L 0 269.556 
+z
+" style="fill: none"/>
+  </g>
+  <g id="chunk-drift-axes_1">
+   <g id="chunk-drift-patch_2">
+    <path d="M 48.692 217.872 
+L 416.972 217.872 
+L 416.972 7.2 
+L 48.692 7.2 
+L 48.692 217.872 
+z
+" style="fill: none"/>
+   </g>
+   <g id="chunk-drift-matplotlib.axis_1">
+    <g id="chunk-drift-xtick_1">
+     <g id="chunk-drift-line2d_1">
+      <defs>
+       <path id="chunk-drift-mabe65c4262" d="M 0 0 
+L 0 3.5 
+" style="stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#chunk-drift-mabe65c4262" x="48.692" y="217.872" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="chunk-drift-text_1">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="48.692" y="236.521" transform="rotate(-0 48.692 236.521)">0</text>
+     </g>
+    </g>
+    <g id="chunk-drift-xtick_2">
+     <g id="chunk-drift-line2d_2">
+      <g>
+       <use xlink:href="#chunk-drift-mabe65c4262" x="110.072" y="217.872" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="chunk-drift-text_2">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="110.072" y="236.521" transform="rotate(-0 110.072 236.521)">50</text>
+     </g>
+    </g>
+    <g id="chunk-drift-xtick_3">
+     <g id="chunk-drift-line2d_3">
+      <g>
+       <use xlink:href="#chunk-drift-mabe65c4262" x="171.452" y="217.872" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="chunk-drift-text_3">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="171.452" y="236.521" transform="rotate(-0 171.452 236.521)">100</text>
+     </g>
+    </g>
+    <g id="chunk-drift-xtick_4">
+     <g id="chunk-drift-line2d_4">
+      <g>
+       <use xlink:href="#chunk-drift-mabe65c4262" x="232.832" y="217.872" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="chunk-drift-text_4">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="232.832" y="236.521" transform="rotate(-0 232.832 236.521)">150</text>
+     </g>
+    </g>
+    <g id="chunk-drift-xtick_5">
+     <g id="chunk-drift-line2d_5">
+      <g>
+       <use xlink:href="#chunk-drift-mabe65c4262" x="294.212" y="217.872" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="chunk-drift-text_5">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="294.212" y="236.521" transform="rotate(-0 294.212 236.521)">200</text>
+     </g>
+    </g>
+    <g id="chunk-drift-xtick_6">
+     <g id="chunk-drift-line2d_6">
+      <g>
+       <use xlink:href="#chunk-drift-mabe65c4262" x="355.592" y="217.872" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="chunk-drift-text_6">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="355.592" y="236.521" transform="rotate(-0 355.592 236.521)">250</text>
+     </g>
+    </g>
+    <g id="chunk-drift-xtick_7">
+     <g id="chunk-drift-line2d_7">
+      <g>
+       <use xlink:href="#chunk-drift-mabe65c4262" x="416.972" y="217.872" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="chunk-drift-text_7">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="416.972" y="236.521" transform="rotate(-0 416.972 236.521)">300</text>
+     </g>
+    </g>
+    <g id="chunk-drift-text_8">
+     <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-ink)" x="232.832" y="257.263" transform="rotate(-0 232.832 257.263)">control steps since the episode started</text>
+    </g>
+   </g>
+   <g id="chunk-drift-matplotlib.axis_2">
+    <g id="chunk-drift-ytick_1">
+     <g id="chunk-drift-line2d_8">
+      <path d="M 48.692 209.273143 
+L 416.972 209.273143 
+" clip-path="url(#chunk-drift-pb770926141)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="chunk-drift-line2d_9">
+      <defs>
+       <path id="chunk-drift-mc16693e09f" d="M 0 0 
+L -3.5 0 
+" style="stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#chunk-drift-mc16693e09f" x="48.692" y="209.273143" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="chunk-drift-text_9">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="41.692" y="215.097643" transform="rotate(-0 41.692 215.097643)">0.0</text>
+     </g>
+    </g>
+    <g id="chunk-drift-ytick_2">
+     <g id="chunk-drift-line2d_10">
+      <path d="M 48.692 166.278857 
+L 416.972 166.278857 
+" clip-path="url(#chunk-drift-pb770926141)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="chunk-drift-line2d_11">
+      <g>
+       <use xlink:href="#chunk-drift-mc16693e09f" x="48.692" y="166.278857" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="chunk-drift-text_10">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="41.692" y="172.103357" transform="rotate(-0 41.692 172.103357)">0.1</text>
+     </g>
+    </g>
+    <g id="chunk-drift-ytick_3">
+     <g id="chunk-drift-line2d_12">
+      <path d="M 48.692 123.284571 
+L 416.972 123.284571 
+" clip-path="url(#chunk-drift-pb770926141)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="chunk-drift-line2d_13">
+      <g>
+       <use xlink:href="#chunk-drift-mc16693e09f" x="48.692" y="123.284571" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="chunk-drift-text_11">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="41.692" y="129.109071" transform="rotate(-0 41.692 129.109071)">0.2</text>
+     </g>
+    </g>
+    <g id="chunk-drift-ytick_4">
+     <g id="chunk-drift-line2d_14">
+      <path d="M 48.692 80.290286 
+L 416.972 80.290286 
+" clip-path="url(#chunk-drift-pb770926141)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="chunk-drift-line2d_15">
+      <g>
+       <use xlink:href="#chunk-drift-mc16693e09f" x="48.692" y="80.290286" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="chunk-drift-text_12">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="41.692" y="86.114786" transform="rotate(-0 41.692 86.114786)">0.3</text>
+     </g>
+    </g>
+    <g id="chunk-drift-ytick_5">
+     <g id="chunk-drift-line2d_16">
+      <path d="M 48.692 37.296 
+L 416.972 37.296 
+" clip-path="url(#chunk-drift-pb770926141)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="chunk-drift-line2d_17">
+      <g>
+       <use xlink:href="#chunk-drift-mc16693e09f" x="48.692" y="37.296" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="chunk-drift-text_13">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="41.692" y="43.1205" transform="rotate(-0 41.692 43.1205)">0.4</text>
+     </g>
+    </g>
+    <g id="chunk-drift-text_14">
+     <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-ink)" x="18.849" y="112.536" transform="rotate(-90 18.849 112.536)">distance from the path it should trace</text>
+    </g>
+   </g>
+   <g id="chunk-drift-line2d_18">
+    <path d="M 48.692 195.153468 
+L 416.972 195.153468 
+" clip-path="url(#chunk-drift-pb770926141)" style="fill: none; stroke-dasharray: 6,4.8; stroke-dashoffset: 0; stroke: var(--fig-muted); stroke-width: 1.2"/>
+   </g>
+   <g id="chunk-drift-line2d_19">
+    <path d="M 57.2852 186.186249 
+L 59.7404 178.585485 
+L 63.4232 166.177148 
+L 68.3336 149.439833 
+L 70.7888 141.706053 
+L 73.244 134.78927 
+L 75.6992 128.951536 
+L 76.9268 126.501723 
+L 78.1544 124.393053 
+L 79.382 122.646145 
+L 80.6096 121.278952 
+L 81.8372 120.304268 
+L 83.0648 119.72705 
+L 84.2924 119.551756 
+L 85.52 119.780191 
+L 86.7476 120.403925 
+L 87.9752 121.408416 
+L 89.2028 122.78539 
+L 90.4304 124.511241 
+L 91.658 126.567804 
+L 92.8856 128.912435 
+L 95.3408 134.378284 
+L 97.796 140.699884 
+L 105.1616 160.884734 
+L 107.6168 166.628443 
+L 110.072 171.523157 
+L 111.2996 173.577902 
+L 112.5272 175.368999 
+L 113.7548 176.897771 
+L 114.9824 178.091764 
+L 116.21 178.948547 
+L 117.4376 179.464874 
+L 118.6652 179.659495 
+L 119.8928 179.536291 
+L 121.1204 179.157065 
+L 122.348 178.571679 
+L 123.5756 177.812063 
+L 126.0308 175.879231 
+L 128.486 173.492626 
+L 134.624 167.18399 
+L 137.0792 165.16292 
+L 138.3068 164.367918 
+L 139.5344 163.72864 
+L 140.762 163.238838 
+L 141.9896 162.893321 
+L 143.2172 162.685065 
+L 144.4448 162.607264 
+L 145.6724 162.6528 
+L 148.1276 163.080023 
+L 150.5828 163.90466 
+L 153.038 165.057831 
+L 155.4932 166.468568 
+L 159.176 168.945448 
+L 165.314 173.531556 
+L 170.2244 177.05454 
+L 172.6796 178.625478 
+L 175.1348 179.998773 
+L 177.59 181.138679 
+L 180.0452 182.015114 
+L 182.5004 182.604689 
+L 184.9556 182.916824 
+L 187.4108 182.970093 
+L 189.866 182.780164 
+L 192.3212 182.384872 
+L 194.7764 181.808757 
+L 198.4592 180.662766 
+L 204.5972 178.397434 
+L 210.7352 176.124526 
+L 214.418 175.018559 
+L 218.1008 174.228644 
+L 221.7836 173.745611 
+L 225.4664 173.514016 
+L 235.2872 173.146957 
+L 237.7424 172.854648 
+L 240.1976 172.396385 
+L 242.6528 171.750706 
+L 245.108 170.898418 
+L 247.5632 169.837494 
+L 250.0184 168.568243 
+L 253.7012 166.333566 
+L 265.9772 158.356124 
+L 268.4324 157.091887 
+L 270.8876 156.040912 
+L 273.3428 155.219605 
+L 275.798 154.628028 
+L 278.2532 154.262003 
+L 280.7084 154.099759 
+L 283.1636 154.144463 
+L 286.8464 154.510228 
+L 310.1708 157.718615 
+L 313.8536 158.587718 
+L 317.5364 159.71905 
+L 321.2192 161.103583 
+L 324.902 162.750877 
+L 328.5848 164.705237 
+L 339.6332 170.981224 
+L 342.0884 172.072067 
+L 344.5436 172.948996 
+L 346.9988 173.583183 
+L 349.454 173.937436 
+L 351.9092 173.997302 
+L 354.3644 173.795977 
+L 356.8196 173.305374 
+L 359.2748 172.42104 
+L 361.73 171.143521 
+L 364.1852 169.51702 
+L 366.6404 167.621818 
+L 370.3232 164.448862 
+L 378.9164 156.776214 
+L 381.3716 154.986236 
+L 383.8268 153.472204 
+L 386.282 152.238577 
+L 388.7372 151.264931 
+L 391.1924 150.545661 
+L 393.6476 150.114729 
+L 396.1028 149.948465 
+L 398.558 149.991179 
+L 402.2408 150.354644 
+L 405.9236 150.994548 
+L 407.1512 151.249852 
+L 407.1512 151.249852 
+" clip-path="url(#chunk-drift-pb770926141)" style="fill: none; stroke: var(--fig-ox); stroke-width: 2; stroke-linecap: square"/>
+   </g>
+   <g id="chunk-drift-line2d_20">
+    <path d="M 57.2852 181.052653 
+L 59.7404 171.203906 
+L 62.1956 160.321511 
+L 67.106 137.059575 
+L 70.7888 120.008261 
+L 73.244 109.678147 
+L 75.6992 100.702145 
+L 76.9268 96.845323 
+L 78.1544 93.461475 
+L 79.382 90.58749 
+L 80.6096 88.25901 
+L 81.8372 86.506749 
+L 83.0648 85.340611 
+L 84.2924 84.767634 
+L 85.52 84.787809 
+L 86.7476 85.397626 
+L 87.9752 86.585048 
+L 89.2028 88.327726 
+L 90.4304 90.599601 
+L 91.658 93.370217 
+L 92.8856 96.606915 
+L 94.1132 100.270809 
+L 96.5684 108.706809 
+L 99.0236 118.309672 
+L 102.7064 134.069913 
+L 107.6168 155.315975 
+L 110.072 164.763559 
+L 111.2996 168.942758 
+L 112.5272 172.650844 
+L 113.7548 175.894348 
+L 114.9824 178.662357 
+L 116.21 180.955207 
+L 117.4376 182.788747 
+L 118.6652 184.182759 
+L 119.8928 185.160987 
+L 121.1204 185.731083 
+L 122.348 185.933441 
+L 123.5756 185.823667 
+L 124.8032 185.449774 
+L 126.0308 184.877053 
+L 128.486 183.257792 
+L 132.1688 180.615886 
+L 134.624 179.074208 
+L 139.5344 176.125991 
+L 141.9896 174.298876 
+L 144.4448 172.130938 
+L 149.3552 167.348318 
+L 153.038 163.434824 
+L 157.9484 157.901215 
+L 160.4036 155.556789 
+L 162.8588 153.621393 
+L 165.314 152.061022 
+L 167.7692 150.918155 
+L 168.9968 150.547619 
+L 170.2244 150.324302 
+L 171.452 150.271745 
+L 172.6796 150.419358 
+L 173.9072 150.764745 
+L 175.1348 151.293688 
+L 176.3624 151.979014 
+L 177.59 152.811974 
+L 178.8176 153.808107 
+L 180.0452 154.979652 
+L 181.2728 156.331836 
+L 183.728 159.543388 
+L 186.1832 163.350267 
+L 193.5488 175.582193 
+L 196.004 179.247273 
+L 198.4592 182.477775 
+L 200.9144 185.12832 
+L 202.142 186.202161 
+L 203.3696 187.086342 
+L 204.5972 187.776883 
+L 205.8248 188.300366 
+L 207.0524 188.688296 
+L 209.5076 189.124073 
+L 211.9628 189.207914 
+L 214.418 189.042308 
+L 218.1008 188.436693 
+L 223.0112 187.561443 
+L 226.694 187.205123 
+L 230.3768 187.106544 
+L 234.0596 187.144779 
+L 242.6528 187.480113 
+L 245.108 187.32006 
+L 248.7908 186.79542 
+L 252.4736 186.008616 
+L 257.384 184.550262 
+L 261.0668 183.484163 
+L 263.522 183.014836 
+L 265.9772 182.773662 
+L 268.4324 182.769747 
+L 270.8876 183.026829 
+L 273.3428 183.534705 
+L 277.0256 184.618892 
+L 284.3912 187.068958 
+L 286.8464 187.662283 
+L 289.3016 188.030737 
+L 291.7568 188.17385 
+L 294.212 188.128876 
+L 296.6672 187.88513 
+L 299.1224 187.442742 
+L 302.8052 186.550735 
+L 311.3984 184.285339 
+L 315.0812 183.504357 
+L 317.5364 183.128998 
+L 321.2192 182.827108 
+L 324.902 182.778773 
+L 328.5848 182.942367 
+L 344.5436 184.270371 
+L 358.0472 185.496965 
+L 361.73 185.620847 
+L 365.4128 185.422049 
+L 369.0956 184.945681 
+L 377.6888 183.669487 
+L 381.3716 183.430235 
+L 383.8268 183.442734 
+L 387.5096 183.751677 
+L 394.8752 184.550053 
+L 398.558 184.663967 
+L 402.2408 184.556081 
+L 405.9236 184.193649 
+L 407.1512 184.031536 
+L 407.1512 184.031536 
+" clip-path="url(#chunk-drift-pb770926141)" style="fill: none; stroke: var(--fig-blue); stroke-width: 2; stroke-linecap: square"/>
+   </g>
+   <g id="chunk-drift-line2d_21">
+    <path d="M 57.2852 175.007504 
+L 59.7404 162.258397 
+L 62.1956 147.745162 
+L 65.8784 123.721915 
+L 70.7888 91.019946 
+L 73.244 76.146836 
+L 74.4716 69.461382 
+L 75.6992 63.426323 
+L 76.9268 58.147189 
+L 78.1544 53.723244 
+L 79.382 50.244837 
+L 80.6096 47.789111 
+L 81.8372 46.421936 
+L 83.0648 46.181344 
+L 84.2924 47.087736 
+L 85.52 49.146619 
+L 86.7476 52.348433 
+L 87.9752 56.668314 
+L 89.2028 62.048677 
+L 90.4304 68.416932 
+L 91.658 75.688627 
+L 94.1132 92.207048 
+L 99.0236 127.438738 
+L 100.2512 135.326139 
+L 101.4788 142.461834 
+L 102.7064 148.732523 
+L 103.934 153.956571 
+L 105.1616 158.109521 
+L 106.3892 161.190944 
+L 107.6168 163.224555 
+L 108.8444 164.231946 
+L 110.072 164.245827 
+L 111.2996 163.391584 
+L 112.5272 161.809262 
+L 113.7548 159.698698 
+L 114.9824 157.095241 
+L 117.4376 151.386312 
+L 118.6652 148.777082 
+L 119.8928 146.511395 
+L 121.1204 144.700401 
+L 122.348 143.519589 
+L 123.5756 142.953625 
+L 124.8032 142.976702 
+L 126.0308 143.556249 
+L 127.2584 144.66209 
+L 128.486 146.196558 
+L 129.7136 148.098591 
+L 134.624 156.67274 
+L 135.8516 158.430237 
+L 137.0792 159.54244 
+L 138.3068 159.855018 
+L 139.5344 159.319645 
+L 140.762 157.900273 
+L 141.9896 155.57166 
+L 143.2172 152.292857 
+L 144.4448 148.050042 
+L 145.6724 142.848104 
+L 146.9 136.803034 
+L 149.3552 122.621262 
+L 155.4932 83.653919 
+L 156.7208 77.187378 
+L 157.9484 71.646299 
+L 159.176 67.135731 
+L 160.4036 63.771958 
+L 161.6312 61.66301 
+L 162.8588 60.890566 
+L 164.0864 61.513698 
+L 165.314 63.531104 
+L 166.5416 66.902773 
+L 167.7692 71.539333 
+L 168.9968 77.373579 
+L 170.2244 84.310972 
+L 172.6796 100.312309 
+L 175.1348 116.770962 
+L 176.3624 124.42127 
+L 177.59 131.291109 
+L 178.8176 137.244729 
+L 180.0452 142.165629 
+L 181.2728 145.964242 
+L 182.5004 148.533439 
+L 183.728 149.830944 
+L 184.9556 149.87925 
+L 186.1832 148.740255 
+L 187.4108 146.448664 
+L 188.6384 143.02075 
+L 189.866 138.64933 
+L 192.3212 128.478658 
+L 194.7764 117.946021 
+L 196.004 113.177414 
+L 197.2316 108.919163 
+L 198.4592 105.275796 
+L 199.6868 102.326467 
+L 200.9144 100.176334 
+L 202.142 98.881599 
+L 203.3696 98.43311 
+L 204.5972 98.833135 
+L 205.8248 100.082381 
+L 207.0524 102.109713 
+L 208.28 104.809864 
+L 209.5076 108.127547 
+L 210.7352 112.037233 
+L 213.1904 121.132126 
+L 215.6456 130.335898 
+L 216.8732 134.491214 
+L 218.1008 138.063449 
+L 219.3284 140.808221 
+L 220.556 142.630367 
+L 221.7836 143.492144 
+L 223.0112 143.216112 
+L 224.2388 141.76858 
+L 225.4664 139.244375 
+L 226.694 135.619343 
+L 227.9216 130.955902 
+L 229.1492 125.316973 
+L 231.6044 111.85446 
+L 235.2872 90.854994 
+L 236.5148 84.791978 
+L 237.7424 79.715166 
+L 238.97 75.77676 
+L 240.1976 73.08286 
+L 241.4252 71.85101 
+L 242.6528 72.115308 
+L 243.8804 73.861362 
+L 245.108 77.209672 
+L 246.3356 82.050471 
+L 247.5632 88.1031 
+L 250.0184 102.450092 
+L 252.4736 117.235784 
+L 253.7012 124.062521 
+L 254.9288 130.083664 
+L 256.1564 135.048115 
+L 257.384 138.820948 
+L 258.6116 141.310377 
+L 259.8392 142.37398 
+L 261.0668 141.922154 
+L 262.2944 139.982992 
+L 263.522 136.568135 
+L 264.7496 131.748872 
+L 265.9772 125.765045 
+L 268.4324 111.458171 
+L 273.3428 81.275315 
+L 274.5704 74.659804 
+L 275.798 68.708221 
+L 277.0256 63.476138 
+L 278.2532 59.086649 
+L 279.4808 55.641878 
+L 280.7084 53.152412 
+L 281.936 51.628476 
+L 283.1636 51.105488 
+L 284.3912 51.586434 
+L 285.6188 53.031636 
+L 286.8464 55.430374 
+L 288.074 58.735585 
+L 289.3016 62.883414 
+L 290.5292 67.781754 
+L 291.7568 73.308941 
+L 294.212 86.026323 
+L 299.1224 113.305564 
+L 300.35 119.345701 
+L 301.5776 124.600547 
+L 302.8052 128.745946 
+L 304.0328 131.615657 
+L 305.2604 133.086479 
+L 306.488 133.153577 
+L 307.7156 131.878835 
+L 308.9432 129.303981 
+L 310.1708 125.620424 
+L 311.3984 120.94143 
+L 313.8536 109.602707 
+L 316.3088 97.445046 
+L 317.5364 91.820986 
+L 318.764 86.809887 
+L 319.9916 82.759756 
+L 321.2192 80.015119 
+L 322.4468 78.762687 
+L 323.6744 79.087147 
+L 324.902 80.999903 
+L 326.1296 84.48616 
+L 327.3572 89.387227 
+L 328.5848 95.356901 
+L 333.4952 121.909227 
+L 334.7228 127.172349 
+L 335.9504 131.329588 
+L 337.178 134.233768 
+L 338.4056 135.784537 
+L 339.6332 135.837867 
+L 340.8608 134.394543 
+L 342.0884 131.494976 
+L 343.316 127.160312 
+L 344.5436 121.332548 
+L 345.7712 114.215065 
+L 346.9988 106.082753 
+L 349.454 87.888175 
+L 351.9092 69.546355 
+L 354.3644 53.071949 
+L 355.592 45.865922 
+L 356.8196 39.428086 
+L 358.0472 33.86592 
+L 359.2748 29.208411 
+L 360.5024 25.479072 
+L 361.73 22.71021 
+L 362.9576 20.983593 
+L 364.1852 20.316533 
+L 365.4128 20.718039 
+L 366.6404 22.197595 
+L 367.868 24.74782 
+L 369.0956 28.254593 
+L 370.3232 32.706048 
+L 371.5508 38.090565 
+L 372.7784 44.392374 
+L 374.006 51.596548 
+L 376.4612 67.792162 
+L 378.9164 84.248894 
+L 381.3716 99.04465 
+L 382.5992 105.461501 
+L 383.8268 110.918353 
+L 385.0544 115.017381 
+L 386.282 117.335134 
+L 387.5096 117.94082 
+L 388.7372 116.807196 
+L 389.9648 113.916664 
+L 391.1924 109.418888 
+L 392.42 103.466113 
+L 393.6476 96.372704 
+L 398.558 65.351872 
+L 399.7856 58.942998 
+L 401.0132 53.647111 
+L 402.2408 49.801982 
+L 403.4684 47.850483 
+L 404.696 48.151561 
+L 405.9236 50.559572 
+L 407.1512 54.797976 
+L 407.1512 54.797976 
+" clip-path="url(#chunk-drift-pb770926141)" style="fill: none; stroke: var(--fig-green); stroke-width: 2; stroke-linecap: square"/>
+   </g>
+   <g id="chunk-drift-patch_3">
+    <path d="M 48.692 217.872 
+L 48.692 7.2 
+" style="fill: none; stroke: var(--fig-muted); stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="chunk-drift-patch_4">
+    <path d="M 48.692 217.872 
+L 416.972 217.872 
+" style="fill: none; stroke: var(--fig-muted); stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="chunk-drift-text_15">
+    <text style="font-size: 9.5px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: start; fill: var(--fig-muted)" x="56.0576" y="208.653511" transform="rotate(-0 56.0576 208.653511)">the expert it was cloned from</text>
+   </g>
+   <g id="chunk-drift-text_16">
+    <text style="font-size: 10px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-ox)" x="401.1512" y="142.249852" transform="rotate(-0 401.1512 142.249852)">one action per query</text>
+   </g>
+   <g id="chunk-drift-text_17">
+    <text style="font-size: 10px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-blue)" x="401.1512" y="175.031536" transform="rotate(-0 401.1512 175.031536)">chunks of 5</text>
+   </g>
+   <g id="chunk-drift-text_18">
+    <text style="font-size: 10px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-green)" x="401.1512" y="45.797976" transform="rotate(-0 401.1512 45.797976)">chunks of 20</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="chunk-drift-pb770926141">
+   <rect x="48.692" y="7.2" width="368.28" height="210.672"/>
+  </clipPath>
+ </defs>
+</svg>

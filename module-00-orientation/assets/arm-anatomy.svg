@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 440" role="img" aria-label="Anatomy of a six-degree-of-freedom robot arm: a bolted-down base, six labelled revolute joints J1 to J6 running from base yaw to wrist roll, one rigid link called out between shoulder and elbow, a gripper end-effector, and a camera watching the workspace">
+  <text x="380" y="26" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">six revolute joints = six degrees of freedom · the minimum to reach any nearby point in any orientation</text>
+
+  <!-- base -->
+  <rect x="122" y="378" width="108" height="26" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+
+  <!-- links: the rigid bones -->
+  <g fill="none" stroke="var(--blue, #2d5d7c)" stroke-width="6" stroke-linecap="round">
+    <line x1="176" y1="370" x2="176" y2="306"/>
+    <line x1="176" y1="306" x2="306" y2="174"/>
+    <line x1="306" y1="174" x2="450" y2="206"/>
+    <line x1="450" y1="206" x2="516" y2="226"/>
+    <line x1="516" y1="226" x2="572" y2="226"/>
+  </g>
+
+  <!-- end-effector: parallel-jaw gripper -->
+  <g fill="none" stroke="var(--gold, #b07d22)" stroke-width="4.5" stroke-linecap="round">
+    <line x1="578" y1="226" x2="592" y2="226"/>
+    <line x1="592" y1="206" x2="592" y2="246"/>
+    <line x1="592" y1="206" x2="626" y2="206"/>
+    <line x1="592" y1="246" x2="626" y2="246"/>
+  </g>
+
+  <!-- joints -->
+  <g fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6">
+    <circle cx="176" cy="370" r="13"/>
+    <circle cx="176" cy="306" r="13"/>
+    <circle cx="306" cy="174" r="13"/>
+    <circle cx="450" cy="206" r="13"/>
+    <circle cx="516" cy="226" r="13"/>
+    <circle cx="572" cy="226" r="13"/>
+  </g>
+  <g text-anchor="middle" font-size="13" font-weight="700" fill="var(--blue, #2d5d7c)">
+    <text x="176" y="374" class="svg-disp">J1</text>
+    <text x="176" y="310" class="svg-disp">J2</text>
+    <text x="306" y="178" class="svg-disp">J3</text>
+    <text x="450" y="210" class="svg-disp">J4</text>
+    <text x="516" y="230" class="svg-disp">J5</text>
+    <text x="572" y="230" class="svg-disp">J6</text>
+  </g>
+
+  <!-- leaders: every one touches the mark it names -->
+  <g fill="none" stroke="var(--muted, #6b6053)" stroke-width="1.1">
+    <line x1="116" y1="346" x2="164" y2="365"/>
+    <line x1="116" y1="296" x2="163" y2="304"/>
+    <line x1="292" y1="142" x2="301" y2="162"/>
+    <line x1="450" y1="219" x2="450" y2="274"/>
+    <line x1="516" y1="239" x2="516" y2="322"/>
+    <line x1="572" y1="239" x2="572" y2="306"/>
+    <line x1="640" y1="244" x2="627" y2="246"/>
+    <line x1="116" y1="392" x2="122" y2="392"/>
+    <line x1="172" y1="198" x2="225" y2="225"/>
+    <path d="M164 295 L160 291 L290 159 L294 163"/>
+  </g>
+
+  <!-- joint labels -->
+  <g font-size="14" font-weight="600" fill="var(--blue, #2d5d7c)">
+    <text x="112" y="340" text-anchor="end" class="svg-disp">base yaw</text>
+    <text x="112" y="286" text-anchor="end" class="svg-disp">shoulder</text>
+    <text x="286" y="132" text-anchor="end" class="svg-disp">elbow</text>
+    <text x="442" y="272" text-anchor="end" class="svg-disp">forearm roll</text>
+    <text x="508" y="320" text-anchor="end" class="svg-disp">wrist pitch</text>
+    <text x="580" y="304" class="svg-disp">wrist roll</text>
+  </g>
+  <g font-size="9.5" fill="var(--muted, #6b6053)">
+    <text x="112" y="356" text-anchor="end" class="svg-mono">swivels the arm</text>
+    <text x="112" y="302" text-anchor="end" class="svg-mono">raises the arm</text>
+    <text x="286" y="148" text-anchor="end" class="svg-mono">folds the arm</text>
+    <text x="442" y="288" text-anchor="end" class="svg-mono">spins the forearm</text>
+    <text x="508" y="336" text-anchor="end" class="svg-mono">tilts the gripper</text>
+    <text x="580" y="320" class="svg-mono">spins the gripper</text>
+    <text x="112" y="396" text-anchor="end" class="svg-mono">fixed base</text>
+  </g>
+
+  <!-- link callout -->
+  <text x="44" y="176" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Link</text>
+  <text x="44" y="194" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">a rigid 'bone'</text>
+  <text x="44" y="208" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">assumed never to bend</text>
+
+  <!-- end-effector callout -->
+  <text x="644" y="240" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--gold, #b07d22)">End-effector</text>
+  <text x="644" y="256" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the business end</text>
+
+  <!-- camera -->
+  <rect x="200" y="40" width="176" height="66" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="288" y="66" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--green, #15614e)">Camera</text>
+  <text x="288" y="82" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the robot's eyes</text>
+  <text x="288" y="96" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">watches the workspace</text>
+  <line x1="376" y1="100" x2="604" y2="198" fill="none"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" stroke-dasharray="4 4"
+        marker-end="url(#armAnatomyArrow)"/>
+
+  <text x="380" y="424" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">each joint is one servo: motor + gearbox + an encoder that reports the joint's own angle</text>
+
+  <defs>
+    <marker id="armAnatomyArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

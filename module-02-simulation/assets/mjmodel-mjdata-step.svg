@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 330" role="img" aria-label="The XML compiles once into an mjModel of read-only constants; below it mj_step reads an MjData of mutable state and writes the next state back into the same object, with a return arrow closing the loop">
+
+  <rect x="30" y="20" width="170" height="52" rx="8"
+        fill="none" stroke="var(--line-2, #c8bca3)" stroke-width="1.6" stroke-dasharray="4 4"/>
+  <text x="115" y="44" text-anchor="middle" class="svg-mono" font-size="10" fill="var(--muted, #6b6053)">scene.xml</text>
+  <text x="115" y="60" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">read once, at startup</text>
+
+  <line x1="200" y1="46" x2="248" y2="46" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#stepArrowMjModel)"/>
+
+  <rect x="256" y="14" width="252" height="66" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="382" y="40" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700" fill="var(--blue, #2d5d7c)">mjModel</text>
+  <text x="382" y="58" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">shapes, masses, joint limits, gains, timestep</text>
+  <text x="382" y="72" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">constant while the loop runs</text>
+
+  <line x1="382" y1="80" x2="382" y2="146" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#stepArrowMjModel)"/>
+
+  <rect x="256" y="152" width="252" height="72" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="382" y="182" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700" fill="var(--green, #15614e)">mj_step</text>
+  <text x="382" y="202" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">forces, contacts, then one integration</text>
+  <text x="382" y="216" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">of 0.005 s</text>
+
+  <rect x="30" y="152" width="176" height="72" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="118" y="180" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700" fill="var(--gold, #b07d22)">mjData</text>
+  <text x="118" y="199" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">qpos, qvel, ctrl, time</text>
+  <text x="118" y="213" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">everything that changes</text>
+
+  <line x1="206" y1="188" x2="248" y2="188" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#stepArrowMjModel)"/>
+
+  <line x1="508" y1="188" x2="556" y2="188" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#stepArrowMjModel)"/>
+
+  <rect x="564" y="152" width="186" height="72" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="657" y="180" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700" fill="var(--gold, #b07d22)">mjData</text>
+  <text x="657" y="199" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">the next state, plus</text>
+  <text x="657" y="213" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">xpos, sensordata, contacts</text>
+
+  <path d="M657,224 L657,278 L118,278 L118,232" fill="none"
+        stroke="var(--gold, #b07d22)" stroke-width="1.3" marker-end="url(#stepLoopMjModel)"/>
+  <text x="388" y="272" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--gold, #b07d22)">the same object, overwritten in place</text>
+
+  <line x1="118" y1="152" x2="118" y2="128" stroke="var(--line-2, #c8bca3)" stroke-width="1.1"/>
+  <text x="118" y="104" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">one mjModel can back many mjData</text>
+  <text x="118" y="118" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">at once: that is a parallel env</text>
+
+  <text x="382" y="308" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">nothing here reads a clock; data.time is just another number in the state</text>
+
+  <defs>
+    <marker id="stepArrowMjModel" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+    <marker id="stepLoopMjModel" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--gold, #b07d22)"/>
+    </marker>
+  </defs>
+</svg>

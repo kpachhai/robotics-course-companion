@@ -1,0 +1,288 @@
+<svg id="three-ways-robustness" xmlns:xlink="http://www.w3.org/1999/xlink" width="435.172pt" height="280.644pt" viewBox="0 0 435.172 280.644" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">#three-ways-robustness, #three-ways-robustness *{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="three-ways-robustness-figure_1">
+  <g id="three-ways-robustness-patch_1">
+   <path d="M 0 280.644 
+L 435.172 280.644 
+L 435.172 0 
+L 0 0 
+L 0 280.644 
+z
+" style="fill: none"/>
+  </g>
+  <g id="three-ways-robustness-axes_1">
+   <g id="three-ways-robustness-patch_2">
+    <path d="M 59.692 228.96 
+L 427.972 228.96 
+L 427.972 7.2 
+L 59.692 7.2 
+L 59.692 228.96 
+z
+" style="fill: none"/>
+   </g>
+   <g id="three-ways-robustness-matplotlib.axis_1">
+    <g id="three-ways-robustness-xtick_1">
+     <g id="three-ways-robustness-line2d_1">
+      <defs>
+       <path id="three-ways-robustness-mabe65c4262" d="M 0 0 
+L 0 3.5 
+" style="stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#three-ways-robustness-mabe65c4262" x="72.39131" y="228.96" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="three-ways-robustness-text_1">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="72.39131" y="247.609" transform="rotate(-0 72.39131 247.609)">on centre</text>
+     </g>
+    </g>
+    <g id="three-ways-robustness-xtick_2">
+     <g id="three-ways-robustness-line2d_2">
+      <g>
+       <use xlink:href="#three-ways-robustness-mabe65c4262" x="199.384414" y="228.96" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="three-ways-robustness-text_2">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="199.384414" y="247.609" transform="rotate(-0 199.384414 247.609)">+2</text>
+     </g>
+    </g>
+    <g id="three-ways-robustness-xtick_3">
+     <g id="three-ways-robustness-line2d_3">
+      <g>
+       <use xlink:href="#three-ways-robustness-mabe65c4262" x="326.377517" y="228.96" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="three-ways-robustness-text_3">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="326.377517" y="247.609" transform="rotate(-0 326.377517 247.609)">+4</text>
+     </g>
+    </g>
+    <g id="three-ways-robustness-text_4">
+     <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-ink)" x="243.832" y="268.351" transform="rotate(-0 243.832 268.351)">how far off the demonstrated centre the episode starts (cm)</text>
+    </g>
+   </g>
+   <g id="three-ways-robustness-matplotlib.axis_2">
+    <g id="three-ways-robustness-ytick_1">
+     <g id="three-ways-robustness-line2d_4">
+      <path d="M 59.692 221.04 
+L 427.972 221.04 
+" clip-path="url(#three-ways-robustness-p68d79662d8)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="three-ways-robustness-line2d_5">
+      <defs>
+       <path id="three-ways-robustness-mc16693e09f" d="M 0 0 
+L -3.5 0 
+" style="stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#three-ways-robustness-mc16693e09f" x="59.692" y="221.04" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="three-ways-robustness-text_5">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="52.692" y="226.8645" transform="rotate(-0 52.692 226.8645)">0%</text>
+     </g>
+    </g>
+    <g id="three-ways-robustness-ytick_2">
+     <g id="three-ways-robustness-line2d_6">
+      <path d="M 59.692 171.54 
+L 427.972 171.54 
+" clip-path="url(#three-ways-robustness-p68d79662d8)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="three-ways-robustness-line2d_7">
+      <g>
+       <use xlink:href="#three-ways-robustness-mc16693e09f" x="59.692" y="171.54" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="three-ways-robustness-text_6">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="52.692" y="177.3645" transform="rotate(-0 52.692 177.3645)">25%</text>
+     </g>
+    </g>
+    <g id="three-ways-robustness-ytick_3">
+     <g id="three-ways-robustness-line2d_8">
+      <path d="M 59.692 122.04 
+L 427.972 122.04 
+" clip-path="url(#three-ways-robustness-p68d79662d8)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="three-ways-robustness-line2d_9">
+      <g>
+       <use xlink:href="#three-ways-robustness-mc16693e09f" x="59.692" y="122.04" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="three-ways-robustness-text_7">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="52.692" y="127.8645" transform="rotate(-0 52.692 127.8645)">50%</text>
+     </g>
+    </g>
+    <g id="three-ways-robustness-ytick_4">
+     <g id="three-ways-robustness-line2d_10">
+      <path d="M 59.692 72.54 
+L 427.972 72.54 
+" clip-path="url(#three-ways-robustness-p68d79662d8)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="three-ways-robustness-line2d_11">
+      <g>
+       <use xlink:href="#three-ways-robustness-mc16693e09f" x="59.692" y="72.54" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="three-ways-robustness-text_8">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="52.692" y="78.3645" transform="rotate(-0 52.692 78.3645)">75%</text>
+     </g>
+    </g>
+    <g id="three-ways-robustness-ytick_5">
+     <g id="three-ways-robustness-line2d_12">
+      <path d="M 59.692 23.04 
+L 427.972 23.04 
+" clip-path="url(#three-ways-robustness-p68d79662d8)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="three-ways-robustness-line2d_13">
+      <g>
+       <use xlink:href="#three-ways-robustness-mc16693e09f" x="59.692" y="23.04" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="three-ways-robustness-text_9">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="52.692" y="28.8645" transform="rotate(-0 52.692 28.8645)">100%</text>
+     </g>
+    </g>
+    <g id="three-ways-robustness-text_10">
+     <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-ink)" x="18.849" y="118.08" transform="rotate(-90 18.849 118.08)">episodes finishing the groove, out of 60</text>
+    </g>
+   </g>
+   <g id="three-ways-robustness-line2d_14">
+    <path d="M 72.39131 23.04 
+L 199.384414 23.04 
+L 326.377517 23.04 
+" clip-path="url(#three-ways-robustness-p68d79662d8)" style="fill: none; stroke: var(--fig-blue); stroke-width: 2; stroke-linecap: square"/>
+    <defs>
+     <path id="three-ways-robustness-m6b40f3dce0" d="M 0 2.5 
+C 0.663008 2.5 1.29895 2.236584 1.767767 1.767767 
+C 2.236584 1.29895 2.5 0.663008 2.5 0 
+C 2.5 -0.663008 2.236584 -1.29895 1.767767 -1.767767 
+C 1.29895 -2.236584 0.663008 -2.5 0 -2.5 
+C -0.663008 -2.5 -1.29895 -2.236584 -1.767767 -1.767767 
+C -2.236584 -1.29895 -2.5 -0.663008 -2.5 0 
+C -2.5 0.663008 -2.236584 1.29895 -1.767767 1.767767 
+C -1.29895 2.236584 -0.663008 2.5 0 2.5 
+z
+" style="stroke: var(--fig-blue)"/>
+    </defs>
+    <g clip-path="url(#three-ways-robustness-p68d79662d8)">
+     <use xlink:href="#three-ways-robustness-m6b40f3dce0" x="72.39131" y="23.04" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+     <use xlink:href="#three-ways-robustness-m6b40f3dce0" x="199.384414" y="23.04" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+     <use xlink:href="#three-ways-robustness-m6b40f3dce0" x="326.377517" y="23.04" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+    </g>
+   </g>
+   <g id="three-ways-robustness-line2d_15">
+    <path d="M 72.39131 23.04 
+L 199.384414 32.94 
+L 326.377517 46.14 
+" clip-path="url(#three-ways-robustness-p68d79662d8)" style="fill: none; stroke: var(--fig-green); stroke-width: 2; stroke-linecap: square"/>
+    <defs>
+     <path id="three-ways-robustness-m7f7445924a" d="M 0 2.5 
+C 0.663008 2.5 1.29895 2.236584 1.767767 1.767767 
+C 2.236584 1.29895 2.5 0.663008 2.5 0 
+C 2.5 -0.663008 2.236584 -1.29895 1.767767 -1.767767 
+C 1.29895 -2.236584 0.663008 -2.5 0 -2.5 
+C -0.663008 -2.5 -1.29895 -2.236584 -1.767767 -1.767767 
+C -2.236584 -1.29895 -2.5 -0.663008 -2.5 0 
+C -2.5 0.663008 -2.236584 1.29895 -1.767767 1.767767 
+C -1.29895 2.236584 -0.663008 2.5 0 2.5 
+z
+" style="stroke: var(--fig-green)"/>
+    </defs>
+    <g clip-path="url(#three-ways-robustness-p68d79662d8)">
+     <use xlink:href="#three-ways-robustness-m7f7445924a" x="72.39131" y="23.04" style="fill: var(--fig-green); stroke: var(--fig-green)"/>
+     <use xlink:href="#three-ways-robustness-m7f7445924a" x="199.384414" y="32.94" style="fill: var(--fig-green); stroke: var(--fig-green)"/>
+     <use xlink:href="#three-ways-robustness-m7f7445924a" x="326.377517" y="46.14" style="fill: var(--fig-green); stroke: var(--fig-green)"/>
+    </g>
+   </g>
+   <g id="three-ways-robustness-line2d_16">
+    <path d="M 72.39131 75.84 
+L 199.384414 105.54 
+L 326.377517 164.94 
+" clip-path="url(#three-ways-robustness-p68d79662d8)" style="fill: none; stroke: var(--fig-gold); stroke-width: 2; stroke-linecap: square"/>
+    <defs>
+     <path id="three-ways-robustness-m0f62ef1228" d="M 0 2.5 
+C 0.663008 2.5 1.29895 2.236584 1.767767 1.767767 
+C 2.236584 1.29895 2.5 0.663008 2.5 0 
+C 2.5 -0.663008 2.236584 -1.29895 1.767767 -1.767767 
+C 1.29895 -2.236584 0.663008 -2.5 0 -2.5 
+C -0.663008 -2.5 -1.29895 -2.236584 -1.767767 -1.767767 
+C -2.236584 -1.29895 -2.5 -0.663008 -2.5 0 
+C -2.5 0.663008 -2.236584 1.29895 -1.767767 1.767767 
+C -1.29895 2.236584 -0.663008 2.5 0 2.5 
+z
+" style="stroke: var(--fig-gold)"/>
+    </defs>
+    <g clip-path="url(#three-ways-robustness-p68d79662d8)">
+     <use xlink:href="#three-ways-robustness-m0f62ef1228" x="72.39131" y="75.84" style="fill: var(--fig-gold); stroke: var(--fig-gold)"/>
+     <use xlink:href="#three-ways-robustness-m0f62ef1228" x="199.384414" y="105.54" style="fill: var(--fig-gold); stroke: var(--fig-gold)"/>
+     <use xlink:href="#three-ways-robustness-m0f62ef1228" x="326.377517" y="164.94" style="fill: var(--fig-gold); stroke: var(--fig-gold)"/>
+    </g>
+   </g>
+   <g id="three-ways-robustness-line2d_17">
+    <path d="M 72.39131 221.04 
+L 199.384414 221.04 
+L 326.377517 221.04 
+" clip-path="url(#three-ways-robustness-p68d79662d8)" style="fill: none; stroke: var(--fig-ox); stroke-width: 2; stroke-linecap: square"/>
+    <defs>
+     <path id="three-ways-robustness-m18255dce93" d="M 0 2.5 
+C 0.663008 2.5 1.29895 2.236584 1.767767 1.767767 
+C 2.236584 1.29895 2.5 0.663008 2.5 0 
+C 2.5 -0.663008 2.236584 -1.29895 1.767767 -1.767767 
+C 1.29895 -2.236584 0.663008 -2.5 0 -2.5 
+C -0.663008 -2.5 -1.29895 -2.236584 -1.767767 -1.767767 
+C -2.236584 -1.29895 -2.5 -0.663008 -2.5 0 
+C -2.5 0.663008 -2.236584 1.29895 -1.767767 1.767767 
+C -1.29895 2.236584 -0.663008 2.5 0 2.5 
+z
+" style="stroke: var(--fig-ox)"/>
+    </defs>
+    <g clip-path="url(#three-ways-robustness-p68d79662d8)">
+     <use xlink:href="#three-ways-robustness-m18255dce93" x="72.39131" y="221.04" style="fill: var(--fig-ox); stroke: var(--fig-ox)"/>
+     <use xlink:href="#three-ways-robustness-m18255dce93" x="199.384414" y="221.04" style="fill: var(--fig-ox); stroke: var(--fig-ox)"/>
+     <use xlink:href="#three-ways-robustness-m18255dce93" x="326.377517" y="221.04" style="fill: var(--fig-ox); stroke: var(--fig-ox)"/>
+    </g>
+   </g>
+   <g id="three-ways-robustness-patch_3">
+    <path d="M 59.692 228.96 
+L 59.692 7.2 
+" style="fill: none; stroke: var(--fig-muted); stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="three-ways-robustness-patch_4">
+    <path d="M 59.692 228.96 
+L 427.972 228.96 
+" style="fill: none; stroke: var(--fig-muted); stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="three-ways-robustness-text_11">
+    <text style="font-size: 9.5px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: start; fill: var(--fig-blue)" x="334.377517" y="26.04" transform="rotate(-0 334.377517 26.04)">scripted</text>
+   </g>
+   <g id="three-ways-robustness-text_12">
+    <text style="font-size: 9.5px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: start; fill: var(--fig-green)" x="334.377517" y="49.14" transform="rotate(-0 334.377517 49.14)">imitation, 50</text>
+   </g>
+   <g id="three-ways-robustness-text_13">
+    <text style="font-size: 9.5px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: start; fill: var(--fig-gold)" x="334.377517" y="167.94" transform="rotate(-0 334.377517 167.94)">imitation, 10</text>
+   </g>
+   <g id="three-ways-robustness-text_14">
+    <text style="font-size: 9.5px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: start; fill: var(--fig-ox)" x="334.377517" y="224.04" transform="rotate(-0 334.377517 224.04)">reinforcement</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="three-ways-robustness-p68d79662d8">
+   <rect x="59.692" y="7.2" width="368.28" height="221.76"/>
+  </clipPath>
+ </defs>
+</svg>

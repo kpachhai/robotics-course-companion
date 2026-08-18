@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 292" role="img" aria-label="The three axis rotations drawn as three discs seen face on. R about z turns x toward y with z pointing out of the page; R about x turns y toward z with x out of the page; R about y turns z toward x with y out of the page. Each is the same two-dimensional rotation acting in its own pair of axes.">
+  <text x="360" y="26" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">each disc is seen face on · the axis in the middle points at you and never moves</text>
+
+  <!-- ============ rotation about z ============ -->
+  <circle cx="128" cy="148" r="56"
+          fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.5"/>
+  <path d="M157.3,141.8 A30,30 0 0 0 134.2,118.7"
+        fill="none" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#axes3dSweep)"/>
+  <line x1="128" y1="148" x2="180" y2="148"
+        stroke="var(--blue, #2d5d7c)" stroke-width="1.8" marker-end="url(#axes3dArrow)"/>
+  <line x1="128" y1="148" x2="128" y2="96"
+        stroke="var(--blue, #2d5d7c)" stroke-width="1.8" marker-end="url(#axes3dArrow)"/>
+  <text x="194" y="153" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">x</text>
+  <text x="128" y="82" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">y</text>
+  <circle cx="128" cy="148" r="7"
+          fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.5"/>
+  <circle cx="128" cy="148" r="2.4" fill="var(--blue, #2d5d7c)"/>
+  <text x="128" y="180" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">z out of page</text>
+  <text x="128" y="234" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--blue, #2d5d7c)">R<tspan font-size="10" dy="3">z</tspan><tspan dy="-3">(γ)</tspan></text>
+  <text x="128" y="252" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">turns x toward y</text>
+
+  <!-- ============ rotation about x ============ -->
+  <circle cx="360" cy="148" r="56"
+          fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.5"/>
+  <path d="M389.3,141.8 A30,30 0 0 0 366.2,118.7"
+        fill="none" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#axes3dSweep)"/>
+  <line x1="360" y1="148" x2="412" y2="148"
+        stroke="var(--blue, #2d5d7c)" stroke-width="1.8" marker-end="url(#axes3dArrow)"/>
+  <line x1="360" y1="148" x2="360" y2="96"
+        stroke="var(--blue, #2d5d7c)" stroke-width="1.8" marker-end="url(#axes3dArrow)"/>
+  <text x="426" y="153" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">y</text>
+  <text x="360" y="82" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">z</text>
+  <circle cx="360" cy="148" r="7"
+          fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.5"/>
+  <circle cx="360" cy="148" r="2.4" fill="var(--blue, #2d5d7c)"/>
+  <text x="360" y="180" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">x out of page</text>
+  <text x="360" y="234" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--blue, #2d5d7c)">R<tspan font-size="10" dy="3">x</tspan><tspan dy="-3">(α)</tspan></text>
+  <text x="360" y="252" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">turns y toward z</text>
+
+  <!-- ============ rotation about y ============ -->
+  <circle cx="592" cy="148" r="56"
+          fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.5"/>
+  <path d="M621.3,141.8 A30,30 0 0 0 598.2,118.7"
+        fill="none" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#axes3dSweep)"/>
+  <line x1="592" y1="148" x2="644" y2="148"
+        stroke="var(--blue, #2d5d7c)" stroke-width="1.8" marker-end="url(#axes3dArrow)"/>
+  <line x1="592" y1="148" x2="592" y2="96"
+        stroke="var(--blue, #2d5d7c)" stroke-width="1.8" marker-end="url(#axes3dArrow)"/>
+  <text x="658" y="153" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">z</text>
+  <text x="592" y="82" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">x</text>
+  <circle cx="592" cy="148" r="7"
+          fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.5"/>
+  <circle cx="592" cy="148" r="2.4" fill="var(--blue, #2d5d7c)"/>
+  <text x="592" y="180" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">y out of page</text>
+  <text x="592" y="234" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--blue, #2d5d7c)">R<tspan font-size="10" dy="3">y</tspan><tspan dy="-3">(β)</tspan></text>
+  <text x="592" y="252" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">turns z toward x</text>
+
+  <text x="360" y="280" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">x → y → z → x · one cycle, three readings of the same 2D rotation</text>
+
+  <defs>
+    <marker id="axes3dArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--blue, #2d5d7c)"/>
+    </marker>
+    <marker id="axes3dSweep" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L7,4 L0,7 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

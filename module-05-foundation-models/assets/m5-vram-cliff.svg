@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" role="img" aria-label="Memory required for a 3B-class pi0.5 model: inference needs more than 8 GB, LoRA fine-tuning more than 22.5 GB, and full fine-tuning more than 70 GB. A common 24 GB consumer card clears the LoRA bar by 1.5 GB and never reaches the full fine-tune bar">
+
+  <text x="80" y="36" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">pi0.5-class model, about 3B parameters &#183; floors from the repository&#8217;s own table, checked 2026-08-09</text>
+
+  <text x="266" y="66" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--ox, #9c3b2e)">24 GB &#183; the card most people own</text>
+  <line x1="266" y1="74" x2="266" y2="248" stroke="var(--ox, #9c3b2e)" stroke-width="1.6"
+        stroke-dasharray="4 4"/>
+
+  <text x="72" y="112" text-anchor="end" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--green, #15614e)">Inference</text>
+  <rect x="142" y="94" width="558" height="30" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="152" y="113" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">more than 8 GB &#183; any recent card, and a Jetson</text>
+
+  <text x="72" y="176" text-anchor="end" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--gold, #b07d22)">LoRA fine-tune</text>
+  <text x="276" y="152" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">1.5 GB of headroom on a 24 GB card</text>
+  <rect x="254" y="158" width="446" height="30" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="280" y="177" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">more than 22.5 GB</text>
+
+  <text x="72" y="234" text-anchor="end" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--ox, #9c3b2e)">Full fine-tune</text>
+  <text x="614" y="206" text-anchor="end" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">no consumer card reaches this line</text>
+  <rect x="622" y="216" width="78" height="30" rx="8"
+        fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.6"/>
+  <text x="618" y="235" text-anchor="end" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">more than 70 GB</text>
+
+  <line x1="80" y1="262" x2="700" y2="262" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <line x1="80" y1="262" x2="80" y2="268" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <line x1="142" y1="262" x2="142" y2="268" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <line x1="266" y1="262" x2="266" y2="268" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <line x1="390" y1="262" x2="390" y2="268" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <line x1="622" y1="262" x2="622" y2="268" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <line x1="700" y1="262" x2="700" y2="268" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+
+  <text x="80" y="284" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">0</text>
+  <text x="142" y="284" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">8</text>
+  <text x="266" y="284" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">24</text>
+  <text x="390" y="284" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">40</text>
+  <text x="622" y="284" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">70</text>
+  <text x="700" y="284" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">80 GB</text>
+</svg>

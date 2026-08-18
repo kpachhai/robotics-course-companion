@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 250" role="img" aria-label="The eval harness as four stages: a frozen protocol, a runner that schedules rollouts, an append-only trial log, and a summariser, with the protocol fingerprint stamped on every logged line">
+
+  <rect x="18" y="44" width="158" height="60" rx="8"
+        fill="var(--purple-soft, #ede0f5)" stroke="var(--purple, #5e2d8c)" stroke-width="1.6"/>
+  <text x="97" y="72" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--purple, #5e2d8c)">Protocol</text>
+  <text x="97" y="90" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">frozen dataclass</text>
+
+  <text x="97" y="126" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">task, n, seeds, factors</text>
+  <text x="97" y="141" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">success rule, failure tags</text>
+  <text x="97" y="156" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">sha256 → d5309b2d36ae</text>
+
+  <line x1="180" y1="74" x2="210" y2="74" stroke="var(--muted, #6b6053)" stroke-width="1.3"
+        marker-end="url(#harnessArrow)"/>
+
+  <rect x="214" y="44" width="178" height="60" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="303" y="72" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Runner</text>
+  <text x="303" y="90" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">your simulator or your arm</text>
+
+  <text x="303" y="126" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">paired, interleaved schedule</text>
+  <text x="303" y="141" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">one rollout per policy per scene</text>
+
+  <line x1="396" y1="74" x2="426" y2="74" stroke="var(--muted, #6b6053)" stroke-width="1.3"
+        marker-end="url(#harnessArrow)"/>
+
+  <rect x="430" y="44" width="160" height="60" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="510" y="72" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Trial log</text>
+  <text x="510" y="90" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">trials.jsonl, append only</text>
+
+  <text x="510" y="126" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">seed, conditions, outcome</text>
+  <text x="510" y="141" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">failure tag, seconds, stamp</text>
+  <text x="510" y="156" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">resumable after a crash</text>
+
+  <line x1="594" y1="74" x2="622" y2="74" stroke="var(--muted, #6b6053)" stroke-width="1.3"
+        marker-end="url(#harnessArrow)"/>
+
+  <rect x="626" y="44" width="116" height="60" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="684" y="72" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--green, #15614e)">Summary</text>
+  <text x="684" y="90" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">computed, never typed</text>
+
+  <text x="684" y="126" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">Wilson interval</text>
+  <text x="684" y="141" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">failure histogram</text>
+  <text x="684" y="156" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">paired comparison</text>
+
+  <path d="M97,172 L97,198 L510,198 L510,172"
+        fill="none" stroke="var(--purple, #5e2d8c)" stroke-width="1.3" stroke-dasharray="5 4"
+        marker-end="url(#harnessStamp)"/>
+  <text x="303" y="220" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--purple, #5e2d8c)">the protocol fingerprint is stamped on every line</text>
+  <text x="303" y="234" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--purple, #5e2d8c)">a log opened under a different protocol refuses the append</text>
+
+  <defs>
+    <marker id="harnessArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+    <marker id="harnessStamp" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--purple, #5e2d8c)"/>
+    </marker>
+  </defs>
+</svg>

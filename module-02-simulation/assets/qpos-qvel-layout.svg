@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 300" role="img" aria-label="The thirteen slots of data.qpos for the arm-plus-cube scene, six hinge angles followed by three cube positions and a four-number quaternion, drawn above the twelve slots of data.qvel, where the free joint has six velocities under its seven position numbers">
+
+  <text x="60" y="30" class="svg-disp" font-size="14" font-weight="700" fill="var(--blue, #2d5d7c)">data.qpos</text>
+  <text x="136" y="30" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">nq = 13</text>
+
+  <rect x="60" y="66" width="44" height="40" rx="6" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <rect x="108" y="66" width="44" height="40" rx="6" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <rect x="156" y="66" width="44" height="40" rx="6" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <rect x="204" y="66" width="44" height="40" rx="6" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <rect x="252" y="66" width="44" height="40" rx="6" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <rect x="300" y="66" width="44" height="40" rx="6" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <rect x="348" y="66" width="44" height="40" rx="6" fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <rect x="396" y="66" width="44" height="40" rx="6" fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <rect x="444" y="66" width="44" height="40" rx="6" fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <rect x="492" y="66" width="44" height="40" rx="6" fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <rect x="540" y="66" width="44" height="40" rx="6" fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <rect x="588" y="66" width="44" height="40" rx="6" fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <rect x="636" y="66" width="44" height="40" rx="6" fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+
+  <text x="82" y="60" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">0</text>
+  <text x="130" y="60" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">1</text>
+  <text x="178" y="60" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">2</text>
+  <text x="226" y="60" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">3</text>
+  <text x="274" y="60" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">4</text>
+  <text x="322" y="60" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">5</text>
+  <text x="370" y="60" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">6</text>
+  <text x="418" y="60" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">7</text>
+  <text x="466" y="60" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">8</text>
+  <text x="514" y="60" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">9</text>
+  <text x="562" y="60" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">10</text>
+  <text x="610" y="60" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">11</text>
+  <text x="658" y="60" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">12</text>
+
+  <text x="202" y="92" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600" fill="var(--blue, #2d5d7c)">six joint angles</text>
+  <text x="418" y="92" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600" fill="var(--green, #15614e)">x  y  z</text>
+  <text x="586" y="92" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600" fill="var(--gold, #b07d22)">quaternion</text>
+
+  <text x="202" y="128" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">the arm</text>
+  <text x="514" y="128" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">the cube's free joint: where it is, and how it is turned</text>
+
+  <text x="60" y="172" class="svg-disp" font-size="14" font-weight="700" fill="var(--blue, #2d5d7c)">data.qvel</text>
+  <text x="136" y="172" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">nv = 12</text>
+
+  <rect x="60" y="186" width="44" height="40" rx="6" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <rect x="108" y="186" width="44" height="40" rx="6" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <rect x="156" y="186" width="44" height="40" rx="6" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <rect x="204" y="186" width="44" height="40" rx="6" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <rect x="252" y="186" width="44" height="40" rx="6" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <rect x="300" y="186" width="44" height="40" rx="6" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <rect x="348" y="186" width="52" height="40" rx="6" fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <rect x="404" y="186" width="52" height="40" rx="6" fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <rect x="460" y="186" width="52" height="40" rx="6" fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <rect x="516" y="186" width="52" height="40" rx="6" fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <rect x="572" y="186" width="52" height="40" rx="6" fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <rect x="628" y="186" width="52" height="40" rx="6" fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+
+  <text x="202" y="212" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600" fill="var(--blue, #2d5d7c)">six joint speeds</text>
+  <text x="430" y="212" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600" fill="var(--green, #15614e)">linear</text>
+  <text x="598" y="212" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600" fill="var(--gold, #b07d22)">angular</text>
+
+  <line x1="492" y1="112" x2="516" y2="180" stroke="var(--ox, #9c3b2e)" stroke-width="1.2" stroke-dasharray="4 4"/>
+  <line x1="680" y1="112" x2="680" y2="180" stroke="var(--ox, #9c3b2e)" stroke-width="1.2" stroke-dasharray="4 4"/>
+
+  <text x="60" y="258" class="svg-mono" font-size="9.5" fill="var(--ox, #9c3b2e)">four position numbers over three velocity numbers: a quaternion carries one redundant number.</text>
+  <text x="60" y="274" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">Slot k of qpos does not correspond to slot k of qvel. Use model.jnt_qposadr and model.jnt_dofadr, never arithmetic.</text>
+</svg>

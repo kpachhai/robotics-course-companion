@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 236" role="img" aria-label="A run of control cycles with one cycle missed, and what that missed cycle costs on an arm compared with a legged robot">
+
+  <text x="112" y="69" text-anchor="end" class="svg-disp" font-size="13.5" font-weight="600"
+        fill="var(--blue, #2d5d7c)">Arm</text>
+
+  <rect x="130" y="52" width="18" height="22" rx="4" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.4"/>
+  <rect x="156" y="52" width="18" height="22" rx="4" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.4"/>
+  <rect x="182" y="52" width="18" height="22" rx="4" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.4"/>
+  <rect x="208" y="52" width="18" height="22" rx="4" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.4"/>
+  <rect x="234" y="52" width="18" height="22" rx="4" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.4"/>
+  <rect x="260" y="52" width="18" height="22" rx="4" fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <rect x="286" y="52" width="18" height="22" rx="4" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.4"/>
+  <rect x="312" y="52" width="18" height="22" rx="4" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.4"/>
+  <rect x="338" y="52" width="18" height="22" rx="4" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.4"/>
+  <rect x="364" y="52" width="18" height="22" rx="4" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.4"/>
+  <text x="269" y="92" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">one cycle missed</text>
+
+  <line x1="392" y1="63" x2="428" y2="63" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m7deadlineFwd)"/>
+
+  <rect x="434" y="34" width="246" height="60" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="557" y="60" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">It holds where it was</text>
+  <text x="557" y="80" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">you resume, nothing is on the floor</text>
+
+  <text x="112" y="189" text-anchor="end" class="svg-disp" font-size="13.5" font-weight="600"
+        fill="var(--ox, #9c3b2e)">Legged robot</text>
+
+  <rect x="130" y="172" width="18" height="22" rx="4" fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.4"/>
+  <rect x="156" y="172" width="18" height="22" rx="4" fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.4"/>
+  <rect x="182" y="172" width="18" height="22" rx="4" fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.4"/>
+  <rect x="208" y="172" width="18" height="22" rx="4" fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.4"/>
+  <rect x="234" y="172" width="18" height="22" rx="4" fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.4"/>
+  <rect x="260" y="172" width="18" height="22" rx="4" fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <rect x="286" y="172" width="18" height="22" rx="4" fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.4"/>
+  <rect x="312" y="172" width="18" height="22" rx="4" fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.4"/>
+  <rect x="338" y="172" width="18" height="22" rx="4" fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.4"/>
+  <rect x="364" y="172" width="18" height="22" rx="4" fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.4"/>
+  <text x="269" y="212" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">one cycle missed</text>
+
+  <line x1="392" y1="183" x2="428" y2="183" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m7deadlineFwd)"/>
+
+  <rect x="434" y="154" width="246" height="60" rx="8"
+        fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.6"/>
+  <text x="557" y="180" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--ox, #9c3b2e)">It goes down</text>
+  <text x="557" y="200" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">a repair, not a retry</text>
+
+  <defs>
+    <marker id="m7deadlineFwd" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

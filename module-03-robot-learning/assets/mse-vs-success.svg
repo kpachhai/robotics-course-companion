@@ -1,0 +1,363 @@
+<svg id="mse-vs-success" xmlns:xlink="http://www.w3.org/1999/xlink" width="532.676016pt" height="177.84pt" viewBox="0 0 532.676016 177.84" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">#mse-vs-success, #mse-vs-success *{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="mse-vs-success-figure_1">
+  <g id="mse-vs-success-patch_1">
+   <path d="M -0 177.84 
+L 532.676016 177.84 
+L 532.676016 0 
+L -0 0 
+L -0 177.84 
+z
+" style="fill: none"/>
+  </g>
+  <g id="mse-vs-success-axes_1">
+   <g id="mse-vs-success-patch_2">
+    <path d="M 54.524688 126.156 
+L 257.124688 126.156 
+L 257.124688 7.2 
+L 54.524688 7.2 
+L 54.524688 126.156 
+z
+" style="fill: none"/>
+   </g>
+   <g id="mse-vs-success-patch_3">
+    <path d="M 54.524688 35.931797 
+L 106.926326 35.931797 
+L 106.926326 12.607091 
+L 54.524688 12.607091 
+z
+" clip-path="url(#mse-vs-success-p32bdb239fa)" style="fill: var(--fig-blue)"/>
+   </g>
+   <g id="mse-vs-success-patch_4">
+    <path d="M 54.524688 78.340353 
+L 106.235245 78.340353 
+L 106.235245 55.015647 
+L 54.524688 55.015647 
+z
+" clip-path="url(#mse-vs-success-p32bdb239fa)" style="fill: var(--fig-blue)"/>
+   </g>
+   <g id="mse-vs-success-patch_5">
+    <path d="M 54.524688 120.748909 
+L 199.238973 120.748909 
+L 199.238973 97.424203 
+L 54.524688 97.424203 
+z
+" clip-path="url(#mse-vs-success-p32bdb239fa)" style="fill: var(--fig-blue)"/>
+   </g>
+   <g id="mse-vs-success-matplotlib.axis_1">
+    <g id="mse-vs-success-xtick_1">
+     <g id="mse-vs-success-line2d_1">
+      <defs>
+       <path id="mse-vs-success-mabe65c4262" d="M 0 0 
+L 0 3.5 
+" style="stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#mse-vs-success-mabe65c4262" x="54.524688" y="126.156" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="mse-vs-success-text_1">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="54.524688" y="144.805" transform="rotate(-0 54.524688 144.805)">0.0</text>
+     </g>
+    </g>
+    <g id="mse-vs-success-xtick_2">
+     <g id="mse-vs-success-line2d_2">
+      <g>
+       <use xlink:href="#mse-vs-success-mabe65c4262" x="96.442058" y="126.156" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="mse-vs-success-text_2">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="96.442058" y="144.805" transform="rotate(-0 96.442058 144.805)">0.5</text>
+     </g>
+    </g>
+    <g id="mse-vs-success-xtick_3">
+     <g id="mse-vs-success-line2d_3">
+      <g>
+       <use xlink:href="#mse-vs-success-mabe65c4262" x="138.359429" y="126.156" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="mse-vs-success-text_3">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="138.359429" y="144.805" transform="rotate(-0 138.359429 144.805)">1.0</text>
+     </g>
+    </g>
+    <g id="mse-vs-success-xtick_4">
+     <g id="mse-vs-success-line2d_4">
+      <g>
+       <use xlink:href="#mse-vs-success-mabe65c4262" x="180.2768" y="126.156" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="mse-vs-success-text_4">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="180.2768" y="144.805" transform="rotate(-0 180.2768 144.805)">1.5</text>
+     </g>
+    </g>
+    <g id="mse-vs-success-xtick_5">
+     <g id="mse-vs-success-line2d_5">
+      <g>
+       <use xlink:href="#mse-vs-success-mabe65c4262" x="222.194171" y="126.156" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="mse-vs-success-text_5">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="222.194171" y="144.805" transform="rotate(-0 222.194171 144.805)">2.0</text>
+     </g>
+    </g>
+    <g id="mse-vs-success-text_6">
+     <!-- held-out action error, in units of $10^{-4}$ -->
+     <g style="fill: var(--fig-ink)" transform="translate(63.204688 165.547)">
+      <text>
+       <tspan x="0" y="-0.846063" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-ink)">h</tspan>
+       <tspan x="6.401947" y="-0.846063" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-ink)">e</tspan>
+       <tspan x="11.725906" y="-0.846063" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-ink)">l</tspan>
+       <tspan x="14.959885" y="-0.846063" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-ink)">d</tspan>
+       <tspan x="21.108841" y="-0.846063" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-ink)">-</tspan>
+       <tspan x="25.23381" y="-0.846063" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-ink)">o</tspan>
+       <tspan x="31.173767" y="-0.846063" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-ink)">u</tspan>
+       <tspan x="37.344727" y="-0.846063" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-ink)">t</tspan>
+       <tspan x="41.238693" y="-0.846063" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-ink)"> </tspan>
+       <tspan x="43.988678" y="-0.846063" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-ink)">a</tspan>
+       <tspan x="49.367645" y="-0.846063" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-ink)">c</tspan>
+       <tspan x="54.636612" y="-0.846063" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-ink)">t</tspan>
+       <tspan x="58.530579" y="-0.846063" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-ink)">i</tspan>
+       <tspan x="61.973557" y="-0.846063" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-ink)">o</tspan>
+       <tspan x="67.913513" y="-0.846063" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-ink)">n</tspan>
+       <tspan x="74.31546" y="-0.846063" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-ink)"> </tspan>
+       <tspan x="77.065445" y="-0.846063" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-ink)">e</tspan>
+       <tspan x="82.389404" y="-0.846063" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-ink)">r</tspan>
+       <tspan x="86.756378" y="-0.846063" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-ink)">r</tspan>
+       <tspan x="91.123352" y="-0.846063" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-ink)">o</tspan>
+       <tspan x="97.063309" y="-0.846063" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-ink)">r</tspan>
+       <tspan x="101.430283" y="-0.846063" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-ink)">,</tspan>
+       <tspan x="104.180267" y="-0.846063" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-ink)"> </tspan>
+       <tspan x="106.930252" y="-0.846063" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-ink)">i</tspan>
+       <tspan x="110.37323" y="-0.846063" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-ink)">n</tspan>
+       <tspan x="116.775177" y="-0.846063" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-ink)"> </tspan>
+       <tspan x="119.525162" y="-0.846063" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-ink)">u</tspan>
+       <tspan x="125.696121" y="-0.846063" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-ink)">n</tspan>
+       <tspan x="132.098068" y="-0.846063" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-ink)">i</tspan>
+       <tspan x="135.541046" y="-0.846063" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-ink)">t</tspan>
+       <tspan x="139.435013" y="-0.846063" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-ink)">s</tspan>
+       <tspan x="144.186981" y="-0.846063" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-ink)"> </tspan>
+       <tspan x="146.936966" y="-0.846063" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-ink)">o</tspan>
+       <tspan x="152.876923" y="-0.846063" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-ink)">f</tspan>
+       <tspan x="156.638901" y="-0.846063" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-ink)"> </tspan>
+       <tspan x="159.388885" y="-0.846063" style="font-size: 11px; font-family: 'DejaVu Sans'; fill: var(--fig-ink)">1</tspan>
+       <tspan x="166.387421" y="-0.846063" style="font-size: 11px; font-family: 'DejaVu Sans'; fill: var(--fig-ink)">0</tspan>
+       <tspan x="173.491229" y="-5.389063" style="font-size: 7.7px; font-family: 'DejaVu Sans'; fill: var(--fig-ink)">−</tspan>
+       <tspan x="179.942987" y="-5.389063" style="font-size: 7.7px; font-family: 'DejaVu Sans'; fill: var(--fig-ink)">4</tspan>
+      </text>
+     </g>
+    </g>
+   </g>
+   <g id="mse-vs-success-matplotlib.axis_2">
+    <g id="mse-vs-success-ytick_1">
+     <g id="mse-vs-success-line2d_6"/>
+     <g id="mse-vs-success-text_7">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="51.024688" y="30.093944" transform="rotate(-0 51.024688 30.093944)">mlp</text>
+     </g>
+    </g>
+    <g id="mse-vs-success-ytick_2">
+     <g id="mse-vs-success-line2d_7"/>
+     <g id="mse-vs-success-text_8">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="51.024688" y="72.5025" transform="rotate(-0 51.024688 72.5025)">cvae</text>
+     </g>
+    </g>
+    <g id="mse-vs-success-ytick_3">
+     <g id="mse-vs-success-line2d_8"/>
+     <g id="mse-vs-success-text_9">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="51.024688" y="114.911056" transform="rotate(-0 51.024688 114.911056)">diffusion</text>
+     </g>
+    </g>
+   </g>
+   <g id="mse-vs-success-patch_6">
+    <path d="M 54.524688 126.156 
+L 257.124688 126.156 
+" style="fill: none; stroke: var(--fig-muted); stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="mse-vs-success-text_10">
+    <text style="font-size: 9.5px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: start; fill: var(--fig-ink)" x="106.926326" y="27.100444" transform="rotate(-0 106.926326 27.100444)">  0.6</text>
+   </g>
+   <g id="mse-vs-success-text_11">
+    <text style="font-size: 9.5px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: start; fill: var(--fig-ink)" x="106.235245" y="69.509" transform="rotate(-0 106.235245 69.509)">  0.6</text>
+   </g>
+   <g id="mse-vs-success-text_12">
+    <text style="font-size: 9.5px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: start; fill: var(--fig-ink)" x="199.238973" y="111.917556" transform="rotate(-0 199.238973 111.917556)">  1.7</text>
+   </g>
+  </g>
+  <g id="mse-vs-success-axes_2">
+   <g id="mse-vs-success-patch_7">
+    <path d="M 314.984688 126.156 
+L 517.584688 126.156 
+L 517.584688 7.2 
+L 314.984688 7.2 
+L 314.984688 126.156 
+z
+" style="fill: none"/>
+   </g>
+   <g id="mse-vs-success-patch_8">
+    <path d="M 314.984688 35.931797 
+L 392.783088 35.931797 
+L 392.783088 12.607091 
+L 314.984688 12.607091 
+z
+" clip-path="url(#mse-vs-success-pd3f4160db7)" style="fill: var(--fig-blue)"/>
+   </g>
+   <g id="mse-vs-success-patch_9">
+    <path d="M 314.984688 78.340353 
+L 367.660688 78.340353 
+L 367.660688 55.015647 
+L 314.984688 55.015647 
+z
+" clip-path="url(#mse-vs-success-pd3f4160db7)" style="fill: var(--fig-blue)"/>
+   </g>
+   <g id="mse-vs-success-patch_10">
+    <path d="M 314.984688 120.748909 
+L 437.355088 120.748909 
+L 437.355088 97.424203 
+L 314.984688 97.424203 
+z
+" clip-path="url(#mse-vs-success-pd3f4160db7)" style="fill: var(--fig-blue)"/>
+   </g>
+   <g id="mse-vs-success-matplotlib.axis_3">
+    <g id="mse-vs-success-xtick_6">
+     <g id="mse-vs-success-line2d_9">
+      <g>
+       <use xlink:href="#mse-vs-success-mabe65c4262" x="314.984688" y="126.156" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="mse-vs-success-text_13">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="314.984688" y="144.805" transform="rotate(-0 314.984688 144.805)">0%</text>
+     </g>
+    </g>
+    <g id="mse-vs-success-xtick_7">
+     <g id="mse-vs-success-line2d_10">
+      <g>
+       <use xlink:href="#mse-vs-success-mabe65c4262" x="396.024688" y="126.156" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="mse-vs-success-text_14">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="396.024688" y="144.805" transform="rotate(-0 396.024688 144.805)">50%</text>
+     </g>
+    </g>
+    <g id="mse-vs-success-xtick_8">
+     <g id="mse-vs-success-line2d_11">
+      <g>
+       <use xlink:href="#mse-vs-success-mabe65c4262" x="477.064688" y="126.156" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="mse-vs-success-text_15">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="477.064688" y="144.805" transform="rotate(-0 477.064688 144.805)">100%</text>
+     </g>
+    </g>
+    <g id="mse-vs-success-text_16">
+     <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-ink)" x="416.284688" y="165.547" transform="rotate(-0 416.284688 165.547)">episodes reaching the goal, with 95% interval</text>
+    </g>
+   </g>
+   <g id="mse-vs-success-matplotlib.axis_4">
+    <g id="mse-vs-success-ytick_4">
+     <g id="mse-vs-success-line2d_12"/>
+     <g id="mse-vs-success-text_17">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="311.484688" y="30.093944" transform="rotate(-0 311.484688 30.093944)">mlp</text>
+     </g>
+    </g>
+    <g id="mse-vs-success-ytick_5">
+     <g id="mse-vs-success-line2d_13"/>
+     <g id="mse-vs-success-text_18">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="311.484688" y="72.5025" transform="rotate(-0 311.484688 72.5025)">cvae</text>
+     </g>
+    </g>
+    <g id="mse-vs-success-ytick_6">
+     <g id="mse-vs-success-line2d_14"/>
+     <g id="mse-vs-success-text_19">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="311.484688" y="114.911056" transform="rotate(-0 311.484688 114.911056)">diffusion</text>
+     </g>
+    </g>
+   </g>
+   <g id="mse-vs-success-LineCollection_1">
+    <path d="M 381.727682 24.269444 
+L 403.960675 24.269444 
+" clip-path="url(#mse-vs-success-pd3f4160db7)" style="fill: none; stroke: var(--fig-muted); stroke-width: 1.2"/>
+   </g>
+   <g id="mse-vs-success-line2d_15">
+    <defs>
+     <path id="mse-vs-success-mfbbfd6cf04" d="M 0 3 
+L 0 -3 
+" style="stroke: var(--fig-muted)"/>
+    </defs>
+    <g clip-path="url(#mse-vs-success-pd3f4160db7)">
+     <use xlink:href="#mse-vs-success-mfbbfd6cf04" x="381.727682" y="24.269444" style="fill: #1f77b4; stroke: var(--fig-muted)"/>
+    </g>
+   </g>
+   <g id="mse-vs-success-line2d_16">
+    <g clip-path="url(#mse-vs-success-pd3f4160db7)">
+     <use xlink:href="#mse-vs-success-mfbbfd6cf04" x="403.960675" y="24.269444" style="fill: #1f77b4; stroke: var(--fig-muted)"/>
+    </g>
+   </g>
+   <g id="mse-vs-success-LineCollection_2">
+    <path d="M 357.759977 66.678 
+L 378.630494 66.678 
+" clip-path="url(#mse-vs-success-pd3f4160db7)" style="fill: none; stroke: var(--fig-muted); stroke-width: 1.2"/>
+   </g>
+   <g id="mse-vs-success-line2d_17">
+    <g clip-path="url(#mse-vs-success-pd3f4160db7)">
+     <use xlink:href="#mse-vs-success-mfbbfd6cf04" x="357.759977" y="66.678" style="fill: #1f77b4; stroke: var(--fig-muted)"/>
+    </g>
+   </g>
+   <g id="mse-vs-success-line2d_18">
+    <g clip-path="url(#mse-vs-success-pd3f4160db7)">
+     <use xlink:href="#mse-vs-success-mfbbfd6cf04" x="378.630494" y="66.678" style="fill: #1f77b4; stroke: var(--fig-muted)"/>
+    </g>
+   </g>
+   <g id="mse-vs-success-LineCollection_3">
+    <path d="M 426.974887 109.086556 
+L 446.177462 109.086556 
+" clip-path="url(#mse-vs-success-pd3f4160db7)" style="fill: none; stroke: var(--fig-muted); stroke-width: 1.2"/>
+   </g>
+   <g id="mse-vs-success-line2d_19">
+    <g clip-path="url(#mse-vs-success-pd3f4160db7)">
+     <use xlink:href="#mse-vs-success-mfbbfd6cf04" x="426.974887" y="109.086556" style="fill: #1f77b4; stroke: var(--fig-muted)"/>
+    </g>
+   </g>
+   <g id="mse-vs-success-line2d_20">
+    <g clip-path="url(#mse-vs-success-pd3f4160db7)">
+     <use xlink:href="#mse-vs-success-mfbbfd6cf04" x="446.177462" y="109.086556" style="fill: #1f77b4; stroke: var(--fig-muted)"/>
+    </g>
+   </g>
+   <g id="mse-vs-success-patch_11">
+    <path d="M 314.984688 126.156 
+L 517.584688 126.156 
+" style="fill: none; stroke: var(--fig-muted); stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="mse-vs-success-text_20">
+    <text style="font-size: 9.5px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: start; fill: var(--fig-ink)" x="403.960675" y="27.100444" transform="rotate(-0 403.960675 27.100444)">  48%</text>
+   </g>
+   <g id="mse-vs-success-text_21">
+    <text style="font-size: 9.5px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: start; fill: var(--fig-ink)" x="378.630494" y="69.509" transform="rotate(-0 378.630494 69.509)">  32%</text>
+   </g>
+   <g id="mse-vs-success-text_22">
+    <text style="font-size: 9.5px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: start; fill: var(--fig-ink)" x="446.177462" y="111.917556" transform="rotate(-0 446.177462 111.917556)">  76%</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="mse-vs-success-p32bdb239fa">
+   <rect x="54.524688" y="7.2" width="202.6" height="118.956"/>
+  </clipPath>
+  <clipPath id="mse-vs-success-pd3f4160db7">
+   <rect x="314.984688" y="7.2" width="202.6" height="118.956"/>
+  </clipPath>
+ </defs>
+</svg>

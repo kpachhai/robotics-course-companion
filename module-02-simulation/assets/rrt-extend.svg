@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330"
+     role="img" aria-label="One RRT iteration inside the configuration-space square: a random sample is drawn, the nearest existing tree node is found, a fixed-length step is taken from that node towards the sample, and the resulting short edge is checked against an obstacle. A second attempted extension is rejected because its edge crosses the obstacle">
+
+  <rect x="30" y="40" width="260" height="260" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+
+  <path d="M96,244 L118,214" fill="none" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <path d="M118,214 L152,206" fill="none" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <path d="M152,206 L176,178" fill="none" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <path d="M118,214 L104,158" fill="none" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <path d="M152,206 L186,222" fill="none" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+
+  <circle cx="96" cy="244" r="5" fill="var(--blue, #2d5d7c)"/>
+  <circle cx="118" cy="214" r="3.4" fill="var(--blue, #2d5d7c)"/>
+  <circle cx="152" cy="206" r="3.4" fill="var(--blue, #2d5d7c)"/>
+  <circle cx="176" cy="178" r="3.4" fill="var(--blue, #2d5d7c)"/>
+  <circle cx="104" cy="158" r="3.4" fill="var(--blue, #2d5d7c)"/>
+  <circle cx="186" cy="222" r="3.4" fill="var(--blue, #2d5d7c)"/>
+
+  <text x="86" y="264" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">start</text>
+
+  <path d="M140,110 L186,104 L200,142 L166,158 L138,140 Z"
+        fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.6"/>
+  <text x="212" y="134" class="svg-mono" font-size="9.5" fill="var(--ox, #9c3b2e)">forbidden</text>
+  <line x1="208" y1="131" x2="198" y2="136"
+        stroke="var(--muted, #6b6053)" stroke-width="1.1"/>
+
+  <circle cx="206" cy="80" r="5" fill="none"
+          stroke="var(--ox, #9c3b2e)" stroke-width="1.8"/>
+  <text x="196" y="72" text-anchor="end" class="svg-mono" font-size="9.5"
+        fill="var(--ox, #9c3b2e)">a sample up here</text>
+  <line x1="176" y1="178" x2="192" y2="141" stroke-dasharray="4 3"
+        stroke="var(--ox, #9c3b2e)" stroke-width="2.2" marker-end="url(#m2pRrtOx)"/>
+  <text x="118" y="186" text-anchor="end" class="svg-mono" font-size="9.5"
+        fill="var(--ox, #9c3b2e)">rejected</text>
+  <line x1="122" y1="183" x2="172" y2="172"
+        stroke="var(--muted, #6b6053)" stroke-width="1.1"/>
+
+  <circle cx="250" cy="196" r="5" fill="none"
+          stroke="var(--gold, #b07d22)" stroke-width="1.8"/>
+  <text x="242" y="176" text-anchor="end" class="svg-mono" font-size="9.5"
+        fill="var(--gold, #b07d22)">a sample here</text>
+  <line x1="246" y1="180" x2="250" y2="189"
+        stroke="var(--muted, #6b6053)" stroke-width="1.1"/>
+  <circle cx="186" cy="222" r="9" fill="none"
+          stroke="var(--gold, #b07d22)" stroke-width="1.4" stroke-dasharray="3 3"/>
+  <line x1="195" y1="219" x2="221" y2="208"
+        stroke="var(--gold, #b07d22)" stroke-width="2.2" marker-end="url(#m2pRrtGold)"/>
+  <circle cx="226" cy="206" r="3.6" fill="var(--gold, #b07d22)"/>
+  <text x="218" y="240" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--gold, #b07d22)">kept: the nearest node, stepped</text>
+
+  <rect x="330" y="40" width="410" height="52" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="346" y="64" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--gold, #b07d22)">1. sample</text>
+  <text x="346" y="82" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">draw a configuration uniformly; 5% of the time, use the goal</text>
+
+  <rect x="330" y="102" width="410" height="52" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="346" y="126" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">2. nearest node</text>
+  <text x="346" y="144" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">under the wrapped distance. This line is the whole algorithm</text>
+
+  <rect x="330" y="164" width="410" height="52" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="346" y="188" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">3. steer</text>
+  <text x="346" y="206" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">move a fixed 0.25 rad from that node towards the sample</text>
+
+  <rect x="330" y="226" width="410" height="52" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="346" y="250" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--green, #15614e)">4. check and keep</text>
+  <text x="346" y="268" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">ask the checker about the short move; keep it or throw it away</text>
+
+  <text x="330" y="304" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">Frontier nodes are nearest to most of the space, so most samples extend them. Nobody wrote &#8220;explore&#8221;.</text>
+
+  <defs>
+    <marker id="m2pRrtGold" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--gold, #b07d22)"/>
+    </marker>
+    <marker id="m2pRrtOx" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--ox, #9c3b2e)"/>
+    </marker>
+  </defs>
+</svg>

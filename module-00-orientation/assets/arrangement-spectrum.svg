@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 205" role="img" aria-label="A spectrum from heavily arranged environments such as a die-casting cell to unarranged ones such as a kitchen, showing that deployed robot numbers collapse as arrangement falls away">
+  <text x="40" y="36" text-anchor="start" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">more arranged · everything known before the robot arrives</text>
+  <text x="756" y="36" text-anchor="end" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">less arranged · nothing known</text>
+
+  <line x1="40" y1="52" x2="752" y2="52"
+        stroke="var(--line-2, #c8bca3)" stroke-width="1.4" marker-end="url(#arrSpectrumArrow)"/>
+
+  <line x1="90" y1="52" x2="90" y2="66" stroke="var(--muted, #6b6053)" stroke-width="1.1"/>
+  <circle cx="90" cy="52" r="4.5" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.5"/>
+  <text x="90" y="86" text-anchor="middle" class="svg-disp" font-size="13.5" font-weight="600"
+        fill="var(--blue, #2d5d7c)">Die-cast cell</text>
+  <text x="90" y="104" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">fixture holds part</text>
+  <text x="90" y="118" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">same pose, always</text>
+
+  <line x1="245" y1="52" x2="245" y2="66" stroke="var(--muted, #6b6053)" stroke-width="1.1"/>
+  <circle cx="245" cy="52" r="4.5" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.5"/>
+  <text x="245" y="86" text-anchor="middle" class="svg-disp" font-size="13.5" font-weight="600"
+        fill="var(--blue, #2d5d7c)">Warehouse floor</text>
+  <text x="245" y="104" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">floor QR codes</text>
+  <text x="245" y="118" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">humans fenced out</text>
+
+  <line x1="400" y1="52" x2="400" y2="66" stroke="var(--muted, #6b6053)" stroke-width="1.1"/>
+  <circle cx="400" cy="52" r="4.5" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.5"/>
+  <text x="400" y="86" text-anchor="middle" class="svg-disp" font-size="13.5" font-weight="600"
+        fill="var(--blue, #2d5d7c)">Rehearsed course</text>
+  <text x="400" y="104" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">tasks known ahead</text>
+  <text x="400" y="118" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">teams rehearsed</text>
+
+  <line x1="555" y1="52" x2="555" y2="66" stroke="var(--muted, #6b6053)" stroke-width="1.1"/>
+  <circle cx="555" cy="52" r="4.5" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.5"/>
+  <text x="555" y="86" text-anchor="middle" class="svg-disp" font-size="13.5" font-weight="600"
+        fill="var(--blue, #2d5d7c)">Public roads</text>
+  <text x="555" y="104" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">lane paint, signs</text>
+  <text x="555" y="118" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">plus a prior map</text>
+
+  <line x1="710" y1="52" x2="710" y2="66" stroke="var(--muted, #6b6053)" stroke-width="1.1"/>
+  <circle cx="710" cy="52" r="4.5" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.5"/>
+  <text x="710" y="86" text-anchor="middle" class="svg-disp" font-size="13.5" font-weight="600"
+        fill="var(--blue, #2d5d7c)">A kitchen</text>
+  <text x="710" y="104" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">nothing repeats</text>
+  <text x="710" y="118" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">people in the way</text>
+
+  <line x1="90" y1="128" x2="90" y2="140" stroke="var(--muted, #6b6053)" stroke-width="1.1"/>
+  <rect x="30" y="140" width="196" height="50" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="128" y="162" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">4,664,000 deployed</text>
+  <text x="128" y="179" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">industrial robots, 2024</text>
+
+  <line x1="710" y1="128" x2="710" y2="140" stroke="var(--muted, #6b6053)" stroke-width="1.1"/>
+  <rect x="600" y="140" width="170" height="50" rx="8"
+        fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.6"/>
+  <text x="685" y="162" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--ox, #9c3b2e)">Zero deployed</text>
+  <text x="685" y="179" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">general-purpose, in homes</text>
+
+  <defs>
+    <marker id="arrSpectrumArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

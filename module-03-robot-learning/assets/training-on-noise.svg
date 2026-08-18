@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 240" role="img" aria-label="Training a diffusion policy: take a real action chunk, mix in a known amount of noise, ask the network to name that noise, and score it with mean squared error against the noise you drew">
+
+  <rect x="24" y="48" width="140" height="84" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="94" y="80" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">a real chunk</text>
+  <text x="94" y="100" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">what a human did,</text>
+  <text x="94" y="114" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">straight from the dataset</text>
+
+  <line x1="168" y1="90" x2="206" y2="90"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#trainNoiseArrow)"/>
+
+  <rect x="214" y="48" width="148" height="84" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="288" y="80" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--gold, #b07d22)">mix in noise</text>
+  <text x="288" y="100" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">a known amount,</text>
+  <text x="288" y="114" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">set by the step index k</text>
+
+  <line x1="366" y1="90" x2="404" y2="90"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#trainNoiseArrow)"/>
+
+  <rect x="412" y="40" width="176" height="100" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="500" y="70" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--blue, #2d5d7c)">the network</text>
+  <text x="500" y="91" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">sees the noisy chunk,</text>
+  <text x="500" y="105" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the step k and the</text>
+  <text x="500" y="119" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">observation. Names the noise</text>
+
+  <line x1="592" y1="90" x2="628" y2="90"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#trainNoiseArrow)"/>
+
+  <rect x="636" y="48" width="96" height="84" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="684" y="76" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--green, #15614e)">squared</text>
+  <text x="684" y="94" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--green, #15614e)">difference</text>
+  <text x="684" y="114" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the whole loss</text>
+
+  <line x1="288" y1="132" x2="288" y2="164"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#trainNoiseArrow)"/>
+
+  <rect x="214" y="168" width="148" height="52" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="288" y="190" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--gold, #b07d22)">the noise itself</text>
+  <text x="288" y="208" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">you drew it, so you know it</text>
+
+  <path d="M 366 194 L 684 194 L 684 138" fill="none"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#trainNoiseArrow)"/>
+  <text x="524" y="186" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the label the network is graded against</text>
+
+  <defs>
+    <marker id="trainNoiseArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 288" role="img" aria-label="The DAgger cycle: train a clone on the dataset, run the clone to see which states it actually visits, ask the expert what it would have done at those states, add those labelled states to the dataset, and retrain">
+
+  <rect x="24" y="56" width="158" height="80" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="103" y="88" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Dataset</text>
+  <text x="103" y="108" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">states and the actions</text>
+  <text x="103" y="122" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the expert wants there</text>
+
+  <line x1="182" y1="96" x2="222" y2="96"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#daggerArrow)"/>
+  <text x="202" y="88" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">fit</text>
+
+  <rect x="226" y="56" width="158" height="80" rx="8"
+        fill="var(--purple-soft, #ede0f5)" stroke="var(--purple, #5e2d8c)" stroke-width="1.6"/>
+  <text x="305" y="94" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--purple, #5e2d8c)">Clone</text>
+  <text x="305" y="114" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the policy so far</text>
+
+  <line x1="384" y1="96" x2="424" y2="96"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#daggerArrow)"/>
+  <text x="404" y="88" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">run it</text>
+
+  <rect x="428" y="56" width="158" height="80" rx="8"
+        fill="var(--purple-soft, #ede0f5)" stroke="var(--purple, #5e2d8c)" stroke-width="1.6"/>
+  <text x="507" y="88" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--purple, #5e2d8c)">Where it went</text>
+  <text x="507" y="108" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">its own states, including</text>
+  <text x="507" y="122" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the ones it drifted into</text>
+
+  <line x1="586" y1="96" x2="626" y2="96"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#daggerArrow)"/>
+
+  <rect x="630" y="56" width="106" height="80" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="683" y="88" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--gold, #b07d22)">Expert</text>
+  <text x="683" y="108" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">"here is what</text>
+  <text x="683" y="122" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">I would do"</text>
+
+  <path d="M683 136 L683 190 L103 190 L103 140"
+        fill="none" stroke="var(--muted, #6b6053)" stroke-width="1.3"
+        marker-end="url(#daggerArrow)"/>
+  <text x="393" y="206" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--gold, #b07d22)">aggregate, then do it all again</text>
+
+  <text x="380" y="240" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">the states belong to the policy. The actions belong to the expert. That swap is the whole algorithm.</text>
+  <text x="380" y="264" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">it also means the expert must answer questions about poses it would never have chosen to visit</text>
+
+  <defs>
+    <marker id="daggerArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

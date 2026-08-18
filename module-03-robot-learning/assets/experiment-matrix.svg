@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" role="img" aria-label="The milestone experiment matrix. Two tasks as rows, two policy families as columns, and inside every cell two data budgets of fifty and ten demonstrations, each trained with three random seeds. Twenty-four training runs in the grid, plus six ablation runs, and every cell is evaluated on the same seeded scenes">
+
+  <text x="304" y="26" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--gold, #b07d22)">ACT-style: chunk + latent</text>
+  <text x="580" y="26" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--green, #15614e)">Diffusion: chunk + denoise</text>
+
+  <rect x="16" y="40" width="136" height="104" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="32" y="72" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">task A</text>
+  <text x="32" y="94" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">one right answer</text>
+  <text x="32" y="110" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">everywhere</text>
+
+  <rect x="16" y="156" width="136" height="104" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="32" y="188" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">task B</text>
+  <text x="32" y="210" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">two right answers</text>
+  <text x="32" y="226" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">at the same state</text>
+
+  <rect x="168" y="40" width="272" height="104" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <rect x="168" y="156" width="272" height="104" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <rect x="456" y="40" width="272" height="104" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <rect x="456" y="156" width="272" height="104" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+
+  <text x="186" y="72" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">50 demos</text>
+  <circle cx="272" cy="68" r="8" fill="var(--gold, #b07d22)"/>
+  <circle cx="300" cy="68" r="8" fill="var(--gold, #b07d22)"/>
+  <circle cx="328" cy="68" r="8" fill="var(--gold, #b07d22)"/>
+  <text x="186" y="118" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">10 demos</text>
+  <circle cx="272" cy="114" r="8" fill="var(--gold, #b07d22)"/>
+  <circle cx="300" cy="114" r="8" fill="var(--gold, #b07d22)"/>
+  <circle cx="328" cy="114" r="8" fill="var(--gold, #b07d22)"/>
+
+  <text x="186" y="188" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">50 demos</text>
+  <circle cx="272" cy="184" r="8" fill="var(--gold, #b07d22)"/>
+  <circle cx="300" cy="184" r="8" fill="var(--gold, #b07d22)"/>
+  <circle cx="328" cy="184" r="8" fill="var(--gold, #b07d22)"/>
+  <text x="186" y="234" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">10 demos</text>
+  <circle cx="272" cy="230" r="8" fill="var(--gold, #b07d22)"/>
+  <circle cx="300" cy="230" r="8" fill="var(--gold, #b07d22)"/>
+  <circle cx="328" cy="230" r="8" fill="var(--gold, #b07d22)"/>
+
+  <text x="474" y="72" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">50 demos</text>
+  <circle cx="560" cy="68" r="8" fill="var(--green, #15614e)"/>
+  <circle cx="588" cy="68" r="8" fill="var(--green, #15614e)"/>
+  <circle cx="616" cy="68" r="8" fill="var(--green, #15614e)"/>
+  <text x="474" y="118" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">10 demos</text>
+  <circle cx="560" cy="114" r="8" fill="var(--green, #15614e)"/>
+  <circle cx="588" cy="114" r="8" fill="var(--green, #15614e)"/>
+  <circle cx="616" cy="114" r="8" fill="var(--green, #15614e)"/>
+
+  <text x="474" y="188" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">50 demos</text>
+  <circle cx="560" cy="184" r="8" fill="var(--green, #15614e)"/>
+  <circle cx="588" cy="184" r="8" fill="var(--green, #15614e)"/>
+  <circle cx="616" cy="184" r="8" fill="var(--green, #15614e)"/>
+  <text x="474" y="234" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">10 demos</text>
+  <circle cx="560" cy="230" r="8" fill="var(--green, #15614e)"/>
+  <circle cx="588" cy="230" r="8" fill="var(--green, #15614e)"/>
+  <circle cx="616" cy="230" r="8" fill="var(--green, #15614e)"/>
+
+  <text x="356" y="72" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">3 seeds</text>
+  <text x="644" y="72" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">3 seeds</text>
+  <text x="356" y="188" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">3 seeds</text>
+  <text x="644" y="188" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">3 seeds</text>
+
+  <text x="380" y="292" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--muted, #6b6053)">24 runs in the grid, plus 6 ablation runs on task A at 50 demos.</text>
+  <text x="380" y="312" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">Every cell is scored on the same seeded scenes, so a cell that looks better is not just a cell that drew easier ones.</text>
+</svg>

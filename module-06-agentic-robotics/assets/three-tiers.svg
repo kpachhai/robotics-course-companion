@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 404" role="img" aria-label="Three tiers of an agentic robot stacked by rate: a planner at 0.2 to 2 hertz, a learned policy at 10 to 200 hertz and a joint controller at 200 to 1000 hertz, with labels on what crosses each boundary and the world at the bottom">
+
+  <text x="360" y="16" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">each tier runs roughly a hundred times slower than the one below it</text>
+
+  <rect x="110" y="32" width="500" height="74" rx="8"
+        fill="var(--purple-soft, #ede0f5)" stroke="var(--purple, #5e2d8c)" stroke-width="1.6"/>
+  <text x="360" y="60" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--purple, #5e2d8c)">Planner</text>
+  <text x="360" y="79" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">split the goal · choose the next skill · judge whether it worked</text>
+  <text x="360" y="95" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">0.2-2 Hz · one call takes 0.3-3 s · an LLM or a VLM</text>
+
+  <line x1="240" y1="108" x2="240" y2="146"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m6ThreeTierArrow)"/>
+  <text x="250" y="132" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">a goal: words, or a latent vector</text>
+  <line x1="486" y1="146" x2="486" y2="108"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m6ThreeTierArrow)"/>
+  <text x="496" y="132" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">what happened</text>
+
+  <rect x="110" y="150" width="500" height="74" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="360" y="178" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Policy</text>
+  <text x="360" y="197" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">pixels and joint angles in · a chunk of actions out</text>
+  <text x="360" y="213" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">10-200 Hz · 3-50 ms per step · the checkpoint you trained</text>
+
+  <line x1="240" y1="226" x2="240" y2="264"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m6ThreeTierArrow)"/>
+  <text x="250" y="250" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">target joint angles</text>
+  <line x1="486" y1="264" x2="486" y2="226"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m6ThreeTierArrow)"/>
+  <text x="496" y="250" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">encoders, cameras</text>
+
+  <rect x="110" y="268" width="500" height="74" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="360" y="296" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--green, #15614e)">Controller</text>
+  <text x="360" y="315" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">hold the commanded angle · cap the current · cut the power</text>
+  <text x="360" y="331" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">200-1000 Hz · 1-5 ms · the only hard deadline in the stack</text>
+
+  <line x1="360" y1="344" x2="360" y2="368"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m6ThreeTierArrow)"/>
+
+  <line x1="110" y1="374" x2="610" y2="374"
+        stroke="var(--line-2, #c8bca3)" stroke-width="1.6"/>
+  <text x="360" y="392" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the world · noisy, delayed, and it will not wait for you</text>
+
+  <defs>
+    <marker id="m6ThreeTierArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

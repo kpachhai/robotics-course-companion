@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 306" role="img" aria-label="Two overlapping regions: the conditions your demonstrations covered and the conditions present at evaluation. The policy works only in the overlap, and every failure in the evaluation-only crescent looks exactly like a bad policy without being one">
+  <defs>
+    <clipPath id="m4ShiftLens">
+      <ellipse cx="290" cy="140" rx="180" ry="100"/>
+    </clipPath>
+    <marker id="m4ShiftArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+
+  <ellipse cx="290" cy="140" rx="180" ry="100"
+           fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <ellipse cx="430" cy="140" rx="180" ry="100"
+           fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <g clip-path="url(#m4ShiftLens)">
+    <ellipse cx="430" cy="140" rx="180" ry="100"
+             fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  </g>
+
+  <text x="176" y="132" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">recorded</text>
+  <text x="176" y="152" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">lamp on, 2 pm,</text>
+  <text x="176" y="164" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">cube in four spots</text>
+
+  <text x="360" y="128" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--green, #15614e)">works</text>
+  <text x="360" y="148" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">in distribution</text>
+
+  <text x="544" y="132" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--gold, #b07d22)">evaluated</text>
+  <text x="544" y="152" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">lamp off, 8 pm,</text>
+  <text x="544" y="164" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">cube nudged 3 cm</text>
+
+  <line x1="544" y1="266" x2="544" y2="216" stroke="var(--muted, #6b6053)"
+        stroke-width="1.3" marker-end="url(#m4ShiftArrow)"/>
+  <text x="544" y="282" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">every failure in here looks</text>
+  <text x="544" y="296" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">exactly like a bad policy</text>
+
+  <line x1="176" y1="266" x2="176" y2="220" stroke="var(--muted, #6b6053)"
+        stroke-width="1.3" marker-end="url(#m4ShiftArrow)"/>
+  <text x="176" y="282" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">widening this region is the fix,</text>
+  <text x="176" y="296" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">and it is done with a camera, not an optimiser</text>
+</svg>

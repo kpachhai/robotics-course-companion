@@ -1,0 +1,327 @@
+<svg id="sim-throughput" xmlns:xlink="http://www.w3.org/1999/xlink" width="548.512656pt" height="219.66pt" viewBox="0 0 548.512656 219.66" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">#sim-throughput, #sim-throughput *{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="sim-throughput-figure_1">
+  <g id="sim-throughput-patch_1">
+   <path d="M 0 219.66 
+L 548.512656 219.66 
+L 548.512656 0 
+L 0 0 
+L 0 219.66 
+z
+" style="fill: none"/>
+  </g>
+  <g id="sim-throughput-axes_1">
+   <g id="sim-throughput-patch_2">
+    <path d="M 161.872656 167.976 
+L 541.312656 167.976 
+L 541.312656 7.2 
+L 161.872656 7.2 
+L 161.872656 167.976 
+z
+" style="fill: none"/>
+   </g>
+   <g id="sim-throughput-matplotlib.axis_1">
+    <g id="sim-throughput-xtick_1">
+     <g id="sim-throughput-line2d_1">
+      <defs>
+       <path id="sim-throughput-mabe65c4262" d="M 0 0 
+L 0 3.5 
+" style="stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#sim-throughput-mabe65c4262" x="161.872656" y="167.976" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="sim-throughput-text_1">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="161.872656" y="186.625" transform="rotate(-0 161.872656 186.625)">1k</text>
+     </g>
+    </g>
+    <g id="sim-throughput-xtick_2">
+     <g id="sim-throughput-line2d_2">
+      <g>
+       <use xlink:href="#sim-throughput-mabe65c4262" x="279.6137" y="167.976" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="sim-throughput-text_2">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="279.6137" y="186.625" transform="rotate(-0 279.6137 186.625)">10k</text>
+     </g>
+    </g>
+    <g id="sim-throughput-xtick_3">
+     <g id="sim-throughput-line2d_3">
+      <g>
+       <use xlink:href="#sim-throughput-mabe65c4262" x="397.354744" y="167.976" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="sim-throughput-text_3">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="397.354744" y="186.625" transform="rotate(-0 397.354744 186.625)">100k</text>
+     </g>
+    </g>
+    <g id="sim-throughput-xtick_4">
+     <g id="sim-throughput-line2d_4">
+      <g>
+       <use xlink:href="#sim-throughput-mabe65c4262" x="515.095788" y="167.976" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="sim-throughput-text_4">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="515.095788" y="186.625" transform="rotate(-0 515.095788 186.625)">1M</text>
+     </g>
+    </g>
+    <g id="sim-throughput-xtick_5">
+     <g id="sim-throughput-line2d_5">
+      <defs>
+       <path id="sim-throughput-m2fe1948188" d="M 0 0 
+L 0 2 
+" style="stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </defs>
+      <g>
+       <use xlink:href="#sim-throughput-m2fe1948188" x="197.316242" y="167.976" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="sim-throughput-xtick_6">
+     <g id="sim-throughput-line2d_6">
+      <g>
+       <use xlink:href="#sim-throughput-m2fe1948188" x="218.049411" y="167.976" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="sim-throughput-xtick_7">
+     <g id="sim-throughput-line2d_7">
+      <g>
+       <use xlink:href="#sim-throughput-m2fe1948188" x="232.759828" y="167.976" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="sim-throughput-xtick_8">
+     <g id="sim-throughput-line2d_8">
+      <g>
+       <use xlink:href="#sim-throughput-m2fe1948188" x="244.170114" y="167.976" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="sim-throughput-xtick_9">
+     <g id="sim-throughput-line2d_9">
+      <g>
+       <use xlink:href="#sim-throughput-m2fe1948188" x="253.492997" y="167.976" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="sim-throughput-xtick_10">
+     <g id="sim-throughput-line2d_10">
+      <g>
+       <use xlink:href="#sim-throughput-m2fe1948188" x="261.375382" y="167.976" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="sim-throughput-xtick_11">
+     <g id="sim-throughput-line2d_11">
+      <g>
+       <use xlink:href="#sim-throughput-m2fe1948188" x="268.203414" y="167.976" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="sim-throughput-xtick_12">
+     <g id="sim-throughput-line2d_12">
+      <g>
+       <use xlink:href="#sim-throughput-m2fe1948188" x="274.226166" y="167.976" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="sim-throughput-xtick_13">
+     <g id="sim-throughput-line2d_13">
+      <g>
+       <use xlink:href="#sim-throughput-m2fe1948188" x="315.057286" y="167.976" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="sim-throughput-xtick_14">
+     <g id="sim-throughput-line2d_14">
+      <g>
+       <use xlink:href="#sim-throughput-m2fe1948188" x="335.790455" y="167.976" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="sim-throughput-xtick_15">
+     <g id="sim-throughput-line2d_15">
+      <g>
+       <use xlink:href="#sim-throughput-m2fe1948188" x="350.500872" y="167.976" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="sim-throughput-xtick_16">
+     <g id="sim-throughput-line2d_16">
+      <g>
+       <use xlink:href="#sim-throughput-m2fe1948188" x="361.911158" y="167.976" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="sim-throughput-xtick_17">
+     <g id="sim-throughput-line2d_17">
+      <g>
+       <use xlink:href="#sim-throughput-m2fe1948188" x="371.234041" y="167.976" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="sim-throughput-xtick_18">
+     <g id="sim-throughput-line2d_18">
+      <g>
+       <use xlink:href="#sim-throughput-m2fe1948188" x="379.116426" y="167.976" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="sim-throughput-xtick_19">
+     <g id="sim-throughput-line2d_19">
+      <g>
+       <use xlink:href="#sim-throughput-m2fe1948188" x="385.944458" y="167.976" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="sim-throughput-xtick_20">
+     <g id="sim-throughput-line2d_20">
+      <g>
+       <use xlink:href="#sim-throughput-m2fe1948188" x="391.967209" y="167.976" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="sim-throughput-xtick_21">
+     <g id="sim-throughput-line2d_21">
+      <g>
+       <use xlink:href="#sim-throughput-m2fe1948188" x="432.79833" y="167.976" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="sim-throughput-xtick_22">
+     <g id="sim-throughput-line2d_22">
+      <g>
+       <use xlink:href="#sim-throughput-m2fe1948188" x="453.531499" y="167.976" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="sim-throughput-xtick_23">
+     <g id="sim-throughput-line2d_23">
+      <g>
+       <use xlink:href="#sim-throughput-m2fe1948188" x="468.241916" y="167.976" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="sim-throughput-xtick_24">
+     <g id="sim-throughput-line2d_24">
+      <g>
+       <use xlink:href="#sim-throughput-m2fe1948188" x="479.652202" y="167.976" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="sim-throughput-xtick_25">
+     <g id="sim-throughput-line2d_25">
+      <g>
+       <use xlink:href="#sim-throughput-m2fe1948188" x="488.975085" y="167.976" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="sim-throughput-xtick_26">
+     <g id="sim-throughput-line2d_26">
+      <g>
+       <use xlink:href="#sim-throughput-m2fe1948188" x="496.85747" y="167.976" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="sim-throughput-xtick_27">
+     <g id="sim-throughput-line2d_27">
+      <g>
+       <use xlink:href="#sim-throughput-m2fe1948188" x="503.685502" y="167.976" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="sim-throughput-xtick_28">
+     <g id="sim-throughput-line2d_28">
+      <g>
+       <use xlink:href="#sim-throughput-m2fe1948188" x="509.708253" y="167.976" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="sim-throughput-text_5">
+     <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-ink)" x="351.592656" y="207.367" transform="rotate(-0 351.592656 207.367)">simulated steps per second (log scale)</text>
+    </g>
+   </g>
+   <g id="sim-throughput-matplotlib.axis_2">
+    <g id="sim-throughput-ytick_1">
+     <g id="sim-throughput-line2d_29"/>
+     <g id="sim-throughput-text_6">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; fill: var(--fig-muted)" transform="translate(72.383594 26.5775)">MJX on one A100</text>
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; fill: var(--fig-muted)" transform="translate(7.2 43.3195)">(reported, not reproduced here)</text>
+     </g>
+    </g>
+    <g id="sim-throughput-ytick_2">
+     <g id="sim-throughput-line2d_30"/>
+     <g id="sim-throughput-text_7">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="158.372656" y="93.4125" transform="rotate(-0 158.372656 93.4125)">this laptop, physics alone</text>
+     </g>
+    </g>
+    <g id="sim-throughput-ytick_3">
+     <g id="sim-throughput-line2d_31"/>
+     <g id="sim-throughput-text_8">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="158.372656" y="151.8765" transform="rotate(-0 158.372656 151.8765)">this laptop, physics + policy</text>
+     </g>
+    </g>
+   </g>
+   <g id="sim-throughput-patch_3">
+    <path d="M -117932.394449 43.74 
+L 470.425484 43.74 
+L 470.425484 14.508 
+L -117932.394449 14.508 
+z
+" clip-path="url(#sim-throughput-p7a3e666a91)" style="fill: var(--fig-gold)"/>
+   </g>
+   <g id="sim-throughput-patch_4">
+    <path d="M -117932.394449 102.204 
+L 337.467139 102.204 
+L 337.467139 72.972 
+L -117932.394449 72.972 
+z
+" clip-path="url(#sim-throughput-p7a3e666a91)" style="fill: var(--fig-blue)"/>
+   </g>
+   <g id="sim-throughput-patch_5">
+    <path d="M -117932.394449 160.668 
+L 271.303411 160.668 
+L 271.303411 131.436 
+L -117932.394449 131.436 
+z
+" clip-path="url(#sim-throughput-p7a3e666a91)" style="fill: var(--fig-ox)"/>
+   </g>
+   <g id="sim-throughput-patch_6">
+    <path d="M 161.872656 167.976 
+L 541.312656 167.976 
+" style="fill: none; stroke: var(--fig-muted); stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="sim-throughput-text_9">
+    <text style="font-size: 9.5px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: start; fill: var(--fig-ink)" x="476.220466" y="31.955" transform="rotate(-0 476.220466 31.955)">417,451</text>
+   </g>
+   <g id="sim-throughput-text_10">
+    <text style="font-size: 9.5px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: start; fill: var(--fig-ink)" x="343.26212" y="90.419" transform="rotate(-0 343.26212 90.419)">31,000</text>
+   </g>
+   <g id="sim-throughput-text_11">
+    <text style="font-size: 9.5px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: start; fill: var(--fig-ink)" x="277.098392" y="148.883" transform="rotate(-0 277.098392 148.883)">8,500</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="sim-throughput-p7a3e666a91">
+   <rect x="161.872656" y="7.2" width="379.44" height="160.776"/>
+  </clipPath>
+ </defs>
+</svg>

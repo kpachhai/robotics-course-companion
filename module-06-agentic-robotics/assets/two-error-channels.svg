@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 250" role="img" aria-label="Two channels a failed skill can travel on: a JSON-RPC protocol error, which tells the planner only that the request was never run, and an ordinary result flagged isError, which describes what the robot did and lets the planner correct itself">
+  <rect x="9" y="88" width="176" height="66" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="97" y="116" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">a skill call</text>
+  <text x="97" y="135" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">fails in one of two ways</text>
+
+  <path d="M185 121 L214 121 L214 63 L242 63" fill="none"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m6ErrArrow)"/>
+  <path d="M185 121 L214 121 L214 179 L242 179" fill="none"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m6ErrArrow)"/>
+
+  <rect x="246" y="32" width="216" height="62" rx="8"
+        fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.6"/>
+  <text x="354" y="58" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--ox, #9c3b2e)">JSON-RPC error</text>
+  <text x="354" y="76" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">no such tool · arguments off schema</text>
+
+  <line x1="464" y1="63" x2="500" y2="63"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m6ErrArrow)"/>
+
+  <rect x="504" y="32" width="247" height="62" rx="8"
+        fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.6"/>
+  <text x="627" y="58" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--ox, #9c3b2e)">little the planner can do</text>
+  <text x="627" y="76" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the request never reached the robot</text>
+
+  <rect x="246" y="148" width="216" height="62" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="354" y="174" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--green, #15614e)">a result, isError: true</text>
+  <text x="354" y="192" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">grasp failed · cup now on the floor</text>
+
+  <line x1="464" y1="179" x2="500" y2="179"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m6ErrArrow)"/>
+
+  <rect x="504" y="148" width="247" height="62" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="627" y="174" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--green, #15614e)">the planner corrects itself</text>
+  <text x="627" y="192" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">reads the sentence, picks a new step</text>
+
+  <text x="380" y="238" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">almost everything a robot does wrong arrives as a successful call</text>
+
+  <defs>
+    <marker id="m6ErrArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

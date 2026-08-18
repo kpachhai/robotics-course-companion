@@ -1,0 +1,1681 @@
+<svg id="inverse-fit-curves" xmlns:xlink="http://www.w3.org/1999/xlink" width="432.5828pt" height="278.057601pt" viewBox="0 0 432.5828 278.057601" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">#inverse-fit-curves, #inverse-fit-curves *{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="inverse-fit-curves-figure_1">
+  <g id="inverse-fit-curves-patch_1">
+   <path d="M 0 278.057601 
+L 432.5828 278.057601 
+L 432.5828 0 
+L 0 0 
+L 0 278.057601 
+z
+" style="fill: none"/>
+  </g>
+  <g id="inverse-fit-curves-axes_1">
+   <g id="inverse-fit-curves-patch_2">
+    <path d="M 54.082 226.373601 
+L 422.362 226.373601 
+L 422.362 15.701601 
+L 54.082 15.701601 
+L 54.082 226.373601 
+z
+" style="fill: none"/>
+   </g>
+   <g id="inverse-fit-curves-matplotlib.axis_1">
+    <g id="inverse-fit-curves-xtick_1">
+     <g id="inverse-fit-curves-line2d_1">
+      <defs>
+       <path id="inverse-fit-curves-mabe65c4262" d="M 0 0 
+L 0 3.5 
+" style="stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#inverse-fit-curves-mabe65c4262" x="70.822" y="226.373601" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="inverse-fit-curves-text_1">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="70.822" y="245.022601" transform="rotate(-0 70.822 245.022601)">0</text>
+     </g>
+    </g>
+    <g id="inverse-fit-curves-xtick_2">
+     <g id="inverse-fit-curves-line2d_2">
+      <g>
+       <use xlink:href="#inverse-fit-curves-mabe65c4262" x="113.7671" y="226.373601" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="inverse-fit-curves-text_2">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="113.7671" y="245.022601" transform="rotate(-0 113.7671 245.022601)">250</text>
+     </g>
+    </g>
+    <g id="inverse-fit-curves-xtick_3">
+     <g id="inverse-fit-curves-line2d_3">
+      <g>
+       <use xlink:href="#inverse-fit-curves-mabe65c4262" x="156.7122" y="226.373601" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="inverse-fit-curves-text_3">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="156.7122" y="245.022601" transform="rotate(-0 156.7122 245.022601)">500</text>
+     </g>
+    </g>
+    <g id="inverse-fit-curves-xtick_4">
+     <g id="inverse-fit-curves-line2d_4">
+      <g>
+       <use xlink:href="#inverse-fit-curves-mabe65c4262" x="199.6573" y="226.373601" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="inverse-fit-curves-text_4">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="199.6573" y="245.022601" transform="rotate(-0 199.6573 245.022601)">750</text>
+     </g>
+    </g>
+    <g id="inverse-fit-curves-xtick_5">
+     <g id="inverse-fit-curves-line2d_5">
+      <g>
+       <use xlink:href="#inverse-fit-curves-mabe65c4262" x="242.6024" y="226.373601" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="inverse-fit-curves-text_5">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="242.6024" y="245.022601" transform="rotate(-0 242.6024 245.022601)">1000</text>
+     </g>
+    </g>
+    <g id="inverse-fit-curves-xtick_6">
+     <g id="inverse-fit-curves-line2d_6">
+      <g>
+       <use xlink:href="#inverse-fit-curves-mabe65c4262" x="285.5475" y="226.373601" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="inverse-fit-curves-text_6">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="285.5475" y="245.022601" transform="rotate(-0 285.5475 245.022601)">1250</text>
+     </g>
+    </g>
+    <g id="inverse-fit-curves-xtick_7">
+     <g id="inverse-fit-curves-line2d_7">
+      <g>
+       <use xlink:href="#inverse-fit-curves-mabe65c4262" x="328.4926" y="226.373601" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="inverse-fit-curves-text_7">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="328.4926" y="245.022601" transform="rotate(-0 328.4926 245.022601)">1500</text>
+     </g>
+    </g>
+    <g id="inverse-fit-curves-xtick_8">
+     <g id="inverse-fit-curves-line2d_8">
+      <g>
+       <use xlink:href="#inverse-fit-curves-mabe65c4262" x="371.4377" y="226.373601" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="inverse-fit-curves-text_8">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="371.4377" y="245.022601" transform="rotate(-0 371.4377 245.022601)">1750</text>
+     </g>
+    </g>
+    <g id="inverse-fit-curves-xtick_9">
+     <g id="inverse-fit-curves-line2d_9">
+      <g>
+       <use xlink:href="#inverse-fit-curves-mabe65c4262" x="414.3828" y="226.373601" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="inverse-fit-curves-text_9">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="414.3828" y="245.022601" transform="rotate(-0 414.3828 245.022601)">2000</text>
+     </g>
+    </g>
+    <g id="inverse-fit-curves-text_10">
+     <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-ink)" x="238.222" y="265.764601" transform="rotate(-0 238.222 265.764601)">gradient steps</text>
+    </g>
+   </g>
+   <g id="inverse-fit-curves-matplotlib.axis_2">
+    <g id="inverse-fit-curves-ytick_1">
+     <g id="inverse-fit-curves-line2d_10">
+      <path d="M 54.082 217.044929 
+L 422.362 217.044929 
+" clip-path="url(#inverse-fit-curves-pf8d9df2379)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="inverse-fit-curves-line2d_11">
+      <defs>
+       <path id="inverse-fit-curves-mc16693e09f" d="M 0 0 
+L -3.5 0 
+" style="stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#inverse-fit-curves-mc16693e09f" x="54.082" y="217.044929" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="inverse-fit-curves-text_11">
+      <!-- $\mathdefault{10^{-4}}$ -->
+      <g style="fill: var(--fig-muted)" transform="translate(27.942 222.869429)">
+       <text>
+        <tspan x="0" y="-0.371063" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-muted)">1</tspan>
+        <tspan x="5.499954" y="-0.371063" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-muted)">0</tspan>
+        <tspan x="11.105182" y="-4.914063" style="font-size: 7.7px; font-family: 'Spectral'; fill: var(--fig-muted)">−</tspan>
+        <tspan x="14.95515" y="-4.914063" style="font-size: 7.7px; font-family: 'Spectral'; fill: var(--fig-muted)">4</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="inverse-fit-curves-ytick_2">
+     <g id="inverse-fit-curves-line2d_12">
+      <path d="M 54.082 160.887848 
+L 422.362 160.887848 
+" clip-path="url(#inverse-fit-curves-pf8d9df2379)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="inverse-fit-curves-line2d_13">
+      <g>
+       <use xlink:href="#inverse-fit-curves-mc16693e09f" x="54.082" y="160.887848" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="inverse-fit-curves-text_12">
+      <!-- $\mathdefault{10^{-3}}$ -->
+      <g style="fill: var(--fig-muted)" transform="translate(27.942 166.712348)">
+       <text>
+        <tspan x="0" y="-0.2945" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-muted)">1</tspan>
+        <tspan x="5.499954" y="-0.2945" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-muted)">0</tspan>
+        <tspan x="11.105182" y="-4.8375" style="font-size: 7.7px; font-family: 'Spectral'; fill: var(--fig-muted)">−</tspan>
+        <tspan x="14.95515" y="-4.8375" style="font-size: 7.7px; font-family: 'Spectral'; fill: var(--fig-muted)">3</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="inverse-fit-curves-ytick_3">
+     <g id="inverse-fit-curves-line2d_14">
+      <path d="M 54.082 104.730767 
+L 422.362 104.730767 
+" clip-path="url(#inverse-fit-curves-pf8d9df2379)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="inverse-fit-curves-line2d_15">
+      <g>
+       <use xlink:href="#inverse-fit-curves-mc16693e09f" x="54.082" y="104.730767" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="inverse-fit-curves-text_13">
+      <!-- $\mathdefault{10^{-2}}$ -->
+      <g style="fill: var(--fig-muted)" transform="translate(27.942 110.555267)">
+       <text>
+        <tspan x="0" y="-0.2945" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-muted)">1</tspan>
+        <tspan x="5.499954" y="-0.2945" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-muted)">0</tspan>
+        <tspan x="11.105182" y="-4.8375" style="font-size: 7.7px; font-family: 'Spectral'; fill: var(--fig-muted)">−</tspan>
+        <tspan x="14.95515" y="-4.8375" style="font-size: 7.7px; font-family: 'Spectral'; fill: var(--fig-muted)">2</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="inverse-fit-curves-ytick_4">
+     <g id="inverse-fit-curves-line2d_16">
+      <path d="M 54.082 48.573686 
+L 422.362 48.573686 
+" clip-path="url(#inverse-fit-curves-pf8d9df2379)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="inverse-fit-curves-line2d_17">
+      <g>
+       <use xlink:href="#inverse-fit-curves-mc16693e09f" x="54.082" y="48.573686" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="inverse-fit-curves-text_14">
+      <!-- $\mathdefault{10^{-1}}$ -->
+      <g style="fill: var(--fig-muted)" transform="translate(27.942 54.398186)">
+       <text>
+        <tspan x="0" y="-0.371063" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-muted)">1</tspan>
+        <tspan x="5.499954" y="-0.371063" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-muted)">0</tspan>
+        <tspan x="11.105182" y="-4.914063" style="font-size: 7.7px; font-family: 'Spectral'; fill: var(--fig-muted)">−</tspan>
+        <tspan x="14.95515" y="-4.914063" style="font-size: 7.7px; font-family: 'Spectral'; fill: var(--fig-muted)">1</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="inverse-fit-curves-ytick_5">
+     <g id="inverse-fit-curves-line2d_18">
+      <defs>
+       <path id="inverse-fit-curves-mc8895feba6" d="M 0 0 
+L -2 0 
+" style="stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </defs>
+      <g>
+       <use xlink:href="#inverse-fit-curves-mc8895feba6" x="54.082" y="225.743771" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="inverse-fit-curves-ytick_6">
+     <g id="inverse-fit-curves-line2d_19">
+      <g>
+       <use xlink:href="#inverse-fit-curves-mc8895feba6" x="54.082" y="222.487113" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="inverse-fit-curves-ytick_7">
+     <g id="inverse-fit-curves-line2d_20">
+      <g>
+       <use xlink:href="#inverse-fit-curves-mc8895feba6" x="54.082" y="219.614536" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="inverse-fit-curves-ytick_8">
+     <g id="inverse-fit-curves-line2d_21">
+      <g>
+       <use xlink:href="#inverse-fit-curves-mc8895feba6" x="54.082" y="200.139963" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="inverse-fit-curves-ytick_9">
+     <g id="inverse-fit-curves-line2d_22">
+      <g>
+       <use xlink:href="#inverse-fit-curves-mc8895feba6" x="54.082" y="190.251192" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="inverse-fit-curves-ytick_10">
+     <g id="inverse-fit-curves-line2d_23">
+      <g>
+       <use xlink:href="#inverse-fit-curves-mc8895feba6" x="54.082" y="183.234998" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="inverse-fit-curves-ytick_11">
+     <g id="inverse-fit-curves-line2d_24">
+      <g>
+       <use xlink:href="#inverse-fit-curves-mc8895feba6" x="54.082" y="177.792814" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="inverse-fit-curves-ytick_12">
+     <g id="inverse-fit-curves-line2d_25">
+      <g>
+       <use xlink:href="#inverse-fit-curves-mc8895feba6" x="54.082" y="173.346226" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="inverse-fit-curves-ytick_13">
+     <g id="inverse-fit-curves-line2d_26">
+      <g>
+       <use xlink:href="#inverse-fit-curves-mc8895feba6" x="54.082" y="169.58669" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="inverse-fit-curves-ytick_14">
+     <g id="inverse-fit-curves-line2d_27">
+      <g>
+       <use xlink:href="#inverse-fit-curves-mc8895feba6" x="54.082" y="166.330032" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="inverse-fit-curves-ytick_15">
+     <g id="inverse-fit-curves-line2d_28">
+      <g>
+       <use xlink:href="#inverse-fit-curves-mc8895feba6" x="54.082" y="163.457455" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="inverse-fit-curves-ytick_16">
+     <g id="inverse-fit-curves-line2d_29">
+      <g>
+       <use xlink:href="#inverse-fit-curves-mc8895feba6" x="54.082" y="143.982882" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="inverse-fit-curves-ytick_17">
+     <g id="inverse-fit-curves-line2d_30">
+      <g>
+       <use xlink:href="#inverse-fit-curves-mc8895feba6" x="54.082" y="134.094111" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="inverse-fit-curves-ytick_18">
+     <g id="inverse-fit-curves-line2d_31">
+      <g>
+       <use xlink:href="#inverse-fit-curves-mc8895feba6" x="54.082" y="127.077916" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="inverse-fit-curves-ytick_19">
+     <g id="inverse-fit-curves-line2d_32">
+      <g>
+       <use xlink:href="#inverse-fit-curves-mc8895feba6" x="54.082" y="121.635733" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="inverse-fit-curves-ytick_20">
+     <g id="inverse-fit-curves-line2d_33">
+      <g>
+       <use xlink:href="#inverse-fit-curves-mc8895feba6" x="54.082" y="117.189145" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="inverse-fit-curves-ytick_21">
+     <g id="inverse-fit-curves-line2d_34">
+      <g>
+       <use xlink:href="#inverse-fit-curves-mc8895feba6" x="54.082" y="113.429609" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="inverse-fit-curves-ytick_22">
+     <g id="inverse-fit-curves-line2d_35">
+      <g>
+       <use xlink:href="#inverse-fit-curves-mc8895feba6" x="54.082" y="110.172951" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="inverse-fit-curves-ytick_23">
+     <g id="inverse-fit-curves-line2d_36">
+      <g>
+       <use xlink:href="#inverse-fit-curves-mc8895feba6" x="54.082" y="107.300374" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="inverse-fit-curves-ytick_24">
+     <g id="inverse-fit-curves-line2d_37">
+      <g>
+       <use xlink:href="#inverse-fit-curves-mc8895feba6" x="54.082" y="87.825801" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="inverse-fit-curves-ytick_25">
+     <g id="inverse-fit-curves-line2d_38">
+      <g>
+       <use xlink:href="#inverse-fit-curves-mc8895feba6" x="54.082" y="77.93703" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="inverse-fit-curves-ytick_26">
+     <g id="inverse-fit-curves-line2d_39">
+      <g>
+       <use xlink:href="#inverse-fit-curves-mc8895feba6" x="54.082" y="70.920835" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="inverse-fit-curves-ytick_27">
+     <g id="inverse-fit-curves-line2d_40">
+      <g>
+       <use xlink:href="#inverse-fit-curves-mc8895feba6" x="54.082" y="65.478652" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="inverse-fit-curves-ytick_28">
+     <g id="inverse-fit-curves-line2d_41">
+      <g>
+       <use xlink:href="#inverse-fit-curves-mc8895feba6" x="54.082" y="61.032064" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="inverse-fit-curves-ytick_29">
+     <g id="inverse-fit-curves-line2d_42">
+      <g>
+       <use xlink:href="#inverse-fit-curves-mc8895feba6" x="54.082" y="57.272528" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="inverse-fit-curves-ytick_30">
+     <g id="inverse-fit-curves-line2d_43">
+      <g>
+       <use xlink:href="#inverse-fit-curves-mc8895feba6" x="54.082" y="54.015869" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="inverse-fit-curves-ytick_31">
+     <g id="inverse-fit-curves-line2d_44">
+      <g>
+       <use xlink:href="#inverse-fit-curves-mc8895feba6" x="54.082" y="51.143293" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="inverse-fit-curves-ytick_32">
+     <g id="inverse-fit-curves-line2d_45">
+      <g>
+       <use xlink:href="#inverse-fit-curves-mc8895feba6" x="54.082" y="31.66872" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="inverse-fit-curves-ytick_33">
+     <g id="inverse-fit-curves-line2d_46">
+      <g>
+       <use xlink:href="#inverse-fit-curves-mc8895feba6" x="54.082" y="21.779949" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="inverse-fit-curves-text_15">
+     <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-ink)" x="18.849" y="121.037601" transform="rotate(-90 18.849 121.037601)">training loss (mean squared error)</text>
+    </g>
+   </g>
+   <g id="inverse-fit-curves-line2d_47">
+    <path d="M 70.822 25.277601 
+L 71.165561 25.953144 
+L 71.852682 26.519424 
+L 72.196243 26.750193 
+L 73.914047 27.113373 
+L 74.772949 27.199275 
+L 78.208557 27.395309 
+L 78.895679 27.2773 
+L 79.5828 27.26834 
+L 81.644165 27.352537 
+L 82.674848 27.342558 
+L 83.018408 27.415518 
+L 83.361969 27.443065 
+L 87.484699 27.555429 
+L 88.858942 27.632192 
+L 89.546064 27.553478 
+L 90.404966 27.590358 
+L 91.263868 27.663531 
+L 93.497013 27.617447 
+L 94.184134 27.533838 
+L 95.043036 27.552116 
+L 95.901938 27.530809 
+L 96.58906 27.490339 
+L 97.619742 27.525201 
+L 99.165766 27.520088 
+L 99.852888 27.468524 
+L 101.227131 27.495676 
+L 102.601374 27.56974 
+L 104.834519 27.59791 
+L 106.208762 27.607431 
+L 113.079978 27.745519 
+L 113.93888 27.711412 
+L 115.313124 27.660409 
+L 116.172026 27.620446 
+L 117.030928 27.689503 
+L 117.88983 27.701257 
+L 118.576951 27.694531 
+L 122.699681 27.726042 
+L 123.558583 27.676303 
+L 124.245704 27.698844 
+L 124.589265 27.697346 
+L 125.104606 27.738994 
+L 125.448167 27.727954 
+L 125.791728 27.736744 
+L 126.47885 27.713102 
+L 131.804042 27.73276 
+L 131.975822 27.796874 
+L 132.319383 27.739876 
+L 133.006505 27.717007 
+L 133.350066 27.746079 
+L 135.06787 27.562001 
+L 136.098552 27.607578 
+L 136.613893 27.564658 
+L 137.301015 27.576782 
+L 139.018819 27.625349 
+L 140.564842 27.560561 
+L 140.908403 27.563941 
+L 141.939086 27.626429 
+L 142.626207 27.624978 
+L 143.313329 27.721249 
+L 144.687572 27.795809 
+L 145.546474 27.783939 
+L 147.9514 27.818529 
+L 149.325643 27.781017 
+L 149.840984 27.817897 
+L 152.58947 27.8183 
+L 152.933031 27.738017 
+L 154.822616 27.857753 
+L 155.681518 27.859291 
+L 157.571102 27.888437 
+L 160.147808 27.797058 
+L 160.491369 27.812399 
+L 161.350271 27.85487 
+L 161.865612 27.898412 
+L 162.724514 27.837826 
+L 163.583416 27.851641 
+L 166.503683 27.906941 
+L 166.847244 27.828158 
+L 168.049707 27.977297 
+L 170.111071 27.965269 
+L 171.141754 27.87409 
+L 172.172436 27.951795 
+L 173.374899 27.9575 
+L 181.276797 27.943495 
+L 181.792139 27.893184 
+L 182.822821 27.892758 
+L 183.338162 27.917529 
+L 184.712405 27.947888 
+L 186.430209 28.042728 
+L 187.289111 28.039471 
+L 188.319794 28.076154 
+L 188.663355 28.081367 
+L 189.006915 28.071894 
+L 189.522257 28.090598 
+L 190.209378 28.037904 
+L 191.411841 28.064113 
+L 195.19101 27.99063 
+L 195.534571 27.975661 
+L 197.767716 27.882991 
+L 198.454837 27.880548 
+L 200.000861 27.944874 
+L 202.749347 27.941036 
+L 203.608249 27.925217 
+L 207.902759 27.898788 
+L 208.418101 27.853028 
+L 209.277003 27.852661 
+L 209.792344 27.763447 
+L 212.197269 27.866569 
+L 212.712611 27.888512 
+L 213.399732 27.963103 
+L 213.915073 27.907596 
+L 216.148219 27.969756 
+L 216.83534 27.935931 
+L 217.522462 27.918662 
+L 218.037803 27.906211 
+L 222.504093 27.776993 
+L 223.019435 27.837248 
+L 224.909019 27.750403 
+L 225.42436 27.784736 
+L 225.939701 27.800653 
+L 226.626823 27.799826 
+L 227.142164 27.766107 
+L 228.859968 27.917285 
+L 229.54709 27.830082 
+L 231.093113 27.796377 
+L 231.436674 27.824032 
+L 232.123796 27.789749 
+L 233.498039 27.815706 
+L 234.185161 27.766538 
+L 237.448988 27.817719 
+L 237.964329 27.841092 
+L 242.774181 27.929128 
+L 243.804863 27.926734 
+L 247.584032 27.866636 
+L 248.786495 27.891568 
+L 249.301836 27.852562 
+L 249.645397 27.889268 
+L 250.504299 27.834102 
+L 251.363201 27.879538 
+L 252.393883 27.957768 
+L 252.737444 27.931591 
+L 253.081005 27.941729 
+L 254.283467 27.920704 
+L 256.173052 27.979702 
+L 258.749758 27.887746 
+L 259.952221 27.882295 
+L 260.639342 27.803614 
+L 263.387829 27.918262 
+L 264.590291 27.834218 
+L 265.105633 27.880529 
+L 265.620974 27.832082 
+L 266.651656 27.817893 
+L 267.682339 27.749618 
+L 268.541241 27.826132 
+L 271.289727 27.824671 
+L 271.805068 27.797902 
+L 272.49219 27.7233 
+L 273.351092 27.743229 
+L 273.866433 27.710542 
+L 274.381774 27.711636 
+L 275.068896 27.732819 
+L 276.271359 27.854606 
+L 277.473821 27.819105 
+L 277.989163 27.872898 
+L 278.848065 27.865996 
+L 280.737649 27.817245 
+L 282.799014 27.792028 
+L 285.203939 27.701669 
+L 286.062841 27.745068 
+L 287.608865 27.586526 
+L 288.639547 27.745075 
+L 289.326669 27.614983 
+L 291.044473 27.753797 
+L 292.934057 27.775147 
+L 293.449399 27.812157 
+L 295.167203 27.682409 
+L 295.682544 27.724307 
+L 297.228567 27.809256 
+L 297.743909 27.817213 
+L 298.774591 27.854888 
+L 299.633493 27.835043 
+L 301.866638 27.721072 
+L 302.897321 27.778655 
+L 305.474027 27.671055 
+L 307.02005 27.76437 
+L 307.878952 27.711115 
+L 309.081415 27.757921 
+L 310.283878 27.912452 
+L 310.970999 27.85668 
+L 312.173462 27.828003 
+L 312.517023 27.823353 
+L 313.032364 27.719124 
+L 314.578388 27.840002 
+L 315.43729 27.748693 
+L 318.357557 27.803908 
+L 318.872898 27.751967 
+L 319.560019 27.711071 
+L 320.247141 27.873528 
+L 320.762482 27.917362 
+L 322.995628 27.997287 
+L 335.363816 28.02382 
+L 337.596962 27.925863 
+L 338.627644 27.862731 
+L 340.517228 27.756197 
+L 345.155299 27.700224 
+L 348.247346 27.914529 
+L 348.934468 27.910856 
+L 349.79337 27.972511 
+L 350.308711 27.989934 
+L 350.652272 28.036711 
+L 355.118562 27.949146 
+L 357.351708 27.810273 
+L 359.069512 27.90655 
+L 359.584853 27.84408 
+L 360.100194 27.850696 
+L 361.989778 27.751611 
+L 362.333339 27.748098 
+L 363.364022 27.816624 
+L 363.879363 27.838206 
+L 366.284288 27.929769 
+L 367.314971 27.891475 
+L 373.499065 27.664605 
+L 374.014406 27.681265 
+L 379.339599 27.919513 
+L 380.198501 27.816773 
+L 381.229183 27.955248 
+L 382.775207 27.748983 
+L 388.100399 27.559901 
+L 388.44396 27.601131 
+L 389.989984 27.527541 
+L 390.677105 27.593332 
+L 391.020666 27.570441 
+L 392.051348 27.667321 
+L 392.56669 27.57103 
+L 393.597372 27.595641 
+L 394.112713 27.719715 
+L 398.579004 27.863313 
+L 399.094345 27.799409 
+L 399.781466 27.871985 
+L 400.296808 27.841494 
+L 402.529953 27.914536 
+L 403.045294 27.863902 
+L 403.732416 27.838121 
+L 404.763098 27.879839 
+L 405.622 27.79 
+L 405.622 27.79 
+" clip-path="url(#inverse-fit-curves-pf8d9df2379)" style="fill: none; stroke: var(--fig-ox); stroke-width: 2; stroke-linecap: square"/>
+   </g>
+   <g id="inverse-fit-curves-line2d_48">
+    <path d="M 70.822 62.594751 
+L 71.165561 69.21771 
+L 72.711584 84.064326 
+L 73.570486 89.643886 
+L 76.318973 104.239545 
+L 77.177875 107.347676 
+L 78.036777 109.947413 
+L 78.552118 111.344097 
+L 83.190189 122.972445 
+L 83.361969 123.183768 
+L 85.766895 129.789621 
+L 86.110456 130.716967 
+L 87.656479 135.556592 
+L 89.546064 139.900568 
+L 89.889624 140.352427 
+L 90.404966 141.471368 
+L 90.920307 142.538018 
+L 91.779209 144.684037 
+L 92.12277 145.777584 
+L 94.355915 149.682268 
+L 94.527695 149.848119 
+L 95.214817 151.062767 
+L 95.386597 151.135261 
+L 97.791523 155.496404 
+L 98.135084 155.877391 
+L 98.306864 156.027494 
+L 100.024668 158.884532 
+L 100.196448 158.96649 
+L 100.71179 159.853164 
+L 100.88357 160.06334 
+L 101.227131 160.622841 
+L 101.398911 160.733101 
+L 101.914252 161.340051 
+L 102.086033 161.453171 
+L 102.429594 162.005657 
+L 102.944935 162.452491 
+L 103.803837 163.727143 
+L 104.662739 164.706027 
+L 104.834519 164.726223 
+L 105.34986 165.27753 
+L 105.693421 165.743422 
+L 106.036982 166.001479 
+L 106.724104 166.723376 
+L 107.067664 166.97622 
+L 108.613688 168.064487 
+L 108.957249 168.394194 
+L 109.129029 168.44748 
+L 109.30081 168.693244 
+L 109.47259 168.633639 
+L 109.987931 168.89643 
+L 110.503272 169.080998 
+L 110.675053 169.278604 
+L 110.846833 169.651088 
+L 111.018614 169.631544 
+L 111.362174 169.963488 
+L 111.533955 169.955294 
+L 112.049296 170.498718 
+L 112.221076 170.313378 
+L 112.564637 170.463658 
+L 113.079978 170.86554 
+L 113.59532 171.568557 
+L 114.110661 171.990107 
+L 114.454222 172.230018 
+L 114.626002 172.286796 
+L 115.656684 173.600795 
+L 116.000245 174.392455 
+L 116.343806 174.914259 
+L 116.515586 175.085879 
+L 116.687367 175.075465 
+L 116.859147 175.244418 
+L 117.030928 175.20473 
+L 117.374488 175.651779 
+L 117.546269 175.719843 
+L 118.405171 176.637089 
+L 118.576951 176.637854 
+L 119.092292 177.428056 
+L 119.264073 177.36803 
+L 119.435853 177.485312 
+L 119.779414 177.409331 
+L 120.122975 177.651063 
+L 120.294755 177.93909 
+L 120.810096 177.948613 
+L 120.981877 178.174121 
+L 121.497218 178.370008 
+L 122.5279 179.059585 
+L 123.043242 179.215998 
+L 123.215022 179.378306 
+L 123.386802 179.827951 
+L 123.558583 179.941964 
+L 123.902144 179.863842 
+L 124.073924 179.958221 
+L 124.761046 179.738683 
+L 125.104606 179.742628 
+L 125.276387 179.688406 
+L 125.448167 179.98702 
+L 125.619948 179.922022 
+L 125.791728 180.112012 
+L 126.135289 180.15889 
+L 127.337752 180.551117 
+L 127.509532 180.416505 
+L 127.681312 180.432502 
+L 127.853093 180.176885 
+L 128.024873 180.406133 
+L 128.196654 180.426394 
+L 128.368434 180.333118 
+L 128.540214 180.553666 
+L 128.711995 180.48921 
+L 128.883775 180.639203 
+L 129.055556 180.472773 
+L 129.399116 180.727053 
+L 130.258018 180.712332 
+L 130.601579 180.758664 
+L 130.94514 180.651053 
+L 131.288701 180.706812 
+L 132.147603 180.966542 
+L 132.319383 180.921575 
+L 132.834724 181.239667 
+L 133.178285 181.275801 
+L 133.350066 181.485838 
+L 133.521846 181.453067 
+L 134.037187 181.770798 
+L 134.208968 181.618651 
+L 134.380748 181.893802 
+L 134.552528 181.675528 
+L 134.724309 181.885142 
+L 134.896089 181.780369 
+L 135.23965 181.881095 
+L 135.41143 181.848923 
+L 135.754991 181.995234 
+L 135.926772 181.973603 
+L 136.442113 182.57393 
+L 136.613893 183.002291 
+L 137.301015 183.559577 
+L 137.472795 183.910943 
+L 137.644576 183.927206 
+L 137.816356 184.136617 
+L 137.988136 184.094417 
+L 138.847038 184.780614 
+L 139.190599 184.762457 
+L 139.36238 184.588792 
+L 139.53416 184.844366 
+L 139.70594 184.748886 
+L 140.393062 185.220881 
+L 140.736623 185.024642 
+L 140.908403 185.262043 
+L 141.767305 185.486436 
+L 141.939086 185.298489 
+L 142.282646 185.322469 
+L 142.454427 184.980546 
+L 142.626207 185.091844 
+L 142.797988 184.846209 
+L 142.969768 185.070902 
+L 143.141548 184.977216 
+L 143.485109 185.1801 
+L 143.65689 185.315389 
+L 144.172231 185.30584 
+L 144.344011 185.349575 
+L 144.687572 185.116741 
+L 144.859352 184.996693 
+L 145.202913 184.627157 
+L 145.890035 184.339633 
+L 146.061815 184.431968 
+L 146.577156 184.32545 
+L 146.748937 184.522213 
+L 146.920717 184.412566 
+L 147.9514 184.597749 
+L 148.12318 184.885701 
+L 148.29496 184.797746 
+L 148.638521 184.923984 
+L 149.325643 185.154468 
+L 149.497423 185.420233 
+L 149.669204 185.243644 
+L 150.012764 185.71159 
+L 150.356325 185.929177 
+L 150.528106 186.043904 
+L 150.699886 186.424346 
+L 150.871666 186.408401 
+L 151.215227 186.848727 
+L 151.387008 186.739406 
+L 151.730568 186.801028 
+L 151.902349 186.769026 
+L 152.24591 186.460192 
+L 152.41769 186.594598 
+L 152.761251 186.350362 
+L 152.933031 186.436219 
+L 153.104812 186.031201 
+L 153.276592 186.285256 
+L 154.307274 186.585494 
+L 154.479055 186.828901 
+L 154.994396 186.843352 
+L 155.337957 187.39119 
+L 155.509737 187.485921 
+L 156.025079 188.282897 
+L 156.368639 188.483369 
+L 156.54042 188.392403 
+L 157.227541 188.657161 
+L 157.571102 188.567288 
+L 157.742883 188.630471 
+L 157.914663 188.506471 
+L 158.086443 188.629424 
+L 158.258224 188.560177 
+L 158.601785 188.642997 
+L 158.773565 188.468835 
+L 159.632467 188.632998 
+L 159.804247 188.582457 
+L 160.491369 189.611739 
+L 160.663149 189.70178 
+L 161.00671 190.303132 
+L 161.178491 190.259472 
+L 163.068075 193.634942 
+L 163.239855 193.645489 
+L 163.411636 193.851691 
+L 163.583416 193.856961 
+L 163.755197 194.048834 
+L 164.098757 193.695158 
+L 164.442318 193.417274 
+L 164.957659 193.262958 
+L 165.12944 193.367052 
+L 165.30122 193.623351 
+L 165.644781 193.750268 
+L 165.988342 193.972448 
+L 166.847244 194.706669 
+L 167.019024 194.68199 
+L 167.190805 194.782628 
+L 167.362585 194.731683 
+L 167.877926 195.277986 
+L 168.049707 195.266756 
+L 168.565048 195.806691 
+L 169.252169 196.010121 
+L 169.42395 196.32137 
+L 169.59573 196.293462 
+L 169.939291 196.669952 
+L 170.282852 196.534441 
+L 170.626413 196.632245 
+L 170.798193 196.675722 
+L 171.485315 197.251769 
+L 172.000656 197.409131 
+L 172.344217 197.70442 
+L 172.515997 197.801774 
+L 172.687777 198.189827 
+L 172.859558 198.25135 
+L 173.031338 198.510363 
+L 173.203119 198.501622 
+L 173.71846 198.999404 
+L 173.89024 199.097841 
+L 174.062021 199.02562 
+L 174.405581 199.482597 
+L 174.920923 199.380284 
+L 175.092703 199.478514 
+L 175.436264 199.236911 
+L 176.466946 199.962724 
+L 176.638727 199.854436 
+L 176.810507 199.973218 
+L 177.154068 199.98112 
+L 177.841189 200.148772 
+L 178.18475 199.840762 
+L 178.356531 199.776729 
+L 178.528311 199.431692 
+L 178.700091 199.562422 
+L 179.215433 199.213874 
+L 179.558993 198.733181 
+L 180.246115 198.17098 
+L 180.589676 197.539416 
+L 180.933237 197.331234 
+L 181.105017 197.306874 
+L 181.448578 196.923884 
+L 181.620358 196.926205 
+L 181.792139 196.806509 
+L 181.963919 196.916739 
+L 182.47926 196.168403 
+L 182.651041 195.566271 
+L 182.822821 195.497395 
+L 182.994601 195.279431 
+L 183.166382 194.86752 
+L 183.338162 194.768757 
+L 183.509943 194.870679 
+L 183.853503 194.754031 
+L 184.025284 194.905649 
+L 184.197064 194.817882 
+L 184.884186 193.984653 
+L 185.227747 192.764257 
+L 185.399527 192.588249 
+L 185.571307 191.505366 
+L 186.086649 190.222082 
+L 186.430209 189.378113 
+L 186.60199 189.217293 
+L 186.77377 189.272336 
+L 186.945551 189.134404 
+L 187.117331 188.851068 
+L 187.289111 188.853708 
+L 187.460892 188.597822 
+L 187.632672 188.66674 
+L 187.804453 188.548698 
+L 187.976233 188.143339 
+L 188.148013 188.436004 
+L 189.006915 188.471431 
+L 189.178696 188.709392 
+L 189.865817 188.770739 
+L 190.037598 188.892619 
+L 190.381159 188.860505 
+L 191.06828 189.114796 
+L 191.583621 189.707848 
+L 191.755402 189.811796 
+L 191.927182 190.150558 
+L 192.614304 190.382715 
+L 192.786084 190.36989 
+L 193.129645 190.635472 
+L 193.301425 191.094411 
+L 193.473206 191.197454 
+L 193.644986 191.169519 
+L 193.988547 192.142506 
+L 194.160327 192.270305 
+L 194.503888 193.695627 
+L 194.675669 193.764436 
+L 195.019229 195.21252 
+L 195.534571 195.680337 
+L 195.706351 195.842958 
+L 195.878131 196.282077 
+L 196.221692 196.407164 
+L 196.393473 196.365432 
+L 196.565253 196.625243 
+L 196.737033 197.249767 
+L 197.080594 195.915301 
+L 197.252375 196.213175 
+L 197.767716 193.517154 
+L 197.939496 193.263782 
+L 198.283057 192.312247 
+L 198.454837 192.236475 
+L 198.798398 191.369156 
+L 199.48552 190.938388 
+L 199.6573 190.974959 
+L 199.829081 190.726812 
+L 200.000861 190.681133 
+L 200.172641 190.88127 
+L 201.718665 190.747218 
+L 201.890445 190.802307 
+L 202.062226 190.680917 
+L 202.405787 190.699676 
+L 203.092908 190.577354 
+L 203.608249 190.660433 
+L 203.78003 190.555944 
+L 203.95181 190.698087 
+L 204.295371 190.550815 
+L 204.810712 190.793797 
+L 205.154273 191.332433 
+L 205.497834 191.598462 
+L 205.841395 192.902393 
+L 206.013175 192.79041 
+L 206.872077 197.306302 
+L 207.043857 197.837867 
+L 207.215638 197.959493 
+L 207.559199 199.294201 
+L 208.07454 200.005041 
+L 208.418101 200.285276 
+L 208.589881 200.681202 
+L 208.933442 200.818468 
+L 209.105222 200.961212 
+L 209.448783 199.153884 
+L 209.620563 199.222551 
+L 209.792344 199.049962 
+L 210.307685 198.075563 
+L 210.479465 197.869506 
+L 210.651246 197.260315 
+L 210.823026 197.085273 
+L 210.994807 196.419196 
+L 211.338367 195.959829 
+L 211.853709 195.161752 
+L 212.36905 194.783496 
+L 212.712611 193.666967 
+L 212.884391 193.615977 
+L 213.571513 191.788736 
+L 213.743293 191.658606 
+L 214.086854 191.183002 
+L 214.773975 190.31362 
+L 215.117536 190.08948 
+L 215.461097 189.610007 
+L 216.491779 188.399731 
+L 217.178901 187.901709 
+L 217.866023 187.445779 
+L 218.037803 187.648237 
+L 218.209583 188.271188 
+L 218.553144 188.056728 
+L 218.724925 188.280432 
+L 219.068485 188.026364 
+L 219.240266 188.027099 
+L 219.412046 188.264941 
+L 219.755607 188.051328 
+L 219.927387 187.600174 
+L 220.270948 188.004146 
+L 220.442729 187.736758 
+L 220.614509 188.088183 
+L 220.786289 188.035052 
+L 220.95807 187.864713 
+L 221.12985 187.905351 
+L 221.473411 188.435739 
+L 221.645191 188.375445 
+L 222.160533 188.984606 
+L 222.332313 188.97293 
+L 222.504093 188.498831 
+L 222.675874 188.630508 
+L 222.847654 188.564132 
+L 223.019435 188.314617 
+L 223.191215 188.530833 
+L 223.362995 188.094866 
+L 223.706556 187.797426 
+L 224.221897 186.855871 
+L 224.565458 186.686026 
+L 224.909019 186.027644 
+L 225.080799 185.634546 
+L 225.25258 185.58646 
+L 225.42436 185.189973 
+L 225.767921 185.051285 
+L 226.111482 183.857383 
+L 226.283262 183.8979 
+L 226.626823 181.562771 
+L 226.798603 181.428017 
+L 227.142164 178.972264 
+L 227.313945 178.952871 
+L 227.485725 177.608402 
+L 227.829286 176.941833 
+L 228.001066 175.682369 
+L 228.516407 174.622094 
+L 228.688188 174.838316 
+L 229.031749 173.829646 
+L 229.203529 173.796262 
+L 229.375309 173.125566 
+L 229.71887 172.718317 
+L 229.890651 172.292389 
+L 230.062431 172.272781 
+L 230.577772 171.841685 
+L 230.749553 171.502754 
+L 231.264894 171.409213 
+L 231.436674 171.435143 
+L 231.608455 171.307781 
+L 231.780235 171.398709 
+L 232.123796 171.066184 
+L 232.295576 171.142589 
+L 232.467357 170.640342 
+L 232.639137 170.553872 
+L 232.810917 170.637518 
+L 232.982698 170.355242 
+L 233.154478 170.393084 
+L 233.326259 170.214942 
+L 233.8416 170.498545 
+L 234.528721 170.353897 
+L 234.872282 170.936099 
+L 235.044063 170.836181 
+L 235.387623 172.199219 
+L 235.559404 172.325699 
+L 235.902965 174.128397 
+L 236.074745 174.279791 
+L 236.418306 175.963587 
+L 236.590086 176.287425 
+L 236.761867 177.554892 
+L 237.105427 178.026563 
+L 237.277208 178.989983 
+L 237.448988 179.084458 
+L 237.792549 180.30969 
+L 237.964329 180.547754 
+L 238.13611 181.418301 
+L 238.30789 181.645331 
+L 238.823231 183.09954 
+L 239.338573 184.385913 
+L 239.510353 185.333812 
+L 239.853914 185.907966 
+L 240.369255 186.995086 
+L 240.712816 187.59225 
+L 240.884596 188.420241 
+L 241.056377 188.626449 
+L 241.399937 190.74723 
+L 241.571718 191.348839 
+L 241.743498 192.433445 
+L 241.915279 192.692098 
+L 242.258839 193.923472 
+L 243.461302 198.314781 
+L 244.663765 201.695634 
+L 244.835545 201.701225 
+L 245.179106 202.611156 
+L 245.694447 204.20993 
+L 245.866228 205.229969 
+L 246.038008 205.240871 
+L 246.72513 207.053568 
+L 246.89691 207.303011 
+L 247.068691 207.923865 
+L 247.240471 208.022272 
+L 247.412251 208.426389 
+L 247.755812 208.709532 
+L 247.927593 209.127502 
+L 248.099373 209.215749 
+L 248.271153 209.578568 
+L 248.442934 209.67123 
+L 248.614714 209.933545 
+L 249.130055 209.743326 
+L 249.301836 209.894041 
+L 249.473616 210.230429 
+L 249.645397 210.233839 
+L 251.19142 211.747508 
+L 251.363201 211.722348 
+L 251.878542 211.987983 
+L 252.222103 211.734922 
+L 252.737444 211.73162 
+L 252.909224 211.667739 
+L 253.081005 211.818238 
+L 253.424565 211.38063 
+L 254.111687 211.294007 
+L 254.283467 211.094062 
+L 254.455248 211.20877 
+L 254.798809 210.92952 
+L 254.970589 210.97842 
+L 255.31415 210.634228 
+L 255.48593 210.422646 
+L 255.657711 210.479073 
+L 256.001271 210.431881 
+L 256.344832 210.397745 
+L 256.516613 210.474437 
+L 256.860173 210.071688 
+L 257.031954 209.96678 
+L 257.203734 210.010604 
+L 257.375515 209.815133 
+L 258.062636 210.116149 
+L 258.234417 209.893857 
+L 258.406197 209.955644 
+L 258.749758 209.660647 
+L 259.265099 208.806872 
+L 259.436879 207.947232 
+L 259.60866 207.973784 
+L 259.952221 206.520273 
+L 260.124001 206.498141 
+L 260.982903 204.608265 
+L 261.154683 204.529365 
+L 261.498244 203.799229 
+L 261.670025 203.955175 
+L 262.013585 203.661559 
+L 262.185366 203.641997 
+L 262.528927 203.064082 
+L 262.700707 202.69872 
+L 263.044268 201.744562 
+L 263.216048 201.520329 
+L 263.559609 200.031895 
+L 263.731389 199.908602 
+L 264.418511 197.425572 
+L 265.105633 194.279217 
+L 265.277413 194.17158 
+L 265.620974 191.973177 
+L 265.792754 191.722697 
+L 266.136315 190.208181 
+L 266.308095 190.119168 
+L 267.166997 188.082607 
+L 267.682339 187.328151 
+L 268.025899 186.987978 
+L 268.19768 187.182286 
+L 268.36946 186.990076 
+L 268.713021 187.252615 
+L 268.884801 187.132354 
+L 269.056582 187.188102 
+L 269.228362 187.416468 
+L 269.400143 187.3523 
+L 269.571923 187.415995 
+L 269.743703 187.681275 
+L 269.915484 187.574455 
+L 270.774386 188.158545 
+L 270.946166 188.174972 
+L 271.805068 189.477322 
+L 271.976849 189.608284 
+L 272.320409 190.748771 
+L 272.49219 190.836957 
+L 273.522872 194.156408 
+L 274.209994 197.933007 
+L 274.381774 199.267504 
+L 274.553555 199.687819 
+L 274.897115 202.005821 
+L 275.068896 202.257101 
+L 276.099578 207.32769 
+L 276.614919 209.68651 
+L 276.95848 210.912001 
+L 277.817382 213.154371 
+L 277.989163 213.280338 
+L 278.332723 213.747255 
+L 278.504504 213.823899 
+L 278.676284 214.109395 
+L 279.019845 213.994536 
+L 279.191625 214.123218 
+L 279.363406 213.975349 
+L 279.535186 214.183728 
+L 279.706967 214.183378 
+L 280.050527 213.543265 
+L 280.394088 213.169677 
+L 280.565869 213.252806 
+L 281.08121 212.910334 
+L 281.25299 213.061348 
+L 281.940112 212.564377 
+L 282.111892 212.521301 
+L 282.283673 212.614182 
+L 282.455453 212.528676 
+L 282.970794 212.725323 
+L 283.657916 212.724656 
+L 283.829696 212.555084 
+L 284.173257 212.664327 
+L 284.345037 212.554061 
+L 284.516818 212.677139 
+L 284.688598 212.47515 
+L 285.032159 212.572235 
+L 285.203939 212.206835 
+L 285.37572 212.200565 
+L 285.719281 211.722436 
+L 285.891061 211.76817 
+L 286.062841 211.486525 
+L 286.578183 211.589058 
+L 286.749963 211.448324 
+L 287.093524 211.516155 
+L 287.265304 211.458749 
+L 287.608865 211.882936 
+L 288.467767 212.197376 
+L 288.983108 213.167105 
+L 289.84201 214.087795 
+L 290.013791 213.933236 
+L 290.357351 214.391841 
+L 290.529132 214.1289 
+L 290.700912 214.299367 
+L 291.044473 213.739858 
+L 291.216253 213.874491 
+L 291.903375 213.440189 
+L 292.246936 213.097109 
+L 292.418716 213.108234 
+L 292.762277 213.286042 
+L 293.277618 213.093935 
+L 293.449399 213.18895 
+L 293.621179 213.098598 
+L 293.792959 213.16575 
+L 293.96474 213.424114 
+L 294.13652 213.084302 
+L 294.480081 213.537664 
+L 294.651861 213.522607 
+L 294.823642 213.681038 
+L 294.995422 213.220503 
+L 295.167203 213.099335 
+L 295.510763 211.307794 
+L 295.682544 211.265086 
+L 296.026105 210.545909 
+L 296.713226 209.079782 
+L 297.056787 208.521633 
+L 297.228567 208.427327 
+L 297.572128 207.738625 
+L 297.743909 207.577894 
+L 298.087469 206.728855 
+L 298.25925 206.639032 
+L 298.774591 205.994584 
+L 298.946371 206.015553 
+L 299.118152 205.782614 
+L 299.461713 205.821454 
+L 299.633493 205.844169 
+L 299.805273 206.036476 
+L 300.148834 206.049837 
+L 300.320615 206.138803 
+L 300.664175 205.915919 
+L 300.835956 205.881471 
+L 301.007736 206.094063 
+L 301.351297 205.881256 
+L 301.866638 205.675984 
+L 302.038419 205.372205 
+L 302.897321 205.114136 
+L 303.069101 204.847098 
+L 303.240881 204.809049 
+L 303.412662 204.643151 
+L 303.756223 204.69806 
+L 303.928003 204.76052 
+L 304.443344 206.401327 
+L 304.786905 206.981969 
+L 304.958685 207.183107 
+L 305.474027 208.259889 
+L 305.645807 208.660022 
+L 305.989368 208.747984 
+L 306.161148 209.353333 
+L 306.504709 209.415243 
+L 306.676489 209.932316 
+L 307.02005 209.669339 
+L 307.363611 210.291186 
+L 307.707172 209.364012 
+L 308.050733 209.34951 
+L 308.222513 208.910586 
+L 308.394293 208.817006 
+L 308.566074 208.533739 
+L 309.081415 206.622103 
+L 309.424976 206.413533 
+L 310.112097 205.04363 
+L 310.799219 204.734274 
+L 311.14278 204.317053 
+L 311.658121 203.460791 
+L 312.517023 200.565599 
+L 312.688803 199.439476 
+L 314.063047 196.805996 
+L 314.578388 196.09316 
+L 314.921949 195.856912 
+L 315.43729 195.340743 
+L 315.60907 195.425883 
+L 315.952631 194.953197 
+L 316.124411 194.626051 
+L 316.811533 194.395722 
+L 316.983313 194.436589 
+L 317.326874 194.175512 
+L 317.670435 194.931667 
+L 317.842215 194.911113 
+L 318.357557 195.254459 
+L 318.872898 195.407941 
+L 319.216459 195.220472 
+L 319.7318 195.106726 
+L 320.247141 195.305524 
+L 320.934263 196.264507 
+L 321.793165 198.767842 
+L 322.136726 199.425139 
+L 322.652067 200.387874 
+L 323.339188 201.380888 
+L 323.510969 201.401751 
+L 323.682749 201.256327 
+L 323.85453 201.28338 
+L 324.02631 201.104814 
+L 324.713432 202.105429 
+L 325.400553 203.98615 
+L 325.572334 204.086118 
+L 325.915894 204.887947 
+L 326.259455 205.408925 
+L 327.290138 206.442084 
+L 327.805479 207.550911 
+L 328.14904 208.107251 
+L 328.664381 209.34839 
+L 329.007942 209.800471 
+L 329.179722 210.018478 
+L 329.695063 211.102562 
+L 329.866844 210.894335 
+L 330.210404 211.228234 
+L 330.553965 211.140157 
+L 330.725746 211.306566 
+L 331.069306 211.195804 
+L 331.241087 211.196896 
+L 331.412867 211.458398 
+L 331.584648 211.491642 
+L 331.756428 211.28912 
+L 332.099989 211.367324 
+L 332.271769 211.16249 
+L 332.44355 211.262737 
+L 332.78711 212.338006 
+L 332.958891 212.072396 
+L 333.474232 212.152792 
+L 333.646012 211.923531 
+L 333.817793 211.892348 
+L 334.161354 211.028471 
+L 334.333134 211.142127 
+L 334.504914 211.005844 
+L 334.848475 210.409158 
+L 335.020256 210.183018 
+L 335.192036 209.735574 
+L 335.535597 209.777803 
+L 335.879158 209.476221 
+L 336.222718 208.870998 
+L 337.596962 206.658574 
+L 338.112303 205.993592 
+L 338.284083 205.679081 
+L 338.627644 204.268113 
+L 338.799424 204.263168 
+L 339.486546 202.016692 
+L 340.517228 199.963 
+L 340.689009 199.662944 
+L 341.03257 198.720105 
+L 341.20435 198.758598 
+L 341.547911 198.553309 
+L 341.719691 198.664751 
+L 342.063252 198.375807 
+L 342.235032 198.478355 
+L 342.578593 198.031751 
+L 343.437495 198.622539 
+L 343.781056 198.573838 
+L 343.952836 198.857979 
+L 344.468178 198.386691 
+L 344.983519 198.662854 
+L 345.32708 199.179781 
+L 345.67064 198.962982 
+L 345.842421 199.177966 
+L 346.185982 199.213235 
+L 346.529542 199.465396 
+L 347.044884 200.077308 
+L 347.388444 201.75607 
+L 347.560225 201.916736 
+L 347.732005 202.535068 
+L 348.075566 204.175102 
+L 348.419127 205.23337 
+L 349.278029 207.820905 
+L 349.62159 209.321209 
+L 349.79337 210.212434 
+L 350.136931 210.410353 
+L 350.480492 211.00359 
+L 350.995833 211.577849 
+L 351.339394 212.809755 
+L 351.854735 213.342451 
+L 352.026515 213.38452 
+L 352.198296 213.553297 
+L 352.370076 214.03213 
+L 352.541856 214.157471 
+L 352.713637 214.003198 
+L 353.228978 215.64036 
+L 353.400758 215.646508 
+L 353.744319 216.066554 
+L 354.08788 214.934902 
+L 354.431441 215.886251 
+L 354.775002 215.627192 
+L 354.946782 215.926805 
+L 355.118562 215.870534 
+L 355.462123 215.158425 
+L 355.633904 214.493301 
+L 355.977464 214.253491 
+L 356.149245 213.868172 
+L 356.492806 213.848445 
+L 356.836366 213.326183 
+L 357.008147 213.207743 
+L 358.38239 210.591879 
+L 358.55417 210.55409 
+L 360.271974 207.787185 
+L 360.787316 206.697976 
+L 360.959096 206.543324 
+L 361.130876 206.062218 
+L 361.474437 206.150387 
+L 362.161559 205.84572 
+L 362.333339 205.856964 
+L 362.50512 205.74781 
+L 362.84868 206.415378 
+L 363.192241 206.329973 
+L 363.364022 206.592451 
+L 363.707582 206.782119 
+L 364.566484 208.243489 
+L 364.738265 208.332924 
+L 364.910045 208.654438 
+L 365.253606 208.460821 
+L 365.940728 209.22598 
+L 366.112508 209.287268 
+L 366.284288 209.560705 
+L 366.627849 209.433163 
+L 366.79963 209.384603 
+L 367.486751 209.902377 
+L 367.830312 209.75232 
+L 368.002092 209.915322 
+L 368.173873 209.751936 
+L 368.345653 209.865233 
+L 368.517434 209.763509 
+L 368.689214 209.510931 
+L 369.376336 210.288186 
+L 369.719896 210.042714 
+L 369.891677 210.287343 
+L 370.063457 210.16145 
+L 370.407018 210.466376 
+L 370.578798 210.493017 
+L 370.922359 210.744031 
+L 371.09414 210.737196 
+L 371.26592 210.857761 
+L 371.4377 210.645091 
+L 371.781261 210.752746 
+L 372.124822 210.56097 
+L 372.296602 210.654929 
+L 372.640163 210.480891 
+L 372.983724 210.545829 
+L 373.327285 210.479687 
+L 373.842626 210.209932 
+L 374.014406 210.391742 
+L 374.186187 210.405886 
+L 374.701528 210.087432 
+L 374.873308 210.020174 
+L 375.045089 210.146753 
+L 375.216869 210.527837 
+L 375.38865 210.554028 
+L 376.075771 211.488006 
+L 376.247552 211.612653 
+L 376.591112 212.343962 
+L 376.762893 212.300197 
+L 377.278234 213.597607 
+L 377.793575 214.53443 
+L 377.965356 214.594738 
+L 378.824258 216.71389 
+L 379.339599 216.768939 
+L 379.511379 216.797601 
+L 379.85494 216.073777 
+L 380.370281 215.782135 
+L 380.542062 215.920237 
+L 380.713842 215.775466 
+L 380.885622 215.845584 
+L 381.572744 215.509787 
+L 381.744524 215.206158 
+L 382.088085 214.396193 
+L 383.634109 212.756222 
+L 383.97767 211.985072 
+L 384.14945 211.899366 
+L 384.493011 211.133312 
+L 384.664791 210.768922 
+L 384.836572 210.810368 
+L 385.180132 210.19732 
+L 385.351913 209.88088 
+L 385.523693 210.022103 
+L 386.210815 208.246125 
+L 386.382595 208.115201 
+L 387.241497 206.033908 
+L 387.413278 205.12448 
+L 387.585058 205.042643 
+L 387.756838 204.481427 
+L 387.928619 204.463164 
+L 388.27218 203.733707 
+L 388.61574 203.446522 
+L 388.787521 203.433015 
+L 389.302862 202.404857 
+L 389.474642 202.419617 
+L 390.333544 201.481876 
+L 390.848886 201.122918 
+L 391.536007 198.256273 
+L 391.879568 197.826257 
+L 392.051348 197.220268 
+L 392.223129 197.05471 
+L 392.56669 197.223477 
+L 392.73847 197.243236 
+L 392.91025 197.135714 
+L 393.082031 196.659286 
+L 393.425592 196.587817 
+L 393.940933 195.797176 
+L 394.112713 195.691721 
+L 394.284494 195.409854 
+L 394.628054 195.361101 
+L 394.799835 195.389437 
+L 395.486956 194.616291 
+L 395.658737 194.164692 
+L 396.002298 194.185516 
+L 396.174078 193.918259 
+L 396.345858 193.411568 
+L 396.517639 193.686832 
+L 396.8612 193.035242 
+L 397.03298 192.916601 
+L 397.20476 193.072326 
+L 397.548321 192.705064 
+L 397.891882 192.929191 
+L 398.407223 192.392487 
+L 398.922564 191.898133 
+L 399.094345 191.855767 
+L 399.437906 192.082712 
+L 399.609686 191.828228 
+L 400.296808 193.491625 
+L 400.640368 193.713097 
+L 400.812149 194.25012 
+L 400.983929 194.412137 
+L 401.15571 194.39718 
+L 401.49927 194.60622 
+L 401.671051 194.565114 
+L 402.014612 195.312932 
+L 402.186392 195.370697 
+L 402.873514 196.362875 
+L 403.217074 196.649711 
+L 403.388855 196.880522 
+L 403.732416 196.425725 
+L 404.075976 196.853701 
+L 404.591318 198.061881 
+L 404.763098 198.405781 
+L 405.106659 200.046893 
+L 405.278439 200.09639 
+L 405.622 201.186972 
+L 405.622 201.186972 
+" clip-path="url(#inverse-fit-curves-pf8d9df2379)" style="fill: none; stroke: var(--fig-green); stroke-width: 2; stroke-linecap: square"/>
+   </g>
+   <g id="inverse-fit-curves-patch_3">
+    <path d="M 54.082 226.373601 
+L 54.082 15.701601 
+" style="fill: none; stroke: var(--fig-muted); stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="inverse-fit-curves-patch_4">
+    <path d="M 54.082 226.373601 
+L 422.362 226.373601 
+" style="fill: none; stroke: var(--fig-muted); stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="inverse-fit-curves-text_16">
+    <text style="font-size: 10px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-ox)" x="399.622" y="17.79" transform="rotate(-0 399.622 17.79)">both elbow branches in the data</text>
+   </g>
+   <g id="inverse-fit-curves-text_17">
+    <text style="font-size: 10px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: start; fill: var(--fig-green)" x="168.147808" y="167.102443" transform="rotate(-0 168.147808 167.102443)">one branch only</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="inverse-fit-curves-pf8d9df2379">
+   <rect x="54.082" y="15.701601" width="368.28" height="210.672"/>
+  </clipPath>
+ </defs>
+</svg>

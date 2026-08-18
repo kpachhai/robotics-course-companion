@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" role="img" aria-label="Flow matching in two rows. Training draws a straight line from a random noise chunk to a real action chunk, picks a random point on it, and learns the line's velocity, which is the same everywhere along it. Inference starts at noise and takes a small fixed number of equal steps along that learned velocity to arrive at an action chunk">
+
+  <text x="20" y="44" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--muted, #6b6053)">training</text>
+
+  <line x1="120" y1="100" x2="660" y2="100"
+        stroke="var(--blue, #2d5d7c)" stroke-width="2"/>
+
+  <line x1="336" y1="100" x2="446" y2="100"
+        stroke="var(--gold, #b07d22)" stroke-width="3.4" marker-end="url(#m5FlowGold)"/>
+
+  <circle cx="120" cy="100" r="7" fill="var(--blue, #2d5d7c)"/>
+  <circle cx="660" cy="100" r="7" fill="var(--green, #15614e)"/>
+  <circle cx="336" cy="100" r="5.5" fill="var(--gold, #b07d22)"/>
+
+  <text x="336" y="70" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">a random point on the line</text>
+  <text x="336" y="86" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--gold, #b07d22)">a<tspan font-size="10" dy="3">tau</tspan></text>
+
+  <text x="120" y="126" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">a<tspan font-size="10" dy="3">0</tspan></text>
+  <text x="120" y="146" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">a random noise chunk</text>
+
+  <text x="660" y="126" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--green, #15614e)">a<tspan font-size="10" dy="3">1</tspan></text>
+  <text x="660" y="146" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">a real chunk from your data</text>
+
+  <text x="391" y="126" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--gold, #b07d22)">the velocity the network learns</text>
+  <text x="391" y="146" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">identical at every point, because the path is straight</text>
+
+  <text x="20" y="196" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--muted, #6b6053)">inference</text>
+
+  <line x1="120" y1="230" x2="248" y2="230"
+        stroke="var(--blue, #2d5d7c)" stroke-width="2" marker-end="url(#m5FlowBlue)"/>
+  <line x1="255" y1="230" x2="383" y2="230"
+        stroke="var(--blue, #2d5d7c)" stroke-width="2" marker-end="url(#m5FlowBlue)"/>
+  <line x1="390" y1="230" x2="518" y2="230"
+        stroke="var(--blue, #2d5d7c)" stroke-width="2" marker-end="url(#m5FlowBlue)"/>
+  <line x1="525" y1="230" x2="653" y2="230"
+        stroke="var(--blue, #2d5d7c)" stroke-width="2" marker-end="url(#m5FlowBlue)"/>
+
+  <circle cx="120" cy="230" r="7" fill="var(--blue, #2d5d7c)"/>
+  <circle cx="255" cy="230" r="4" fill="var(--muted, #6b6053)"/>
+  <circle cx="390" cy="230" r="4" fill="var(--muted, #6b6053)"/>
+  <circle cx="525" cy="230" r="4" fill="var(--muted, #6b6053)"/>
+  <circle cx="660" cy="230" r="7" fill="var(--green, #15614e)"/>
+
+  <text x="120" y="256" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">start at noise</text>
+  <text x="390" y="256" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">K equal steps, one forward pass each</text>
+  <text x="660" y="256" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">an action chunk</text>
+
+  <text x="20" y="288" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">a straight target path is why K can be small, and a small K is why the control loop can run at 50 Hz</text>
+
+  <defs>
+    <marker id="m5FlowGold" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--gold, #b07d22)"/>
+    </marker>
+    <marker id="m5FlowBlue" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--blue, #2d5d7c)"/>
+    </marker>
+  </defs>
+</svg>

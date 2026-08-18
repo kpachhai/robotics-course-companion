@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 250" role="img" aria-label="A three-pin cable pulled taut between two motors reaches the end of its length as the joint rotates and loads the connector, while the same cable routed with a loop of slack absorbs the rotation">
+
+  <text x="20" y="26" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--ox, #9c3b2e)">Taut</text>
+  <text x="72" y="26" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">tidier, and wrong</text>
+
+  <path d="M 143,92 A 32,32 0 0 1 207,92" fill="none"
+        stroke="var(--muted, #6b6053)" stroke-width="1.2" marker-end="url(#m4CableArrow)"/>
+  <text x="175" y="52" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the joint turns</text>
+
+  <rect x="30" y="64" width="110" height="56" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="85" y="88" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--blue, #2d5d7c)">motor</text>
+  <text x="85" y="106" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">3-pin socket</text>
+
+  <circle cx="175" cy="92" r="24"
+          fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.5"/>
+  <text x="175" y="96" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">joint</text>
+
+  <rect x="210" y="64" width="110" height="56" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="265" y="88" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--blue, #2d5d7c)">next motor</text>
+  <text x="265" y="106" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">3-pin socket</text>
+
+  <path d="M 85,120 L 85,140 L 265,140 L 265,120" fill="none"
+        stroke="var(--ox, #9c3b2e)" stroke-width="1.8"/>
+  <circle cx="265" cy="126" r="5" fill="none"
+          stroke="var(--ox, #9c3b2e)" stroke-width="1.6"/>
+
+  <line x1="175" y1="140" x2="175" y2="182"
+        stroke="var(--muted, #6b6053)" stroke-width="1.1"/>
+  <text x="175" y="200" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">no spare length, so rotation</text>
+  <text x="175" y="214" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">pulls on the connector itself</text>
+
+  <line x1="380" y1="16" x2="380" y2="228"
+        stroke="var(--line-2, #c8bca3)" stroke-width="1" stroke-dasharray="4 5"/>
+
+  <text x="410" y="26" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--green, #15614e)">With a service loop</text>
+  <text x="558" y="26" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">looks untidy, survives</text>
+
+  <path d="M 513,92 A 32,32 0 0 1 577,92" fill="none"
+        stroke="var(--muted, #6b6053)" stroke-width="1.2" marker-end="url(#m4CableArrow)"/>
+  <text x="545" y="52" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the joint turns</text>
+
+  <rect x="400" y="64" width="110" height="56" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="455" y="88" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--blue, #2d5d7c)">motor</text>
+  <text x="455" y="106" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">3-pin socket</text>
+
+  <circle cx="545" cy="92" r="24"
+          fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.5"/>
+  <text x="545" y="96" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">joint</text>
+
+  <rect x="580" y="64" width="110" height="56" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="635" y="88" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--blue, #2d5d7c)">next motor</text>
+  <text x="635" y="106" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">3-pin socket</text>
+
+  <path d="M 455,120 C 455,180 635,180 635,120" fill="none"
+        stroke="var(--green, #15614e)" stroke-width="1.8"/>
+
+  <line x1="545" y1="164" x2="545" y2="182"
+        stroke="var(--muted, #6b6053)" stroke-width="1.1"/>
+  <text x="545" y="200" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the loop lengthens and shortens</text>
+  <text x="545" y="214" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">so the connector is never loaded</text>
+
+  <defs>
+    <marker id="m4CableArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

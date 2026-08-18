@@ -1,0 +1,277 @@
+<svg id="bc-learning-curve" xmlns:xlink="http://www.w3.org/1999/xlink" width="415.922pt" height="280.644pt" viewBox="0 0 415.922 280.644" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">#bc-learning-curve, #bc-learning-curve *{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="bc-learning-curve-figure_1">
+  <g id="bc-learning-curve-patch_1">
+   <path d="M 0 280.644 
+L 415.922 280.644 
+L 415.922 0 
+L 0 0 
+L 0 280.644 
+z
+" style="fill: none"/>
+  </g>
+  <g id="bc-learning-curve-axes_1">
+   <g id="bc-learning-curve-patch_2">
+    <path d="M 40.442 228.96 
+L 408.722 228.96 
+L 408.722 7.2 
+L 40.442 7.2 
+L 40.442 228.96 
+z
+" style="fill: none"/>
+   </g>
+   <g id="bc-learning-curve-matplotlib.axis_1">
+    <g id="bc-learning-curve-xtick_1">
+     <g id="bc-learning-curve-line2d_1">
+      <defs>
+       <path id="bc-learning-curve-mabe65c4262" d="M 0 0 
+L 0 3.5 
+" style="stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#bc-learning-curve-mabe65c4262" x="40.442" y="228.96" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="bc-learning-curve-text_1">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="40.442" y="247.609" transform="rotate(-0 40.442 247.609)">0</text>
+     </g>
+    </g>
+    <g id="bc-learning-curve-xtick_2">
+     <g id="bc-learning-curve-line2d_2">
+      <g>
+       <use xlink:href="#bc-learning-curve-mabe65c4262" x="102.862339" y="228.96" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="bc-learning-curve-text_2">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="102.862339" y="247.609" transform="rotate(-0 102.862339 247.609)">5</text>
+     </g>
+    </g>
+    <g id="bc-learning-curve-xtick_3">
+     <g id="bc-learning-curve-line2d_3">
+      <g>
+       <use xlink:href="#bc-learning-curve-mabe65c4262" x="165.282678" y="228.96" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="bc-learning-curve-text_3">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="165.282678" y="247.609" transform="rotate(-0 165.282678 247.609)">10</text>
+     </g>
+    </g>
+    <g id="bc-learning-curve-xtick_4">
+     <g id="bc-learning-curve-line2d_4">
+      <g>
+       <use xlink:href="#bc-learning-curve-mabe65c4262" x="227.703017" y="228.96" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="bc-learning-curve-text_4">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="227.703017" y="247.609" transform="rotate(-0 227.703017 247.609)">15</text>
+     </g>
+    </g>
+    <g id="bc-learning-curve-xtick_5">
+     <g id="bc-learning-curve-line2d_5">
+      <g>
+       <use xlink:href="#bc-learning-curve-mabe65c4262" x="290.123356" y="228.96" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="bc-learning-curve-text_5">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="290.123356" y="247.609" transform="rotate(-0 290.123356 247.609)">20</text>
+     </g>
+    </g>
+    <g id="bc-learning-curve-xtick_6">
+     <g id="bc-learning-curve-line2d_6">
+      <g>
+       <use xlink:href="#bc-learning-curve-mabe65c4262" x="352.543695" y="228.96" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="bc-learning-curve-text_6">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="352.543695" y="247.609" transform="rotate(-0 352.543695 247.609)">25</text>
+     </g>
+    </g>
+    <g id="bc-learning-curve-text_7">
+     <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-ink)" x="224.582" y="268.351" transform="rotate(-0 224.582 268.351)">epoch</text>
+    </g>
+   </g>
+   <g id="bc-learning-curve-matplotlib.axis_2">
+    <g id="bc-learning-curve-ytick_1">
+     <g id="bc-learning-curve-line2d_7">
+      <path d="M 40.442 228.96 
+L 408.722 228.96 
+" clip-path="url(#bc-learning-curve-p14d302fa92)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="bc-learning-curve-line2d_8">
+      <defs>
+       <path id="bc-learning-curve-mc16693e09f" d="M 0 0 
+L -3.5 0 
+" style="stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#bc-learning-curve-mc16693e09f" x="40.442" y="228.96" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="bc-learning-curve-text_8">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="33.442" y="234.7845" transform="rotate(-0 33.442 234.7845)">0</text>
+     </g>
+    </g>
+    <g id="bc-learning-curve-ytick_2">
+     <g id="bc-learning-curve-line2d_9">
+      <path d="M 40.442 189.36 
+L 408.722 189.36 
+" clip-path="url(#bc-learning-curve-p14d302fa92)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="bc-learning-curve-line2d_10">
+      <g>
+       <use xlink:href="#bc-learning-curve-mc16693e09f" x="40.442" y="189.36" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="bc-learning-curve-text_9">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="33.442" y="195.1845" transform="rotate(-0 33.442 195.1845)">1</text>
+     </g>
+    </g>
+    <g id="bc-learning-curve-ytick_3">
+     <g id="bc-learning-curve-line2d_11">
+      <path d="M 40.442 149.76 
+L 408.722 149.76 
+" clip-path="url(#bc-learning-curve-p14d302fa92)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="bc-learning-curve-line2d_12">
+      <g>
+       <use xlink:href="#bc-learning-curve-mc16693e09f" x="40.442" y="149.76" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="bc-learning-curve-text_10">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="33.442" y="155.5845" transform="rotate(-0 33.442 155.5845)">2</text>
+     </g>
+    </g>
+    <g id="bc-learning-curve-ytick_4">
+     <g id="bc-learning-curve-line2d_13">
+      <path d="M 40.442 110.16 
+L 408.722 110.16 
+" clip-path="url(#bc-learning-curve-p14d302fa92)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="bc-learning-curve-line2d_14">
+      <g>
+       <use xlink:href="#bc-learning-curve-mc16693e09f" x="40.442" y="110.16" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="bc-learning-curve-text_11">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="33.442" y="115.9845" transform="rotate(-0 33.442 115.9845)">3</text>
+     </g>
+    </g>
+    <g id="bc-learning-curve-ytick_5">
+     <g id="bc-learning-curve-line2d_15">
+      <path d="M 40.442 70.56 
+L 408.722 70.56 
+" clip-path="url(#bc-learning-curve-p14d302fa92)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="bc-learning-curve-line2d_16">
+      <g>
+       <use xlink:href="#bc-learning-curve-mc16693e09f" x="40.442" y="70.56" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="bc-learning-curve-text_12">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="33.442" y="76.3845" transform="rotate(-0 33.442 76.3845)">4</text>
+     </g>
+    </g>
+    <g id="bc-learning-curve-ytick_6">
+     <g id="bc-learning-curve-line2d_17">
+      <path d="M 40.442 30.96 
+L 408.722 30.96 
+" clip-path="url(#bc-learning-curve-p14d302fa92)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="bc-learning-curve-line2d_18">
+      <g>
+       <use xlink:href="#bc-learning-curve-mc16693e09f" x="40.442" y="30.96" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="bc-learning-curve-text_13">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="33.442" y="36.7845" transform="rotate(-0 33.442 36.7845)">5</text>
+     </g>
+    </g>
+    <g id="bc-learning-curve-text_14">
+     <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-ink)" x="18.849" y="118.08" transform="rotate(-90 18.849 118.08)">held-out action error (units)</text>
+    </g>
+   </g>
+   <g id="bc-learning-curve-line2d_19">
+    <path d="M 40.442 35.5932 
+L 408.722 35.5932 
+" clip-path="url(#bc-learning-curve-p14d302fa92)" style="fill: none; stroke-dasharray: 6,4.8; stroke-dashoffset: 0; stroke: var(--fig-muted); stroke-width: 1.2"/>
+   </g>
+   <g id="bc-learning-curve-line2d_20">
+    <path d="M 40.442 109.361798 
+L 408.722 109.361798 
+" clip-path="url(#bc-learning-curve-p14d302fa92)" style="fill: none; stroke-dasharray: 6,4.8; stroke-dashoffset: 0; stroke: var(--fig-ox); stroke-width: 1.2"/>
+   </g>
+   <g id="bc-learning-curve-line2d_21">
+    <path d="M 40.442 112.330535 
+L 52.926068 132.199107 
+L 65.410136 140.408119 
+L 77.894203 134.285141 
+L 90.378271 139.756107 
+L 102.862339 129.758191 
+L 115.346407 136.798341 
+L 127.830475 133.502395 
+L 140.314542 135.937316 
+L 152.79861 137.738759 
+L 165.282678 134.056755 
+L 177.766746 136.359752 
+L 190.250814 143.339855 
+L 202.734881 127.086262 
+L 215.218949 132.342824 
+L 227.703017 135.32712 
+L 240.187085 130.780531 
+L 252.671153 140.744978 
+L 265.15522 135.759242 
+L 277.639288 131.544744 
+L 290.123356 137.350879 
+L 302.607424 143.181051 
+L 315.091492 138.337399 
+L 327.575559 133.601057 
+L 340.059627 138.237282 
+L 352.543695 134.56183 
+L 365.027763 136.332948 
+L 377.511831 138.546412 
+L 389.995898 144.156355 
+L 402.479966 145.463485 
+" clip-path="url(#bc-learning-curve-p14d302fa92)" style="fill: none; stroke: var(--fig-blue); stroke-width: 2; stroke-linecap: square"/>
+   </g>
+   <g id="bc-learning-curve-patch_3">
+    <path d="M 40.442 228.96 
+L 40.442 7.2 
+" style="fill: none; stroke: var(--fig-muted); stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="bc-learning-curve-patch_4">
+    <path d="M 40.442 228.96 
+L 408.722 228.96 
+" style="fill: none; stroke: var(--fig-muted); stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="bc-learning-curve-text_15">
+    <text style="font-size: 9.5px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="408.722" y="26.4427" transform="rotate(-0 408.722 26.4427)">nearest neighbour</text>
+   </g>
+   <g id="bc-learning-curve-text_16">
+    <text style="font-size: 9.5px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-ox)" x="408.722" y="100.211298" transform="rotate(-0 408.722 100.211298)">never move at all</text>
+   </g>
+   <g id="bc-learning-curve-text_17">
+    <text style="font-size: 10px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-blue)" x="398.479966" y="159.463485" transform="rotate(-0 398.479966 159.463485)">2.11</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="bc-learning-curve-p14d302fa92">
+   <rect x="40.442" y="7.2" width="368.28" height="221.76"/>
+  </clipPath>
+ </defs>
+</svg>

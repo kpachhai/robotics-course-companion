@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 196" role="img" aria-label="Five checkpoints of the milestone project in order, each with the condition that has to hold before moving on: freeze the rig, record fifty episodes, train, first rollout, then twenty uncut trials">
+  <rect x="14" y="34" width="128" height="52" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="78" y="65" text-anchor="middle" class="svg-disp" font-size="13.5" font-weight="600"
+        fill="var(--blue, #2d5d7c)">Freeze the rig</text>
+  <text x="78" y="106" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">you can teleop it</text>
+  <text x="78" y="120" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">ten times out of ten</text>
+
+  <line x1="142" y1="60" x2="158" y2="60" stroke="var(--muted, #6b6053)"
+        stroke-width="1.3" marker-end="url(#m4CheckArrow)"/>
+
+  <rect x="160" y="34" width="128" height="52" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="224" y="65" text-anchor="middle" class="svg-disp" font-size="13.5" font-weight="600"
+        fill="var(--blue, #2d5d7c)">Record 50</text>
+  <text x="224" y="106" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">coverage grid even,</text>
+  <text x="224" y="120" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">viewer looks right</text>
+
+  <line x1="288" y1="60" x2="304" y2="60" stroke="var(--muted, #6b6053)"
+        stroke-width="1.3" marker-end="url(#m4CheckArrow)"/>
+
+  <rect x="306" y="34" width="128" height="52" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="370" y="65" text-anchor="middle" class="svg-disp" font-size="13.5" font-weight="600"
+        fill="var(--blue, #2d5d7c)">Train</text>
+  <text x="370" y="106" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">loss fell, then flat,</text>
+  <text x="370" y="120" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">five to ten epochs</text>
+
+  <line x1="434" y1="60" x2="450" y2="60" stroke="var(--muted, #6b6053)"
+        stroke-width="1.3" marker-end="url(#m4CheckArrow)"/>
+
+  <rect x="452" y="34" width="128" height="52" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="516" y="65" text-anchor="middle" class="svg-disp" font-size="13.5" font-weight="600"
+        fill="var(--gold, #b07d22)">First rollout</text>
+  <text x="516" y="106" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">short duration,</text>
+  <text x="516" y="120" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">motion clamped, glasses on</text>
+
+  <line x1="580" y1="60" x2="596" y2="60" stroke="var(--muted, #6b6053)"
+        stroke-width="1.3" marker-end="url(#m4CheckArrow)"/>
+
+  <rect x="598" y="34" width="128" height="52" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="662" y="65" text-anchor="middle" class="svg-disp" font-size="13.5" font-weight="600"
+        fill="var(--green, #15614e)">20 trials</text>
+  <text x="662" y="106" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">one sitting, uncut,</text>
+  <text x="662" y="120" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">camera never stops</text>
+
+  <text x="370" y="24" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">each box has one condition under it; moving on is not the same as passing</text>
+  <text x="370" y="152" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">expect to come back to "Record 50" at least twice; that return trip is the project,</text>
+  <text x="370" y="166" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">and the log of what you changed between rounds is the writeup</text>
+
+  <path d="M662 130 V182 H78 V126" fill="none" stroke="var(--muted, #6b6053)"
+        stroke-width="1.3" stroke-dasharray="4 4" marker-end="url(#m4CheckArrow)"/>
+
+  <defs>
+    <marker id="m4CheckArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

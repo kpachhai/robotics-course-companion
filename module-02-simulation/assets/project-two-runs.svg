@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 310" role="img" aria-label="One episode function feeding two runs: the evaluation run takes every episode including failures and reports a success rate over a stated sampling box, while the recording run keeps only successes, renders images and writes the demonstration dataset">
+
+  <rect x="270" y="26" width="210" height="58" rx="8" fill="var(--purple-soft, #ede0f5)" stroke="var(--purple, #5e2d8c)" stroke-width="1.6"/>
+  <text x="375" y="50" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700" fill="var(--purple, #5e2d8c)">run_episode</text>
+  <text x="375" y="70" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">place cube, script the pick, judge the outcome</text>
+
+  <line x1="300" y1="88" x2="180" y2="128" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#arrowProjRunsA)"/>
+  <line x1="450" y1="88" x2="570" y2="128" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#arrowProjRunsB)"/>
+
+  <rect x="40" y="136" width="290" height="120" rx="8" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="60" y="160" class="svg-disp" font-size="14" font-weight="700" fill="var(--blue, #2d5d7c)">evaluation run</text>
+  <text x="60" y="180" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">100 episodes, no renderer, every outcome kept</text>
+  <text x="60" y="200" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">failures classified, not just counted</text>
+  <text x="60" y="220" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">out: success rate, box, seed, failure positions</text>
+  <text x="60" y="242" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">about 90 seconds, no pixels stored</text>
+
+  <rect x="420" y="136" width="290" height="120" rx="8" fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="440" y="160" class="svg-disp" font-size="14" font-weight="700" fill="var(--green, #15614e)">recording run</text>
+  <text x="440" y="180" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">keep going until 50 successes are banked</text>
+  <text x="440" y="200" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">renderer on, failed episodes dropped unsaved</text>
+  <text x="440" y="220" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">out: the dataset Module 3 trains on</text>
+  <text x="440" y="242" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">about 4 minutes, about 400 MB</text>
+
+  <text x="40" y="282" class="svg-mono" font-size="9.5" fill="var(--ox, #9c3b2e)">Both runs must call the same episode function.</text>
+  <text x="40" y="298" class="svg-mono" font-size="9.5" fill="var(--ox, #9c3b2e)">Two copies of the expert means the rate you report and the demonstrations you ship describe different robots.</text>
+
+  <defs>
+    <marker id="arrowProjRunsA" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+    <marker id="arrowProjRunsB" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

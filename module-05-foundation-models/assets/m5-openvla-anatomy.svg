@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 280" role="img" aria-label="OpenVLA laid out left to right: DINOv2 and SigLIP produce image features that pass through a projector into the language model's token space, the instruction text enters as ordinary tokens, a seven-billion-parameter Llama-2 backbone consumes both, and the output is a string of discrete action tokens de-tokenized into a pose delta and gripper command">
+
+  <rect x="16" y="34" width="118" height="52" rx="8"
+        fill="var(--purple-soft, #ede0f5)" stroke="var(--purple, #5e2d8c)" stroke-width="1.6"/>
+  <text x="75" y="65" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--purple, #5e2d8c)">DINOv2</text>
+
+  <rect x="16" y="98" width="118" height="52" rx="8"
+        fill="var(--purple-soft, #ede0f5)" stroke="var(--purple, #5e2d8c)" stroke-width="1.6"/>
+  <text x="75" y="129" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--purple, #5e2d8c)">SigLIP</text>
+
+  <rect x="16" y="176" width="118" height="52" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="75" y="200" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Instruction</text>
+  <text x="75" y="218" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">ordinary text tokens</text>
+
+  <line x1="134" y1="60" x2="154" y2="60"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m5VlaArrow)"/>
+  <line x1="134" y1="124" x2="154" y2="124"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m5VlaArrow)"/>
+
+  <rect x="156" y="34" width="118" height="116" rx="8"
+        fill="var(--purple-soft, #ede0f5)" stroke="var(--purple, #5e2d8c)" stroke-width="1.6"/>
+  <text x="215" y="78" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--purple, #5e2d8c)">Projector</text>
+  <text x="215" y="100" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">two encoders,</text>
+  <text x="215" y="114" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">fused, then mapped</text>
+  <text x="215" y="128" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">into token space</text>
+
+  <line x1="274" y1="92" x2="294" y2="92"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m5VlaArrow)"/>
+  <line x1="134" y1="202" x2="294" y2="202"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m5VlaArrow)"/>
+
+  <rect x="296" y="34" width="170" height="194" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="381" y="118" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Llama-2 backbone</text>
+  <text x="381" y="140" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">7B parameters, trained on</text>
+  <text x="381" y="154" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">970k demonstrations from</text>
+  <text x="381" y="168" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">Open X-Embodiment</text>
+
+  <line x1="466" y1="131" x2="486" y2="131"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m5VlaArrow)"/>
+
+  <rect x="488" y="98" width="118" height="66" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="547" y="126" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Action tokens</text>
+  <text x="547" y="146" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">discrete bins</text>
+
+  <line x1="606" y1="131" x2="626" y2="131"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m5VlaArrow)"/>
+
+  <rect x="628" y="98" width="118" height="66" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="687" y="122" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--green, #15614e)">Pose delta</text>
+  <text x="687" y="142" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">and gripper command</text>
+
+  <text x="16" y="258" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">every architecture in the next four lessons is this diagram with the last two blocks replaced</text>
+
+  <defs>
+    <marker id="m5VlaArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

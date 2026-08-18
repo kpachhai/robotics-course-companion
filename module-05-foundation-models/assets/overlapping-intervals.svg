@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 272" role="img" aria-label="Four four-task averages from an independent SO-101 benchmark, each drawn with a ninety-five per cent interval of about eleven points at eighty trials. The two smaller models overlap almost completely with each other, the two larger models overlap almost completely with each other, and only the gap between the smallest and the largest survives.">
+
+  <text x="30" y="58" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--blue, #2d5d7c)">ACT</text>
+  <line x1="305" y1="54" x2="426" y2="54" stroke="var(--blue, #2d5d7c)" stroke-width="2"/>
+  <line x1="305" y1="47" x2="305" y2="61" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <line x1="426" y1="47" x2="426" y2="61" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <circle cx="366" cy="54" r="5" fill="var(--blue, #2d5d7c)"/>
+  <text x="438" y="58" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">33.8%</text>
+
+  <text x="30" y="100" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--blue, #2d5d7c)">SmolVLA</text>
+  <line x1="298" y1="96" x2="419" y2="96" stroke="var(--blue, #2d5d7c)" stroke-width="2"/>
+  <line x1="298" y1="89" x2="298" y2="103" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <line x1="419" y1="89" x2="419" y2="103" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <circle cx="359" cy="96" r="5" fill="var(--blue, #2d5d7c)"/>
+  <text x="431" y="100" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">32.5%</text>
+
+  <text x="30" y="142" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--gold, #b07d22)">Wall-X</text>
+  <line x1="401" y1="138" x2="522" y2="138" stroke="var(--gold, #b07d22)" stroke-width="2"/>
+  <line x1="401" y1="131" x2="401" y2="145" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <line x1="522" y1="131" x2="522" y2="145" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <circle cx="462" cy="138" r="5" fill="var(--gold, #b07d22)"/>
+  <text x="534" y="142" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">51.3%</text>
+
+  <text x="30" y="184" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--gold, #b07d22)">pi0.5</text>
+  <line x1="429" y1="180" x2="550" y2="180" stroke="var(--gold, #b07d22)" stroke-width="2"/>
+  <line x1="429" y1="173" x2="429" y2="187" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <line x1="550" y1="173" x2="550" y2="187" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <circle cx="489" cy="180" r="5" fill="var(--gold, #b07d22)"/>
+  <text x="562" y="184" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">56.3%</text>
+
+  <line x1="180" y1="212" x2="730" y2="212" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <line x1="180" y1="212" x2="180" y2="219" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <line x1="290" y1="212" x2="290" y2="219" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <line x1="400" y1="212" x2="400" y2="219" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <line x1="510" y1="212" x2="510" y2="219" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <line x1="620" y1="212" x2="620" y2="219" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <line x1="730" y1="212" x2="730" y2="219" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <text x="180" y="234" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">0</text>
+  <text x="290" y="234" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">20</text>
+  <text x="400" y="234" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">40</text>
+  <text x="510" y="234" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">60</text>
+  <text x="620" y="234" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">80</text>
+  <text x="730" y="234" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">100</text>
+  <text x="455" y="256" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">four-task average, per cent · 80 trials each · 95% interval about ±11 points</text>
+</svg>

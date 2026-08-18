@@ -1,0 +1,611 @@
+<svg id="bc-tracks-the-human" xmlns:xlink="http://www.w3.org/1999/xlink" width="426.922pt" height="258.468pt" viewBox="0 0 426.922 258.468" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">#bc-tracks-the-human, #bc-tracks-the-human *{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="bc-tracks-the-human-figure_1">
+  <g id="bc-tracks-the-human-patch_1">
+   <path d="M -0 258.468 
+L 426.922 258.468 
+L 426.922 0 
+L -0 0 
+L -0 258.468 
+z
+" style="fill: none"/>
+  </g>
+  <g id="bc-tracks-the-human-axes_1">
+   <g id="bc-tracks-the-human-patch_2">
+    <path d="M 51.442 206.784 
+L 419.722 206.784 
+L 419.722 7.2 
+L 51.442 7.2 
+L 51.442 206.784 
+z
+" style="fill: none"/>
+   </g>
+   <g id="bc-tracks-the-human-matplotlib.axis_1">
+    <g id="bc-tracks-the-human-xtick_1">
+     <g id="bc-tracks-the-human-line2d_1">
+      <defs>
+       <path id="bc-tracks-the-human-mabe65c4262" d="M 0 0 
+L 0 3.5 
+" style="stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#bc-tracks-the-human-mabe65c4262" x="51.442" y="206.784" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="bc-tracks-the-human-text_1">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="51.442" y="225.433" transform="rotate(-0 51.442 225.433)">0</text>
+     </g>
+    </g>
+    <g id="bc-tracks-the-human-xtick_2">
+     <g id="bc-tracks-the-human-line2d_2">
+      <g>
+       <use xlink:href="#bc-tracks-the-human-mabe65c4262" x="127.115973" y="206.784" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="bc-tracks-the-human-text_2">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="127.115973" y="225.433" transform="rotate(-0 127.115973 225.433)">2</text>
+     </g>
+    </g>
+    <g id="bc-tracks-the-human-xtick_3">
+     <g id="bc-tracks-the-human-line2d_3">
+      <g>
+       <use xlink:href="#bc-tracks-the-human-mabe65c4262" x="202.789945" y="206.784" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="bc-tracks-the-human-text_3">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="202.789945" y="225.433" transform="rotate(-0 202.789945 225.433)">4</text>
+     </g>
+    </g>
+    <g id="bc-tracks-the-human-xtick_4">
+     <g id="bc-tracks-the-human-line2d_4">
+      <g>
+       <use xlink:href="#bc-tracks-the-human-mabe65c4262" x="278.463918" y="206.784" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="bc-tracks-the-human-text_4">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="278.463918" y="225.433" transform="rotate(-0 278.463918 225.433)">6</text>
+     </g>
+    </g>
+    <g id="bc-tracks-the-human-xtick_5">
+     <g id="bc-tracks-the-human-line2d_5">
+      <g>
+       <use xlink:href="#bc-tracks-the-human-mabe65c4262" x="354.13789" y="206.784" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="bc-tracks-the-human-text_5">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="354.13789" y="225.433" transform="rotate(-0 354.13789 225.433)">8</text>
+     </g>
+    </g>
+    <g id="bc-tracks-the-human-text_6">
+     <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-ink)" x="235.582" y="246.175" transform="rotate(-0 235.582 246.175)">seconds into a held-out episode</text>
+    </g>
+   </g>
+   <g id="bc-tracks-the-human-matplotlib.axis_2">
+    <g id="bc-tracks-the-human-ytick_1">
+     <g id="bc-tracks-the-human-line2d_6">
+      <path d="M 51.442 200.595992 
+L 419.722 200.595992 
+" clip-path="url(#bc-tracks-the-human-p51d834253c)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="bc-tracks-the-human-line2d_7">
+      <defs>
+       <path id="bc-tracks-the-human-mc16693e09f" d="M 0 0 
+L -3.5 0 
+" style="stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#bc-tracks-the-human-mc16693e09f" x="51.442" y="200.595992" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="bc-tracks-the-human-text_7">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="44.442" y="206.420492" transform="rotate(-0 44.442 206.420492)">20</text>
+     </g>
+    </g>
+    <g id="bc-tracks-the-human-ytick_2">
+     <g id="bc-tracks-the-human-line2d_8">
+      <path d="M 51.442 177.998923 
+L 419.722 177.998923 
+" clip-path="url(#bc-tracks-the-human-p51d834253c)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="bc-tracks-the-human-line2d_9">
+      <g>
+       <use xlink:href="#bc-tracks-the-human-mc16693e09f" x="51.442" y="177.998923" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="bc-tracks-the-human-text_8">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="44.442" y="183.823423" transform="rotate(-0 44.442 183.823423)">30</text>
+     </g>
+    </g>
+    <g id="bc-tracks-the-human-ytick_3">
+     <g id="bc-tracks-the-human-line2d_10">
+      <path d="M 51.442 155.401855 
+L 419.722 155.401855 
+" clip-path="url(#bc-tracks-the-human-p51d834253c)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="bc-tracks-the-human-line2d_11">
+      <g>
+       <use xlink:href="#bc-tracks-the-human-mc16693e09f" x="51.442" y="155.401855" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="bc-tracks-the-human-text_9">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="44.442" y="161.226355" transform="rotate(-0 44.442 161.226355)">40</text>
+     </g>
+    </g>
+    <g id="bc-tracks-the-human-ytick_4">
+     <g id="bc-tracks-the-human-line2d_12">
+      <path d="M 51.442 132.804787 
+L 419.722 132.804787 
+" clip-path="url(#bc-tracks-the-human-p51d834253c)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="bc-tracks-the-human-line2d_13">
+      <g>
+       <use xlink:href="#bc-tracks-the-human-mc16693e09f" x="51.442" y="132.804787" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="bc-tracks-the-human-text_10">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="44.442" y="138.629287" transform="rotate(-0 44.442 138.629287)">50</text>
+     </g>
+    </g>
+    <g id="bc-tracks-the-human-ytick_5">
+     <g id="bc-tracks-the-human-line2d_14">
+      <path d="M 51.442 110.207719 
+L 419.722 110.207719 
+" clip-path="url(#bc-tracks-the-human-p51d834253c)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="bc-tracks-the-human-line2d_15">
+      <g>
+       <use xlink:href="#bc-tracks-the-human-mc16693e09f" x="51.442" y="110.207719" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="bc-tracks-the-human-text_11">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="44.442" y="116.032219" transform="rotate(-0 44.442 116.032219)">60</text>
+     </g>
+    </g>
+    <g id="bc-tracks-the-human-ytick_6">
+     <g id="bc-tracks-the-human-line2d_16">
+      <path d="M 51.442 87.610651 
+L 419.722 87.610651 
+" clip-path="url(#bc-tracks-the-human-p51d834253c)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="bc-tracks-the-human-line2d_17">
+      <g>
+       <use xlink:href="#bc-tracks-the-human-mc16693e09f" x="51.442" y="87.610651" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="bc-tracks-the-human-text_12">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="44.442" y="93.435151" transform="rotate(-0 44.442 93.435151)">70</text>
+     </g>
+    </g>
+    <g id="bc-tracks-the-human-ytick_7">
+     <g id="bc-tracks-the-human-line2d_18">
+      <path d="M 51.442 65.013582 
+L 419.722 65.013582 
+" clip-path="url(#bc-tracks-the-human-p51d834253c)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="bc-tracks-the-human-line2d_19">
+      <g>
+       <use xlink:href="#bc-tracks-the-human-mc16693e09f" x="51.442" y="65.013582" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="bc-tracks-the-human-text_13">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="44.442" y="70.838082" transform="rotate(-0 44.442 70.838082)">80</text>
+     </g>
+    </g>
+    <g id="bc-tracks-the-human-ytick_8">
+     <g id="bc-tracks-the-human-line2d_20">
+      <path d="M 51.442 42.416514 
+L 419.722 42.416514 
+" clip-path="url(#bc-tracks-the-human-p51d834253c)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="bc-tracks-the-human-line2d_21">
+      <g>
+       <use xlink:href="#bc-tracks-the-human-mc16693e09f" x="51.442" y="42.416514" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="bc-tracks-the-human-text_14">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="44.442" y="48.241014" transform="rotate(-0 44.442 48.241014)">90</text>
+     </g>
+    </g>
+    <g id="bc-tracks-the-human-ytick_9">
+     <g id="bc-tracks-the-human-line2d_22">
+      <path d="M 51.442 19.819446 
+L 419.722 19.819446 
+" clip-path="url(#bc-tracks-the-human-p51d834253c)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="bc-tracks-the-human-line2d_23">
+      <g>
+       <use xlink:href="#bc-tracks-the-human-mc16693e09f" x="51.442" y="19.819446" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="bc-tracks-the-human-text_15">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="44.442" y="25.643946" transform="rotate(-0 44.442 25.643946)">100</text>
+     </g>
+    </g>
+    <g id="bc-tracks-the-human-text_16">
+     <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-ink)" x="18.849" y="106.992" transform="rotate(-90 18.849 106.992)">elbow flex (percent of travel)</text>
+    </g>
+   </g>
+   <g id="bc-tracks-the-human-line2d_24">
+    <path d="M 51.442 21.053689 
+L 106.936247 21.053689 
+L 108.197479 20.847996 
+L 132.160904 20.847996 
+L 133.422137 21.465109 
+L 134.68337 23.110789 
+L 135.944603 26.402114 
+L 137.205836 28.047777 
+L 139.728301 29.693457 
+L 140.989534 30.10486 
+L 142.250767 30.10486 
+L 143.512 32.161943 
+L 144.773233 33.807623 
+L 146.034466 35.041866 
+L 147.295699 37.510368 
+L 148.556932 44.710167 
+L 149.818164 53.555628 
+L 151.079397 63.635332 
+L 153.601863 88.114633 
+L 154.863096 96.754384 
+L 156.124329 100.86855 
+L 157.385562 102.514221 
+L 158.646795 102.514221 
+L 159.908027 101.27997 
+L 161.16926 99.840017 
+L 162.430493 100.662857 
+L 163.691726 103.954183 
+L 164.952959 106.628396 
+L 167.475425 115.473857 
+L 168.736658 119.999443 
+L 171.259123 123.290777 
+L 173.781589 123.290777 
+L 175.042822 122.879357 
+L 176.304055 122.262235 
+L 178.826521 121.850815 
+L 180.087753 122.879357 
+L 181.348986 122.056525 
+L 182.610219 123.290777 
+L 183.871452 124.113608 
+L 185.132685 126.582111 
+L 186.393918 128.639194 
+L 187.655151 130.079147 
+L 188.916384 133.370481 
+L 190.177616 136.250404 
+L 191.438849 138.513196 
+L 193.961315 141.393111 
+L 195.222548 143.038782 
+L 196.483781 144.273033 
+L 197.745014 144.684445 
+L 199.006247 144.890155 
+L 200.267479 144.890155 
+L 201.528712 144.684445 
+L 202.789945 144.273033 
+L 204.051178 143.655903 
+L 205.312411 143.450193 
+L 206.573644 143.450193 
+L 207.834877 143.244492 
+L 210.357342 143.244492 
+L 211.618575 144.478735 
+L 212.879808 144.684445 
+L 215.402274 144.684445 
+L 216.663507 144.478735 
+L 219.185973 144.478735 
+L 220.447205 144.684445 
+L 229.275836 144.684445 
+L 231.798301 144.273033 
+L 233.059534 144.890155 
+L 240.626932 144.890155 
+L 243.149397 146.947238 
+L 245.671863 147.770069 
+L 249.455562 147.770069 
+L 250.716795 147.564368 
+L 251.978027 147.564368 
+L 253.23926 146.124406 
+L 254.500493 145.712986 
+L 255.761726 145.712986 
+L 257.022959 145.918696 
+L 258.284192 145.918696 
+L 259.545425 145.507285 
+L 260.806658 143.038782 
+L 262.06789 140.158859 
+L 263.329123 136.867525 
+L 264.590356 133.164779 
+L 265.851589 130.079147 
+L 267.112822 126.170691 
+L 268.374055 123.290777 
+L 269.635288 119.793733 
+L 272.157753 114.239606 
+L 273.418986 113.005354 
+L 274.680219 112.799644 
+L 275.941452 114.033896 
+L 277.202685 115.473857 
+L 278.463918 117.32523 
+L 279.725151 119.999443 
+L 280.986384 123.702188 
+L 282.247616 126.170691 
+L 286.031315 140.775989 
+L 287.292548 146.124406 
+L 288.553781 152.501365 
+L 291.076247 164.226749 
+L 293.598712 173.895041 
+L 294.859945 177.803501 
+L 296.121178 181.300541 
+L 299.904877 188.706045 
+L 301.16611 190.763128 
+L 302.427342 192.20309 
+L 303.688575 192.20309 
+L 304.949808 192.408795 
+L 306.211041 192.408795 
+L 307.472274 191.585964 
+L 308.733507 191.585964 
+L 309.99474 190.968838 
+L 311.255973 190.968838 
+L 312.517205 191.380254 
+L 316.300904 190.763128 
+L 318.82337 190.763128 
+L 320.084603 190.968838 
+L 321.345836 190.763128 
+L 322.607068 190.968838 
+L 323.868301 190.968838 
+L 325.129534 190.557423 
+L 330.174466 190.557423 
+L 331.435699 190.763128 
+L 339.003096 190.763128 
+L 340.264329 190.968838 
+L 346.570493 190.968838 
+L 347.831726 189.528881 
+L 349.092959 186.237547 
+L 351.615425 178.832043 
+L 354.13789 173.689331 
+L 355.399123 171.632249 
+L 356.660356 169.163746 
+L 357.921589 166.283832 
+L 359.182822 162.169657 
+L 360.444055 156.615539 
+L 361.705288 149.004321 
+L 364.227753 129.050605 
+L 365.488986 118.559481 
+L 366.750219 109.71402 
+L 368.011452 102.925641 
+L 370.533918 92.228799 
+L 374.317616 72.892213 
+L 375.578849 67.543788 
+L 379.362548 48.001492 
+L 381.885014 35.247576 
+L 383.146247 29.693457 
+L 384.407479 27.842067 
+L 385.668712 26.607824 
+L 389.452411 20.642286 
+L 390.713644 20.642286 
+L 391.974877 20.847996 
+L 419.722 20.847996 
+L 419.722 20.847996 
+" clip-path="url(#bc-tracks-the-human-p51d834253c)" style="fill: none; stroke: var(--fig-ink); stroke-width: 2; stroke-linecap: square"/>
+   </g>
+   <g id="bc-tracks-the-human-line2d_25">
+    <path d="M 51.442 23.580291 
+L 108.197479 23.55081 
+L 109.458712 23.703369 
+L 111.981178 25.244711 
+L 113.242411 25.115927 
+L 114.503644 23.886908 
+L 115.764877 22.123046 
+L 117.02611 20.058809 
+L 118.287342 19.095875 
+L 119.548575 18.793344 
+L 120.809808 18.721504 
+L 122.071041 18.322135 
+L 123.332274 17.777862 
+L 124.593507 17.367304 
+L 125.85474 17.227141 
+L 127.115973 16.898595 
+L 128.377205 16.452367 
+L 129.638438 16.476503 
+L 130.899671 16.720349 
+L 132.160904 16.645526 
+L 133.422137 16.272 
+L 134.68337 16.343357 
+L 138.467068 17.026259 
+L 139.728301 19.551775 
+L 140.989534 21.40494 
+L 142.250767 22.680887 
+L 143.512 23.715971 
+L 144.773233 25.66432 
+L 146.034466 29.200974 
+L 147.295699 33.083483 
+L 148.556932 36.17827 
+L 149.818164 39.804107 
+L 151.079397 42.979855 
+L 152.34063 49.893138 
+L 153.601863 58.553233 
+L 154.863096 68.576803 
+L 157.385562 86.025415 
+L 158.646795 91.747659 
+L 159.908027 94.657856 
+L 161.16926 95.72599 
+L 162.430493 98.006885 
+L 163.691726 99.191734 
+L 166.214192 103.184943 
+L 169.99789 112.476244 
+L 173.781589 122.420742 
+L 175.042822 125.112591 
+L 176.304055 127.204422 
+L 178.826521 129.17526 
+L 181.348986 129.947069 
+L 182.610219 129.931734 
+L 183.871452 130.354576 
+L 185.132685 130.036236 
+L 186.393918 130.108782 
+L 187.655151 131.17177 
+L 188.916384 133.377161 
+L 190.177616 135.242171 
+L 192.700082 138.438236 
+L 193.961315 140.516964 
+L 195.222548 142.220166 
+L 197.745014 144.472434 
+L 199.006247 145.480623 
+L 201.528712 146.800765 
+L 202.789945 146.901215 
+L 205.312411 146.480934 
+L 206.573644 146.409007 
+L 207.834877 146.525965 
+L 212.879808 146.481477 
+L 214.141041 146.325815 
+L 217.92474 145.418869 
+L 221.708438 144.977658 
+L 225.492137 143.950711 
+L 228.014603 143.24669 
+L 230.537068 142.329926 
+L 233.059534 141.978657 
+L 235.582 141.978657 
+L 236.843233 141.792445 
+L 238.104466 141.752276 
+L 239.365699 142.452753 
+L 240.626932 144.405404 
+L 241.888164 146.623079 
+L 243.149397 147.705884 
+L 245.671863 144.618803 
+L 246.933096 145.102114 
+L 248.194329 145.434833 
+L 249.455562 145.601184 
+L 253.23926 145.710935 
+L 254.500493 145.939281 
+L 255.761726 145.924541 
+L 257.022959 145.668481 
+L 259.545425 144.481743 
+L 260.806658 143.674152 
+L 262.06789 143.176945 
+L 263.329123 142.471295 
+L 264.590356 142.384646 
+L 265.851589 140.500586 
+L 267.112822 138.822917 
+L 268.374055 136.313753 
+L 273.418986 127.366402 
+L 274.680219 126.158968 
+L 275.941452 123.206584 
+L 277.202685 120.960532 
+L 278.463918 119.451334 
+L 279.725151 118.9944 
+L 280.986384 119.982237 
+L 282.247616 121.65763 
+L 283.508849 123.984479 
+L 286.031315 133.789469 
+L 287.292548 139.691297 
+L 289.815014 150.355167 
+L 291.076247 155.73578 
+L 294.859945 173.748293 
+L 296.121178 178.050773 
+L 297.382411 183.159224 
+L 299.904877 189.841213 
+L 301.16611 191.707775 
+L 302.427342 193.250401 
+L 304.949808 196.89859 
+L 306.211041 197.712 
+L 307.472274 197.55614 
+L 308.733507 196.59487 
+L 309.99474 196.223628 
+L 311.255973 195.5324 
+L 316.300904 193.847826 
+L 317.562137 193.655425 
+L 327.652 193.585827 
+L 331.435699 191.953266 
+L 332.696932 191.81169 
+L 335.219397 192.557733 
+L 336.48063 192.368453 
+L 339.003096 196.655245 
+L 342.786795 196.25935 
+L 344.048027 196.497687 
+L 345.30926 195.585758 
+L 346.570493 194.373436 
+L 351.615425 188.033484 
+L 352.876658 184.167637 
+L 355.399123 173.837718 
+L 356.660356 168.856051 
+L 357.921589 161.940578 
+L 359.182822 157.827361 
+L 360.444055 152.424111 
+L 361.705288 148.079737 
+L 364.227753 137.108905 
+L 365.488986 129.940449 
+L 368.011452 110.738113 
+L 369.272685 100.080397 
+L 371.795151 82.24464 
+L 373.056384 75.366837 
+L 374.317616 69.487051 
+L 376.840082 59.837593 
+L 378.101315 55.994219 
+L 379.362548 52.586195 
+L 380.623781 48.848124 
+L 383.146247 42.431548 
+L 385.668712 36.134049 
+L 386.929945 31.108136 
+L 388.191178 27.368169 
+L 389.452411 24.819051 
+L 390.713644 24.619564 
+L 391.974877 23.710558 
+L 393.23611 20.976832 
+L 394.497342 20.496468 
+L 395.758575 20.607013 
+L 397.019808 21.220557 
+L 398.281041 22.893717 
+L 399.542274 22.981832 
+L 402.06474 23.450196 
+L 403.325973 23.552189 
+L 405.848438 23.46023 
+L 409.632137 23.513658 
+L 419.722 23.513658 
+L 419.722 23.513658 
+" clip-path="url(#bc-tracks-the-human-p51d834253c)" style="fill: none; stroke-dasharray: 7.2,5.4; stroke-dashoffset: 0; stroke: var(--fig-blue); stroke-width: 1.8"/>
+   </g>
+   <g id="bc-tracks-the-human-patch_3">
+    <path d="M 51.442 206.784 
+L 51.442 7.2 
+" style="fill: none; stroke: var(--fig-muted); stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="bc-tracks-the-human-patch_4">
+    <path d="M 51.442 206.784 
+L 419.722 206.784 
+" style="fill: none; stroke: var(--fig-muted); stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="bc-tracks-the-human-legend_1">
+    <g id="bc-tracks-the-human-line2d_26">
+     <path d="M 262.784969 171.3015 
+L 272.284969 171.3015 
+L 281.784969 171.3015 
+" style="fill: none; stroke: var(--fig-ink); stroke-width: 2; stroke-linecap: square"/>
+    </g>
+    <g id="bc-tracks-the-human-text_17">
+     <text style="font-size: 9.5px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: start; fill: var(--fig-ink)" x="289.384969" y="174.6265" transform="rotate(-0 289.384969 174.6265)">what the human commanded</text>
+    </g>
+    <g id="bc-tracks-the-human-line2d_27">
+     <path d="M 262.784969 190.5105 
+L 272.284969 190.5105 
+L 281.784969 190.5105 
+" style="fill: none; stroke-dasharray: 7.2,5.4; stroke-dashoffset: 0; stroke: var(--fig-blue); stroke-width: 1.8"/>
+    </g>
+    <g id="bc-tracks-the-human-text_18">
+     <text style="font-size: 9.5px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: start; fill: var(--fig-ink)" x="289.384969" y="193.8355" transform="rotate(-0 289.384969 193.8355)">what the clone commands</text>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="bc-tracks-the-human-p51d834253c">
+   <rect x="51.442" y="7.2" width="368.28" height="199.584"/>
+  </clipPath>
+ </defs>
+</svg>

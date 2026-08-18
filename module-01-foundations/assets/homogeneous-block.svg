@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 300" role="img" aria-label="A four by four transform multiplied by a point padded with a one. The rotation fills the top-left three by three block, the translation fills the last column, the bottom row is zero zero zero one, and the result is the rotated point plus the translation, still padded with a one">
+  <text x="111" y="58" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">the turn</text>
+  <text x="221" y="58" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">the shift</text>
+
+  <path d="M32,70 L24,70 L24,226 L32,226" fill="none"
+        stroke="var(--line-2, #c8bca3)" stroke-width="1.6"/>
+  <path d="M252,70 L260,70 L260,226 L252,226" fill="none"
+        stroke="var(--line-2, #c8bca3)" stroke-width="1.6"/>
+
+  <rect x="36" y="78" width="150" height="100" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="111" y="126" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--blue, #2d5d7c)">R</text>
+  <text x="111" y="146" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">3 x 3 rotation</text>
+
+  <rect x="194" y="78" width="54" height="100" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="221" y="126" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--gold, #b07d22)">t</text>
+  <text x="221" y="146" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">3 x 1</text>
+
+  <rect x="36" y="186" width="212" height="32" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="61" y="207" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--gold, #b07d22)">0</text>
+  <text x="111" y="207" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--gold, #b07d22)">0</text>
+  <text x="161" y="207" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--gold, #b07d22)">0</text>
+  <text x="221" y="207" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--gold, #b07d22)">1</text>
+
+  <text x="282" y="134" text-anchor="middle" class="svg-disp" font-size="18" font-weight="700"
+        fill="var(--muted, #6b6053)">·</text>
+
+  <path d="M312,70 L304,70 L304,226 L312,226" fill="none"
+        stroke="var(--line-2, #c8bca3)" stroke-width="1.6"/>
+  <path d="M368,70 L376,70 L376,226 L368,226" fill="none"
+        stroke="var(--line-2, #c8bca3)" stroke-width="1.6"/>
+
+  <rect x="308" y="78" width="56" height="100" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="336" y="133" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--blue, #2d5d7c)">p_B</text>
+
+  <rect x="308" y="186" width="56" height="32" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="336" y="207" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--gold, #b07d22)">1</text>
+
+  <text x="400" y="134" text-anchor="middle" class="svg-disp" font-size="18" font-weight="700"
+        fill="var(--muted, #6b6053)">=</text>
+
+  <path d="M432,70 L424,70 L424,226 L432,226" fill="none"
+        stroke="var(--line-2, #c8bca3)" stroke-width="1.6"/>
+  <path d="M548,70 L556,70 L556,226 L548,226" fill="none"
+        stroke="var(--line-2, #c8bca3)" stroke-width="1.6"/>
+
+  <rect x="428" y="78" width="116" height="100" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="486" y="133" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--green, #15614e)">R p_B + t</text>
+
+  <rect x="428" y="186" width="116" height="32" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="486" y="207" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--green, #15614e)">1</text>
+
+  <text x="142" y="244" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">always 0 0 0 1</text>
+  <text x="336" y="244" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">pad with a 1</text>
+  <text x="486" y="244" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">turned, then shifted</text>
+
+  <text x="290" y="276" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">the appended 1 is what pulls + t into a plain matrix multiply</text>
+</svg>

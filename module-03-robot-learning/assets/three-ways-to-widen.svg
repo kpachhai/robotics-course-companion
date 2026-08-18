@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 250" role="img" aria-label="Three ways to add data away from the demonstrated path: noise injection wobbles the execution so the expert corrects everywhere, recovery demonstrations start off centre and drive back, and DAgger adds labels exactly where the trained policy actually drifted">
+
+  <rect x="16" y="34" width="228" height="118" rx="8"
+        fill="none" stroke="var(--line-2, #c8bca3)" stroke-width="1"/>
+  <text x="130" y="26" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Noise injection</text>
+  <line x1="36" y1="93" x2="224" y2="93"
+        stroke="var(--green, #15614e)" stroke-width="2"/>
+  <path d="M40 93 L54 82 L68 102 L82 84 L96 100 L110 86 L124 99 L138 85 L152 101 L166 87 L180 98 L194 86 L208 95"
+        fill="none" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="130" y="130" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">disturb what actually executes,</text>
+  <text x="130" y="144" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">so the expert corrects all episode</text>
+
+  <rect x="264" y="34" width="228" height="118" rx="8"
+        fill="none" stroke="var(--line-2, #c8bca3)" stroke-width="1"/>
+  <text x="378" y="26" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Recovery demos</text>
+  <line x1="284" y1="93" x2="472" y2="93"
+        stroke="var(--green, #15614e)" stroke-width="2"/>
+  <path d="M292 62 C 312 66, 326 80, 348 90" fill="none"
+        stroke="var(--blue, #2d5d7c)" stroke-width="1.6" marker-end="url(#widenArrow)"/>
+  <path d="M330 124 C 352 118, 368 104, 390 95" fill="none"
+        stroke="var(--blue, #2d5d7c)" stroke-width="1.6" marker-end="url(#widenArrow)"/>
+  <path d="M392 60 C 412 66, 424 80, 442 90" fill="none"
+        stroke="var(--blue, #2d5d7c)" stroke-width="1.6" marker-end="url(#widenArrow)"/>
+  <circle cx="290" cy="60" r="3.5" fill="var(--blue, #2d5d7c)"/>
+  <circle cx="328" cy="126" r="3.5" fill="var(--blue, #2d5d7c)"/>
+  <circle cx="390" cy="58" r="3.5" fill="var(--blue, #2d5d7c)"/>
+  <text x="378" y="130" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">start it somewhere wrong on purpose,</text>
+  <text x="378" y="144" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">demonstrate the way back</text>
+
+  <rect x="512" y="34" width="232" height="118" rx="8"
+        fill="none" stroke="var(--line-2, #c8bca3)" stroke-width="1"/>
+  <text x="628" y="26" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--ox, #9c3b2e)">DAgger</text>
+  <line x1="532" y1="93" x2="724" y2="93"
+        stroke="var(--green, #15614e)" stroke-width="2"/>
+  <path d="M534 93 C 574 96, 614 108, 648 126 C 668 136, 686 141, 706 143"
+        fill="none" stroke="var(--ox, #9c3b2e)" stroke-width="1.8"/>
+  <circle cx="600" cy="103" r="3.5" fill="var(--ox, #9c3b2e)"/>
+  <circle cx="640" cy="122" r="3.5" fill="var(--ox, #9c3b2e)"/>
+  <circle cx="678" cy="138" r="3.5" fill="var(--ox, #9c3b2e)"/>
+  <circle cx="706" cy="143" r="3.5" fill="var(--ox, #9c3b2e)"/>
+  <line x1="600" y1="103" x2="600" y2="93" stroke="var(--muted, #6b6053)" stroke-width="1"/>
+  <line x1="640" y1="122" x2="640" y2="94" stroke="var(--muted, #6b6053)" stroke-width="1"/>
+  <line x1="678" y1="138" x2="678" y2="95" stroke="var(--muted, #6b6053)" stroke-width="1"/>
+  <text x="628" y="130" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">let the trained policy drift, then</text>
+  <text x="628" y="144" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">label exactly where it ended up</text>
+
+  <line x1="16" y1="178" x2="52" y2="178" stroke="var(--green, #15614e)" stroke-width="2"/>
+  <text x="60" y="182" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">the demonstrated path</text>
+  <text x="16" y="208" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">The first two guess where the policy will go wrong. The third measures it, which is why it needs a</text>
+  <text x="16" y="224" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">trained policy in the loop and an expert willing to answer questions about poses it never chose.</text>
+
+  <defs>
+    <marker id="widenArrow" markerWidth="8" markerHeight="8" refX="5" refY="4" orient="auto">
+      <path d="M0,1 L7,4 L0,7 Z" fill="var(--blue, #2d5d7c)"/>
+    </marker>
+  </defs>
+</svg>

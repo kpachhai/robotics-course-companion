@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 416" role="img" aria-label="A decision flow that picks a robot programming paradigm from three questions about the task, ending in frontier territory when every answer is no">
+  <text x="380" y="20" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">answer in order · the first yes decides the paradigm</text>
+
+  <rect x="30" y="40" width="270" height="56" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="165" y="62" text-anchor="middle" class="svg-disp" font-size="14" font-weight="600"
+        fill="var(--blue, #2d5d7c)">Is the environment engineered</text>
+  <text x="165" y="80" text-anchor="middle" class="svg-disp" font-size="14" font-weight="600"
+        fill="var(--blue, #2d5d7c)">to be predictable?</text>
+
+  <rect x="436" y="32" width="294" height="72" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="583" y="56" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--green, #15614e)">Scripted motion, or the</text>
+  <text x="583" y="74" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--green, #15614e)">classical pipeline</text>
+  <text x="583" y="92" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">paradigms 1–2 · engineer the world instead</text>
+
+  <line x1="300" y1="68" x2="428" y2="68"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#paradigmArrow)"/>
+  <text x="366" y="60" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">yes</text>
+
+  <line x1="165" y1="96" x2="165" y2="136"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#paradigmArrow)"/>
+  <text x="175" y="120" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">no</text>
+
+  <rect x="30" y="140" width="270" height="56" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="165" y="162" text-anchor="middle" class="svg-disp" font-size="14" font-weight="600"
+        fill="var(--blue, #2d5d7c)">Can you write down the state</text>
+  <text x="165" y="180" text-anchor="middle" class="svg-disp" font-size="14" font-weight="600"
+        fill="var(--blue, #2d5d7c)">and a good reward?</text>
+
+  <rect x="436" y="132" width="294" height="72" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="583" y="156" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--green, #15614e)">RL in simulation, then</text>
+  <text x="583" y="174" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--green, #15614e)">transfer to the robot</text>
+  <text x="583" y="192" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">paradigm 4 · how every legged robot learns</text>
+
+  <line x1="300" y1="168" x2="428" y2="168"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#paradigmArrow)"/>
+  <text x="366" y="160" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">yes</text>
+
+  <line x1="165" y1="196" x2="165" y2="236"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#paradigmArrow)"/>
+  <text x="175" y="220" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">no</text>
+
+  <rect x="30" y="240" width="270" height="56" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="165" y="262" text-anchor="middle" class="svg-disp" font-size="14" font-weight="600"
+        fill="var(--blue, #2d5d7c)">Can you demonstrate the task</text>
+  <text x="165" y="280" text-anchor="middle" class="svg-disp" font-size="14" font-weight="600"
+        fill="var(--blue, #2d5d7c)">by teleoperating it?</text>
+
+  <rect x="436" y="232" width="294" height="72" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="583" y="256" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--green, #15614e)">Imitation learning, or</text>
+  <text x="583" y="274" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--green, #15614e)">fine-tune a VLA</text>
+  <text x="583" y="292" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">paradigms 3 &amp; 5 · Modules 3–5 live here</text>
+
+  <line x1="300" y1="268" x2="428" y2="268"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#paradigmArrow)"/>
+  <text x="366" y="260" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">yes</text>
+
+  <line x1="165" y1="296" x2="165" y2="336"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#paradigmArrow)"/>
+  <text x="175" y="320" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">no</text>
+
+  <rect x="30" y="340" width="700" height="64" rx="8"
+        fill="none" stroke="var(--ox, #9c3b2e)" stroke-width="1.6" stroke-dasharray="5 4"/>
+  <text x="380" y="368" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--ox, #9c3b2e)">Frontier territory</text>
+  <text x="380" y="388" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">VLA zero-shot · world models · or re-scope the task</text>
+
+  <defs>
+    <marker id="paradigmArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

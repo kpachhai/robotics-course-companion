@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 656 292" role="img" aria-label="Two ways to train in simulation: one carefully tuned simulator that the real world sits outside of, versus a wide range of randomised simulators that the real world sits inside">
+
+  <text x="328" y="20" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">same policy, two ways of training it</text>
+
+  <circle cx="110" cy="140" r="62"
+          fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="110" y="136" text-anchor="middle" class="svg-disp" font-size="13.5" font-weight="600"
+        fill="var(--blue, #2d5d7c)">sim, tuned</text>
+  <text x="110" y="156" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">one set of physics</text>
+
+  <line x1="168" y1="118" x2="210" y2="101" stroke="var(--ox, #9c3b2e)" stroke-width="1.4"
+        stroke-dasharray="4 4"/>
+  <circle cx="218" cy="98" r="8"
+          fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.5"/>
+  <text x="218" y="82" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the real world</text>
+
+  <text x="150" y="252" text-anchor="middle" class="svg-disp" font-size="13.5" font-weight="600"
+        fill="var(--ox, #9c3b2e)">a gap to cross</text>
+  <text x="150" y="270" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the policy never saw this world</text>
+
+  <line x1="330" y1="44" x2="330" y2="236" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"
+        stroke-dasharray="3 5"/>
+
+  <circle cx="505" cy="140" r="94"
+          fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"
+          stroke-dasharray="5 4"/>
+  <text x="505" y="130" text-anchor="middle" class="svg-disp" font-size="13.5" font-weight="600"
+        fill="var(--blue, #2d5d7c)">sim, randomised</text>
+  <text x="505" y="150" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">mass, friction, latency, light</text>
+
+  <circle cx="540" cy="104" r="8"
+          fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.5"/>
+  <text x="540" y="88" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the real world</text>
+
+  <text x="505" y="252" text-anchor="middle" class="svg-disp" font-size="13.5" font-weight="600"
+        fill="var(--green, #15614e)">no gap to cross</text>
+  <text x="505" y="270" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">reality is one more sample from training</text>
+</svg>

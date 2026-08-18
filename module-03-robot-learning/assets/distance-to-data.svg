@@ -1,0 +1,927 @@
+<svg id="distance-to-data" xmlns:xlink="http://www.w3.org/1999/xlink" width="429.562pt" height="280.644pt" viewBox="0 0 429.562 280.644" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">#distance-to-data, #distance-to-data *{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="distance-to-data-figure_1">
+  <g id="distance-to-data-patch_1">
+   <path d="M 0 280.644 
+L 429.562 280.644 
+L 429.562 0 
+L 0 0 
+L 0 280.644 
+z
+" style="fill: none"/>
+  </g>
+  <g id="distance-to-data-axes_1">
+   <g id="distance-to-data-patch_2">
+    <path d="M 54.082 228.96 
+L 422.362 228.96 
+L 422.362 7.2 
+L 54.082 7.2 
+L 54.082 228.96 
+z
+" style="fill: none"/>
+   </g>
+   <g id="distance-to-data-matplotlib.axis_1">
+    <g id="distance-to-data-xtick_1">
+     <g id="distance-to-data-line2d_1">
+      <defs>
+       <path id="distance-to-data-mabe65c4262" d="M 0 0 
+L 0 3.5 
+" style="stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#distance-to-data-mabe65c4262" x="54.082" y="228.96" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="distance-to-data-text_1">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="54.082" y="247.609" transform="rotate(-0 54.082 247.609)">0</text>
+     </g>
+    </g>
+    <g id="distance-to-data-xtick_2">
+     <g id="distance-to-data-line2d_2">
+      <g>
+       <use xlink:href="#distance-to-data-mabe65c4262" x="131.128025" y="228.96" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="distance-to-data-text_2">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="131.128025" y="247.609" transform="rotate(-0 131.128025 247.609)">50</text>
+     </g>
+    </g>
+    <g id="distance-to-data-xtick_3">
+     <g id="distance-to-data-line2d_3">
+      <g>
+       <use xlink:href="#distance-to-data-mabe65c4262" x="208.17405" y="228.96" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="distance-to-data-text_3">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="208.17405" y="247.609" transform="rotate(-0 208.17405 247.609)">100</text>
+     </g>
+    </g>
+    <g id="distance-to-data-xtick_4">
+     <g id="distance-to-data-line2d_4">
+      <g>
+       <use xlink:href="#distance-to-data-mabe65c4262" x="285.220075" y="228.96" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="distance-to-data-text_4">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="285.220075" y="247.609" transform="rotate(-0 285.220075 247.609)">150</text>
+     </g>
+    </g>
+    <g id="distance-to-data-xtick_5">
+     <g id="distance-to-data-line2d_5">
+      <g>
+       <use xlink:href="#distance-to-data-mabe65c4262" x="362.2661" y="228.96" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="distance-to-data-text_5">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="362.2661" y="247.609" transform="rotate(-0 362.2661 247.609)">200</text>
+     </g>
+    </g>
+    <g id="distance-to-data-text_6">
+     <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-ink)" x="238.222" y="268.351" transform="rotate(-0 238.222 268.351)">step</text>
+    </g>
+   </g>
+   <g id="distance-to-data-matplotlib.axis_2">
+    <g id="distance-to-data-ytick_1">
+     <g id="distance-to-data-line2d_6">
+      <path d="M 54.082 218.88 
+L 422.362 218.88 
+" clip-path="url(#distance-to-data-pbe482a9e66)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="distance-to-data-line2d_7">
+      <defs>
+       <path id="distance-to-data-mc16693e09f" d="M 0 0 
+L -3.5 0 
+" style="stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#distance-to-data-mc16693e09f" x="54.082" y="218.88" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="distance-to-data-text_7">
+      <!-- $\mathdefault{10^{-6}}$ -->
+      <g style="fill: var(--fig-muted)" transform="translate(27.942 224.7045)">
+       <text>
+        <tspan x="0" y="-0.2945" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-muted)">1</tspan>
+        <tspan x="5.499954" y="-0.2945" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-muted)">0</tspan>
+        <tspan x="11.105182" y="-4.8375" style="font-size: 7.7px; font-family: 'Spectral'; fill: var(--fig-muted)">−</tspan>
+        <tspan x="14.95515" y="-4.8375" style="font-size: 7.7px; font-family: 'Spectral'; fill: var(--fig-muted)">6</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_2">
+     <g id="distance-to-data-line2d_8">
+      <path d="M 54.082 194.524693 
+L 422.362 194.524693 
+" clip-path="url(#distance-to-data-pbe482a9e66)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="distance-to-data-line2d_9">
+      <g>
+       <use xlink:href="#distance-to-data-mc16693e09f" x="54.082" y="194.524693" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="distance-to-data-text_8">
+      <!-- $\mathdefault{10^{-5}}$ -->
+      <g style="fill: var(--fig-muted)" transform="translate(27.942 200.349193)">
+       <text>
+        <tspan x="0" y="-0.371063" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-muted)">1</tspan>
+        <tspan x="5.499954" y="-0.371063" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-muted)">0</tspan>
+        <tspan x="11.105182" y="-4.914063" style="font-size: 7.7px; font-family: 'Spectral'; fill: var(--fig-muted)">−</tspan>
+        <tspan x="14.95515" y="-4.914063" style="font-size: 7.7px; font-family: 'Spectral'; fill: var(--fig-muted)">5</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_3">
+     <g id="distance-to-data-line2d_10">
+      <path d="M 54.082 170.169385 
+L 422.362 170.169385 
+" clip-path="url(#distance-to-data-pbe482a9e66)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="distance-to-data-line2d_11">
+      <g>
+       <use xlink:href="#distance-to-data-mc16693e09f" x="54.082" y="170.169385" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="distance-to-data-text_9">
+      <!-- $\mathdefault{10^{-4}}$ -->
+      <g style="fill: var(--fig-muted)" transform="translate(27.942 175.993885)">
+       <text>
+        <tspan x="0" y="-0.371063" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-muted)">1</tspan>
+        <tspan x="5.499954" y="-0.371063" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-muted)">0</tspan>
+        <tspan x="11.105182" y="-4.914063" style="font-size: 7.7px; font-family: 'Spectral'; fill: var(--fig-muted)">−</tspan>
+        <tspan x="14.95515" y="-4.914063" style="font-size: 7.7px; font-family: 'Spectral'; fill: var(--fig-muted)">4</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_4">
+     <g id="distance-to-data-line2d_12">
+      <path d="M 54.082 145.814078 
+L 422.362 145.814078 
+" clip-path="url(#distance-to-data-pbe482a9e66)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="distance-to-data-line2d_13">
+      <g>
+       <use xlink:href="#distance-to-data-mc16693e09f" x="54.082" y="145.814078" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="distance-to-data-text_10">
+      <!-- $\mathdefault{10^{-3}}$ -->
+      <g style="fill: var(--fig-muted)" transform="translate(27.942 151.638578)">
+       <text>
+        <tspan x="0" y="-0.2945" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-muted)">1</tspan>
+        <tspan x="5.499954" y="-0.2945" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-muted)">0</tspan>
+        <tspan x="11.105182" y="-4.8375" style="font-size: 7.7px; font-family: 'Spectral'; fill: var(--fig-muted)">−</tspan>
+        <tspan x="14.95515" y="-4.8375" style="font-size: 7.7px; font-family: 'Spectral'; fill: var(--fig-muted)">3</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_5">
+     <g id="distance-to-data-line2d_14">
+      <path d="M 54.082 121.45877 
+L 422.362 121.45877 
+" clip-path="url(#distance-to-data-pbe482a9e66)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="distance-to-data-line2d_15">
+      <g>
+       <use xlink:href="#distance-to-data-mc16693e09f" x="54.082" y="121.45877" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="distance-to-data-text_11">
+      <!-- $\mathdefault{10^{-2}}$ -->
+      <g style="fill: var(--fig-muted)" transform="translate(27.942 127.28327)">
+       <text>
+        <tspan x="0" y="-0.2945" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-muted)">1</tspan>
+        <tspan x="5.499954" y="-0.2945" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-muted)">0</tspan>
+        <tspan x="11.105182" y="-4.8375" style="font-size: 7.7px; font-family: 'Spectral'; fill: var(--fig-muted)">−</tspan>
+        <tspan x="14.95515" y="-4.8375" style="font-size: 7.7px; font-family: 'Spectral'; fill: var(--fig-muted)">2</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_6">
+     <g id="distance-to-data-line2d_16">
+      <path d="M 54.082 97.103463 
+L 422.362 97.103463 
+" clip-path="url(#distance-to-data-pbe482a9e66)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="distance-to-data-line2d_17">
+      <g>
+       <use xlink:href="#distance-to-data-mc16693e09f" x="54.082" y="97.103463" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="distance-to-data-text_12">
+      <!-- $\mathdefault{10^{-1}}$ -->
+      <g style="fill: var(--fig-muted)" transform="translate(27.942 102.927963)">
+       <text>
+        <tspan x="0" y="-0.371063" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-muted)">1</tspan>
+        <tspan x="5.499954" y="-0.371063" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-muted)">0</tspan>
+        <tspan x="11.105182" y="-4.914063" style="font-size: 7.7px; font-family: 'Spectral'; fill: var(--fig-muted)">−</tspan>
+        <tspan x="14.95515" y="-4.914063" style="font-size: 7.7px; font-family: 'Spectral'; fill: var(--fig-muted)">1</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_7">
+     <g id="distance-to-data-line2d_18">
+      <path d="M 54.082 72.748155 
+L 422.362 72.748155 
+" clip-path="url(#distance-to-data-pbe482a9e66)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="distance-to-data-line2d_19">
+      <g>
+       <use xlink:href="#distance-to-data-mc16693e09f" x="54.082" y="72.748155" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="distance-to-data-text_13">
+      <!-- $\mathdefault{10^{0}}$ -->
+      <g style="fill: var(--fig-muted)" transform="translate(31.792 78.572655)">
+       <text>
+        <tspan x="0" y="-0.2945" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-muted)">1</tspan>
+        <tspan x="5.499954" y="-0.2945" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-muted)">0</tspan>
+        <tspan x="11.105182" y="-4.8375" style="font-size: 7.7px; font-family: 'Spectral'; fill: var(--fig-muted)">0</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_8">
+     <g id="distance-to-data-line2d_20">
+      <path d="M 54.082 48.392848 
+L 422.362 48.392848 
+" clip-path="url(#distance-to-data-pbe482a9e66)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="distance-to-data-line2d_21">
+      <g>
+       <use xlink:href="#distance-to-data-mc16693e09f" x="54.082" y="48.392848" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="distance-to-data-text_14">
+      <!-- $\mathdefault{10^{1}}$ -->
+      <g style="fill: var(--fig-muted)" transform="translate(31.792 54.217348)">
+       <text>
+        <tspan x="0" y="-0.371063" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-muted)">1</tspan>
+        <tspan x="5.499954" y="-0.371063" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-muted)">0</tspan>
+        <tspan x="11.105182" y="-4.914063" style="font-size: 7.7px; font-family: 'Spectral'; fill: var(--fig-muted)">1</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_9">
+     <g id="distance-to-data-line2d_22">
+      <path d="M 54.082 24.03754 
+L 422.362 24.03754 
+" clip-path="url(#distance-to-data-pbe482a9e66)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="distance-to-data-line2d_23">
+      <g>
+       <use xlink:href="#distance-to-data-mc16693e09f" x="54.082" y="24.03754" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="distance-to-data-text_15">
+      <!-- $\mathdefault{10^{2}}$ -->
+      <g style="fill: var(--fig-muted)" transform="translate(31.792 29.86204)">
+       <text>
+        <tspan x="0" y="-0.2945" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-muted)">1</tspan>
+        <tspan x="5.499954" y="-0.2945" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-muted)">0</tspan>
+        <tspan x="11.105182" y="-4.8375" style="font-size: 7.7px; font-family: 'Spectral'; fill: var(--fig-muted)">2</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_10">
+     <g id="distance-to-data-line2d_24">
+      <defs>
+       <path id="distance-to-data-mc8895feba6" d="M 0 0 
+L -2 0 
+" style="stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </defs>
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="228.571951" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_11">
+     <g id="distance-to-data-line2d_25">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="226.211678" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_12">
+     <g id="distance-to-data-line2d_26">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="224.283195" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_13">
+     <g id="distance-to-data-line2d_27">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="222.652685" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_14">
+     <g id="distance-to-data-line2d_28">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="221.240273" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_15">
+     <g id="distance-to-data-line2d_29">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="219.994438" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_16">
+     <g id="distance-to-data-line2d_30">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="211.548322" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_17">
+     <g id="distance-to-data-line2d_31">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="207.259565" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_18">
+     <g id="distance-to-data-line2d_32">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="204.216644" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_19">
+     <g id="distance-to-data-line2d_33">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="201.856371" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_20">
+     <g id="distance-to-data-line2d_34">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="199.927887" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_21">
+     <g id="distance-to-data-line2d_35">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="198.297377" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_22">
+     <g id="distance-to-data-line2d_36">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="196.884966" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_23">
+     <g id="distance-to-data-line2d_37">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="195.63913" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_24">
+     <g id="distance-to-data-line2d_38">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="187.193014" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_25">
+     <g id="distance-to-data-line2d_39">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="182.904258" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_26">
+     <g id="distance-to-data-line2d_40">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="179.861336" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_27">
+     <g id="distance-to-data-line2d_41">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="177.501063" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_28">
+     <g id="distance-to-data-line2d_42">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="175.57258" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_29">
+     <g id="distance-to-data-line2d_43">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="173.94207" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_30">
+     <g id="distance-to-data-line2d_44">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="172.529658" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_31">
+     <g id="distance-to-data-line2d_45">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="171.283823" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_32">
+     <g id="distance-to-data-line2d_46">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="162.837707" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_33">
+     <g id="distance-to-data-line2d_47">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="158.54895" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_34">
+     <g id="distance-to-data-line2d_48">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="155.506029" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_35">
+     <g id="distance-to-data-line2d_49">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="153.145756" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_36">
+     <g id="distance-to-data-line2d_50">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="151.217272" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_37">
+     <g id="distance-to-data-line2d_51">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="149.586762" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_38">
+     <g id="distance-to-data-line2d_52">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="148.174351" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_39">
+     <g id="distance-to-data-line2d_53">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="146.928515" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_40">
+     <g id="distance-to-data-line2d_54">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="138.482399" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_41">
+     <g id="distance-to-data-line2d_55">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="134.193643" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_42">
+     <g id="distance-to-data-line2d_56">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="131.150721" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_43">
+     <g id="distance-to-data-line2d_57">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="128.790448" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_44">
+     <g id="distance-to-data-line2d_58">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="126.861965" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_45">
+     <g id="distance-to-data-line2d_59">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="125.231455" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_46">
+     <g id="distance-to-data-line2d_60">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="123.819043" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_47">
+     <g id="distance-to-data-line2d_61">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="122.573208" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_48">
+     <g id="distance-to-data-line2d_62">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="114.127092" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_49">
+     <g id="distance-to-data-line2d_63">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="109.838335" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_50">
+     <g id="distance-to-data-line2d_64">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="106.795414" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_51">
+     <g id="distance-to-data-line2d_65">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="104.435141" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_52">
+     <g id="distance-to-data-line2d_66">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="102.506657" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_53">
+     <g id="distance-to-data-line2d_67">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="100.876147" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_54">
+     <g id="distance-to-data-line2d_68">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="99.463736" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_55">
+     <g id="distance-to-data-line2d_69">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="98.2179" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_56">
+     <g id="distance-to-data-line2d_70">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="89.771785" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_57">
+     <g id="distance-to-data-line2d_71">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="85.483028" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_58">
+     <g id="distance-to-data-line2d_72">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="82.440106" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_59">
+     <g id="distance-to-data-line2d_73">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="80.079833" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_60">
+     <g id="distance-to-data-line2d_74">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="78.15135" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_61">
+     <g id="distance-to-data-line2d_75">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="76.52084" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_62">
+     <g id="distance-to-data-line2d_76">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="75.108428" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_63">
+     <g id="distance-to-data-line2d_77">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="73.862593" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_64">
+     <g id="distance-to-data-line2d_78">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="65.416477" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_65">
+     <g id="distance-to-data-line2d_79">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="61.12772" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_66">
+     <g id="distance-to-data-line2d_80">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="58.084799" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_67">
+     <g id="distance-to-data-line2d_81">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="55.724526" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_68">
+     <g id="distance-to-data-line2d_82">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="53.796042" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_69">
+     <g id="distance-to-data-line2d_83">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="52.165533" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_70">
+     <g id="distance-to-data-line2d_84">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="50.753121" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_71">
+     <g id="distance-to-data-line2d_85">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="49.507285" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_72">
+     <g id="distance-to-data-line2d_86">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="41.06117" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_73">
+     <g id="distance-to-data-line2d_87">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="36.772413" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_74">
+     <g id="distance-to-data-line2d_88">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="33.729491" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_75">
+     <g id="distance-to-data-line2d_89">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="31.369218" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_76">
+     <g id="distance-to-data-line2d_90">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="29.440735" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_77">
+     <g id="distance-to-data-line2d_91">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="27.810225" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_78">
+     <g id="distance-to-data-line2d_92">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="26.397813" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_79">
+     <g id="distance-to-data-line2d_93">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="25.151978" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_80">
+     <g id="distance-to-data-line2d_94">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="16.705862" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_81">
+     <g id="distance-to-data-line2d_95">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="12.417105" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-ytick_82">
+     <g id="distance-to-data-line2d_96">
+      <g>
+       <use xlink:href="#distance-to-data-mc8895feba6" x="54.082" y="9.374184" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="distance-to-data-text_16">
+     <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-ink)" x="18.849" y="118.08" transform="rotate(-90 18.849 118.08)">distance to the nearest training state (rad)</text>
+    </g>
+   </g>
+   <g id="distance-to-data-line2d_97">
+    <path d="M 146.53723 228.96 
+L 146.53723 7.2 
+" clip-path="url(#distance-to-data-pbe482a9e66)" style="fill: none; stroke-dasharray: 5.5,4.4; stroke-dashoffset: 0; stroke: var(--fig-muted); stroke-width: 1.1"/>
+   </g>
+   <g id="distance-to-data-line2d_98">
+    <path d="M 54.082 127.063717 
+L 55.622921 136.0463 
+L 57.163841 144.123714 
+L 60.245682 157.936242 
+L 61.786603 161.966112 
+L 63.327523 165.675786 
+L 71.032126 214.008019 
+L 72.573046 218.88 
+L 422.362 218.88 
+L 422.362 218.88 
+" clip-path="url(#distance-to-data-pbe482a9e66)" style="fill: none; stroke: var(--fig-green); stroke-width: 2; stroke-linecap: square"/>
+   </g>
+   <g id="distance-to-data-line2d_99">
+    <path d="M 54.082 127.063717 
+L 57.163841 136.726905 
+L 58.704762 140.067538 
+L 60.245682 142.720285 
+L 61.786603 144.430728 
+L 63.327523 144.594496 
+L 64.868444 144.226704 
+L 66.409364 141.836872 
+L 67.950285 141.070211 
+L 69.491205 141.130288 
+L 71.032126 141.44936 
+L 74.113967 142.423288 
+L 80.277649 144.144972 
+L 81.818569 144.218725 
+L 83.35949 144.046838 
+L 84.90041 143.3412 
+L 87.982251 140.637262 
+L 89.523172 138.902964 
+L 91.064092 137.632396 
+L 92.605013 136.574765 
+L 94.145933 134.841558 
+L 98.768695 132.201398 
+L 100.309615 131.601474 
+L 103.391456 131.390556 
+L 106.473297 131.432852 
+L 108.014218 131.446977 
+L 109.555138 131.083651 
+L 114.1779 130.363903 
+L 115.71882 129.917886 
+L 117.259741 129.654491 
+L 118.800661 128.977189 
+L 120.341582 128.677652 
+L 121.882502 127.795066 
+L 123.423423 127.287693 
+L 124.964343 126.348007 
+L 126.505264 125.89778 
+L 128.046184 125.867792 
+L 131.128025 124.453826 
+L 134.209866 122.496576 
+L 137.291707 121.060227 
+L 143.455389 118.740552 
+L 160.405515 112.685888 
+L 185.060243 104.139114 
+L 205.092209 97.383692 
+L 225.124176 90.638248 
+L 242.074301 84.700051 
+L 259.024427 78.52714 
+L 291.383757 66.41087 
+L 348.397816 44.932632 
+L 422.362 17.28 
+L 422.362 17.28 
+" clip-path="url(#distance-to-data-pbe482a9e66)" style="fill: none; stroke: var(--fig-ox); stroke-width: 2; stroke-linecap: square"/>
+   </g>
+   <g id="distance-to-data-patch_3">
+    <path d="M 54.082 228.96 
+L 54.082 7.2 
+" style="fill: none; stroke: var(--fig-muted); stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="distance-to-data-patch_4">
+    <path d="M 54.082 228.96 
+L 422.362 228.96 
+" style="fill: none; stroke: var(--fig-muted); stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="distance-to-data-text_17">
+    <text style="font-size: 9.5px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: start; fill: var(--fig-muted)" x="151.159992" y="170.169385" transform="rotate(-0 151.159992 170.169385)">a demonstration ends here</text>
+   </g>
+   <g id="distance-to-data-text_18">
+    <text style="font-size: 9.5px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; fill: var(--fig-green)" transform="translate(282.746922 192.421)">the expert never leaves the data</text>
+    <text style="font-size: 9.5px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; fill: var(--fig-green)" transform="translate(277.754969 206.88)">(exactly zero, drawn on the floor)</text>
+   </g>
+   <g id="distance-to-data-text_19">
+    <text style="font-size: 9.5px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-ox)" x="416.362" y="31.28" transform="rotate(-0 416.362 31.28)">the clone does</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="distance-to-data-pbe482a9e66">
+   <rect x="54.082" y="7.2" width="368.28" height="221.76"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 725 388" role="img" aria-label="The robotics stack in five layers, with value and hiring concentrating in the top three and the bottom two serving as prerequisite literacy">
+  <text x="350" y="22" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">each layer stands on the one below it</text>
+
+  <rect x="175" y="44" width="350" height="58" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="350" y="68" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--green, #15614e)">Agentic layer</text>
+  <text x="350" y="87" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">LLM and VLM planners · skill APIs · voice · MCP</text>
+
+  <rect x="175" y="112" width="350" height="58" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="350" y="136" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--green, #15614e)">Policies &amp; foundation models</text>
+  <text x="350" y="155" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">VLAs · imitation learning · reinforcement learning</text>
+
+  <rect x="175" y="180" width="350" height="58" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="350" y="204" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--green, #15614e)">Systems layer</text>
+  <text x="350" y="223" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">simulation · data pipelines · teleop · eval · deployment</text>
+
+  <rect x="175" y="248" width="350" height="58" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="350" y="272" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Classical core</text>
+  <text x="350" y="291" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">frames · kinematics · dynamics · control</text>
+
+  <rect x="175" y="316" width="350" height="58" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="350" y="340" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Hardware</text>
+  <text x="350" y="359" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">motors · sensors · mechanisms</text>
+
+  <path d="M535 44 L543 44 L543 238 L535 238" fill="none"
+        stroke="var(--green, #15614e)" stroke-width="1.4"/>
+  <text x="555" y="128" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--green, #15614e)">Where the leverage is</text>
+  <text x="555" y="148" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">value, hiring, and this</text>
+  <text x="555" y="162" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">course all concentrate here</text>
+
+  <path d="M535 248 L543 248 L543 374 L535 374" fill="none"
+        stroke="var(--blue, #2d5d7c)" stroke-width="1.4"/>
+  <text x="555" y="300" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--blue, #2d5d7c)">Prerequisite literacy</text>
+  <text x="555" y="320" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">you cannot debug a policy</text>
+  <text x="555" y="334" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">you cannot read</text>
+
+  <path d="M165 44 L157 44 L157 170 L165 170" fill="none"
+        stroke="var(--gold, #b07d22)" stroke-width="1.4"/>
+  <text x="147" y="92" text-anchor="end" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--gold, #b07d22)">Your edge</text>
+  <text x="147" y="112" text-anchor="end" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">very few are fluent</text>
+  <text x="147" y="126" text-anchor="end" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">in both these layers</text>
+  <text x="147" y="140" text-anchor="end" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">Module 6 is built on it</text>
+</svg>

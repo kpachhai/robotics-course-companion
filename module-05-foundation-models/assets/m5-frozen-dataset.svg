@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 272" role="img" aria-label="Episodes are recorded once, frozen at a pinned revision, then used by two separate training runs which are scored by one shared evaluation protocol">
+
+  <rect x="16" y="96" width="140" height="72" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="86" y="126" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">your episodes</text>
+  <text x="86" y="146" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">50 per task, pruned</text>
+
+  <line x1="156" y1="132" x2="188" y2="132"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m5FrozenArrow)"/>
+
+  <rect x="196" y="96" width="150" height="72" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="271" y="126" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--green, #15614e)">frozen snapshot</text>
+  <text x="271" y="146" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">pinned revision + hash</text>
+
+  <path d="M346,132 H369 V70 H384" fill="none"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m5FrozenArrow)"/>
+  <path d="M346,132 H369 V194 H384" fill="none"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m5FrozenArrow)"/>
+
+  <rect x="392" y="36" width="150" height="68" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="467" y="66" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">ACT run</text>
+  <text x="467" y="86" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">your Module 3 recipe</text>
+
+  <rect x="392" y="160" width="150" height="68" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="467" y="190" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--gold, #b07d22)">SmolVLA run</text>
+  <text x="467" y="210" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">fine-tune from the base</text>
+
+  <path d="M542,70 H566 V124 H582" fill="none"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m5FrozenArrow)"/>
+  <path d="M542,194 H566 V140 H582" fill="none"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m5FrozenArrow)"/>
+
+  <rect x="590" y="96" width="176" height="72" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="678" y="126" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--green, #15614e)">one eval protocol</text>
+  <text x="678" y="146" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">same trials, both policies</text>
+
+  <line x1="271" y1="168" x2="271" y2="240"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" stroke-dasharray="4 4"/>
+  <text x="271" y="256" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">record anything new after this point and the comparison is gone</text>
+
+  <defs>
+    <marker id="m5FrozenArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

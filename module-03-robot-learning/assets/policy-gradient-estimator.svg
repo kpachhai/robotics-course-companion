@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 288" role="img" aria-label="Three sampled trajectories scored after the fact: the good one has the probability of its actions pushed up, the bad one pushed down, the average one barely moved">
+  <defs>
+    <marker id="pgEstUp" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--green, #15614e)"/>
+    </marker>
+    <marker id="pgEstDown" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--ox, #9c3b2e)"/>
+    </marker>
+    <marker id="pgEstFlat" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+
+  <circle cx="66" cy="140" r="26"
+          fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.5"/>
+  <text x="66" y="145" text-anchor="middle" class="svg-disp" font-size="14"
+        font-weight="700" fill="var(--blue, #2d5d7c)">start</text>
+
+  <path d="M92 132 C 180 74, 280 62, 384 60" fill="none"
+        stroke="var(--green, #15614e)" stroke-width="2.2"/>
+  <path d="M92 140 C 180 140, 280 142, 384 144" fill="none"
+        stroke="var(--muted, #6b6053)" stroke-width="2.2"/>
+  <path d="M92 150 C 180 206, 280 220, 384 228" fill="none"
+        stroke="var(--ox, #9c3b2e)" stroke-width="2.2"/>
+
+  <circle cx="176" cy="94" r="4" fill="var(--green, #15614e)"/>
+  <circle cx="258" cy="70" r="4" fill="var(--green, #15614e)"/>
+  <circle cx="176" cy="140" r="4" fill="var(--muted, #6b6053)"/>
+  <circle cx="258" cy="141" r="4" fill="var(--muted, #6b6053)"/>
+  <circle cx="176" cy="188" r="4" fill="var(--ox, #9c3b2e)"/>
+  <circle cx="258" cy="211" r="4" fill="var(--ox, #9c3b2e)"/>
+
+  <text x="230" y="34" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">dots are the actions actually sampled</text>
+
+  <text x="396" y="54" class="svg-disp" font-size="14" font-weight="600"
+        fill="var(--green, #15614e)">return 187</text>
+  <text x="396" y="72" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">above what this state usually pays</text>
+  <text x="396" y="138" class="svg-disp" font-size="14" font-weight="600"
+        fill="var(--muted, #6b6053)">return 92</text>
+  <text x="396" y="156" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">about what this state usually pays</text>
+  <text x="396" y="222" class="svg-disp" font-size="14" font-weight="600"
+        fill="var(--ox, #9c3b2e)">return 31</text>
+  <text x="396" y="240" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">below what this state usually pays</text>
+
+  <line x1="640" y1="76" x2="640" y2="44" stroke="var(--green, #15614e)"
+        stroke-width="2.4" marker-end="url(#pgEstUp)"/>
+  <text x="654" y="60" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--green, #15614e)">up</text>
+
+  <line x1="640" y1="132" x2="640" y2="122" stroke="var(--muted, #6b6053)"
+        stroke-width="2.4" marker-end="url(#pgEstFlat)"/>
+  <text x="654" y="134" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--muted, #6b6053)">barely</text>
+
+  <line x1="640" y1="212" x2="640" y2="244" stroke="var(--ox, #9c3b2e)"
+        stroke-width="2.4" marker-end="url(#pgEstDown)"/>
+  <text x="654" y="234" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--ox, #9c3b2e)">down</text>
+
+  <rect x="66" y="256" width="608" height="26" rx="8"
+        fill="none" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <text x="370" y="274" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">no gradient ever passes through the environment; the score only re-weights actions the policy already chose</text>
+</svg>

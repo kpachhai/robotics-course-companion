@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 206" role="img" aria-label="A difficulty band split into three: tasks too easy to have failure modes worth studying, the milestone band where a task is repeatable by hand but has real variation, and tasks that are contact-rich enough to need hundreds of episodes">
+  <line x1="60" y1="42" x2="690" y2="42" stroke="var(--muted, #6b6053)"
+        stroke-width="1.3" marker-end="url(#m4ScopeArrow)"/>
+  <text x="60" y="32" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">task difficulty</text>
+
+  <rect x="60" y="58" width="190" height="44" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="155" y="86" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">too easy</text>
+
+  <rect x="250" y="58" width="260" height="44" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="380" y="86" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--green, #15614e)">the milestone band</text>
+
+  <rect x="510" y="58" width="190" height="44" rx="8"
+        fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.6"/>
+  <text x="605" y="86" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--ox, #9c3b2e)">not yet</text>
+
+  <text x="155" y="124" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">push a block, wave</text>
+  <text x="155" y="138" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">succeeds without a policy,</text>
+  <text x="155" y="152" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">so it teaches you nothing</text>
+
+  <text x="380" y="124" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">cube into a bowl from four start zones, two-colour sort</text>
+  <text x="380" y="138" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">you can teleoperate it ten times out of ten,</text>
+  <text x="380" y="152" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">and it still fails in interesting ways</text>
+
+  <text x="605" y="124" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">fold a cloth, insert a plug</text>
+  <text x="605" y="138" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">contact-rich and deformable;</text>
+  <text x="605" y="152" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">needs hundreds of episodes</text>
+
+  <text x="380" y="176" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--green, #15614e)">the entry test: can you do it by hand, ten times out of ten?</text>
+  <text x="380" y="194" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">if you cannot teleoperate it reliably, no dataset of it will be consistent</text>
+
+  <defs>
+    <marker id="m4ScopeArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

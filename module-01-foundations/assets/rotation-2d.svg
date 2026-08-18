@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 312" role="img" aria-label="A vector v turned by 40 degrees into R times v: both tips sit on the same dashed circle so the length is unchanged, and two thin arrows show where the unit x and y axes land, which are exactly the two columns of the rotation matrix">
+  <text x="380" y="32" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">a rotation turns a vector · it never changes the vector's length</text>
+
+  <!-- reference axes -->
+  <line x1="70" y1="268" x2="352" y2="268"
+        stroke="var(--line-2, #c8bca3)" stroke-width="1.2" marker-end="url(#rot2dArrowAxis)"/>
+  <line x1="110" y1="292" x2="110" y2="84"
+        stroke="var(--line-2, #c8bca3)" stroke-width="1.2" marker-end="url(#rot2dArrowAxis)"/>
+  <text x="364" y="273" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">x</text>
+  <text x="110" y="66" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">y</text>
+  <line x1="222" y1="263" x2="222" y2="273"
+        stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <line x1="105" y1="156" x2="115" y2="156"
+        stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <text x="222" y="286" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">1</text>
+  <text x="98" y="160" text-anchor="end" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">1</text>
+
+  <!-- one arc, two facts: constant radius, and the angle swept -->
+  <path d="M300.4,228.8 A194.4,194.4 0 0 0 230.6,115.6"
+        fill="none" stroke="var(--muted, #6b6053)" stroke-width="1.2" stroke-dasharray="4 4"/>
+  <text x="296" y="161" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">θ = 40°</text>
+
+  <!-- where the unit axes land: the columns of R -->
+  <line x1="110" y1="268" x2="195.8" y2="196"
+        stroke="var(--purple, #5e2d8c)" stroke-width="1.6" marker-end="url(#rot2dArrowCol)"/>
+  <line x1="110" y1="268" x2="38" y2="182.2"
+        stroke="var(--purple, #5e2d8c)" stroke-width="1.6" marker-end="url(#rot2dArrowCol)"/>
+  <text x="210" y="184" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--purple, #5e2d8c)">R · x</text>
+  <text x="46" y="172" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--purple, #5e2d8c)">R · y</text>
+
+  <!-- the vector, before and after -->
+  <line x1="110" y1="268" x2="300.4" y2="228.8"
+        stroke="var(--gold, #b07d22)" stroke-width="2.2" marker-end="url(#rot2dArrowV)"/>
+  <line x1="110" y1="268" x2="230.6" y2="115.6"
+        stroke="var(--blue, #2d5d7c)" stroke-width="2.2" marker-end="url(#rot2dArrowR)"/>
+  <text x="308" y="234" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--gold, #b07d22)">v</text>
+  <text x="308" y="248" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">(1.70, 0.35)</text>
+  <text x="250" y="104" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--blue, #2d5d7c)">R(θ) · v</text>
+  <text x="250" y="118" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">(1.08, 1.36)</text>
+
+  <!-- the matrix, read by its columns -->
+  <rect x="436" y="104" width="306" height="192" rx="8"
+        fill="none" stroke="var(--line-2, #c8bca3)" stroke-width="1.6"/>
+  <text x="458" y="132" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">R is a table of where the axes land</text>
+  <text x="458" y="178" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--purple, #5e2d8c)">R(40°) =</text>
+  <path d="M534,154 L528,154 L528,200 L534,200"
+        fill="none" stroke="var(--line-2, #c8bca3)" stroke-width="1.4"/>
+  <path d="M646,154 L652,154 L652,200 L646,200"
+        fill="none" stroke="var(--line-2, #c8bca3)" stroke-width="1.4"/>
+  <text x="560" y="175" text-anchor="middle" class="svg-disp" font-size="14" font-weight="600"
+        fill="var(--purple, #5e2d8c)">0.77</text>
+  <text x="560" y="193" text-anchor="middle" class="svg-disp" font-size="14" font-weight="600"
+        fill="var(--purple, #5e2d8c)">0.64</text>
+  <text x="612" y="175" text-anchor="middle" class="svg-disp" font-size="14" font-weight="600"
+        fill="var(--purple, #5e2d8c)">−0.64</text>
+  <text x="612" y="193" text-anchor="middle" class="svg-disp" font-size="14" font-weight="600"
+        fill="var(--purple, #5e2d8c)">0.77</text>
+  <text x="458" y="222" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">column 1: where x lands = (cos θ, sin θ)</text>
+  <text x="458" y="238" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">column 2: where y lands = (−sin θ, cos θ)</text>
+  <line x1="458" y1="256" x2="720" y2="256"
+        stroke="var(--line-2, #c8bca3)" stroke-width="1.1"/>
+  <text x="458" y="276" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the arc has one radius: |v| = |R · v| = 1.74</text>
+
+  <defs>
+    <marker id="rot2dArrowAxis" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--line-2, #c8bca3)"/>
+    </marker>
+    <marker id="rot2dArrowCol" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--purple, #5e2d8c)"/>
+    </marker>
+    <marker id="rot2dArrowV" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--gold, #b07d22)"/>
+    </marker>
+    <marker id="rot2dArrowR" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--blue, #2d5d7c)"/>
+    </marker>
+  </defs>
+</svg>

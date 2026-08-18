@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 622 380" role="img" aria-label="Joint limits reshape the reachable set differently depending on which joint is clamped: limiting the elbow leaves a ring with a larger hole, while limiting the shoulder removes a whole angular sector so the result is no longer a ring at all">
+  <line x1="330" y1="40" x2="330" y2="312"
+        stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+
+  <path fill-rule="evenodd" fill="var(--ox-soft, #f1ddd6)" stroke="none"
+        d="M117.2,175 a52.8,52.8 0 1,0 105.6,0 a52.8,52.8 0 1,0 -105.6,0
+           M146.6,175 a23.4,23.4 0 1,0 46.8,0 a23.4,23.4 0 1,0 -46.8,0"/>
+  <path fill-rule="evenodd" fill="var(--blue-soft, #dfeaf0)" stroke="none"
+        d="M37.4,175 a132.6,132.6 0 1,0 265.2,0 a132.6,132.6 0 1,0 -265.2,0
+           M117.2,175 a52.8,52.8 0 1,0 105.6,0 a52.8,52.8 0 1,0 -105.6,0"/>
+  <circle cx="170" cy="175" r="132.6" fill="none"
+          stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <circle cx="170" cy="175" r="52.8" fill="none"
+          stroke="var(--ox, #9c3b2e)" stroke-width="1.5"/>
+  <circle cx="170" cy="175" r="23.4" fill="none"
+          stroke="var(--muted, #6b6053)" stroke-width="1.2" stroke-dasharray="3 3"/>
+
+  <line x1="170" y1="175" x2="102.5" y2="214"
+        stroke="var(--gold, #b07d22)" stroke-width="4.5" stroke-linecap="round"/>
+  <line x1="102.5" y1="214" x2="118.9" y2="161.9"
+        stroke="var(--gold, #b07d22)" stroke-width="4.5" stroke-linecap="round"/>
+  <circle cx="170" cy="175" r="5.5"
+          fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+
+  <path fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"
+        d="M450.0,42.4 L421.7,50.3 L411.8,58.0 L405.5,65.3 L401.3,72.4 L398.4,79.1 L396.6,85.6 L395.6,91.8 L395.4,97.7 L395.8,103.3 L396.7,108.7 L398.0,113.7 L399.8,118.4 L401.9,122.9 L404.4,127.1 L407.2,131.0 L410.4,134.5 L413.8,137.9 L417.5,140.9 L421.5,143.6 L426.0,146.0 L431.0,148.2 L437.0,150.0 L450.0,151.6 L454.9,152.1 L459.5,153.6 L463.8,156.1 L467.4,159.3 L470.3,163.3 L472.3,167.8 L473.3,172.6 L473.3,177.4 L472.3,182.2 L470.3,186.7 L467.4,190.7 L463.8,193.9 L459.5,196.4 L454.9,197.9 L450.0,198.4 L437.0,200.0 L431.0,201.8 L426.0,204.0 L421.5,206.4 L417.5,209.1 L413.8,212.1 L410.4,215.5 L407.2,219.0 L404.4,222.9 L401.9,227.1 L399.8,231.6 L398.0,236.3 L396.7,241.3 L395.8,246.7 L395.4,252.3 L395.6,258.2 L396.6,264.4 L398.4,270.9 L401.3,277.6 L405.5,284.7 L411.8,292.0 L421.7,299.7 L450.0,307.6 L468.1,306.4 L485.8,302.7 L502.8,296.6 L518.9,288.3 L533.7,277.9 L546.9,265.5 L558.3,251.5 L567.7,236.0 L574.9,219.4 L579.8,202.0 L582.3,184.0 L582.3,166.0 L579.8,148.0 L574.9,130.6 L567.7,114.0 L558.3,98.5 L546.9,84.5 L533.7,72.1 L518.9,61.7 L502.8,53.4 L485.8,47.3 L468.1,43.6 Z"/>
+
+  <line x1="450" y1="175" x2="450" y2="97"
+        stroke="var(--gold, #b07d22)" stroke-width="4.5" stroke-linecap="round"/>
+  <line x1="450" y1="97" x2="497.3" y2="69.7"
+        stroke="var(--gold, #b07d22)" stroke-width="4.5" stroke-linecap="round"/>
+  <circle cx="450" cy="175" r="5.5"
+          fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <line x1="521" y1="60" x2="503" y2="68"
+        stroke="var(--muted, #6b6053)" stroke-width="1.1"/>
+  <text x="525" y="58" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">shoulder at its stop</text>
+  <line x1="443" y1="175" x2="366" y2="175"
+        stroke="var(--ox, #9c3b2e)" stroke-width="1.2" stroke-dasharray="4 4"/>
+  <text x="362" y="179" text-anchor="end" class="svg-mono" font-size="9.5"
+        fill="var(--ox, #9c3b2e)">gone</text>
+
+  <text x="170" y="334" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">elbow clamped, shoulder free</text>
+  <text x="170" y="352" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">still a ring · the hole grows from 0.30 to 0.68</text>
+  <text x="170" y="368" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the pale red band is what the stop costs you</text>
+  <text x="465" y="334" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">shoulder clamped to ±90°</text>
+  <text x="465" y="352" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">not a ring at all · nothing past x = -0.70</text>
+  <text x="465" y="368" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the two rims survive, the far side does not</text>
+</svg>

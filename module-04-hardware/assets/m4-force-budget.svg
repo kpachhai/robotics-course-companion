@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 470" role="img" aria-label="The stack of limits between a commanded joint angle and force on the object: the step clamp ships switched off, the motor's own position loop always runs, and the only torque and current caps that ship set apply to the gripper alone">
+
+  <rect x="60" y="30" width="580" height="56" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="84" y="54" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Your policy asks for a joint angle</text>
+  <text x="84" y="72" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">one number per joint, thirty times a second</text>
+
+  <line x1="350" y1="86" x2="350" y2="100"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m4BudgetArrow)"/>
+
+  <rect x="60" y="104" width="580" height="56" rx="8"
+        fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.6"
+        stroke-dasharray="5 4"/>
+  <text x="84" y="128" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--ox, #9c3b2e)">max_relative_target clamps the step</text>
+  <text x="84" y="146" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">one scalar, or one number per motor</text>
+  <text x="616" y="128" text-anchor="end" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">ships as None</text>
+
+  <line x1="350" y1="160" x2="350" y2="174"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m4BudgetArrow)"/>
+
+  <rect x="60" y="178" width="580" height="56" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="84" y="202" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Goal_Position, and the motor's own loop</text>
+  <text x="84" y="220" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">P = 16 · I = 0 · D = 32, written to all six</text>
+  <text x="616" y="202" text-anchor="end" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">always on</text>
+
+  <line x1="350" y1="234" x2="350" y2="248"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m4BudgetArrow)"/>
+
+  <rect x="60" y="252" width="580" height="56" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="84" y="276" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--green, #15614e)">Max_Torque_Limit · Protection_Current</text>
+  <text x="84" y="294" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">500 of 1000 · 250 · gripper only</text>
+  <text x="616" y="276" text-anchor="end" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">set on connect</text>
+
+  <line x1="350" y1="308" x2="350" y2="322"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m4BudgetArrow)"/>
+
+  <rect x="60" y="326" width="580" height="56" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="84" y="350" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--green, #15614e)">Overload_Torque · Protection_Time</text>
+  <text x="84" y="368" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">back off to 25 when overloaded · gripper only</text>
+  <text x="616" y="350" text-anchor="end" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">set on connect</text>
+
+  <line x1="350" y1="382" x2="350" y2="396"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m4BudgetArrow)"/>
+
+  <rect x="60" y="400" width="580" height="56" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="84" y="424" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Force on whatever it is touching</text>
+  <text x="84" y="442" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">everything above is the entire budget</text>
+
+  <defs>
+    <marker id="m4BudgetArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

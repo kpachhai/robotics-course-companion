@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 372" role="img" aria-label="The groove task: a two-link arm drags a pin along a curved slot from A to B, observing only its two joint angles and commanding only how far to turn each one, and failing if the pin leaves the slot">
+
+  <path d="M309 114 Q154 258 346 246" fill="none"
+        stroke="var(--green-soft, #e3ede7)" stroke-width="24" stroke-linecap="round"/>
+  <path d="M309 114 Q154 258 346 246" fill="none"
+        stroke="var(--green, #15614e)" stroke-width="1.6" stroke-dasharray="5 4"/>
+
+  <line x1="70" y1="330" x2="305" y2="282"
+        stroke="var(--blue, #2d5d7c)" stroke-width="6" stroke-linecap="round"/>
+  <line x1="305" y1="282" x2="309" y2="114"
+        stroke="var(--blue, #2d5d7c)" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="70" cy="330" r="7" fill="var(--blue, #2d5d7c)"/>
+  <circle cx="305" cy="282" r="6" fill="var(--blue, #2d5d7c)"/>
+  <circle cx="309" cy="114" r="6"
+          fill="var(--paper, #fcfcfb)" stroke="var(--blue, #2d5d7c)" stroke-width="2.4"/>
+
+  <text x="52" y="352" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">base</text>
+  <text x="322" y="290" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--blue, #2d5d7c)">θ<tspan font-size="10" dy="3">2</tspan></text>
+  <text x="120" y="322" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--blue, #2d5d7c)">θ<tspan font-size="10" dy="3">1</tspan></text>
+
+  <text x="299" y="98" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--green, #15614e)">A</text>
+  <text x="366" y="250" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--green, #15614e)">B</text>
+  <text x="299" y="84" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the pin starts here</text>
+  <text x="366" y="266" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">and must finish here</text>
+
+  <line x1="215" y1="228" x2="248" y2="204"
+        stroke="var(--muted, #6b6053)" stroke-width="1.1" marker-end="url(#grooveArrow)"/>
+  <text x="212" y="240" text-anchor="end" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--green, #15614e)">the groove</text>
+  <text x="212" y="256" text-anchor="end" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">5 cm to either side.</text>
+  <text x="212" y="270" text-anchor="end" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">Leave it and the pin jams.</text>
+
+  <rect x="444" y="84" width="278" height="72" rx="8"
+        fill="var(--purple-soft, #ede0f5)" stroke="var(--purple, #5e2d8c)" stroke-width="1.6"/>
+  <text x="462" y="110" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--purple, #5e2d8c)">observation</text>
+  <text x="462" y="132" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the two joint angles, and nothing else.</text>
+  <text x="462" y="146" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">No clock, no memory, no target given.</text>
+
+  <rect x="444" y="176" width="278" height="72" rx="8"
+        fill="var(--purple-soft, #ede0f5)" stroke="var(--purple, #5e2d8c)" stroke-width="1.6"/>
+  <text x="462" y="202" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--purple, #5e2d8c)">action</text>
+  <text x="462" y="224" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">how far to turn each joint this step,</text>
+  <text x="462" y="238" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">capped at 0.15 rad.</text>
+
+  <text x="444" y="288" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">Two numbers in, two numbers out, so the whole training set and the</text>
+  <text x="444" y="304" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">policy's own trajectory fit on one sheet of paper. Nothing else about</text>
+  <text x="444" y="320" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">it is small: six joints and a camera break the same way.</text>
+
+  <defs>
+    <marker id="grooveArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

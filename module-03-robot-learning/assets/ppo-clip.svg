@@ -1,0 +1,293 @@
+<svg id="ppo-clip" xmlns:xlink="http://www.w3.org/1999/xlink" width="442.779188pt" height="273.53042pt" viewBox="0 0 442.779188 273.53042" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">#ppo-clip, #ppo-clip *{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="ppo-clip-figure_1">
+  <g id="ppo-clip-patch_1">
+   <path d="M 0 273.53042 
+L 442.779188 273.53042 
+L 442.779188 0 
+L 0 0 
+L 0 273.53042 
+z
+" style="fill: none"/>
+  </g>
+  <g id="ppo-clip-axes_1">
+   <g id="ppo-clip-patch_2">
+    <path d="M 54.192 221.84642 
+L 422.472 221.84642 
+L 422.472 11.17442 
+L 54.192 11.17442 
+L 54.192 221.84642 
+z
+" style="fill: none"/>
+   </g>
+   <g id="ppo-clip-patch_3">
+    <path d="M 201.504 221.84642 
+L 275.16 221.84642 
+L 275.16 11.17442 
+L 201.504 11.17442 
+z
+" clip-path="url(#ppo-clip-p46b4f7b315)" style="fill: var(--fig-grid); opacity: 0.7"/>
+   </g>
+   <g id="ppo-clip-line2d_1">
+    <path d="M 54.192 116.51042 
+L 422.472 116.51042 
+" clip-path="url(#ppo-clip-p46b4f7b315)" style="fill: none; stroke: var(--fig-grid); stroke-linecap: square"/>
+   </g>
+   <g id="ppo-clip-matplotlib.axis_1">
+    <g id="ppo-clip-xtick_1">
+     <g id="ppo-clip-line2d_2">
+      <defs>
+       <path id="ppo-clip-mabe65c4262" d="M 0 0 
+L 0 3.5 
+" style="stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#ppo-clip-mabe65c4262" x="54.192" y="221.84642" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="ppo-clip-text_1">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="54.192" y="240.49542" transform="rotate(-0 54.192 240.49542)">0</text>
+     </g>
+    </g>
+    <g id="ppo-clip-xtick_2">
+     <g id="ppo-clip-line2d_3">
+      <g>
+       <use xlink:href="#ppo-clip-mabe65c4262" x="146.262" y="221.84642" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="ppo-clip-text_2">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="146.262" y="240.49542" transform="rotate(-0 146.262 240.49542)">half</text>
+     </g>
+    </g>
+    <g id="ppo-clip-xtick_3">
+     <g id="ppo-clip-line2d_4">
+      <g>
+       <use xlink:href="#ppo-clip-mabe65c4262" x="238.332" y="221.84642" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="ppo-clip-text_3">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="238.332" y="240.49542" transform="rotate(-0 238.332 240.49542)">same</text>
+     </g>
+    </g>
+    <g id="ppo-clip-xtick_4">
+     <g id="ppo-clip-line2d_5">
+      <g>
+       <use xlink:href="#ppo-clip-mabe65c4262" x="330.402" y="221.84642" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="ppo-clip-text_4">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="330.402" y="240.49542" transform="rotate(-0 330.402 240.49542)">1.5x</text>
+     </g>
+    </g>
+    <g id="ppo-clip-xtick_5">
+     <g id="ppo-clip-line2d_6">
+      <g>
+       <use xlink:href="#ppo-clip-mabe65c4262" x="422.472" y="221.84642" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="ppo-clip-text_5">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="422.472" y="240.49542" transform="rotate(-0 422.472 240.49542)">twice</text>
+     </g>
+    </g>
+    <g id="ppo-clip-text_6">
+     <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-ink)" x="238.332" y="261.23742" transform="rotate(-0 238.332 261.23742)">how much more likely the new policy makes the action it took</text>
+    </g>
+   </g>
+   <g id="ppo-clip-matplotlib.axis_2">
+    <g id="ppo-clip-ytick_1">
+     <g id="ppo-clip-line2d_7">
+      <defs>
+       <path id="ppo-clip-mc16693e09f" d="M 0 0 
+L -3.5 0 
+" style="stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#ppo-clip-mc16693e09f" x="54.192" y="210.14242" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="ppo-clip-text_7">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="47.192" y="215.96692" transform="rotate(-0 47.192 215.96692)">−2.0</text>
+     </g>
+    </g>
+    <g id="ppo-clip-ytick_2">
+     <g id="ppo-clip-line2d_8">
+      <g>
+       <use xlink:href="#ppo-clip-mc16693e09f" x="54.192" y="186.73442" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="ppo-clip-text_8">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="47.192" y="192.55892" transform="rotate(-0 47.192 192.55892)">−1.5</text>
+     </g>
+    </g>
+    <g id="ppo-clip-ytick_3">
+     <g id="ppo-clip-line2d_9">
+      <g>
+       <use xlink:href="#ppo-clip-mc16693e09f" x="54.192" y="163.32642" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="ppo-clip-text_9">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="47.192" y="169.15092" transform="rotate(-0 47.192 169.15092)">−1.0</text>
+     </g>
+    </g>
+    <g id="ppo-clip-ytick_4">
+     <g id="ppo-clip-line2d_10">
+      <g>
+       <use xlink:href="#ppo-clip-mc16693e09f" x="54.192" y="139.91842" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="ppo-clip-text_10">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="47.192" y="145.74292" transform="rotate(-0 47.192 145.74292)">−0.5</text>
+     </g>
+    </g>
+    <g id="ppo-clip-ytick_5">
+     <g id="ppo-clip-line2d_11">
+      <g>
+       <use xlink:href="#ppo-clip-mc16693e09f" x="54.192" y="116.51042" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="ppo-clip-text_11">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="47.192" y="122.33492" transform="rotate(-0 47.192 122.33492)">0.0</text>
+     </g>
+    </g>
+    <g id="ppo-clip-ytick_6">
+     <g id="ppo-clip-line2d_12">
+      <g>
+       <use xlink:href="#ppo-clip-mc16693e09f" x="54.192" y="93.10242" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="ppo-clip-text_12">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="47.192" y="98.92692" transform="rotate(-0 47.192 98.92692)">0.5</text>
+     </g>
+    </g>
+    <g id="ppo-clip-ytick_7">
+     <g id="ppo-clip-line2d_13">
+      <g>
+       <use xlink:href="#ppo-clip-mc16693e09f" x="54.192" y="69.69442" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="ppo-clip-text_13">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="47.192" y="75.51892" transform="rotate(-0 47.192 75.51892)">1.0</text>
+     </g>
+    </g>
+    <g id="ppo-clip-ytick_8">
+     <g id="ppo-clip-line2d_14">
+      <g>
+       <use xlink:href="#ppo-clip-mc16693e09f" x="54.192" y="46.28642" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="ppo-clip-text_14">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="47.192" y="52.11092" transform="rotate(-0 47.192 52.11092)">1.5</text>
+     </g>
+    </g>
+    <g id="ppo-clip-ytick_9">
+     <g id="ppo-clip-line2d_15">
+      <g>
+       <use xlink:href="#ppo-clip-mc16693e09f" x="54.192" y="22.87842" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="ppo-clip-text_15">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="47.192" y="28.70292" transform="rotate(-0 47.192 28.70292)">2.0</text>
+     </g>
+    </g>
+    <g id="ppo-clip-text_16">
+     <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-ink)" x="18.849" y="116.51042" transform="rotate(-90 18.849 116.51042)">what the update is paid</text>
+    </g>
+   </g>
+   <g id="ppo-clip-line2d_16">
+    <path d="M 54.192 116.51042 
+L 422.472 22.87842 
+L 422.472 22.87842 
+" clip-path="url(#ppo-clip-p46b4f7b315)" style="fill: none; stroke-dasharray: 6,4.8; stroke-dashoffset: 0; stroke: var(--fig-green); stroke-opacity: 0.55; stroke-width: 1.2"/>
+   </g>
+   <g id="ppo-clip-line2d_17">
+    <path d="M 54.192 116.51042 
+L 274.790797 60.425087 
+L 276.636812 60.33122 
+L 422.472 60.33122 
+L 422.472 60.33122 
+" clip-path="url(#ppo-clip-p46b4f7b315)" style="fill: none; stroke: var(--fig-green); stroke-width: 2.3; stroke-linecap: square"/>
+   </g>
+   <g id="ppo-clip-line2d_18">
+    <path d="M 54.192 116.51042 
+L 422.472 210.14242 
+L 422.472 210.14242 
+" clip-path="url(#ppo-clip-p46b4f7b315)" style="fill: none; stroke-dasharray: 6,4.8; stroke-dashoffset: 0; stroke: var(--fig-ox); stroke-opacity: 0.55; stroke-width: 1.2"/>
+   </g>
+   <g id="ppo-clip-line2d_19">
+    <path d="M 54.192 153.96322 
+L 201.873203 154.057087 
+L 422.472 210.14242 
+L 422.472 210.14242 
+" clip-path="url(#ppo-clip-p46b4f7b315)" style="fill: none; stroke: var(--fig-ox); stroke-width: 2.3; stroke-linecap: square"/>
+   </g>
+   <g id="ppo-clip-patch_4">
+    <path d="M 54.192 221.84642 
+L 54.192 11.17442 
+" style="fill: none; stroke: var(--fig-muted); stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="ppo-clip-patch_5">
+    <path d="M 54.192 221.84642 
+L 422.472 221.84642 
+" style="fill: none; stroke: var(--fig-muted); stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="ppo-clip-text_17">
+    <text style="font-size: 9.5px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="238.332" y="17.2605" transform="rotate(-0 238.332 17.2605)">the trust band</text>
+   </g>
+   <g id="ppo-clip-patch_6">
+    <path d="M 128.281847 49.58729 
+Q 129.769199 71.222831 131.256551 92.858372 
+" style="fill: none; stroke: var(--fig-green); stroke-linecap: round"/>
+   </g>
+   <g id="ppo-clip-text_18">
+    <text style="font-size: 10px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: start; fill: var(--fig-green)" x="65.2404" y="36.97482" transform="rotate(-0 65.2404 36.97482)">the action beat expectations</text>
+   </g>
+   <g id="ppo-clip-patch_7">
+    <path d="M 302.11241 153.773678 
+Q 316.725767 169.266729 331.339124 184.75978 
+" style="fill: none; stroke: var(--fig-ox); stroke-linecap: round"/>
+   </g>
+   <g id="ppo-clip-text_19">
+    <text style="font-size: 10px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: start; fill: var(--fig-ox)" x="245.6976" y="142.77898" transform="rotate(-0 245.6976 142.77898)">the action fell short</text>
+   </g>
+   <g id="ppo-clip-patch_8">
+    <path d="M 353.559654 74.794598 
+Q 353.175431 69.556214 352.791208 64.31783 
+" style="fill: none; stroke: var(--fig-muted); stroke-linecap: round"/>
+   </g>
+   <g id="ppo-clip-text_20">
+    <text style="font-size: 9.5px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; fill: var(--fig-muted)" transform="translate(305.040059 69.14912)">flat, so the gradient is zero:</text>
+    <text style="font-size: 9.5px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; fill: var(--fig-muted)" transform="translate(289.207716 83.60812)">nothing left to gain by pushing</text>
+    <text style="font-size: 9.5px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; fill: var(--fig-muted)" transform="translate(329.219044 98.06712)">this action further up</text>
+   </g>
+   <g id="ppo-clip-patch_9">
+    <path d="M 115.270447 171.146659 
+Q 117.295551 164.470037 119.320654 157.793415 
+" style="fill: none; stroke: var(--fig-muted); stroke-linecap: round"/>
+   </g>
+   <g id="ppo-clip-text_21">
+    <text style="font-size: 9.5px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; fill: var(--fig-muted)" transform="translate(65.2404 188.94412)">flat here too, for the</text>
+    <text style="font-size: 9.5px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; fill: var(--fig-muted)" transform="translate(65.2404 203.40312)">mirror-image reason</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="ppo-clip-p46b4f7b315">
+   <rect x="54.192" y="11.17442" width="368.28" height="210.672"/>
+  </clipPath>
+ </defs>
+</svg>

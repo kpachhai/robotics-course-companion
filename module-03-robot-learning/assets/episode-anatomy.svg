@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 254" role="img" aria-label="One demonstration episode drawn as a bar of 203 frames, with a single frame magnified into the row it becomes: the six joint angles the arm reported, the six the teleoperator asked for, and the timestamp that indexes into the camera video">
+
+  <text x="40" y="26" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--blue, #2d5d7c)">One episode</text>
+  <text x="720" y="26" text-anchor="end" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">203 frames · 6.8 s · 30 fps</text>
+
+  <rect x="40" y="36" width="680" height="30" rx="6"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <g stroke="var(--blue, #2d5d7c)" stroke-width="0.7" opacity="0.45">
+    <line x1="63" y1="36" x2="63" y2="66"/><line x1="86" y1="36" x2="86" y2="66"/>
+    <line x1="109" y1="36" x2="109" y2="66"/><line x1="132" y1="36" x2="132" y2="66"/>
+    <line x1="155" y1="36" x2="155" y2="66"/><line x1="178" y1="36" x2="178" y2="66"/>
+    <line x1="201" y1="36" x2="201" y2="66"/><line x1="224" y1="36" x2="224" y2="66"/>
+    <line x1="247" y1="36" x2="247" y2="66"/><line x1="270" y1="36" x2="270" y2="66"/>
+    <line x1="316" y1="36" x2="316" y2="66"/><line x1="339" y1="36" x2="339" y2="66"/>
+    <line x1="362" y1="36" x2="362" y2="66"/><line x1="385" y1="36" x2="385" y2="66"/>
+    <line x1="408" y1="36" x2="408" y2="66"/><line x1="431" y1="36" x2="431" y2="66"/>
+    <line x1="454" y1="36" x2="454" y2="66"/><line x1="477" y1="36" x2="477" y2="66"/>
+    <line x1="500" y1="36" x2="500" y2="66"/><line x1="523" y1="36" x2="523" y2="66"/>
+    <line x1="546" y1="36" x2="546" y2="66"/><line x1="569" y1="36" x2="569" y2="66"/>
+    <line x1="592" y1="36" x2="592" y2="66"/><line x1="615" y1="36" x2="615" y2="66"/>
+    <line x1="638" y1="36" x2="638" y2="66"/><line x1="661" y1="36" x2="661" y2="66"/>
+    <line x1="684" y1="36" x2="684" y2="66"/>
+  </g>
+  <rect x="293" y="36" width="23" height="30"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+
+  <path d="M293 66 L120 104" fill="none" stroke="var(--gold, #b07d22)"
+        stroke-width="1.1" stroke-dasharray="4 4"/>
+  <path d="M316 66 L648 104" fill="none" stroke="var(--gold, #b07d22)"
+        stroke-width="1.1" stroke-dasharray="4 4"/>
+
+  <rect x="120" y="104" width="528" height="140" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+
+  <text x="136" y="126" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--gold, #b07d22)">one frame, one row of the dataset</text>
+
+  <text x="136" y="152" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">observation.state</text>
+  <text x="262" y="152" class="svg-mono" font-size="9.5" fill="var(--blue, #2d5d7c)">[86.11, -33.00, 34.65, 88.89, -33.14, 6.98]</text>
+
+  <text x="136" y="172" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">action</text>
+  <text x="262" y="172" class="svg-mono" font-size="9.5" fill="var(--ox, #9c3b2e)">[83.97, -34.23, 32.82, 89.12, -33.09, 1.55]</text>
+
+  <text x="136" y="196" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">timestamp</text>
+  <text x="262" y="196" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">4.0 s · frame_index 120 · episode_index 7</text>
+
+  <text x="136" y="216" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">task_index</text>
+  <text x="262" y="216" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">0 · "pink lego brick into the transparent box"</text>
+
+  <text x="136" y="236" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">the camera streams stay in MP4 files; the timestamp is what indexes them</text>
+
+  <path d="M492 145 L502 145 L502 176 L492 176" fill="none"
+        stroke="var(--ox, #9c3b2e)" stroke-width="1.2"/>
+  <text x="510" y="155" class="svg-mono" font-size="9.5" fill="var(--ox, #9c3b2e)">where it was</text>
+  <text x="510" y="169" class="svg-mono" font-size="9.5" fill="var(--ox, #9c3b2e)">vs what it was told</text>
+</svg>

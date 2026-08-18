@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 272" role="img" aria-label="Three shapes the ten versus fifty demonstration curve can take, drawn as shapes rather than as measurements. A flat curve means coverage is already saturated and more of the same demonstrations buy nothing. A steep curve means the run is data starved and any ranking measured at ten demonstrations is not a fact about the algorithms. Two curves that cross mean the ranking depends on the data budget and both budgets must be reported">
+
+  <rect x="16" y="28" width="232" height="152" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <line x1="46" y1="56" x2="46" y2="152" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <line x1="46" y1="152" x2="222" y2="152" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <path d="M62,84 C110,80 160,76 208,74" fill="none"
+        stroke="var(--blue, #2d5d7c)" stroke-width="2"/>
+  <text x="62" y="166" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">10</text>
+  <text x="200" y="166" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">50</text>
+  <text x="132" y="48" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">flat</text>
+
+  <rect x="264" y="28" width="232" height="152" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <line x1="294" y1="56" x2="294" y2="152" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <line x1="294" y1="152" x2="470" y2="152" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <path d="M310,140 C350,128 400,92 456,72" fill="none"
+        stroke="var(--gold, #b07d22)" stroke-width="2"/>
+  <text x="310" y="166" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">10</text>
+  <text x="448" y="166" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">50</text>
+  <text x="380" y="48" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--gold, #b07d22)">steep</text>
+
+  <rect x="512" y="28" width="232" height="152" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <line x1="542" y1="56" x2="542" y2="152" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <line x1="542" y1="152" x2="718" y2="152" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <path d="M558,88 C600,86 650,84 704,82" fill="none"
+        stroke="var(--green, #15614e)" stroke-width="2"/>
+  <path d="M558,134 C600,120 650,96 704,68" fill="none"
+        stroke="var(--green, #15614e)" stroke-width="2" stroke-dasharray="5 4"/>
+  <text x="558" y="166" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">10</text>
+  <text x="696" y="166" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">50</text>
+  <text x="628" y="48" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--green, #15614e)">crossing</text>
+
+  <text x="132" y="204" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">coverage is already saturated:</text>
+  <text x="132" y="220" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">collect different demos, not more</text>
+
+  <text x="380" y="204" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">you are data starved: a ranking</text>
+  <text x="380" y="220" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">at 10 demos says nothing about 50</text>
+
+  <text x="628" y="204" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the winner depends on the budget:</text>
+  <text x="628" y="220" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">name the budget your claim is about</text>
+
+  <text x="380" y="254" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--muted, #6b6053)">Shapes, not measurements. Which one you get is the finding, and it is yours to produce.</text>
+</svg>

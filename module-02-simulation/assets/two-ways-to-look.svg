@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 288" role="img" aria-label="The same stepping loop feeds two different ways of seeing the simulation. The offscreen renderer returns pixels as a numpy array and runs under plain python; the passive viewer opens a real window you can drag, and on macOS it must be launched with mjpython.">
+
+  <rect x="288" y="14" width="184" height="62" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="380" y="40" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--blue, #2d5d7c)">your loop</text>
+  <text x="380" y="60" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">mj_step(model, data)</text>
+
+  <path d="M380 76 L380 104 L166 104 L166 128" fill="none"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#twoWaysArrow)"/>
+  <path d="M380 76 L380 104 L594 104 L594 128" fill="none"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#twoWaysArrow)"/>
+
+  <rect x="34" y="134" width="264" height="86" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="166" y="162" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--green, #15614e)">mujoco.Renderer</text>
+  <text x="166" y="182" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">offscreen, no window at all</text>
+  <text x="166" y="196" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">plain python everywhere,</text>
+  <text x="166" y="209" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">through CGL on macOS</text>
+
+  <line x1="166" y1="220" x2="166" y2="240"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#twoWaysArrow)"/>
+  <text x="166" y="260" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">a uint8 array, so: PNG, video,</text>
+  <text x="166" y="273" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">a policy input, a dataset</text>
+
+  <rect x="462" y="134" width="264" height="86" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="594" y="162" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--gold, #b07d22)">viewer.launch_passive</text>
+  <text x="594" y="182" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">a real window, live</text>
+  <text x="594" y="196" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">mjpython on macOS,</text>
+  <text x="594" y="209" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">plain python elsewhere</text>
+
+  <line x1="594" y1="220" x2="594" y2="240"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#twoWaysArrow)"/>
+  <text x="594" y="260" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">you, orbiting and shoving things</text>
+  <text x="594" y="273" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">while the physics keeps running</text>
+
+  <defs>
+    <marker id="twoWaysArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

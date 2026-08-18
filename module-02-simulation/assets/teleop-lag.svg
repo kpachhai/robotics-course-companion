@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 300" role="img" aria-label="Three states of the same teleoperation loop: while a key is held the tool tip trails the target by two to four millimetres, half a second after release it has closed to about a fifth of a millimetre, and when the tip is pressed into the box it stops four millimetres short and stays there">
+
+  <line x1="470" y1="76" x2="650" y2="76" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <line x1="470" y1="158" x2="650" y2="158" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <line x1="470" y1="240" x2="650" y2="240" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+
+  <text x="30" y="72" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">while a key is held down</text>
+  <text x="30" y="90" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the target runs ahead of the arm</text>
+  <circle cx="600" cy="76" r="7" fill="var(--green-soft, #e3ede7)"
+          stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <circle cx="536" cy="76" r="6" fill="var(--blue, #2d5d7c)"/>
+  <text x="600" y="54" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--green, #15614e)">target</text>
+  <text x="536" y="54" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--blue, #2d5d7c)">tool tip</text>
+  <text x="568" y="98" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">2 to 4 mm behind</text>
+
+  <text x="30" y="154" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">half a second after you let go</text>
+  <text x="30" y="172" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the servos have caught up</text>
+  <circle cx="600" cy="158" r="7" fill="var(--green-soft, #e3ede7)"
+          stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <circle cx="592" cy="158" r="6" fill="var(--blue, #2d5d7c)"/>
+  <text x="596" y="180" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">0.2 mm</text>
+
+  <text x="30" y="236" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--ox, #9c3b2e)">tip pressed into the box</text>
+  <text x="30" y="254" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the world pushes back, and keeps pushing</text>
+  <circle cx="600" cy="240" r="7" fill="var(--green-soft, #e3ede7)"
+          stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <circle cx="528" cy="240" r="6" fill="var(--ox, #9c3b2e)"/>
+  <text x="564" y="262" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--ox, #9c3b2e)">4.0 mm, and it stays there</text>
+</svg>

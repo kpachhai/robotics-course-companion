@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 670 272" role="img" aria-label="A dial showing thirty degrees followed by fifty degrees on one track and fifty followed by thirty on another; both tracks arrive at the same eighty-degree mark, because rotations that share a single axis commute">
+  <text x="335" y="26" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">in a plane there is only one axis to turn about: the one sticking out of the page</text>
+
+  <!-- guide arc -->
+  <path d="M183.3,235.4 A128,128 0 0 0 42.6,94.7" fill="none"
+        stroke="var(--line-2, #c8bca3)" stroke-width="1.2" stroke-dasharray="4 4"/>
+
+  <!-- start and finish hands -->
+  <line x1="56" y1="222" x2="184" y2="222"
+        stroke="var(--gold, #b07d22)" stroke-width="2.4" stroke-linecap="round"/>
+  <line x1="56" y1="222" x2="78.2" y2="95.9"
+        stroke="var(--gold, #b07d22)" stroke-width="2.4" stroke-linecap="round"/>
+  <circle cx="56" cy="222" r="4" fill="var(--gold, #b07d22)"/>
+  <text x="190" y="226" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">start</text>
+  <text x="92" y="70" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--gold, #b07d22)">80°</text>
+  <text x="92" y="86" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">both orders land here</text>
+
+  <!-- track one: 30 then 50 -->
+  <path d="M154,222 A98,98 0 0 0 140.9,173.0" fill="none"
+        stroke="var(--blue, #2d5d7c)" stroke-width="2"/>
+  <circle cx="140.9" cy="173.0" r="3.2" fill="var(--blue, #2d5d7c)"/>
+  <path d="M140.9,173.0 A98,98 0 0 0 73.0,125.5" fill="none"
+        stroke="var(--blue, #2d5d7c)" stroke-width="2" marker-end="url(#rotSameAxisArrowB)"/>
+  <text x="148" y="170" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">30°</text>
+
+  <!-- track two: 50 then 30 -->
+  <path d="M124,222 A68,68 0 0 0 99.7,169.9" fill="none"
+        stroke="var(--purple, #5e2d8c)" stroke-width="2"/>
+  <circle cx="99.7" cy="169.9" r="3.2" fill="var(--purple, #5e2d8c)"/>
+  <path d="M99.7,169.9 A68,68 0 0 0 67.8,155.0" fill="none"
+        stroke="var(--purple, #5e2d8c)" stroke-width="2" marker-end="url(#rotSameAxisArrowP)"/>
+  <text x="106" y="166" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">50°</text>
+
+  <!-- the arithmetic -->
+  <rect x="250" y="88" width="396" height="156" rx="8"
+        fill="none" stroke="var(--line-2, #c8bca3)" stroke-width="1.6"/>
+  <text x="274" y="116" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">two turns about one axis, taken in either order</text>
+  <text x="274" y="150" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">R(30°) · R(50°)</text>
+  <text x="274" y="176" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--purple, #5e2d8c)">R(50°) · R(30°)</text>
+  <line x1="274" y1="192" x2="622" y2="192"
+        stroke="var(--line-2, #c8bca3)" stroke-width="1.1"/>
+  <text x="274" y="214" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--gold, #b07d22)">both equal R(80°)</text>
+  <text x="274" y="232" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">one axis · the angles simply add</text>
+
+  <defs>
+    <marker id="rotSameAxisArrowB" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--blue, #2d5d7c)"/>
+    </marker>
+    <marker id="rotSameAxisArrowP" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--purple, #5e2d8c)"/>
+    </marker>
+  </defs>
+</svg>

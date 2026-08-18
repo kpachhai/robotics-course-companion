@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 312" role="img" aria-label="Three tiers of an agentic robot stacked by speed: a planner at fractions of a hertz, a learned policy at tens to hundreds of hertz, and a joint controller at hundreds to a thousand hertz, each roughly a hundred times faster than the tier above it">
+
+  <rect x="90" y="32" width="440" height="68" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="310" y="58" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--green, #15614e)">Planner</text>
+  <text x="310" y="76" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">what to do next · did it work · replan</text>
+  <text x="310" y="92" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">0.3-3 s per decision · 0.2-2 Hz</text>
+
+  <line x1="530" y1="64" x2="552" y2="64" stroke="var(--muted, #6b6053)" stroke-width="1.2"/>
+  <text x="558" y="60" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">MCP and tool calls</text>
+  <text x="558" y="74" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">live at this tier only</text>
+
+  <line x1="310" y1="100" x2="310" y2="126"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m6clocksArrow)"/>
+  <text x="322" y="117" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">about 100x faster below</text>
+
+  <rect x="90" y="130" width="440" height="68" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="310" y="156" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Policy</text>
+  <text x="310" y="174" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the learned model emitting action chunks</text>
+  <text x="310" y="190" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">3-50 ms per decision · 10-200 Hz</text>
+
+  <line x1="310" y1="198" x2="310" y2="224"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m6clocksArrow)"/>
+  <text x="322" y="215" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">another 10 to 50x faster</text>
+
+  <rect x="90" y="228" width="440" height="68" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="310" y="254" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--gold, #b07d22)">Controller</text>
+  <text x="310" y="272" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">joint servo loops · torque limits · safety stops</text>
+  <text x="310" y="288" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">1-5 ms per decision · 200-1000 Hz</text>
+
+  <line x1="530" y1="262" x2="552" y2="262" stroke="var(--muted, #6b6053)" stroke-width="1.2"/>
+  <text x="558" y="258" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">a late decision here</text>
+  <text x="558" y="272" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">is a safety problem</text>
+
+  <defs>
+    <marker id="m6clocksArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

@@ -1,0 +1,63 @@
+<mujoco model="so101 task scene">
+  <!-- Include is resolved relative to THIS file's directory, and so are the
+       model's mesh paths. Copy this file next to so101.xml before loading it;
+       so101_pick.install_scene() does that for you. -->
+  <include file="so101.xml"/>
+
+  <visual>
+    <headlight diffuse="0.6 0.6 0.6" ambient="0.3 0.3 0.3" specular="0 0 0"/>
+    <rgba haze="0.15 0.25 0.35 1"/>
+    <global azimuth="150" elevation="-25"/>
+  </visual>
+
+  <asset>
+    <texture type="skybox" builtin="gradient" rgb1="0.3 0.5 0.7" rgb2="0 0 0" width="512" height="3072"/>
+    <texture type="2d" name="grid" builtin="checker" mark="edge" rgb1="0.2 0.3 0.4" rgb2="0.1 0.2 0.3"
+      markrgb="0.8 0.8 0.8" width="300" height="300"/>
+    <material name="grid" texture="grid" texuniform="true" texrepeat="5 5" reflectance="0.2"/>
+    <material name="table_mat" rgba="0.55 0.45 0.34 1"/>
+    <material name="bin_mat" rgba="0.25 0.35 0.5 1"/>
+    <material name="cube_mat" rgba="0.85 0.25 0.15 1"/>
+  </asset>
+
+  <worldbody>
+    <light name="key" pos="0.1 0 1.2" dir="0 0 -1" directional="true"/>
+    <camera name="overhead" pos="0.15 -0.62 0.42" xyaxes="1 0 0 0 0.55 0.83"/>
+    <geom name="floor" size="0 0 0.05" pos="0 0 -0.70" type="plane" material="grid"/>
+
+    <!-- Table, given. Top surface is exactly z = 0, so the arm's base sits on it.
+         The legs are cosmetic: contype/conaffinity 0 means they never collide. -->
+    <body name="table" pos="0.10 0 0">
+      <geom name="table_top" type="box" pos="0 0 -0.02" size="0.36 0.36 0.02" material="table_mat"/>
+      <geom name="leg1" type="box" pos="0.32 0.32 -0.36" size="0.02 0.02 0.32"
+            material="table_mat" contype="0" conaffinity="0"/>
+      <geom name="leg2" type="box" pos="-0.32 0.32 -0.36" size="0.02 0.02 0.32"
+            material="table_mat" contype="0" conaffinity="0"/>
+      <geom name="leg3" type="box" pos="0.32 -0.32 -0.36" size="0.02 0.02 0.32"
+            material="table_mat" contype="0" conaffinity="0"/>
+      <geom name="leg4" type="box" pos="-0.32 -0.32 -0.36" size="0.02 0.02 0.32"
+            material="table_mat" contype="0" conaffinity="0"/>
+    </body>
+
+    <!-- TODO(you): a body named "bin" at pos "0.05 -0.19 0", made of five boxes:
+         a floor plate and four walls. Keep the walls under about 3 cm tall, and
+         run scene_check.carry_ceiling() before you argue with that number.
+         Name the geoms bin_floor, bin_px, bin_nx, bin_py, bin_ny. -->
+
+    <!-- TODO(you): a body named "cube" at pos "0.22 0 0.02" containing
+         <freejoint name="cube_free"/> and one box geom named "cube",
+         size "0.02 0.02 0.02", material "cube_mat".
+         Without the free joint it is scenery, not an object. -->
+
+  </worldbody>
+
+  <keyframe>
+    <!-- TODO(you): 6 arm angles, then the cube's 7 free-joint numbers
+         (x y z followed by a w x y z quaternion). The arm angles below put the
+         gripper up and back, clear of the cube.
+    <key name="home"
+         qpos="0 -1.55 1.55 0.35 0 1.20   ... "
+         ctrl="0 -1.55 1.55 0.35 0 1.20"/>
+    -->
+  </keyframe>
+</mujoco>

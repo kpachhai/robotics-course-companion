@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 306" role="img" aria-label="Two rates on one timeline: observations are sampled at the start of each dataset frame, each recorded action is held for eight physics steps of five milliseconds, and the action stored at frame t is the command that carried the robot from the observation at t to the observation at t plus one">
+
+  <text x="60" y="30" class="svg-disp" font-size="14" font-weight="700" fill="var(--green, #15614e)">observation</text>
+  <text x="152" y="30" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">qpos and the rendered image, read before anything is commanded</text>
+
+  <line x1="80" y1="60" x2="80" y2="248" stroke="var(--muted, #6b6053)" stroke-width="1" stroke-dasharray="4 4"/>
+  <line x1="280" y1="60" x2="280" y2="248" stroke="var(--muted, #6b6053)" stroke-width="1" stroke-dasharray="4 4"/>
+  <line x1="480" y1="60" x2="480" y2="248" stroke="var(--muted, #6b6053)" stroke-width="1" stroke-dasharray="4 4"/>
+  <line x1="680" y1="60" x2="680" y2="248" stroke="var(--muted, #6b6053)" stroke-width="1" stroke-dasharray="4 4"/>
+
+  <circle cx="80" cy="60" r="8" fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.5"/>
+  <circle cx="280" cy="60" r="8" fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.5"/>
+  <circle cx="480" cy="60" r="8" fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.5"/>
+  <circle cx="680" cy="60" r="8" fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.5"/>
+
+  <text x="80" y="82" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600" fill="var(--green, #15614e)">s<tspan font-size="10" dy="3">0</tspan></text>
+  <text x="280" y="82" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600" fill="var(--green, #15614e)">s<tspan font-size="10" dy="3">1</tspan></text>
+  <text x="480" y="82" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600" fill="var(--green, #15614e)">s<tspan font-size="10" dy="3">2</tspan></text>
+  <text x="680" y="82" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600" fill="var(--green, #15614e)">s<tspan font-size="10" dy="3">3</tspan></text>
+
+  <text x="60" y="112" class="svg-disp" font-size="14" font-weight="700" fill="var(--blue, #2d5d7c)">action</text>
+
+  <rect x="80" y="122" width="200" height="42" rx="8" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <rect x="280" y="122" width="200" height="42" rx="8" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <rect x="480" y="122" width="200" height="42" rx="8" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+
+  <text x="180" y="148" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600" fill="var(--blue, #2d5d7c)">a<tspan font-size="10" dy="3">0</tspan><tspan font-size="13" dy="-3"> held</tspan></text>
+  <text x="380" y="148" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600" fill="var(--blue, #2d5d7c)">a<tspan font-size="10" dy="3">1</tspan><tspan font-size="13" dy="-3"> held</tspan></text>
+  <text x="580" y="148" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600" fill="var(--blue, #2d5d7c)">a<tspan font-size="10" dy="3">2</tspan><tspan font-size="13" dy="-3"> held</tspan></text>
+
+  <text x="60" y="196" class="svg-disp" font-size="14" font-weight="700" fill="var(--muted, #6b6053)">physics</text>
+
+  <line x1="80" y1="222" x2="680" y2="222" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <g stroke="var(--muted, #6b6053)" stroke-width="1.2">
+    <line x1="80" y1="210" x2="80" y2="234"/><line x1="105" y1="212" x2="105" y2="232"/>
+    <line x1="130" y1="212" x2="130" y2="232"/><line x1="155" y1="212" x2="155" y2="232"/>
+    <line x1="180" y1="212" x2="180" y2="232"/><line x1="205" y1="212" x2="205" y2="232"/>
+    <line x1="230" y1="212" x2="230" y2="232"/><line x1="255" y1="212" x2="255" y2="232"/>
+    <line x1="280" y1="210" x2="280" y2="234"/><line x1="305" y1="212" x2="305" y2="232"/>
+    <line x1="330" y1="212" x2="330" y2="232"/><line x1="355" y1="212" x2="355" y2="232"/>
+    <line x1="380" y1="212" x2="380" y2="232"/><line x1="405" y1="212" x2="405" y2="232"/>
+    <line x1="430" y1="212" x2="430" y2="232"/><line x1="455" y1="212" x2="455" y2="232"/>
+    <line x1="480" y1="210" x2="480" y2="234"/><line x1="505" y1="212" x2="505" y2="232"/>
+    <line x1="530" y1="212" x2="530" y2="232"/><line x1="555" y1="212" x2="555" y2="232"/>
+    <line x1="580" y1="212" x2="580" y2="232"/><line x1="605" y1="212" x2="605" y2="232"/>
+    <line x1="630" y1="212" x2="630" y2="232"/><line x1="655" y1="212" x2="655" y2="232"/>
+    <line x1="680" y1="210" x2="680" y2="234"/>
+  </g>
+  <text x="380" y="252" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">one mj_step every 0.005 s, so eight steps fit inside one frame of 1/25 s</text>
+
+  <text x="60" y="276" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">The row at frame t holds s<tspan font-size="9" dy="2">t</tspan><tspan dy="-2"> and a</tspan><tspan font-size="9" dy="2">t</tspan><tspan dy="-2">: the command that carried the arm from s</tspan><tspan font-size="9" dy="2">t</tspan><tspan dy="-2"> to s</tspan><tspan font-size="9" dy="2">t+1</tspan><tspan dy="-2">.</tspan></text>
+  <text x="60" y="292" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">That is exactly what a policy is asked to predict, which is why this ordering is the whole contract.</text>
+</svg>

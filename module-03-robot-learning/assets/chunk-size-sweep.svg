@@ -1,0 +1,620 @@
+<svg id="chunk-size-sweep" xmlns:xlink="http://www.w3.org/1999/xlink" width="429.562pt" height="280.644pt" viewBox="0 0 429.562 280.644" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">#chunk-size-sweep, #chunk-size-sweep *{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="chunk-size-sweep-figure_1">
+  <g id="chunk-size-sweep-patch_1">
+   <path d="M 0 280.644 
+L 429.562 280.644 
+L 429.562 0 
+L 0 0 
+L 0 280.644 
+z
+" style="fill: none"/>
+  </g>
+  <g id="chunk-size-sweep-axes_1">
+   <g id="chunk-size-sweep-patch_2">
+    <path d="M 54.082 228.96 
+L 422.362 228.96 
+L 422.362 7.2 
+L 54.082 7.2 
+L 54.082 228.96 
+z
+" style="fill: none"/>
+   </g>
+   <g id="chunk-size-sweep-FillBetweenPolyCollection_1">
+    <defs>
+     <path id="chunk-size-sweep-m7e902ff596" d="M 70.822 -90.880979 
+L 70.822 -61.764 
+L 127.501567 -88.569433 
+L 160.656988 -79.816783 
+L 202.427879 -98.125874 
+L 240.8607 -97.414013 
+L 274.016121 -99.512997 
+L 315.787012 -144.93021 
+L 361.547539 -222.465641 
+L 405.622 -260.117719 
+L 405.622 -263.364 
+L 405.622 -263.364 
+L 361.547539 -229.784323 
+L 315.787012 -151.614096 
+L 274.016121 -103.542421 
+L 240.8607 -101.310461 
+L 202.427879 -101.527878 
+L 160.656988 -89.098257 
+L 127.501567 -89.933123 
+L 70.822 -90.880979 
+z
+"/>
+    </defs>
+    <g clip-path="url(#chunk-size-sweep-pbe482a9e66)">
+     <use xlink:href="#chunk-size-sweep-m7e902ff596" x="0" y="280.644" style="fill: var(--fig-green); fill-opacity: 0.16"/>
+    </g>
+   </g>
+   <g id="chunk-size-sweep-FillBetweenPolyCollection_2">
+    <defs>
+     <path id="chunk-size-sweep-m30d6d6b636" d="M 70.822 -119.923704 
+L 70.822 -112.197486 
+L 127.501567 -112.29542 
+L 160.656988 -97.074858 
+L 202.427879 -114.564069 
+L 240.8607 -112.266582 
+L 274.016121 -117.930264 
+L 315.787012 -142.671263 
+L 361.547539 -188.220536 
+L 405.622 -229.978071 
+L 405.622 -239.68903 
+L 405.622 -239.68903 
+L 361.547539 -190.866109 
+L 315.787012 -152.71072 
+L 274.016121 -126.271987 
+L 240.8607 -117.349313 
+L 202.427879 -120.657684 
+L 160.656988 -115.332523 
+L 127.501567 -121.091064 
+L 70.822 -119.923704 
+z
+"/>
+    </defs>
+    <g clip-path="url(#chunk-size-sweep-pbe482a9e66)">
+     <use xlink:href="#chunk-size-sweep-m30d6d6b636" x="0" y="280.644" style="fill: var(--fig-blue); fill-opacity: 0.16"/>
+    </g>
+   </g>
+   <g id="chunk-size-sweep-FillBetweenPolyCollection_3">
+    <defs>
+     <path id="chunk-size-sweep-m668cd51e34" d="M 70.822 -141.597811 
+L 70.822 -135.294389 
+L 127.501567 -127.251453 
+L 160.656988 -128.150101 
+L 202.427879 -136.759134 
+L 240.8607 -142.872684 
+L 274.016121 -151.393595 
+L 315.787012 -166.865946 
+L 361.547539 -184.528633 
+L 405.622 -220.977243 
+L 405.622 -224.754793 
+L 405.622 -224.754793 
+L 361.547539 -193.441261 
+L 315.787012 -175.479334 
+L 274.016121 -159.276101 
+L 240.8607 -148.092501 
+L 202.427879 -155.796072 
+L 160.656988 -146.984556 
+L 127.501567 -144.349524 
+L 70.822 -141.597811 
+z
+"/>
+    </defs>
+    <g clip-path="url(#chunk-size-sweep-pbe482a9e66)">
+     <use xlink:href="#chunk-size-sweep-m668cd51e34" x="0" y="280.644" style="fill: var(--fig-ox); fill-opacity: 0.16"/>
+    </g>
+   </g>
+   <g id="chunk-size-sweep-matplotlib.axis_1">
+    <g id="chunk-size-sweep-xtick_1">
+     <g id="chunk-size-sweep-line2d_1">
+      <defs>
+       <path id="chunk-size-sweep-mabe65c4262" d="M 0 0 
+L 0 3.5 
+" style="stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#chunk-size-sweep-mabe65c4262" x="70.822" y="228.96" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="chunk-size-sweep-text_1">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="70.822" y="247.609" transform="rotate(-0 70.822 247.609)">1</text>
+     </g>
+    </g>
+    <g id="chunk-size-sweep-xtick_2">
+     <g id="chunk-size-sweep-line2d_2">
+      <g>
+       <use xlink:href="#chunk-size-sweep-mabe65c4262" x="127.501567" y="228.96" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="chunk-size-sweep-text_2">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="127.501567" y="247.609" transform="rotate(-0 127.501567 247.609)">2</text>
+     </g>
+    </g>
+    <g id="chunk-size-sweep-xtick_3">
+     <g id="chunk-size-sweep-line2d_3">
+      <g>
+       <use xlink:href="#chunk-size-sweep-mabe65c4262" x="160.656988" y="228.96" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="chunk-size-sweep-text_3">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="160.656988" y="247.609" transform="rotate(-0 160.656988 247.609)">3</text>
+     </g>
+    </g>
+    <g id="chunk-size-sweep-xtick_4">
+     <g id="chunk-size-sweep-line2d_4">
+      <g>
+       <use xlink:href="#chunk-size-sweep-mabe65c4262" x="202.427879" y="228.96" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="chunk-size-sweep-text_4">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="202.427879" y="247.609" transform="rotate(-0 202.427879 247.609)">5</text>
+     </g>
+    </g>
+    <g id="chunk-size-sweep-xtick_5">
+     <g id="chunk-size-sweep-line2d_5">
+      <g>
+       <use xlink:href="#chunk-size-sweep-mabe65c4262" x="240.8607" y="228.96" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="chunk-size-sweep-text_5">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="240.8607" y="247.609" transform="rotate(-0 240.8607 247.609)">8</text>
+     </g>
+    </g>
+    <g id="chunk-size-sweep-xtick_6">
+     <g id="chunk-size-sweep-line2d_6">
+      <g>
+       <use xlink:href="#chunk-size-sweep-mabe65c4262" x="274.016121" y="228.96" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="chunk-size-sweep-text_6">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="274.016121" y="247.609" transform="rotate(-0 274.016121 247.609)">12</text>
+     </g>
+    </g>
+    <g id="chunk-size-sweep-xtick_7">
+     <g id="chunk-size-sweep-line2d_7">
+      <g>
+       <use xlink:href="#chunk-size-sweep-mabe65c4262" x="315.787012" y="228.96" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="chunk-size-sweep-text_7">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="315.787012" y="247.609" transform="rotate(-0 315.787012 247.609)">20</text>
+     </g>
+    </g>
+    <g id="chunk-size-sweep-xtick_8">
+     <g id="chunk-size-sweep-line2d_8">
+      <g>
+       <use xlink:href="#chunk-size-sweep-mabe65c4262" x="361.547539" y="228.96" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="chunk-size-sweep-text_8">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="361.547539" y="247.609" transform="rotate(-0 361.547539 247.609)">35</text>
+     </g>
+    </g>
+    <g id="chunk-size-sweep-xtick_9">
+     <g id="chunk-size-sweep-line2d_9">
+      <g>
+       <use xlink:href="#chunk-size-sweep-mabe65c4262" x="405.622" y="228.96" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="chunk-size-sweep-text_9">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="405.622" y="247.609" transform="rotate(-0 405.622 247.609)">60</text>
+     </g>
+    </g>
+    <g id="chunk-size-sweep-xtick_10">
+     <g id="chunk-size-sweep-line2d_10">
+      <defs>
+       <path id="chunk-size-sweep-m2fe1948188" d="M 0 0 
+L 0 2 
+" style="stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </defs>
+      <g>
+       <use xlink:href="#chunk-size-sweep-m2fe1948188" x="62.206531" y="228.96" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="chunk-size-sweep-xtick_11">
+     <g id="chunk-size-sweep-line2d_11">
+      <g>
+       <use xlink:href="#chunk-size-sweep-m2fe1948188" x="184.181134" y="228.96" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="chunk-size-sweep-xtick_12">
+     <g id="chunk-size-sweep-line2d_12">
+      <g>
+       <use xlink:href="#chunk-size-sweep-m2fe1948188" x="217.336555" y="228.96" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="chunk-size-sweep-xtick_13">
+     <g id="chunk-size-sweep-line2d_13">
+      <g>
+       <use xlink:href="#chunk-size-sweep-m2fe1948188" x="229.941661" y="228.96" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="chunk-size-sweep-xtick_14">
+     <g id="chunk-size-sweep-line2d_14">
+      <g>
+       <use xlink:href="#chunk-size-sweep-m2fe1948188" x="250.491976" y="228.96" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="chunk-size-sweep-xtick_15">
+     <g id="chunk-size-sweep-line2d_15">
+      <g>
+       <use xlink:href="#chunk-size-sweep-m2fe1948188" x="348.942433" y="228.96" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="chunk-size-sweep-xtick_16">
+     <g id="chunk-size-sweep-line2d_16">
+      <g>
+       <use xlink:href="#chunk-size-sweep-m2fe1948188" x="372.466579" y="228.96" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="chunk-size-sweep-xtick_17">
+     <g id="chunk-size-sweep-line2d_17">
+      <g>
+       <use xlink:href="#chunk-size-sweep-m2fe1948188" x="390.713324" y="228.96" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="chunk-size-sweep-xtick_18">
+     <g id="chunk-size-sweep-line2d_18">
+      <g>
+       <use xlink:href="#chunk-size-sweep-m2fe1948188" x="418.227106" y="228.96" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="chunk-size-sweep-text_10">
+     <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-ink)" x="238.222" y="268.351" transform="rotate(-0 238.222 268.351)">actions predicted per query</text>
+    </g>
+   </g>
+   <g id="chunk-size-sweep-matplotlib.axis_2">
+    <g id="chunk-size-sweep-ytick_1">
+     <g id="chunk-size-sweep-line2d_19">
+      <path d="M 54.082 161.46651 
+L 422.362 161.46651 
+" clip-path="url(#chunk-size-sweep-pbe482a9e66)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="chunk-size-sweep-line2d_20">
+      <defs>
+       <path id="chunk-size-sweep-mc16693e09f" d="M 0 0 
+L -3.5 0 
+" style="stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#chunk-size-sweep-mc16693e09f" x="54.082" y="161.46651" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="chunk-size-sweep-text_11">
+      <!-- $\mathdefault{10^{-1}}$ -->
+      <g style="fill: var(--fig-muted)" transform="translate(27.942 167.29101)">
+       <text>
+        <tspan x="0" y="-0.371063" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-muted)">1</tspan>
+        <tspan x="5.499954" y="-0.371063" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-muted)">0</tspan>
+        <tspan x="11.105182" y="-4.914063" style="font-size: 7.7px; font-family: 'Spectral'; fill: var(--fig-muted)">−</tspan>
+        <tspan x="14.95515" y="-4.914063" style="font-size: 7.7px; font-family: 'Spectral'; fill: var(--fig-muted)">1</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="chunk-size-sweep-ytick_2">
+     <g id="chunk-size-sweep-line2d_21">
+      <path d="M 54.082 69.648745 
+L 422.362 69.648745 
+" clip-path="url(#chunk-size-sweep-pbe482a9e66)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="chunk-size-sweep-line2d_22">
+      <g>
+       <use xlink:href="#chunk-size-sweep-mc16693e09f" x="54.082" y="69.648745" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="chunk-size-sweep-text_12">
+      <!-- $\mathdefault{10^{0}}$ -->
+      <g style="fill: var(--fig-muted)" transform="translate(31.792 75.473245)">
+       <text>
+        <tspan x="0" y="-0.2945" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-muted)">1</tspan>
+        <tspan x="5.499954" y="-0.2945" style="font-size: 11px; font-family: 'Spectral'; fill: var(--fig-muted)">0</tspan>
+        <tspan x="11.105182" y="-4.8375" style="font-size: 7.7px; font-family: 'Spectral'; fill: var(--fig-muted)">0</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="chunk-size-sweep-ytick_3">
+     <g id="chunk-size-sweep-line2d_23">
+      <defs>
+       <path id="chunk-size-sweep-mc8895feba6" d="M 0 0 
+L -2 0 
+" style="stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </defs>
+      <g>
+       <use xlink:href="#chunk-size-sweep-mc8895feba6" x="54.082" y="225.644373" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="chunk-size-sweep-ytick_4">
+     <g id="chunk-size-sweep-line2d_24">
+      <g>
+       <use xlink:href="#chunk-size-sweep-mc8895feba6" x="54.082" y="209.476067" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="chunk-size-sweep-ytick_5">
+     <g id="chunk-size-sweep-line2d_25">
+      <g>
+       <use xlink:href="#chunk-size-sweep-mc8895feba6" x="54.082" y="198.004472" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="chunk-size-sweep-ytick_6">
+     <g id="chunk-size-sweep-line2d_26">
+      <g>
+       <use xlink:href="#chunk-size-sweep-mc8895feba6" x="54.082" y="189.106411" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="chunk-size-sweep-ytick_7">
+     <g id="chunk-size-sweep-line2d_27">
+      <g>
+       <use xlink:href="#chunk-size-sweep-mc8895feba6" x="54.082" y="181.836166" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="chunk-size-sweep-ytick_8">
+     <g id="chunk-size-sweep-line2d_28">
+      <g>
+       <use xlink:href="#chunk-size-sweep-mc8895feba6" x="54.082" y="175.689262" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="chunk-size-sweep-ytick_9">
+     <g id="chunk-size-sweep-line2d_29">
+      <g>
+       <use xlink:href="#chunk-size-sweep-mc8895feba6" x="54.082" y="170.364571" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="chunk-size-sweep-ytick_10">
+     <g id="chunk-size-sweep-line2d_30">
+      <g>
+       <use xlink:href="#chunk-size-sweep-mc8895feba6" x="54.082" y="165.66786" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="chunk-size-sweep-ytick_11">
+     <g id="chunk-size-sweep-line2d_31">
+      <g>
+       <use xlink:href="#chunk-size-sweep-mc8895feba6" x="54.082" y="133.826609" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="chunk-size-sweep-ytick_12">
+     <g id="chunk-size-sweep-line2d_32">
+      <g>
+       <use xlink:href="#chunk-size-sweep-mc8895feba6" x="54.082" y="117.658303" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="chunk-size-sweep-ytick_13">
+     <g id="chunk-size-sweep-line2d_33">
+      <g>
+       <use xlink:href="#chunk-size-sweep-mc8895feba6" x="54.082" y="106.186707" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="chunk-size-sweep-ytick_14">
+     <g id="chunk-size-sweep-line2d_34">
+      <g>
+       <use xlink:href="#chunk-size-sweep-mc8895feba6" x="54.082" y="97.288647" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="chunk-size-sweep-ytick_15">
+     <g id="chunk-size-sweep-line2d_35">
+      <g>
+       <use xlink:href="#chunk-size-sweep-mc8895feba6" x="54.082" y="90.018402" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="chunk-size-sweep-ytick_16">
+     <g id="chunk-size-sweep-line2d_36">
+      <g>
+       <use xlink:href="#chunk-size-sweep-mc8895feba6" x="54.082" y="83.871497" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="chunk-size-sweep-ytick_17">
+     <g id="chunk-size-sweep-line2d_37">
+      <g>
+       <use xlink:href="#chunk-size-sweep-mc8895feba6" x="54.082" y="78.546806" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="chunk-size-sweep-ytick_18">
+     <g id="chunk-size-sweep-line2d_38">
+      <g>
+       <use xlink:href="#chunk-size-sweep-mc8895feba6" x="54.082" y="73.850096" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="chunk-size-sweep-ytick_19">
+     <g id="chunk-size-sweep-line2d_39">
+      <g>
+       <use xlink:href="#chunk-size-sweep-mc8895feba6" x="54.082" y="42.008844" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="chunk-size-sweep-ytick_20">
+     <g id="chunk-size-sweep-line2d_40">
+      <g>
+       <use xlink:href="#chunk-size-sweep-mc8895feba6" x="54.082" y="25.840538" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="chunk-size-sweep-ytick_21">
+     <g id="chunk-size-sweep-line2d_41">
+      <g>
+       <use xlink:href="#chunk-size-sweep-mc8895feba6" x="54.082" y="14.368943" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="chunk-size-sweep-text_13">
+     <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-ink)" x="18.849" y="118.08" transform="rotate(-90 18.849 118.08)">mean distance from the path (band is 3 seeds)</text>
+    </g>
+   </g>
+   <g id="chunk-size-sweep-line2d_42">
+    <path d="M 70.822 201.720921 
+L 127.501567 191.386893 
+L 160.656988 195.917044 
+L 202.427879 180.780855 
+L 240.8607 181.234189 
+L 274.016121 179.065416 
+L 315.787012 132.231969 
+L 361.547539 54.351348 
+L 405.622 18.870115 
+" clip-path="url(#chunk-size-sweep-pbe482a9e66)" style="fill: none; stroke: var(--fig-green); stroke-width: 2; stroke-linecap: square"/>
+    <defs>
+     <path id="chunk-size-sweep-mcb248f4d1e" d="M 0 2 
+C 0.530406 2 1.03916 1.789267 1.414214 1.414214 
+C 1.789267 1.03916 2 0.530406 2 0 
+C 2 -0.530406 1.789267 -1.03916 1.414214 -1.414214 
+C 1.03916 -1.789267 0.530406 -2 0 -2 
+C -0.530406 -2 -1.03916 -1.789267 -1.414214 -1.414214 
+C -1.789267 -1.03916 -2 -0.530406 -2 0 
+C -2 0.530406 -1.789267 1.03916 -1.414214 1.414214 
+C -1.03916 1.789267 -0.530406 2 0 2 
+z
+" style="stroke: var(--fig-green)"/>
+    </defs>
+    <g clip-path="url(#chunk-size-sweep-pbe482a9e66)">
+     <use xlink:href="#chunk-size-sweep-mcb248f4d1e" x="70.822" y="201.720921" style="fill: var(--fig-green); stroke: var(--fig-green)"/>
+     <use xlink:href="#chunk-size-sweep-mcb248f4d1e" x="127.501567" y="191.386893" style="fill: var(--fig-green); stroke: var(--fig-green)"/>
+     <use xlink:href="#chunk-size-sweep-mcb248f4d1e" x="160.656988" y="195.917044" style="fill: var(--fig-green); stroke: var(--fig-green)"/>
+     <use xlink:href="#chunk-size-sweep-mcb248f4d1e" x="202.427879" y="180.780855" style="fill: var(--fig-green); stroke: var(--fig-green)"/>
+     <use xlink:href="#chunk-size-sweep-mcb248f4d1e" x="240.8607" y="181.234189" style="fill: var(--fig-green); stroke: var(--fig-green)"/>
+     <use xlink:href="#chunk-size-sweep-mcb248f4d1e" x="274.016121" y="179.065416" style="fill: var(--fig-green); stroke: var(--fig-green)"/>
+     <use xlink:href="#chunk-size-sweep-mcb248f4d1e" x="315.787012" y="132.231969" style="fill: var(--fig-green); stroke: var(--fig-green)"/>
+     <use xlink:href="#chunk-size-sweep-mcb248f4d1e" x="361.547539" y="54.351348" style="fill: var(--fig-green); stroke: var(--fig-green)"/>
+     <use xlink:href="#chunk-size-sweep-mcb248f4d1e" x="405.622" y="18.870115" style="fill: var(--fig-green); stroke: var(--fig-green)"/>
+    </g>
+   </g>
+   <g id="chunk-size-sweep-line2d_43">
+    <path d="M 70.822 164.396571 
+L 127.501567 163.708735 
+L 160.656988 173.404376 
+L 202.427879 162.916838 
+L 240.8607 165.755124 
+L 274.016121 158.325144 
+L 315.787012 132.637888 
+L 361.547539 91.078741 
+L 405.622 45.515564 
+" clip-path="url(#chunk-size-sweep-pbe482a9e66)" style="fill: none; stroke: var(--fig-blue); stroke-width: 2; stroke-linecap: square"/>
+    <defs>
+     <path id="chunk-size-sweep-m2034040bb7" d="M 0 2 
+C 0.530406 2 1.03916 1.789267 1.414214 1.414214 
+C 1.789267 1.03916 2 0.530406 2 0 
+C 2 -0.530406 1.789267 -1.03916 1.414214 -1.414214 
+C 1.03916 -1.789267 0.530406 -2 0 -2 
+C -0.530406 -2 -1.03916 -1.789267 -1.414214 -1.414214 
+C -1.789267 -1.03916 -2 -0.530406 -2 0 
+C -2 0.530406 -1.789267 1.03916 -1.414214 1.414214 
+C -1.03916 1.789267 -0.530406 2 0 2 
+z
+" style="stroke: var(--fig-blue)"/>
+    </defs>
+    <g clip-path="url(#chunk-size-sweep-pbe482a9e66)">
+     <use xlink:href="#chunk-size-sweep-m2034040bb7" x="70.822" y="164.396571" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+     <use xlink:href="#chunk-size-sweep-m2034040bb7" x="127.501567" y="163.708735" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+     <use xlink:href="#chunk-size-sweep-m2034040bb7" x="160.656988" y="173.404376" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+     <use xlink:href="#chunk-size-sweep-m2034040bb7" x="202.427879" y="162.916838" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+     <use xlink:href="#chunk-size-sweep-m2034040bb7" x="240.8607" y="165.755124" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+     <use xlink:href="#chunk-size-sweep-m2034040bb7" x="274.016121" y="158.325144" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+     <use xlink:href="#chunk-size-sweep-m2034040bb7" x="315.787012" y="132.637888" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+     <use xlink:href="#chunk-size-sweep-m2034040bb7" x="361.547539" y="91.078741" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+     <use xlink:href="#chunk-size-sweep-m2034040bb7" x="405.622" y="45.515564" style="fill: var(--fig-blue); stroke: var(--fig-blue)"/>
+    </g>
+   </g>
+   <g id="chunk-size-sweep-line2d_44">
+    <path d="M 70.822 142.073477 
+L 127.501567 143.93403 
+L 160.656988 141.974856 
+L 202.427879 133.240985 
+L 240.8607 135.076058 
+L 274.016121 125.114696 
+L 315.787012 109.239244 
+L 361.547539 91.410563 
+L 405.622 57.733267 
+" clip-path="url(#chunk-size-sweep-pbe482a9e66)" style="fill: none; stroke: var(--fig-ox); stroke-width: 2; stroke-linecap: square"/>
+    <defs>
+     <path id="chunk-size-sweep-m5b438ec1e3" d="M 0 2 
+C 0.530406 2 1.03916 1.789267 1.414214 1.414214 
+C 1.789267 1.03916 2 0.530406 2 0 
+C 2 -0.530406 1.789267 -1.03916 1.414214 -1.414214 
+C 1.03916 -1.789267 0.530406 -2 0 -2 
+C -0.530406 -2 -1.03916 -1.789267 -1.414214 -1.414214 
+C -1.789267 -1.03916 -2 -0.530406 -2 0 
+C -2 0.530406 -1.789267 1.03916 -1.414214 1.414214 
+C -1.03916 1.789267 -0.530406 2 0 2 
+z
+" style="stroke: var(--fig-ox)"/>
+    </defs>
+    <g clip-path="url(#chunk-size-sweep-pbe482a9e66)">
+     <use xlink:href="#chunk-size-sweep-m5b438ec1e3" x="70.822" y="142.073477" style="fill: var(--fig-ox); stroke: var(--fig-ox)"/>
+     <use xlink:href="#chunk-size-sweep-m5b438ec1e3" x="127.501567" y="143.93403" style="fill: var(--fig-ox); stroke: var(--fig-ox)"/>
+     <use xlink:href="#chunk-size-sweep-m5b438ec1e3" x="160.656988" y="141.974856" style="fill: var(--fig-ox); stroke: var(--fig-ox)"/>
+     <use xlink:href="#chunk-size-sweep-m5b438ec1e3" x="202.427879" y="133.240985" style="fill: var(--fig-ox); stroke: var(--fig-ox)"/>
+     <use xlink:href="#chunk-size-sweep-m5b438ec1e3" x="240.8607" y="135.076058" style="fill: var(--fig-ox); stroke: var(--fig-ox)"/>
+     <use xlink:href="#chunk-size-sweep-m5b438ec1e3" x="274.016121" y="125.114696" style="fill: var(--fig-ox); stroke: var(--fig-ox)"/>
+     <use xlink:href="#chunk-size-sweep-m5b438ec1e3" x="315.787012" y="109.239244" style="fill: var(--fig-ox); stroke: var(--fig-ox)"/>
+     <use xlink:href="#chunk-size-sweep-m5b438ec1e3" x="361.547539" y="91.410563" style="fill: var(--fig-ox); stroke: var(--fig-ox)"/>
+     <use xlink:href="#chunk-size-sweep-m5b438ec1e3" x="405.622" y="57.733267" style="fill: var(--fig-ox); stroke: var(--fig-ox)"/>
+    </g>
+   </g>
+   <g id="chunk-size-sweep-patch_3">
+    <path d="M 54.082 228.96 
+L 54.082 7.2 
+" style="fill: none; stroke: var(--fig-muted); stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="chunk-size-sweep-patch_4">
+    <path d="M 54.082 228.96 
+L 422.362 228.96 
+" style="fill: none; stroke: var(--fig-muted); stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="chunk-size-sweep-text_14">
+    <text style="font-size: 10px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-green)" x="240.8607" y="200.234189" transform="rotate(-0 240.8607 200.234189)">a clean view of the world</text>
+   </g>
+   <g id="chunk-size-sweep-text_15">
+    <text style="font-size: 10px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: start; fill: var(--fig-blue)" x="78.822" y="157.396571" transform="rotate(-0 78.822 157.396571)">a slightly noisy view</text>
+   </g>
+   <g id="chunk-size-sweep-text_16">
+    <text style="font-size: 10px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: start; fill: var(--fig-ox)" x="78.822" y="135.073477" transform="rotate(-0 78.822 135.073477)">a badly noisy view</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="chunk-size-sweep-pbe482a9e66">
+   <rect x="54.082" y="7.2" width="368.28" height="221.76"/>
+  </clipPath>
+ </defs>
+</svg>

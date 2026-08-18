@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 320"
+     role="img" aria-label="The configuration-space square with its left edge glued to its right edge and its bottom glued to its top. A route from shoulder plus 2.90 to minus 2.90 leaves the right edge and re-enters on the left in 0.483 radians of travel, while the route straight across the printed square is 5.800 radians and passes through a forbidden band">
+
+  <line x1="150" y1="26" x2="215" y2="26"
+        stroke="var(--muted, #6b6053)" stroke-width="1.2" marker-end="url(#m2pTorusArrow)"/>
+  <line x1="380" y1="26" x2="315" y2="26"
+        stroke="var(--muted, #6b6053)" stroke-width="1.2" marker-end="url(#m2pTorusArrow)"/>
+  <text x="265" y="30" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">same edge</text>
+
+  <rect x="150" y="40" width="230" height="230" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+
+  <clipPath id="m2pTorusClip">
+    <rect x="150" y="40" width="230" height="230" rx="8"/>
+  </clipPath>
+
+  <g clip-path="url(#m2pTorusClip)">
+    <path transform="translate(150 40) scale(0.884615) translate(-350 -50)"
+          d="M410.5,310 L410.5,245 L406,115 L389,102 L378,89 L385,76 L404,63 L410.5,50
+             L434.5,50 L434.5,232 L439,245 L458.5,258 L467,271 L463,284 L441,297 L434.5,310 Z"
+          fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.6"/>
+  </g>
+
+  <line x1="366" y1="140" x2="159" y2="140" stroke-dasharray="4 4"
+        stroke="var(--muted, #6b6053)" stroke-width="1.4" marker-end="url(#m2pTorusArrow)"/>
+
+  <line x1="371" y1="140" x2="404" y2="140"
+        stroke="var(--blue, #2d5d7c)" stroke-width="2.2" marker-end="url(#m2pTorusBlue)"/>
+  <line x1="124" y1="140" x2="155" y2="140"
+        stroke="var(--blue, #2d5d7c)" stroke-width="2.2" marker-end="url(#m2pTorusBlue)"/>
+  <circle cx="371" cy="140" r="5" fill="var(--blue, #2d5d7c)"/>
+  <circle cx="159" cy="140" r="5" fill="var(--blue, #2d5d7c)"/>
+
+  <text x="119" y="137" text-anchor="end" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">re-enters</text>
+  <text x="119" y="151" text-anchor="end" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">here</text>
+
+  <text x="265" y="292" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--muted, #6b6053)">across the picture</text>
+  <text x="265" y="308" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">5.800 rad, and it runs through the band</text>
+
+  <line x1="134" y1="40" x2="134" y2="100"
+        stroke="var(--muted, #6b6053)" stroke-width="1.2" marker-end="url(#m2pTorusArrow)"/>
+  <line x1="134" y1="270" x2="134" y2="210"
+        stroke="var(--muted, #6b6053)" stroke-width="1.2" marker-end="url(#m2pTorusArrow)"/>
+  <text x="134" y="176" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">same</text>
+  <text x="134" y="190" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">edge</text>
+
+  <text x="416" y="136" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">off the edge</text>
+  <text x="416" y="154" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">0.483 rad of shoulder travel, and free</text>
+
+  <text x="416" y="204" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">Both joints turn all the way round, so shoulder</text>
+  <text x="416" y="218" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">-&#960; and shoulder +&#960; are the same pose. The</text>
+  <text x="416" y="232" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">space is a torus; it only prints flat.</text>
+
+  <defs>
+    <marker id="m2pTorusArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+    <marker id="m2pTorusBlue" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--blue, #2d5d7c)"/>
+    </marker>
+  </defs>
+</svg>

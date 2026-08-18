@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 300" role="img" aria-label="Two simulators plotted in parameter space: a single carefully identified point that reality misses, and a wide randomised family that reality falls inside">
+  <defs>
+    <marker id="drFamilyArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+
+  <text x="30" y="28" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--ox, #9c3b2e)">One simulator, carefully measured</text>
+  <line x1="30" y1="238" x2="330" y2="238" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <line x1="30" y1="238" x2="30" y2="48" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <text x="180" y="258" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">friction</text>
+  <text x="22" y="146" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)" transform="rotate(-90 22 146)">latency</text>
+
+  <circle cx="132" cy="164" r="7" fill="var(--blue, #2d5d7c)"/>
+  <text x="132" y="188" text-anchor="middle" class="svg-disp" font-size="13"
+        font-weight="600" fill="var(--blue, #2d5d7c)">your sim</text>
+
+  <circle cx="252" cy="96" r="7" fill="var(--ox, #9c3b2e)"/>
+  <text x="252" y="82" text-anchor="middle" class="svg-disp" font-size="13"
+        font-weight="600" fill="var(--ox, #9c3b2e)">reality</text>
+
+  <line x1="140" y1="159" x2="242" y2="102" stroke="var(--ox, #9c3b2e)"
+        stroke-width="1.4" stroke-dasharray="4 4" marker-end="url(#drFamilyArrow)"/>
+  <text x="196" y="146" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the gap you spend</text>
+  <text x="196" y="160" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">months narrowing</text>
+
+  <text x="30" y="284" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">a fidelity problem: make the point move</text>
+
+  <line x1="370" y1="20" x2="370" y2="290" stroke="var(--line-2, #c8bca3)" stroke-width="1"/>
+
+  <text x="410" y="28" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--green, #15614e)">A family of simulators, randomised</text>
+  <line x1="410" y1="238" x2="710" y2="238" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <line x1="410" y1="238" x2="410" y2="48" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <text x="560" y="258" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">friction</text>
+  <text x="402" y="146" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)" transform="rotate(-90 402 146)">latency</text>
+
+  <rect x="446" y="66" width="216" height="146" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)"
+        stroke-width="1.6" stroke-dasharray="6 5"/>
+  <circle cx="482" cy="106" r="4" fill="var(--blue, #2d5d7c)"/>
+  <circle cx="530" cy="180" r="4" fill="var(--blue, #2d5d7c)"/>
+  <circle cx="588" cy="92" r="4" fill="var(--blue, #2d5d7c)"/>
+  <circle cx="622" cy="158" r="4" fill="var(--blue, #2d5d7c)"/>
+  <circle cx="512" cy="140" r="4" fill="var(--blue, #2d5d7c)"/>
+  <circle cx="646" cy="118" r="4" fill="var(--blue, #2d5d7c)"/>
+  <circle cx="562" cy="126" r="4" fill="var(--blue, #2d5d7c)"/>
+  <circle cx="600" cy="196" r="4" fill="var(--blue, #2d5d7c)"/>
+
+  <circle cx="632" cy="96" r="7" fill="var(--ox, #9c3b2e)"/>
+  <text x="632" y="82" text-anchor="middle" class="svg-disp" font-size="13"
+        font-weight="600" fill="var(--ox, #9c3b2e)">reality</text>
+
+  <text x="556" y="230" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">every training episode samples a fresh point</text>
+
+  <text x="410" y="284" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">a coverage problem: make the box contain reality</text>
+</svg>

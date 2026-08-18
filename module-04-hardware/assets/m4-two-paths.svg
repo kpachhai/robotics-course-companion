@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 252" role="img" aria-label="With an arm, one purchase supplies both real data and a closed loop. Without one, a public dataset supplies real data with no loop and a MuJoCo scene supplies a closed loop around a model, and the two are never joined">
+
+  <text x="190" y="32" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">with an arm: one purchase</text>
+
+  <rect x="32" y="124" width="132" height="56" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="98" y="148" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">a real arm</text>
+  <text x="98" y="166" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">$230 and four weeks</text>
+
+  <line x1="166" y1="144" x2="202" y2="114"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m4L00PathArrow)"/>
+  <line x1="166" y1="162" x2="202" y2="190"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m4L00PathArrow)"/>
+
+  <rect x="208" y="82" width="140" height="52" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="278" y="106" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--green, #15614e)">real data</text>
+  <text x="278" y="123" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">a human hand made it</text>
+
+  <rect x="208" y="170" width="140" height="52" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="278" y="194" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--green, #15614e)">a closed loop</text>
+  <text x="278" y="211" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">around the world</text>
+
+  <line x1="376" y1="46" x2="376" y2="240"
+        stroke="var(--line-2, #c8bca3)" stroke-width="1.3"/>
+
+  <text x="570" y="32" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">without one: two substitutions</text>
+
+  <rect x="404" y="70" width="150" height="52" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="479" y="94" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">a public dataset</text>
+  <text x="479" y="111" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">50 episodes, 90 seconds</text>
+
+  <line x1="556" y1="96" x2="592" y2="96"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m4L00PathArrow)"/>
+
+  <rect x="598" y="70" width="140" height="52" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="668" y="94" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--green, #15614e)">real data</text>
+  <text x="668" y="111" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">and no loop at all</text>
+
+  <rect x="404" y="182" width="150" height="52" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="479" y="206" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">a MuJoCo scene</text>
+  <text x="479" y="223" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">resets for free</text>
+
+  <line x1="556" y1="208" x2="592" y2="208"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m4L00PathArrow)"/>
+
+  <rect x="598" y="182" width="140" height="52" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="668" y="206" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--green, #15614e)">a closed loop</text>
+  <text x="668" y="223" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">around a model</text>
+
+  <line x1="668" y1="126" x2="668" y2="178"
+        stroke="var(--ox, #9c3b2e)" stroke-width="1.3" stroke-dasharray="4 4"/>
+  <text x="658" y="156" text-anchor="end" class="svg-mono" font-size="9.5"
+        fill="var(--ox, #9c3b2e)">never joined</text>
+
+  <defs>
+    <marker id="m4L00PathArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 356" role="img" aria-label="A robot split into two layers running at different rates: a slow layer that plans and verifies at fractions of a hertz, a fast layer that balances and servos at up to a kilohertz, and the world underneath them">
+
+  <text x="350" y="18" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">the split is forced by the clock, not by taste</text>
+
+  <rect x="90" y="34" width="520" height="76" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="350" y="62" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--green, #15614e)">The slow layer</text>
+  <text x="350" y="82" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">what is in the scene · what to do next · did it work</text>
+  <text x="350" y="98" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">roughly 0.1-2 Hz · a VLM or a planner · Module 6</text>
+
+  <line x1="250" y1="112" x2="250" y2="152"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#layersArrow)"/>
+  <text x="260" y="137" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">goals, skill calls</text>
+  <line x1="450" y1="152" x2="450" y2="112"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#layersArrow)"/>
+  <text x="460" y="137" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">state, result</text>
+
+  <rect x="90" y="156" width="520" height="76" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="350" y="184" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--blue, #2d5d7c)">The fast layer</text>
+  <text x="350" y="204" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">balance · servo loops · the learned policy</text>
+  <text x="350" y="220" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">10-1000 Hz · a deadline every cycle · Modules 1, 3-5</text>
+
+  <line x1="250" y1="234" x2="250" y2="274"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#layersArrow)"/>
+  <text x="260" y="259" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">torques, target angles</text>
+  <line x1="450" y1="274" x2="450" y2="234"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#layersArrow)"/>
+  <text x="460" y="259" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">encoders, cameras</text>
+
+  <rect x="90" y="278" width="520" height="62" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="350" y="306" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--gold, #b07d22)">The world</text>
+  <text x="350" y="326" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">noisy, delayed, and it will not wait for you</text>
+
+  <defs>
+    <marker id="layersArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

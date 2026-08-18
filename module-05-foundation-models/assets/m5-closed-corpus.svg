@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 322" role="img" aria-label="Every architecture in this module came from public sources, so the designs can be copied freely, while the training corpora behind them are never published, which is where the money and the years went">
+
+  <text x="194" y="42" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--green, #15614e)">Published freely</text>
+  <text x="566" y="42" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--ox, #9c3b2e)">Never published</text>
+
+  <rect x="24" y="56" width="340" height="182" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+
+  <text x="52" y="82" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the architectures</text>
+  <text x="52" y="108" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">two experts in one attention stack</text>
+  <text x="52" y="132" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">a backbone feeding a diffusion head</text>
+  <text x="52" y="156" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">two models passing one sentence</text>
+  <text x="52" y="180" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">three tiers at three rates</text>
+
+  <line x1="52" y1="196" x2="336" y2="196" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <text x="52" y="220" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">one person can copy any of this in an afternoon</text>
+
+  <rect x="396" y="56" width="340" height="182" rx="8"
+        fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.6"/>
+
+  <text x="424" y="82" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the corpora</text>
+  <text x="424" y="108" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">GR00T: 20K h of egocentric video</text>
+  <text x="424" y="132" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">Physical Intelligence: the data mixture</text>
+  <text x="424" y="156" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">Figure: every hour its fleet has run</text>
+  <text x="424" y="180" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">Gemini Robotics: the whole of it</text>
+
+  <line x1="424" y1="196" x2="708" y2="196" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <text x="424" y="220" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">this is where the money and the years went</text>
+
+  <line x1="380" y1="238" x2="380" y2="266"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m5MoatArrow)"/>
+
+  <text x="380" y="288" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--blue, #2d5d7c)">your leverage is your own data on your own robot</text>
+  <text x="380" y="308" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">applied to a backbone somebody else paid to build</text>
+
+  <defs>
+    <marker id="m5MoatArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

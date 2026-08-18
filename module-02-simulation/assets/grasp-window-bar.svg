@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 220"
+     role="img" aria-label="A measured bar of approach offsets from minus 6 to plus 45 millimetres. Everything below zero fails, everything from zero to 39 millimetres places the cube in the bin, and everything above 42 millimetres fails. The chosen operating point at 8 millimetres sits 8 millimetres from the near edge and 31 millimetres from the far edge">
+
+  <rect x="60" y="70" width="72" height="40" rx="4"
+        fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.6"/>
+  <rect x="132" y="70" width="390" height="40" rx="4"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <rect x="522" y="70" width="60" height="40" rx="4"
+        fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.6"/>
+
+  <text x="96" y="95" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--ox, #9c3b2e)">fail</text>
+  <text x="327" y="95" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--green, #15614e)">cube ends up in the bin</text>
+  <text x="552" y="95" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--ox, #9c3b2e)">fail</text>
+
+  <line x1="60" y1="124" x2="582" y2="124"
+        stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <g stroke="var(--line-2, #c8bca3)" stroke-width="1.2">
+    <line x1="132" y1="124" x2="132" y2="131"/>
+    <line x1="192" y1="124" x2="192" y2="131"/>
+    <line x1="252" y1="124" x2="252" y2="131"/>
+    <line x1="372" y1="124" x2="372" y2="131"/>
+    <line x1="492" y1="124" x2="492" y2="131"/>
+  </g>
+  <text x="132" y="145" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">0</text>
+  <text x="192" y="145" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">6</text>
+  <text x="252" y="145" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">12</text>
+  <text x="372" y="145" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">24</text>
+  <text x="492" y="145" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">36</text>
+  <text x="322" y="164" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">approach offset behind the cube centre, mm</text>
+
+  <line x1="212" y1="46" x2="212" y2="70"
+        stroke="var(--gold, #b07d22)" stroke-width="1.6" marker-end="url(#winArrow)"/>
+  <text x="212" y="40" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--gold, #b07d22)">8 mm, the value in the script</text>
+
+  <line x1="132" y1="188" x2="212" y2="188"
+        stroke="var(--muted, #6b6053)" stroke-width="1.1"/>
+  <line x1="132" y1="182" x2="132" y2="194" stroke="var(--muted, #6b6053)" stroke-width="1.1"/>
+  <line x1="212" y1="182" x2="212" y2="194" stroke="var(--muted, #6b6053)" stroke-width="1.1"/>
+  <text x="172" y="207" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">8 mm of margin</text>
+
+  <line x1="212" y1="188" x2="522" y2="188"
+        stroke="var(--muted, #6b6053)" stroke-width="1.1"/>
+  <line x1="522" y1="182" x2="522" y2="194" stroke="var(--muted, #6b6053)" stroke-width="1.1"/>
+  <text x="367" y="207" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">31 mm of margin</text>
+
+  <defs>
+    <marker id="winArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--gold, #b07d22)"/>
+    </marker>
+  </defs>
+</svg>

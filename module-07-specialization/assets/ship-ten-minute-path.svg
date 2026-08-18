@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 212" role="img" aria-label="The order a reviewer samples a shipped project in ten minutes: the claim, a clip of it moving, how often it works, how it is built, how to reproduce it, and where it fails, with most abandonment happening inside the first three stops">
+
+  <text x="16" y="40" text-anchor="start" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">arrives, no context</text>
+  <text x="744" y="40" text-anchor="end" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">ten minutes later</text>
+  <line x1="16" y1="52" x2="740" y2="52"
+        stroke="var(--line-2, #c8bca3)" stroke-width="1.2" marker-end="url(#m7shipPath)"/>
+
+  <rect x="16" y="74" width="108" height="76" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="70" y="106" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--green, #15614e)">The claim</text>
+  <text x="70" y="126" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">two sentences</text>
+
+  <rect x="140" y="74" width="108" height="76" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="194" y="106" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">It moves</text>
+  <text x="194" y="126" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">image or clip</text>
+
+  <rect x="264" y="74" width="108" height="76" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="318" y="106" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--gold, #b07d22)">How often</text>
+  <text x="318" y="126" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">results table</text>
+
+  <rect x="388" y="74" width="108" height="76" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="442" y="106" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">How built</text>
+  <text x="442" y="126" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">one diagram</text>
+
+  <rect x="512" y="74" width="108" height="76" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="566" y="106" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Reproduce</text>
+  <text x="566" y="126" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">checkpoint, data</text>
+
+  <rect x="636" y="74" width="108" height="76" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="690" y="106" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--gold, #b07d22)">Where it fails</text>
+  <text x="690" y="126" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">limitations</text>
+
+  <line x1="124" y1="112" x2="136" y2="112" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m7shipPath)"/>
+  <line x1="248" y1="112" x2="260" y2="112" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m7shipPath)"/>
+  <line x1="372" y1="112" x2="384" y2="112" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m7shipPath)"/>
+  <line x1="496" y1="112" x2="508" y2="112" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m7shipPath)"/>
+  <line x1="620" y1="112" x2="632" y2="112" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m7shipPath)"/>
+
+  <path d="M16,166 L16,174 L372,174 L372,166"
+        fill="none" stroke="var(--muted, #6b6053)" stroke-width="1.2"/>
+  <text x="194" y="194" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">almost everyone who leaves, leaves inside these three</text>
+
+  <path d="M388,166 L388,174 L744,174 L744,166"
+        fill="none" stroke="var(--muted, #6b6053)" stroke-width="1.2"/>
+  <text x="566" y="194" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">whoever stays is reading for depth</text>
+
+  <defs>
+    <marker id="m7shipPath" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

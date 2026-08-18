@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" role="img" aria-label="Average success on the trained scene versus a changed scene, reported by VLA-REPLICA on an SO-101 with fifty demonstrations per task: ACT falls from 0.18 to 0.075, SmolVLA holds at 0.26 to 0.30, and pi0.5 falls from 0.54 to 0.35">
+
+  <text x="150" y="30" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">average task success</text>
+
+  <line x1="150" y1="42" x2="150" y2="252" stroke="var(--line-2, #c8bca3)" stroke-width="1.3"/>
+  <g stroke="var(--line-2, #c8bca3)" stroke-width="1.3">
+    <line x1="144" y1="42" x2="150" y2="42"/>
+    <line x1="144" y1="112" x2="150" y2="112"/>
+    <line x1="144" y1="182" x2="150" y2="182"/>
+    <line x1="144" y1="252" x2="150" y2="252"/>
+  </g>
+  <text x="138" y="46" text-anchor="end" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">0.6</text>
+  <text x="138" y="116" text-anchor="end" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">0.4</text>
+  <text x="138" y="186" text-anchor="end" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">0.2</text>
+  <text x="138" y="256" text-anchor="end" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">0</text>
+
+  <line x1="230" y1="42" x2="230" y2="252"
+        stroke="var(--line-2, #c8bca3)" stroke-width="1.1" stroke-dasharray="4 4"/>
+  <line x1="560" y1="42" x2="560" y2="252"
+        stroke="var(--line-2, #c8bca3)" stroke-width="1.1" stroke-dasharray="4 4"/>
+
+  <line x1="230" y1="63" x2="560" y2="129.5"
+        stroke="var(--gold, #b07d22)" stroke-width="2"/>
+  <circle cx="230" cy="63" r="4.5" fill="var(--gold, #b07d22)"/>
+  <circle cx="560" cy="129.5" r="4.5" fill="var(--gold, #b07d22)"/>
+  <text x="230" y="53" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">0.54</text>
+  <text x="560" y="119" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">0.35</text>
+  <text x="572" y="134" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--gold, #b07d22)">π0.5</text>
+
+  <line x1="230" y1="161" x2="560" y2="147"
+        stroke="var(--green, #15614e)" stroke-width="2"/>
+  <circle cx="230" cy="161" r="4.5" fill="var(--green, #15614e)"/>
+  <circle cx="560" cy="147" r="4.5" fill="var(--green, #15614e)"/>
+  <text x="230" y="151" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">0.26</text>
+  <text x="560" y="163" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">0.30</text>
+  <text x="572" y="152" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--green, #15614e)">SmolVLA</text>
+
+  <line x1="230" y1="189" x2="560" y2="225.75"
+        stroke="var(--blue, #2d5d7c)" stroke-width="2"/>
+  <circle cx="230" cy="189" r="4.5" fill="var(--blue, #2d5d7c)"/>
+  <circle cx="560" cy="225.75" r="4.5" fill="var(--blue, #2d5d7c)"/>
+  <text x="230" y="179" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">0.18</text>
+  <text x="560" y="215" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">0.075</text>
+  <text x="572" y="230" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">ACT</text>
+
+  <line x1="150" y1="252" x2="700" y2="252" stroke="var(--line-2, #c8bca3)" stroke-width="1.3"/>
+  <text x="230" y="272" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--muted, #6b6053)">trained scene</text>
+  <text x="560" y="272" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--muted, #6b6053)">changed scene</text>
+  <text x="560" y="288" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">new object colours and shapes</text>
+</svg>

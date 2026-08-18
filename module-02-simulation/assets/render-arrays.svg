@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 268" role="img" aria-label="A camera declared in the model, a Renderer sized in pixels, and the three arrays it can return: colour as unsigned bytes, depth as float metres, and segmentation as integer geom identifiers. Depth and segmentation are modes of the same renderer and stay switched on until you switch them off.">
+
+  <rect x="16" y="94" width="164" height="76" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="98" y="122" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">&lt;camera&gt;</text>
+  <text x="98" y="141" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">a pose in the body</text>
+  <text x="98" y="155" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">tree, plus a fovy</text>
+
+  <line x1="180" y1="132" x2="206" y2="132"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#renderArrow)"/>
+
+  <rect x="208" y="94" width="220" height="76" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="318" y="122" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">mujoco.Renderer</text>
+  <text x="318" y="141" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">update_scene(data, camera=…)</text>
+  <text x="318" y="155" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">then render()</text>
+
+  <path d="M428 132 L456 132 L456 48 L482 48" fill="none"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#renderArrow)"/>
+  <path d="M428 132 L482 132" fill="none"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#renderArrow)"/>
+  <path d="M428 132 L456 132 L456 216 L482 216" fill="none"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#renderArrow)"/>
+
+  <rect x="486" y="20" width="258" height="56" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="615" y="44" text-anchor="middle" class="svg-disp" font-size="14" font-weight="600"
+        fill="var(--gold, #b07d22)">colour</text>
+  <text x="615" y="63" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">uint8 (h, w, 3), values 0 to 255</text>
+
+  <rect x="486" y="104" width="258" height="56" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="615" y="128" text-anchor="middle" class="svg-disp" font-size="14" font-weight="600"
+        fill="var(--gold, #b07d22)">depth</text>
+  <text x="615" y="147" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">float32 (h, w), metres from the lens</text>
+
+  <rect x="486" y="188" width="258" height="56" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="615" y="212" text-anchor="middle" class="svg-disp" font-size="14" font-weight="600"
+        fill="var(--gold, #b07d22)">segmentation</text>
+  <text x="615" y="231" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">int32 (h, w, 2), geom id and object type</text>
+
+  <path d="M318 170 L318 200" fill="none"
+        stroke="var(--muted, #6b6053)" stroke-width="1.1" stroke-dasharray="4 4"/>
+  <text x="318" y="216" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">one renderer, three modes: the depth and</text>
+  <text x="318" y="230" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">segmentation switches stay on until turned off</text>
+
+  <defs>
+    <marker id="renderArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

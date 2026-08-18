@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 312"
+     role="img" aria-label="A cube held between two gripper fingers with the wrist against its travel limit. The three marked situations become five rows in one system: a normal and a friction row for each finger and one row for the joint limit. A single solve returns every force at once, consistent with all the others">
+
+  <text x="118" y="34" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">three things happening</text>
+
+  <rect x="46" y="64" width="18" height="86" rx="4"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <rect x="172" y="64" width="18" height="86" rx="4"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <rect x="76" y="72" width="84" height="70" rx="4"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="118" y="112" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the cube</text>
+
+  <circle cx="70" cy="107" r="10"
+          fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.5"/>
+  <text x="70" y="111" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--green, #15614e)">1</text>
+  <circle cx="166" cy="107" r="10"
+          fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.5"/>
+  <text x="166" y="111" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--green, #15614e)">2</text>
+
+  <line x1="118" y1="142" x2="118" y2="188"
+        stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <line x1="46" y1="188" x2="190" y2="188"
+        stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <line x1="190" y1="182" x2="190" y2="194"
+        stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="106" y="206" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the wrist, wound to its stop</text>
+  <circle cx="190" cy="167" r="10"
+          fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.5"/>
+  <text x="190" y="171" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--green, #15614e)">3</text>
+  <line x1="190" y1="177" x2="190" y2="182"
+        stroke="var(--muted, #6b6053)" stroke-width="1"/>
+
+  <line x1="206" y1="150" x2="258" y2="150"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#crArrowA)"/>
+  <text x="240" y="142" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">becomes</text>
+
+  <text x="400" y="34" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--green, #15614e)">five rows in one system</text>
+
+  <rect x="266" y="48" width="268" height="34" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="284" y="69" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">1  left finger, push apart</text>
+  <rect x="266" y="88" width="268" height="34" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="284" y="109" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">1  left finger, resist sliding</text>
+  <rect x="266" y="128" width="268" height="34" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="284" y="149" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">2  right finger, push apart</text>
+  <rect x="266" y="168" width="268" height="34" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="284" y="189" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">2  right finger, resist sliding</text>
+  <rect x="266" y="208" width="268" height="34" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="284" y="229" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">3  wrist joint, go no further</text>
+
+  <line x1="534" y1="150" x2="570" y2="150"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#crArrowB)"/>
+
+  <rect x="578" y="106" width="140" height="88" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="648" y="142" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--gold, #b07d22)">one solve</text>
+  <text x="648" y="162" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">all five forces,</text>
+  <text x="648" y="174" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">agreeing with each other</text>
+
+  <text x="400" y="272" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">settle row 1 on its own and row 2 moves the cube again, undoing it</text>
+  <text x="400" y="290" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">a real scene has hundreds of rows, and this happens 500 times a second</text>
+
+  <defs>
+    <marker id="crArrowA" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+    <marker id="crArrowB" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

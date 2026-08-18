@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 744 292" role="img" aria-label="Three monitors drawn as bands beneath a three-skill plan: a postcondition monitor firing once per skill, a goal monitor spanning the whole plan and firing once, and a drift monitor spanning the whole plan and sampling repeatedly">
+
+  <text x="18" y="58" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">the plan</text>
+  <text x="18" y="74" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">three skills, in order</text>
+
+  <rect x="170" y="36" width="176" height="52" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="258" y="67" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">pick mug</text>
+
+  <rect x="362" y="36" width="176" height="52" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="450" y="67" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">place on shelf</text>
+
+  <rect x="554" y="36" width="176" height="52" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="642" y="67" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">pick pen</text>
+
+  <text x="18" y="127" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--gold, #b07d22)">postcondition</text>
+  <text x="18" y="143" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">once per skill</text>
+
+  <rect x="170" y="116" width="176" height="30" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="258" y="135" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">did the promise hold?</text>
+
+  <rect x="362" y="116" width="176" height="30" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="450" y="135" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">did the promise hold?</text>
+
+  <rect x="554" y="116" width="176" height="30" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="642" y="135" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">did the promise hold?</text>
+
+  <text x="18" y="187" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--gold, #b07d22)">goal</text>
+  <text x="18" y="203" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">once per plan</text>
+
+  <rect x="170" y="176" width="560" height="30" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="450" y="195" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">is the goal predicate true yet?</text>
+
+  <text x="18" y="247" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--gold, #b07d22)">drift</text>
+  <text x="18" y="263" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">sampled, and costly</text>
+
+  <rect x="170" y="236" width="560" height="30" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <line x1="210" y1="230" x2="210" y2="248" stroke="var(--gold, #b07d22)" stroke-width="1.4"/>
+  <line x1="290" y1="230" x2="290" y2="248" stroke="var(--gold, #b07d22)" stroke-width="1.4"/>
+  <line x1="370" y1="230" x2="370" y2="248" stroke="var(--gold, #b07d22)" stroke-width="1.4"/>
+  <line x1="450" y1="230" x2="450" y2="248" stroke="var(--gold, #b07d22)" stroke-width="1.4"/>
+  <line x1="530" y1="230" x2="530" y2="248" stroke="var(--gold, #b07d22)" stroke-width="1.4"/>
+  <line x1="610" y1="230" x2="610" y2="248" stroke="var(--gold, #b07d22)" stroke-width="1.4"/>
+  <line x1="690" y1="230" x2="690" y2="248" stroke="var(--gold, #b07d22)" stroke-width="1.4"/>
+  <text x="450" y="261" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">does what I see still match what I believed?</text>
+</svg>

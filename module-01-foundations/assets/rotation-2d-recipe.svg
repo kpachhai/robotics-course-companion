@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 332" role="img" aria-label="A point p is built as 1.6 times the x axis plus 1.2 times the y axis. After a 40 degree rotation the same two coefficients rebuild the rotated point from the two rotated axes, so the recipe is unchanged and only the axes moved.">
+  <text x="340" y="26" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">the recipe never changes · only the two ingredients turn</text>
+
+  <!-- ============ left panel: p built from the unrotated axes ============ -->
+  <polygon points="110,268 241.2,268 241.2,169.6 110,169.6"
+           fill="none" stroke="var(--muted, #6b6053)" stroke-width="1.1" stroke-dasharray="4 4"/>
+
+  <line x1="110" y1="268" x2="192" y2="268"
+        stroke="var(--purple, #5e2d8c)" stroke-width="1.8" marker-end="url(#recipeAxisArrow)"/>
+  <line x1="110" y1="268" x2="110" y2="186"
+        stroke="var(--purple, #5e2d8c)" stroke-width="1.8" marker-end="url(#recipeAxisArrow)"/>
+  <text x="150" y="260" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--purple, #5e2d8c)">x</text>
+  <text x="102" y="230" text-anchor="end" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--purple, #5e2d8c)">y</text>
+
+  <text x="249" y="223" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">1.2</text>
+  <text x="176" y="162" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">1.6</text>
+
+  <line x1="110" y1="268" x2="241.2" y2="169.6"
+        stroke="var(--gold, #b07d22)" stroke-width="2.2" marker-end="url(#recipeVecArrow)"/>
+  <text x="252" y="158" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--gold, #b07d22)">p</text>
+  <text x="252" y="144" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">(1.60, 1.20)</text>
+
+  <!-- ============ the operator, in the gap ============ -->
+  <line x1="288" y1="228" x2="368" y2="228"
+        stroke="var(--muted, #6b6053)" stroke-width="1.4" marker-end="url(#recipeOpArrow)"/>
+  <text x="326" y="216" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--muted, #6b6053)">R(40°)</text>
+
+  <!-- ============ right panel: the same recipe, turned axes ============ -->
+  <polygon points="460,268 560.5,183.7 497.2,108.3 396.8,192.6"
+           fill="none" stroke="var(--muted, #6b6053)" stroke-width="1.1" stroke-dasharray="4 4"/>
+
+  <line x1="460" y1="268" x2="522.8" y2="215.3"
+        stroke="var(--purple, #5e2d8c)" stroke-width="1.8" marker-end="url(#recipeAxisArrow)"/>
+  <line x1="460" y1="268" x2="407.3" y2="205.2"
+        stroke="var(--purple, #5e2d8c)" stroke-width="1.8" marker-end="url(#recipeAxisArrow)"/>
+  <text x="516" y="252" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--purple, #5e2d8c)">R x</text>
+  <text x="404" y="252" text-anchor="end" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--purple, #5e2d8c)">R y</text>
+
+  <text x="538" y="152" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">1.2</text>
+  <text x="436" y="144" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">1.6</text>
+
+  <line x1="460" y1="268" x2="497.2" y2="108.3"
+        stroke="var(--blue, #2d5d7c)" stroke-width="2.2" marker-end="url(#recipeRotArrow)"/>
+  <text x="508" y="96" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--blue, #2d5d7c)">R p</text>
+  <text x="508" y="82" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">(0.45, 1.95)</text>
+
+  <!-- ============ the two recipes, side by side ============ -->
+  <text x="176" y="300" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--gold, #b07d22)">p = 1.6 x + 1.2 y</text>
+  <text x="480" y="300" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">R p = 1.6 (R x) + 1.2 (R y)</text>
+  <text x="340" y="322" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">|p| = |R p| = 2.00 · turning cannot change a length</text>
+
+  <defs>
+    <marker id="recipeAxisArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--purple, #5e2d8c)"/>
+    </marker>
+    <marker id="recipeVecArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--gold, #b07d22)"/>
+    </marker>
+    <marker id="recipeRotArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--blue, #2d5d7c)"/>
+    </marker>
+    <marker id="recipeOpArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

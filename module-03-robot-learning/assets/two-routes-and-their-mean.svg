@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" role="img" aria-label="Two demonstrations reach the same goal by going round opposite sides of an obstacle. The average of the two actions is a straight line that drives into the obstacle, so the answer a squared-error loss learns is the one route nobody drove">
+
+  <circle cx="360" cy="160" r="52"
+          fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="360" y="196" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">obstacle</text>
+
+  <path d="M 96 160 Q 360 10 616 160" fill="none"
+        stroke="var(--blue, #2d5d7c)" stroke-width="2.2" marker-end="url(#twoRoutesArrowA)"/>
+  <path d="M 96 160 Q 360 310 616 160" fill="none"
+        stroke="var(--blue, #2d5d7c)" stroke-width="2.2" marker-end="url(#twoRoutesArrowA)"/>
+
+  <path d="M 96 160 L 592 160" fill="none" stroke="var(--ox, #9c3b2e)" stroke-width="2.2"
+        stroke-dasharray="6 5" marker-end="url(#twoRoutesArrowB)"/>
+
+  <circle cx="80" cy="160" r="15"
+          fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <circle cx="640" cy="160" r="15"
+          fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="80" y="196" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">start</text>
+  <text x="640" y="196" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">goal</text>
+
+  <text x="360" y="48" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">demonstration A</text>
+  <text x="360" y="64" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">this driver went over</text>
+
+  <text x="360" y="272" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">demonstration B</text>
+  <text x="360" y="288" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">this driver went under</text>
+
+  <text x="505" y="138" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--ox, #9c3b2e)">their average</text>
+  <text x="505" y="152" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">straight into the obstacle</text>
+
+  <defs>
+    <marker id="twoRoutesArrowA" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--blue, #2d5d7c)"/>
+    </marker>
+    <marker id="twoRoutesArrowB" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--ox, #9c3b2e)"/>
+    </marker>
+  </defs>
+</svg>

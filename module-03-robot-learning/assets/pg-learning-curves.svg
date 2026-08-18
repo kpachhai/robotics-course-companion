@@ -1,0 +1,622 @@
+<svg id="pg-learning-curves" xmlns:xlink="http://www.w3.org/1999/xlink" width="438.082pt" height="275.1pt" viewBox="0 0 438.082 275.1" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">#pg-learning-curves, #pg-learning-curves *{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="pg-learning-curves-figure_1">
+  <g id="pg-learning-curves-patch_1">
+   <path d="M 0 275.1 
+L 438.082 275.1 
+L 438.082 0 
+L 0 0 
+L 0 275.1 
+z
+" style="fill: none"/>
+  </g>
+  <g id="pg-learning-curves-axes_1">
+   <g id="pg-learning-curves-patch_2">
+    <path d="M 51.442 223.416 
+L 430.882 223.416 
+L 430.882 7.2 
+L 51.442 7.2 
+L 51.442 223.416 
+z
+" style="fill: none"/>
+   </g>
+   <g id="pg-learning-curves-line2d_1">
+    <path d="M 51.442 27.313116 
+L 430.882 27.313116 
+" clip-path="url(#pg-learning-curves-p55b25f307c)" style="fill: none; stroke: var(--fig-grid); stroke-width: 1.2; stroke-linecap: square"/>
+   </g>
+   <g id="pg-learning-curves-matplotlib.axis_1">
+    <g id="pg-learning-curves-xtick_1">
+     <g id="pg-learning-curves-line2d_2">
+      <defs>
+       <path id="pg-learning-curves-mabe65c4262" d="M 0 0 
+L 0 3.5 
+" style="stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#pg-learning-curves-mabe65c4262" x="51.442" y="223.416" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="pg-learning-curves-text_1">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="51.442" y="242.065" transform="rotate(-0 51.442 242.065)">0k</text>
+     </g>
+    </g>
+    <g id="pg-learning-curves-xtick_2">
+     <g id="pg-learning-curves-line2d_3">
+      <g>
+       <use xlink:href="#pg-learning-curves-mabe65c4262" x="117.930602" y="223.416" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="pg-learning-curves-text_2">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="117.930602" y="242.065" transform="rotate(-0 117.930602 242.065)">50k</text>
+     </g>
+    </g>
+    <g id="pg-learning-curves-xtick_3">
+     <g id="pg-learning-curves-line2d_4">
+      <g>
+       <use xlink:href="#pg-learning-curves-mabe65c4262" x="184.419204" y="223.416" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="pg-learning-curves-text_3">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="184.419204" y="242.065" transform="rotate(-0 184.419204 242.065)">100k</text>
+     </g>
+    </g>
+    <g id="pg-learning-curves-xtick_4">
+     <g id="pg-learning-curves-line2d_5">
+      <g>
+       <use xlink:href="#pg-learning-curves-mabe65c4262" x="250.907806" y="223.416" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="pg-learning-curves-text_4">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="250.907806" y="242.065" transform="rotate(-0 250.907806 242.065)">150k</text>
+     </g>
+    </g>
+    <g id="pg-learning-curves-xtick_5">
+     <g id="pg-learning-curves-line2d_6">
+      <g>
+       <use xlink:href="#pg-learning-curves-mabe65c4262" x="317.396408" y="223.416" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="pg-learning-curves-text_5">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="317.396408" y="242.065" transform="rotate(-0 317.396408 242.065)">200k</text>
+     </g>
+    </g>
+    <g id="pg-learning-curves-xtick_6">
+     <g id="pg-learning-curves-line2d_7">
+      <g>
+       <use xlink:href="#pg-learning-curves-mabe65c4262" x="383.88501" y="223.416" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="pg-learning-curves-text_6">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-muted)" x="383.88501" y="242.065" transform="rotate(-0 383.88501 242.065)">250k</text>
+     </g>
+    </g>
+    <g id="pg-learning-curves-text_7">
+     <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-ink)" x="241.162" y="262.807" transform="rotate(-0 241.162 262.807)">environment steps used</text>
+    </g>
+   </g>
+   <g id="pg-learning-curves-matplotlib.axis_2">
+    <g id="pg-learning-curves-ytick_1">
+     <g id="pg-learning-curves-line2d_8">
+      <path d="M 51.442 223.416 
+L 430.882 223.416 
+" clip-path="url(#pg-learning-curves-p55b25f307c)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="pg-learning-curves-line2d_9">
+      <defs>
+       <path id="pg-learning-curves-mc16693e09f" d="M 0 0 
+L -3.5 0 
+" style="stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#pg-learning-curves-mc16693e09f" x="51.442" y="223.416" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="pg-learning-curves-text_8">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="44.442" y="229.2405" transform="rotate(-0 44.442 229.2405)">0</text>
+     </g>
+    </g>
+    <g id="pg-learning-curves-ytick_2">
+     <g id="pg-learning-curves-line2d_10">
+      <path d="M 51.442 198.274605 
+L 430.882 198.274605 
+" clip-path="url(#pg-learning-curves-p55b25f307c)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="pg-learning-curves-line2d_11">
+      <g>
+       <use xlink:href="#pg-learning-curves-mc16693e09f" x="51.442" y="198.274605" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="pg-learning-curves-text_9">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="44.442" y="204.099105" transform="rotate(-0 44.442 204.099105)">25</text>
+     </g>
+    </g>
+    <g id="pg-learning-curves-ytick_3">
+     <g id="pg-learning-curves-line2d_12">
+      <path d="M 51.442 173.133209 
+L 430.882 173.133209 
+" clip-path="url(#pg-learning-curves-p55b25f307c)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="pg-learning-curves-line2d_13">
+      <g>
+       <use xlink:href="#pg-learning-curves-mc16693e09f" x="51.442" y="173.133209" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="pg-learning-curves-text_10">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="44.442" y="178.957709" transform="rotate(-0 44.442 178.957709)">50</text>
+     </g>
+    </g>
+    <g id="pg-learning-curves-ytick_4">
+     <g id="pg-learning-curves-line2d_14">
+      <path d="M 51.442 147.991814 
+L 430.882 147.991814 
+" clip-path="url(#pg-learning-curves-p55b25f307c)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="pg-learning-curves-line2d_15">
+      <g>
+       <use xlink:href="#pg-learning-curves-mc16693e09f" x="51.442" y="147.991814" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="pg-learning-curves-text_11">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="44.442" y="153.816314" transform="rotate(-0 44.442 153.816314)">75</text>
+     </g>
+    </g>
+    <g id="pg-learning-curves-ytick_5">
+     <g id="pg-learning-curves-line2d_16">
+      <path d="M 51.442 122.850419 
+L 430.882 122.850419 
+" clip-path="url(#pg-learning-curves-p55b25f307c)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="pg-learning-curves-line2d_17">
+      <g>
+       <use xlink:href="#pg-learning-curves-mc16693e09f" x="51.442" y="122.850419" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="pg-learning-curves-text_12">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="44.442" y="128.674919" transform="rotate(-0 44.442 128.674919)">100</text>
+     </g>
+    </g>
+    <g id="pg-learning-curves-ytick_6">
+     <g id="pg-learning-curves-line2d_18">
+      <path d="M 51.442 97.709023 
+L 430.882 97.709023 
+" clip-path="url(#pg-learning-curves-p55b25f307c)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="pg-learning-curves-line2d_19">
+      <g>
+       <use xlink:href="#pg-learning-curves-mc16693e09f" x="51.442" y="97.709023" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="pg-learning-curves-text_13">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="44.442" y="103.533523" transform="rotate(-0 44.442 103.533523)">125</text>
+     </g>
+    </g>
+    <g id="pg-learning-curves-ytick_7">
+     <g id="pg-learning-curves-line2d_20">
+      <path d="M 51.442 72.567628 
+L 430.882 72.567628 
+" clip-path="url(#pg-learning-curves-p55b25f307c)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="pg-learning-curves-line2d_21">
+      <g>
+       <use xlink:href="#pg-learning-curves-mc16693e09f" x="51.442" y="72.567628" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="pg-learning-curves-text_14">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="44.442" y="78.392128" transform="rotate(-0 44.442 78.392128)">150</text>
+     </g>
+    </g>
+    <g id="pg-learning-curves-ytick_8">
+     <g id="pg-learning-curves-line2d_22">
+      <path d="M 51.442 47.426233 
+L 430.882 47.426233 
+" clip-path="url(#pg-learning-curves-p55b25f307c)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="pg-learning-curves-line2d_23">
+      <g>
+       <use xlink:href="#pg-learning-curves-mc16693e09f" x="51.442" y="47.426233" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="pg-learning-curves-text_15">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="44.442" y="53.250733" transform="rotate(-0 44.442 53.250733)">175</text>
+     </g>
+    </g>
+    <g id="pg-learning-curves-ytick_9">
+     <g id="pg-learning-curves-line2d_24">
+      <path d="M 51.442 22.284837 
+L 430.882 22.284837 
+" clip-path="url(#pg-learning-curves-p55b25f307c)" style="fill: none; stroke: var(--fig-grid); stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="pg-learning-curves-line2d_25">
+      <g>
+       <use xlink:href="#pg-learning-curves-mc16693e09f" x="51.442" y="22.284837" style="fill: var(--fig-muted); stroke: var(--fig-muted); stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="pg-learning-curves-text_16">
+      <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: end; fill: var(--fig-muted)" x="44.442" y="28.109337" transform="rotate(-0 44.442 28.109337)">200</text>
+     </g>
+    </g>
+    <g id="pg-learning-curves-text_17">
+     <text style="font-size: 11px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: middle; fill: var(--fig-ink)" x="18.849" y="115.308" transform="rotate(-90 18.849 115.308)">mean episode length (200 is the cap)</text>
+    </g>
+   </g>
+   <g id="pg-learning-curves-line2d_26">
+    <path d="M 51.863538 203.491444 
+L 52.363532 201.637266 
+L 52.991184 199.007895 
+L 53.645432 195.341442 
+L 54.217234 194.21008 
+L 54.858184 194.000567 
+L 55.75844 190.124601 
+L 56.613483 185.662003 
+L 57.640067 179.586169 
+L 58.896702 173.971255 
+L 59.961849 170.660973 
+L 61.235771 166.764057 
+L 62.304908 169.718171 
+L 63.473777 168.08398 
+L 64.855411 166.386936 
+L 66.396616 158.949275 
+L 68.12266 150.170732 
+L 70.102691 140.742709 
+L 72.379261 129.156721 
+L 74.970987 115.517514 
+L 76.795434 117.9688 
+L 79.308703 114.239491 
+L 81.944311 113.548102 
+L 84.605185 100.369823 
+L 87.574566 93.183572 
+L 91.033303 80.214807 
+L 94.216777 71.981 
+L 97.917533 60.457851 
+L 101.571746 57.37803 
+L 105.288459 48.976624 
+L 109.021129 48.473796 
+L 112.567631 50.17084 
+L 116.471842 47.216726 
+L 120.562221 41.580858 
+L 124.789566 30.853858 
+L 128.780212 29.492042 
+L 132.651179 32.948984 
+L 136.822673 33.828933 
+L 140.92768 32.027128 
+L 145.18295 25.972247 
+L 149.432902 24.736123 
+L 153.436845 26.328407 
+L 157.311801 32.320449 
+L 161.259894 37.076353 
+L 165.202668 38.040117 
+L 169.052358 38.438184 
+L 173.112152 36.678286 
+L 176.947215 38.37533 
+L 181.150624 32.802316 
+L 185.153238 33.703226 
+L 189.315425 28.54924 
+L 193.537451 28.255919 
+L 197.637138 26.726489 
+L 201.881771 25.427512 
+L 206.08784 25.678926 
+L 210.28327 24.170442 
+L 214.436148 25.616072 
+L 218.691419 24.840884 
+L 222.946689 23.898082 
+L 227.20196 22.284837 
+L 231.457231 22.284837 
+L 235.712501 22.284837 
+L 239.946495 22.620051 
+L 244.201766 22.620051 
+L 248.429111 23.060025 
+L 252.623212 23.68856 
+L 256.878483 23.68856 
+L 261.133753 23.248586 
+L 265.389024 22.284837 
+L 269.644294 22.284837 
+L 273.899565 22.284837 
+L 277.89686 26.349368 
+L 282.15213 26.349368 
+L 286.168042 30.120577 
+L 290.419323 26.1189 
+L 294.659966 26.349368 
+L 298.915236 22.578159 
+L 303.170507 22.515305 
+L 307.425778 22.284837 
+L 311.681048 22.284837 
+" clip-path="url(#pg-learning-curves-p55b25f307c)" style="fill: none; stroke: var(--fig-muted); stroke-width: 1.9; stroke-linecap: square"/>
+   </g>
+   <g id="pg-learning-curves-line2d_27">
+    <path d="M 51.84891 204.182833 
+L 52.242523 204.4971 
+L 52.698635 203.617151 
+L 53.359531 199.61548 
+L 54.320956 190.669333 
+L 55.355519 181.555577 
+L 56.182637 178.93668 
+L 57.149382 178.852877 
+L 58.259741 177.65866 
+L 59.250421 175.081667 
+L 60.634714 168.503001 
+L 62.17725 161.693874 
+L 63.360747 158.655953 
+L 65.187854 151.679216 
+L 66.84076 149.940272 
+L 68.572123 141.30839 
+L 70.171839 144.891039 
+L 72.353995 136.552479 
+L 75.231622 118.492574 
+L 78.298076 95.383444 
+L 81.780749 74.893207 
+L 85.412357 63.013898 
+L 89.033326 54.277263 
+L 93.174236 43.906437 
+L 97.223392 37.327767 
+L 101.366962 29.09396 
+L 105.417447 30.518644 
+L 109.293733 33.24229 
+L 113.329591 34.939334 
+L 117.330875 35.714538 
+L 121.298915 34.268907 
+L 125.082116 38.249623 
+L 128.926487 40.721855 
+L 132.781496 42.502714 
+L 136.780121 39.108626 
+L 140.643109 38.815305 
+L 144.164345 44.074052 
+L 148.314563 41.685619 
+L 152.216115 41.07803 
+L 156.189473 33.95464 
+L 160.347671 33.828933 
+L 164.601611 28.276865 
+L 168.856882 23.835228 
+L 173.036355 23.5 
+L 177.280988 23.646668 
+L 181.451153 24.987537 
+L 185.598712 25.490365 
+L 189.790153 26.328407 
+L 194.045424 24.987537 
+L 198.105218 26.370314 
+L 202.360489 25.364658 
+L 206.561238 26.223661 
+L 210.773956 23.814267 
+L 215.01061 24.107588 
+L 219.198062 24.317095 
+L 223.390833 24.631362 
+L 227.592913 25.176098 
+L 231.848184 24.107588 
+L 236.050263 23.960935 
+L 240.305534 23.122879 
+L 244.560804 23.122879 
+L 248.816075 22.284837 
+L 253.071345 22.284837 
+L 257.293372 22.808611 
+L 261.548642 22.808611 
+L 265.64168 25.364658 
+L 269.809186 26.223661 
+L 273.935469 28.255919 
+L 278.190739 25.699872 
+L 282.415425 24.798977 
+L 286.666706 22.829573 
+L 290.863467 23.751413 
+L 295.062887 24.149496 
+L 299.280924 24.67327 
+L 303.493642 24.421856 
+L 307.748912 23.541907 
+L 311.997534 23.060025 
+L 316.252804 22.389598 
+L 320.442916 23.4162 
+L 324.50271 26.39126 
+" clip-path="url(#pg-learning-curves-p55b25f307c)" style="fill: none; stroke: var(--fig-gold); stroke-width: 1.9; stroke-linecap: square"/>
+   </g>
+   <g id="pg-learning-curves-line2d_28">
+    <path d="M 51.84891 204.182833 
+L 52.447308 199.657381 
+L 53.166714 196.242341 
+L 54.576273 180.445164 
+L 55.797003 170.64002 
+L 57.149382 160.667269 
+L 59.101487 152.11919 
+L 62.120069 123.793221 
+L 65.330139 94.524441 
+L 69.073447 66.303225 
+L 73.134571 49.877519 
+L 77.083994 38.228677 
+L 80.579965 42.125593 
+L 84.758109 40.281881 
+L 88.668968 40.88947 
+L 92.890995 29.450135 
+L 96.974724 30.937673 
+L 100.987976 29.324428 
+L 104.811071 35.609777 
+L 109.063682 32.948984 
+L 113.259113 30.07867 
+L 117.427948 24.631362 
+L 121.55822 26.558874 
+L 125.813491 25.616072 
+L 129.982326 25.616072 
+L 134.128555 25.364658 
+L 138.383826 25.364658 
+L 142.639096 24.002827 
+L 146.894367 22.284837 
+L 151.149637 22.284837 
+L 155.404908 22.284837 
+L 159.660178 22.284837 
+L 163.915449 22.284837 
+L 168.17072 22.284837 
+L 172.42599 22.284837 
+L 176.674612 22.389598 
+L 180.916585 22.599105 
+L 185.054835 24.442802 
+L 189.306116 24.40091 
+L 193.534791 24.610416 
+L 197.688999 24.359002 
+L 201.913685 24.778031 
+L 205.903001 28.54924 
+L 210.05322 28.612093 
+L 214.07977 31.733807 
+L 218.138234 30.644351 
+L 222.364249 29.450135 
+L 226.547712 26.977903 
+L 230.802983 23.87712 
+L 235.058253 23.4162 
+L 239.313524 22.284837 
+L 243.568794 22.284837 
+L 247.824065 22.284837 
+L 252.079335 22.284837 
+L 256.334606 22.284837 
+L 260.589876 22.284837 
+L 264.845147 22.284837 
+L 269.100418 22.284837 
+L 273.355688 22.284837 
+L 277.610959 22.284837 
+L 281.866229 22.284837 
+L 286.1215 22.284837 
+L 290.37677 22.284837 
+L 294.632041 22.284837 
+L 298.887311 22.284837 
+L 303.142582 22.284837 
+L 307.397852 22.284837 
+L 311.653123 22.284837 
+L 315.908393 22.284837 
+L 320.163664 22.284837 
+L 324.418934 22.284837 
+L 328.671545 22.326745 
+L 332.890912 22.892426 
+L 337.095651 23.68856 
+L 341.264487 25.008483 
+L 345.438641 25.720833 
+L 349.693912 24.924684 
+L 353.949182 23.562853 
+L 358.203123 22.305783 
+L 362.458393 22.305783 
+" clip-path="url(#pg-learning-curves-p55b25f307c)" style="fill: none; stroke: var(--fig-blue); stroke-width: 1.9; stroke-linecap: square"/>
+   </g>
+   <g id="pg-learning-curves-line2d_29">
+    <path d="M 51.84891 204.182833 
+L 52.691986 193.87486 
+L 54.017768 182.833596 
+L 55.270414 169.508657 
+L 59.294304 119.393477 
+L 59.830202 131.838467 
+L 61.754382 121.258128 
+L 66.009653 117.612625 
+L 67.726388 99.007993 
+L 70.330082 88.301946 
+L 73.379249 107.304653 
+L 76.780806 80.759527 
+L 80.20098 67.895524 
+L 82.88579 73.636137 
+L 84.800661 97.059535 
+L 87.188932 113.317642 
+L 89.579862 117.947847 
+L 92.184886 107.074193 
+L 93.958801 116.75363 
+L 95.748675 126.223553 
+L 98.397581 125.532165 
+L 102.196739 93.623547 
+L 105.160801 75.123675 
+L 108.445338 65.109009 
+L 112.680662 58.237033 
+L 116.910667 38.291531 
+L 121.160618 23.080987 
+L 125.415889 22.766719 
+L 129.039518 32.320449 
+L 133.294788 32.236634 
+L 134.031482 87.673411 
+L 138.286752 77.721614 
+L 142.542023 77.721614 
+L 146.797294 22.284837 
+L 151.052564 22.284837 
+L 155.307835 22.284837 
+L 159.563105 22.284837 
+L 163.818376 22.284837 
+L 168.073646 22.284837 
+L 172.328917 22.284837 
+L 176.584187 22.284837 
+L 180.839458 22.284837 
+L 185.094728 22.284837 
+L 189.349999 22.284837 
+L 193.42575 25.113244 
+L 197.679691 25.13419 
+L 200.924335 41.057084 
+L 203.829887 59.494102 
+L 207.95351 61.547321 
+L 212.20878 45.624427 
+L 216.464051 24.359002 
+L 220.719321 22.284837 
+L 224.974592 22.284837 
+L 229.229862 22.284837 
+L 233.485133 22.284837 
+L 237.740403 22.284837 
+L 241.995674 22.284837 
+L 246.250945 22.284837 
+L 250.506215 22.284837 
+L 253.74687 38.270569 
+L 256.31333 64.878556 
+L 256.655081 126.537821 
+L 257.055342 171.289508 
+L 257.615176 202.904811 
+L 258.289371 197.667022 
+L 259.649728 182.540283 
+L 261.339868 164.731792 
+L 263.571225 140.197981 
+L 266.210823 120.042965 
+L 268.661593 108.058895 
+L 271.109703 104.643861 
+L 273.537867 107.975096 
+L 274.960723 124.170342 
+L 276.166826 143.73873 
+L 277.364951 163.118555 
+L 278.71334 164.291817 
+L 280.676083 152.370604 
+L 283.045737 133.912633 
+L 285.504485 116.418409 
+L 288.035042 107.472268 
+" clip-path="url(#pg-learning-curves-p55b25f307c)" style="fill: none; stroke: var(--fig-ox); stroke-width: 1.9; stroke-linecap: square"/>
+   </g>
+   <g id="pg-learning-curves-patch_3">
+    <path d="M 51.442 223.416 
+L 51.442 7.2 
+" style="fill: none; stroke: var(--fig-muted); stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="pg-learning-curves-patch_4">
+    <path d="M 51.442 223.416 
+L 430.882 223.416 
+" style="fill: none; stroke: var(--fig-muted); stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="pg-learning-curves-text_18">
+    <text style="font-size: 9.5px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: start; fill: var(--fig-muted)" x="55.431316" y="19.897649" transform="rotate(-0 55.431316 19.897649)">solved</text>
+   </g>
+   <g id="pg-learning-curves-text_19">
+    <text style="font-size: 10px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: start; fill: var(--fig-muted)" x="319.681048" y="68.284837" transform="rotate(-0 319.681048 68.284837)">REINFORCE</text>
+   </g>
+   <g id="pg-learning-curves-text_20">
+    <text style="font-size: 10px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: start; fill: var(--fig-gold)" x="332.50271" y="46.39126" transform="rotate(-0 332.50271 46.39126)">with a value baseline</text>
+   </g>
+   <g id="pg-learning-curves-text_21">
+    <text style="font-size: 10px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: start; fill: var(--fig-blue)" x="370.458393" y="18.305783" transform="rotate(-0 370.458393 18.305783)">PPO</text>
+   </g>
+   <g id="pg-learning-curves-text_22">
+    <text style="font-size: 10px; font-family: 'Spectral', 'DejaVu Serif', 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook', 'Century Schoolbook L', 'Utopia', 'ITC Bookman', 'Bookman', 'Nimbus Roman No9 L', 'Times New Roman', 'Times', 'Palatino', 'Charter', serif; text-anchor: start; fill: var(--fig-ox)" x="269.615176" y="198.904811" transform="rotate(-0 269.615176 198.904811)">the same reuse, unclipped</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pg-learning-curves-p55b25f307c">
+   <rect x="51.442" y="7.2" width="379.44" height="216.216"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 244" role="img" aria-label="A sensor exposure passes through a driver and the network to your recorder; the moment of capture and the moment of receipt are two different times, and the interval between them disappears if only the receiving end is stamped">
+
+  <rect x="30" y="80" width="150" height="70" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="105" y="110" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">sensor exposure</text>
+  <text x="105" y="132" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">when it happened</text>
+
+  <line x1="182" y1="115" x2="210" y2="115" stroke="var(--muted, #6b6053)" stroke-width="1.3"
+        marker-end="url(#m7clockFwd)"/>
+
+  <rect x="214" y="80" width="150" height="70" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="289" y="110" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">driver</text>
+  <text x="289" y="132" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">buffers, then publishes</text>
+
+  <line x1="366" y1="115" x2="394" y2="115" stroke="var(--muted, #6b6053)" stroke-width="1.3"
+        marker-end="url(#m7clockFwd)"/>
+
+  <rect x="398" y="80" width="150" height="70" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="473" y="110" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">transport</text>
+  <text x="473" y="132" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">queues and retries</text>
+
+  <line x1="550" y1="115" x2="578" y2="115" stroke="var(--muted, #6b6053)" stroke-width="1.3"
+        marker-end="url(#m7clockFwd)"/>
+
+  <rect x="582" y="80" width="150" height="70" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="657" y="110" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--gold, #b07d22)">your recorder</text>
+  <text x="657" y="132" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">when you saw it</text>
+
+  <text x="105" y="176" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">t<tspan dy="3" font-size="10">capture</tspan></text>
+  <text x="657" y="176" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--gold, #b07d22)">t<tspan dy="3" font-size="10">receive</tspan></text>
+
+  <line x1="105" y1="184" x2="105" y2="204" stroke="var(--muted, #6b6053)" stroke-width="1.3"/>
+  <line x1="657" y1="184" x2="657" y2="204" stroke="var(--muted, #6b6053)" stroke-width="1.3"/>
+  <line x1="105" y1="204" x2="657" y2="204" stroke="var(--muted, #6b6053)" stroke-width="1.3"/>
+
+  <text x="381" y="226" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">stamp only the right-hand end and this interval never existed</text>
+
+  <defs>
+    <marker id="m7clockFwd" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

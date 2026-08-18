@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 336" role="img" aria-label="Recorded episodes shrinking as each check removes some: clock alignment, frame gaps, hidden human fixes, schema drift and unverified outcomes, leaving the set that should reach training">
+
+  <text x="740" y="28" text-anchor="end" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">every one of these removals is silent by default</text>
+
+  <text x="146" y="64" text-anchor="end" class="svg-disp" font-size="13.5" font-weight="600"
+        fill="var(--blue, #2d5d7c)">Recorded</text>
+  <rect x="160" y="46" width="480" height="26" rx="6"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.5"/>
+
+  <text x="146" y="104" text-anchor="end" class="svg-disp" font-size="13.5" font-weight="600"
+        fill="var(--blue, #2d5d7c)">Clocks aligned</text>
+  <rect x="160" y="86" width="432" height="26" rx="6"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.5"/>
+  <rect x="592" y="86" width="48" height="26" rx="6"
+        fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.5"/>
+
+  <text x="146" y="144" text-anchor="end" class="svg-disp" font-size="13.5" font-weight="600"
+        fill="var(--blue, #2d5d7c)">No frame gaps</text>
+  <rect x="160" y="126" width="396" height="26" rx="6"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.5"/>
+  <rect x="556" y="126" width="36" height="26" rx="6"
+        fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.5"/>
+
+  <text x="146" y="184" text-anchor="end" class="svg-disp" font-size="13.5" font-weight="600"
+        fill="var(--blue, #2d5d7c)">No hidden fixes</text>
+  <rect x="160" y="166" width="360" height="26" rx="6"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.5"/>
+  <rect x="520" y="166" width="36" height="26" rx="6"
+        fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.5"/>
+
+  <text x="146" y="224" text-anchor="end" class="svg-disp" font-size="13.5" font-weight="600"
+        fill="var(--blue, #2d5d7c)">Schema matches</text>
+  <rect x="160" y="206" width="336" height="26" rx="6"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.5"/>
+  <rect x="496" y="206" width="24" height="26" rx="6"
+        fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.5"/>
+
+  <text x="146" y="264" text-anchor="end" class="svg-disp" font-size="13.5" font-weight="600"
+        fill="var(--blue, #2d5d7c)">Outcome checked</text>
+  <rect x="160" y="246" width="300" height="26" rx="6"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.5"/>
+  <rect x="460" y="246" width="36" height="26" rx="6"
+        fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.5"/>
+
+  <text x="146" y="304" text-anchor="end" class="svg-disp" font-size="13.5" font-weight="600"
+        fill="var(--green, #15614e)">Usable</text>
+  <rect x="160" y="286" width="300" height="26" rx="6"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="470" y="304" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">what should have reached training all along</text>
+</svg>

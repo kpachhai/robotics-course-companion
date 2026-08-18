@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 704 254" role="img" aria-label="A single rotation of 90 degrees about the z axis encoded into four quaternion slots x, y, z and w, holding the axis scaled by sine of half the angle and cosine of half the angle, with the unit length constraint underneath">
+
+  <rect x="18" y="48" width="206" height="112" rx="8"
+        fill="var(--purple-soft, #ede0f5)" stroke="var(--purple, #5e2d8c)" stroke-width="1.6"/>
+  <text x="121" y="80" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--purple, #5e2d8c)">one rotation</text>
+  <text x="121" y="106" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">axis n = (0, 0, 1)</text>
+  <text x="121" y="124" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">angle φ = 90°</text>
+  <text x="121" y="146" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">what physically happens</text>
+
+  <line x1="230" y1="104" x2="274" y2="104"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#quatEncodeArrow)"/>
+  <text x="252" y="94" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">encode</text>
+
+  <rect x="286" y="48" width="94" height="112" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="333" y="80" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--blue, #2d5d7c)">x</text>
+  <text x="333" y="106" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">0.0000</text>
+  <text x="333" y="132" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">n<tspan font-size="9" dy="2">x</tspan><tspan dy="-2"> · sin(φ/2)</tspan></text>
+
+  <rect x="388" y="48" width="94" height="112" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="435" y="80" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--blue, #2d5d7c)">y</text>
+  <text x="435" y="106" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">0.0000</text>
+  <text x="435" y="132" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">n<tspan font-size="9" dy="2">y</tspan><tspan dy="-2"> · sin(φ/2)</tspan></text>
+
+  <rect x="490" y="48" width="94" height="112" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="537" y="80" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--blue, #2d5d7c)">z</text>
+  <text x="537" y="106" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">0.7071</text>
+  <text x="537" y="132" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">n<tspan font-size="9" dy="2">z</tspan><tspan dy="-2"> · sin(φ/2)</tspan></text>
+
+  <rect x="592" y="48" width="94" height="112" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="639" y="80" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--blue, #2d5d7c)">w</text>
+  <text x="639" y="106" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">0.7071</text>
+  <text x="639" y="132" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">cos(φ/2)</text>
+
+  <text x="486" y="36" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">scipy stores them in this order · w last</text>
+
+  <line x1="486" y1="164" x2="486" y2="180"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#quatEncodeArrow)"/>
+
+  <rect x="18" y="184" width="668" height="56" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="352" y="210" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--green, #15614e)">x² + y² + z² + w² = 1</text>
+  <text x="352" y="230" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">four numbers, one constraint, three real degrees of freedom · the same three the rotation had</text>
+
+  <defs>
+    <marker id="quatEncodeArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

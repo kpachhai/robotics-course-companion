@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 372" role="img" aria-label="The same three rings with the middle angle wound round to ninety degrees: the inner ring now lies parallel to the outer ring and their two axes have become a single line, drawn as one line alternating gold and purple, so turning the first ring and turning the third ring produce the same motion">
+  <text x="350" y="26" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">the same rig, with the middle angle wound round to 90°</text>
+
+  <!-- the collapsed axis: first and third, now one line, in interleaved dashes -->
+  <line x1="200" y1="323.4" x2="200" y2="104.6"
+        stroke="var(--gold, #b07d22)" stroke-width="2.2" stroke-dasharray="8 8"/>
+  <line x1="200" y1="323.4" x2="200" y2="104.6"
+        stroke="var(--purple, #5e2d8c)" stroke-width="2.2" stroke-dasharray="8 8" stroke-dashoffset="8"/>
+  <line x1="186" y1="104.6" x2="214" y2="104.6" stroke="var(--gold, #b07d22)" stroke-width="3" stroke-linecap="round"/>
+  <line x1="186" y1="323.4" x2="214" y2="323.4" stroke="var(--gold, #b07d22)" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- outer ring -->
+  <ellipse cx="200" cy="214" rx="112.0" ry="76.6" transform="rotate(180.00 200 214)"
+           fill="none" stroke="var(--gold, #b07d22)" stroke-width="2.4"/>
+
+  <!-- middle ring: still tilted, still free -->
+  <line x1="87.4" y1="155.8" x2="312.6" y2="272.2"
+        stroke="var(--blue, #2d5d7c)" stroke-width="1.3" stroke-dasharray="5 4"/>
+  <ellipse cx="200" cy="214" rx="80.6" ry="35.5" transform="rotate(117.36 200 214)"
+           fill="none" stroke="var(--blue, #2d5d7c)" stroke-width="2.4"/>
+  <line x1="135.7" y1="180.7" x2="110.7" y2="167.8" stroke="var(--blue, #2d5d7c)" stroke-width="2.4"/>
+  <line x1="264.3" y1="247.3" x2="289.3" y2="260.2" stroke="var(--blue, #2d5d7c)" stroke-width="2.4"/>
+  <circle cx="110.7" cy="167.8" r="4" fill="var(--blue, #2d5d7c)"/>
+  <circle cx="289.3" cy="260.2" r="4" fill="var(--blue, #2d5d7c)"/>
+  <text x="81" y="152" text-anchor="end" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">2nd axis</text>
+
+  <!-- inner ring: now parallel to the outer one, pivots on the shared line -->
+  <ellipse cx="200" cy="214" rx="53.8" ry="36.8" transform="rotate(180.00 200 214)"
+           fill="none" stroke="var(--purple, #5e2d8c)" stroke-width="2.4"/>
+  <circle cx="200" cy="155.2" r="4" fill="var(--purple, #5e2d8c)"/>
+  <circle cx="200" cy="272.8" r="4" fill="var(--purple, #5e2d8c)"/>
+
+  <text x="200" y="92" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--ox, #9c3b2e)">1st axis and 3rd axis</text>
+  <text x="200" y="76" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">one line now, not two</text>
+
+  <text x="200" y="350" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">turning the 1st ring and turning the 3rd ring do the same thing</text>
+
+  <!-- what it costs -->
+  <rect x="392" y="104" width="288" height="196" rx="8"
+        fill="none" stroke="var(--line-2, #c8bca3)" stroke-width="1.6"/>
+  <text x="414" y="132" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">what the rig can still do</text>
+
+  <text x="414" y="162" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">three angles to turn</text>
+  <text x="414" y="180" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">all three rings still spin freely</text>
+
+  <text x="414" y="212" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--ox, #9c3b2e)">two directions of motion</text>
+  <text x="414" y="230" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the third direction has no ring left</text>
+
+  <line x1="414" y1="248" x2="658" y2="248"
+        stroke="var(--line-2, #c8bca3)" stroke-width="1.1"/>
+  <text x="414" y="268" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">for real hardware this is a real loss</text>
+  <text x="414" y="284" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">for three numbers on paper it is not</text>
+</svg>

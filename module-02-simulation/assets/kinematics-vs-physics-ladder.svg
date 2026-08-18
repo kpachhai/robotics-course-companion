@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 250" role="img" aria-label="A logarithmic ladder of error: your kinematics and MuJoCo's agree to about ten to the minus sixteen metres, a position servo settles about a fifth of a millimetre from the commanded point in free space, and the same servo stops eighty six millimetres short when the arm is pressed into the floor">
+
+  <line x1="60" y1="150" x2="740" y2="150" stroke="var(--line-2, #c8bca3)" stroke-width="1.4"/>
+
+  <line x1="100" y1="145" x2="100" y2="155" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <line x1="380" y1="145" x2="380" y2="155" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <line x1="500" y1="145" x2="500" y2="155" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <line x1="620" y1="145" x2="620" y2="155" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <line x1="700" y1="145" x2="700" y2="155" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+
+  <text x="100" y="170" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">10⁻¹⁶ m</text>
+  <text x="380" y="170" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">1 nm</text>
+  <text x="500" y="170" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">1 µm</text>
+  <text x="620" y="170" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">1 mm</text>
+  <text x="700" y="170" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">10 cm</text>
+
+  <circle cx="122" cy="150" r="7" fill="var(--green-soft, #e3ede7)"
+          stroke="var(--green, #15614e)" stroke-width="1.5"/>
+  <line x1="122" y1="143" x2="122" y2="124" stroke="var(--muted, #6b6053)" stroke-width="1.1"/>
+  <text x="76" y="102" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--green, #15614e)">your maths vs the engine's</text>
+  <text x="76" y="118" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">3.5 × 10⁻¹⁶ m, worst of 2000 poses</text>
+
+  <circle cx="593" cy="150" r="7" fill="var(--gold-soft, #f3e7c9)"
+          stroke="var(--gold, #b07d22)" stroke-width="1.5"/>
+  <line x1="593" y1="157" x2="593" y2="182" stroke="var(--muted, #6b6053)" stroke-width="1.1"/>
+  <text x="640" y="200" text-anchor="end" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--gold, #b07d22)">the servo settling, in free space</text>
+  <text x="640" y="216" text-anchor="end" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">0.22 mm, median of 145 poses</text>
+
+  <circle cx="697" cy="150" r="7" fill="var(--ox-soft, #f1ddd6)"
+          stroke="var(--ox, #9c3b2e)" stroke-width="1.5"/>
+  <line x1="697" y1="143" x2="697" y2="124" stroke="var(--muted, #6b6053)" stroke-width="1.1"/>
+  <text x="740" y="102" text-anchor="end" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--ox, #9c3b2e)">the arm pressed into the floor</text>
+  <text x="740" y="118" text-anchor="end" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">86 mm, median of 53 poses</text>
+
+  <text x="300" y="240" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">gap between the point you asked for and the point you got</text>
+</svg>

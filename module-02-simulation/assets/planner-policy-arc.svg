@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 290"
+     role="img" aria-label="Four pieces of the course laid side by side: Module 1's inverse kinematics turns one pose into one configuration, Module 2's motion planner turns two configurations into a legal route, Module 3's policy turns observations into motion where no model holds, and Module 6's task planner sits above all three deciding which skill runs next">
+
+  <rect x="20" y="70" width="165" height="104" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="102" y="96" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">inverse kinematics</text>
+  <text x="102" y="112" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">Module 1</text>
+  <text x="102" y="134" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">in: one pose</text>
+  <text x="102" y="148" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">out: one configuration</text>
+  <text x="102" y="164" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">says nothing about getting there</text>
+
+  <line x1="185" y1="122" x2="195" y2="122"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m2pArcArrow)"/>
+
+  <rect x="201" y="70" width="165" height="104" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="283" y="96" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--green, #15614e)">motion planner</text>
+  <text x="283" y="112" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">this module</text>
+  <text x="283" y="134" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">in: two configurations</text>
+  <text x="283" y="148" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">out: a checkable route</text>
+  <text x="283" y="164" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">stops where contact starts</text>
+
+  <line x1="366" y1="122" x2="376" y2="122"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m2pArcArrow)"/>
+
+  <rect x="382" y="70" width="165" height="104" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="464" y="96" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--gold, #b07d22)">learned policy</text>
+  <text x="464" y="112" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">Module 3</text>
+  <text x="464" y="134" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">in: observations</text>
+  <text x="464" y="148" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">out: the next motion</text>
+  <text x="464" y="164" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">works where the model gave out</text>
+
+  <rect x="563" y="70" width="177" height="104" rx="8"
+        fill="var(--purple-soft, #ede0f5)" stroke="var(--purple, #5e2d8c)" stroke-width="1.6"/>
+  <text x="651" y="96" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--purple, #5e2d8c)">task planner</text>
+  <text x="651" y="112" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">Module 6, a different tier</text>
+  <text x="651" y="134" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">in: a goal in language</text>
+  <text x="651" y="148" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">out: which skill runs next</text>
+  <text x="651" y="164" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">seconds, not milliseconds</text>
+
+  <path d="M651,70 L651,52 L283,52 L283,64" fill="none" stroke-dasharray="4 4"
+        stroke="var(--purple, #5e2d8c)" stroke-width="1.3" marker-end="url(#m2pArcPurple)"/>
+  <path d="M615,52 L464,52 L464,64" fill="none" stroke-dasharray="4 4"
+        stroke="var(--purple, #5e2d8c)" stroke-width="1.3" marker-end="url(#m2pArcPurple)"/>
+  <text x="440" y="44" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--purple, #5e2d8c)">calls both of these as skills</text>
+
+  <text x="20" y="216" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">Two of these boxes are called planners and they are not the same thing. The motion planner takes geometry and returns joint</text>
+  <text x="20" y="230" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">angles in milliseconds. The task planner takes language and returns a skill name in seconds. They sit two tiers apart.</text>
+
+  <text x="20" y="34" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">where this lesson sits in the course</text>
+
+  <defs>
+    <marker id="m2pArcArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+    <marker id="m2pArcPurple" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--purple, #5e2d8c)"/>
+    </marker>
+  </defs>
+</svg>

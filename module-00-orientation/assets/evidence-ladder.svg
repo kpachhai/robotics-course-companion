@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 342" role="img" aria-label="Five grades of evidence behind a robotics claim, from an edited reel at the bottom to disclosed operating hours at the top, with a line marking where someone outside the company is on the record">
+
+  <rect x="30" y="18" width="400" height="52" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="230" y="41" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--green, #15614e)">Disclosed operating hours</text>
+  <text x="230" y="59" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">counted, across named sites, over months</text>
+
+  <rect x="30" y="78" width="400" height="52" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="230" y="101" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--green, #15614e)">Named customer, signed contract</text>
+  <text x="230" y="119" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">money on the record; the customer can be asked</text>
+
+  <line x1="30" y1="142" x2="730" y2="142" stroke="var(--line-2, #c8bca3)"
+        stroke-width="1.3" stroke-dasharray="4 4"/>
+  <text x="730" y="134" text-anchor="end" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">above: a third party is on the record</text>
+  <text x="730" y="160" text-anchor="end" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">below: the builder is the only witness</text>
+
+  <rect x="30" y="154" width="400" height="52" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="230" y="177" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--gold, #b07d22)">Robot on a partner's floor</text>
+  <text x="230" y="195" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">their building; share of the work undisclosed</text>
+
+  <rect x="30" y="214" width="400" height="52" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="230" y="237" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--gold, #b07d22)">One uncut take, builder's lab</text>
+  <text x="230" y="255" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">a real capability, once, on home turf</text>
+
+  <rect x="30" y="274" width="400" height="52" rx="8"
+        fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.6"/>
+  <text x="230" y="297" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--ox, #9c3b2e)">Announcement or edited reel</text>
+  <text x="230" y="315" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">cuts, resets and autonomy all unstated</text>
+
+  <path d="M490 326 L490 232 M490 206 L490 30" fill="none"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#ladderArrowUp)"/>
+  <text x="490" y="222" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">harder to fake</text>
+
+  <defs>
+    <marker id="ladderArrowUp" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

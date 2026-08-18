@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 292" role="img" aria-label="Three failure classes shown as one row each against the same three checks: the skill failed when the precondition held and the postcondition broke, the plan was wrong when both held and the goal predicate was still false, and the world model was wrong when the precondition was no longer true at call time">
+
+  <text x="115" y="30" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">precondition, at call time</text>
+  <text x="289" y="30" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">postcondition, at return</text>
+  <text x="463" y="30" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">goal predicate, at the end</text>
+
+  <line x1="40" y1="40" x2="538" y2="40"
+        stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+
+  <rect x="40" y="56" width="150" height="56" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="115" y="82" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--green, #15614e)">held</text>
+  <text x="115" y="99" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the call was legal</text>
+
+  <rect x="214" y="56" width="150" height="56" rx="8"
+        fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.6"/>
+  <text x="289" y="82" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--ox, #9c3b2e)">broke</text>
+  <text x="289" y="99" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">gripper closed on air</text>
+
+  <rect x="388" y="56" width="150" height="56" rx="8" stroke-dasharray="4 4"
+        fill="none" stroke="var(--muted, #6b6053)" stroke-width="1.3"/>
+  <text x="463" y="88" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">never reached</text>
+
+  <text x="566" y="80" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--ox, #9c3b2e)">The skill failed</text>
+  <text x="566" y="97" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">retry, or use another skill</text>
+
+  <rect x="40" y="130" width="150" height="56" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="115" y="156" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--green, #15614e)">held</text>
+  <text x="115" y="173" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">every call, every time</text>
+
+  <rect x="214" y="130" width="150" height="56" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="289" y="156" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--green, #15614e)">held</text>
+  <text x="289" y="173" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">measured, not asserted</text>
+
+  <rect x="388" y="130" width="150" height="56" rx="8"
+        fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.6"/>
+  <text x="463" y="156" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--ox, #9c3b2e)">false</text>
+  <text x="463" y="173" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the mug is still there</text>
+
+  <text x="566" y="154" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--ox, #9c3b2e)">The plan was wrong</text>
+  <text x="566" y="171" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">observe, then replan</text>
+
+  <rect x="40" y="204" width="150" height="56" rx="8"
+        fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.6"/>
+  <text x="115" y="230" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--ox, #9c3b2e)">no longer true</text>
+  <text x="115" y="247" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">true when planned</text>
+
+  <rect x="214" y="204" width="150" height="56" rx="8" stroke-dasharray="4 4"
+        fill="none" stroke="var(--muted, #6b6053)" stroke-width="1.3"/>
+  <text x="289" y="236" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">refused, never ran</text>
+
+  <rect x="388" y="204" width="150" height="56" rx="8" stroke-dasharray="4 4"
+        fill="none" stroke="var(--muted, #6b6053)" stroke-width="1.3"/>
+  <text x="463" y="236" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">never reached</text>
+
+  <text x="566" y="228" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--ox, #9c3b2e)">The world model</text>
+  <text x="566" y="245" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--ox, #9c3b2e)">was wrong</text>
+  <text x="566" y="262" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">re-perceive before anything</text>
+
+  <line x1="190" y1="84" x2="210" y2="84"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m6authorArrow)"/>
+  <line x1="364" y1="84" x2="384" y2="84"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m6authorArrow)"/>
+  <line x1="190" y1="158" x2="210" y2="158"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m6authorArrow)"/>
+  <line x1="364" y1="158" x2="384" y2="158"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m6authorArrow)"/>
+  <line x1="190" y1="232" x2="210" y2="232"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" stroke-dasharray="4 4"/>
+  <line x1="364" y1="232" x2="384" y2="232"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" stroke-dasharray="4 4"/>
+
+  <defs>
+    <marker id="m6authorArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

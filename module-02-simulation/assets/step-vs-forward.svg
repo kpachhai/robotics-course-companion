@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" role="img" aria-label="A left to right pipeline from the stored inputs qpos, qvel and ctrl through a compute stage that produces derived values such as body positions and sensor readings, then through an integrate stage that produces the next qpos, qvel and time; a bracket underneath shows mj_forward covers only the compute stage while mj_step covers both">
+
+  <rect x="20" y="44" width="152" height="86" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="96" y="70" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700" fill="var(--gold, #b07d22)">stored state</text>
+  <text x="96" y="90" text-anchor="middle" class="svg-mono" font-size="10" fill="var(--muted, #6b6053)">data.qpos</text>
+  <text x="96" y="104" text-anchor="middle" class="svg-mono" font-size="10" fill="var(--muted, #6b6053)">data.qvel</text>
+  <text x="96" y="118" text-anchor="middle" class="svg-mono" font-size="10" fill="var(--muted, #6b6053)">data.ctrl</text>
+
+  <line x1="172" y1="87" x2="212" y2="87" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#pipeArrowStepFwd)"/>
+
+  <rect x="220" y="34" width="176" height="106" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="308" y="60" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700" fill="var(--blue, #2d5d7c)">compute</text>
+  <text x="308" y="80" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">where every body is,</text>
+  <text x="308" y="94" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">what is touching what,</text>
+  <text x="308" y="108" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">what forces result,</text>
+  <text x="308" y="122" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">what acceleration follows</text>
+
+  <line x1="396" y1="87" x2="436" y2="87" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#pipeArrowStepFwd)"/>
+
+  <rect x="444" y="44" width="152" height="86" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="520" y="70" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700" fill="var(--gold, #b07d22)">derived</text>
+  <text x="520" y="90" text-anchor="middle" class="svg-mono" font-size="10" fill="var(--muted, #6b6053)">data.xpos</text>
+  <text x="520" y="104" text-anchor="middle" class="svg-mono" font-size="10" fill="var(--muted, #6b6053)">data.sensordata</text>
+  <text x="520" y="118" text-anchor="middle" class="svg-mono" font-size="10" fill="var(--muted, #6b6053)">data.qacc</text>
+
+  <line x1="596" y1="87" x2="636" y2="87" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#pipeArrowStepFwd)"/>
+
+  <rect x="644" y="34" width="100" height="106" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="694" y="62" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700" fill="var(--green, #15614e)">integrate</text>
+  <text x="694" y="84" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">new qpos,</text>
+  <text x="694" y="98" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">new qvel,</text>
+  <text x="694" y="112" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">time + 0.005 s</text>
+
+  <path d="M20,152 L20,166 L596,166 L596,152" fill="none" stroke="var(--blue, #2d5d7c)" stroke-width="1.4"/>
+  <text x="308" y="200" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700" fill="var(--blue, #2d5d7c)">mj_forward(model, data)</text>
+  <text x="308" y="216" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">recompute everything derived; data.time does not change</text>
+
+  <path d="M20,218 L20,232 L744,232 L744,218" fill="none" stroke="var(--green, #15614e)" stroke-width="1.4"/>
+  <text x="382" y="266" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700" fill="var(--green, #15614e)">mj_step(model, data)</text>
+  <text x="382" y="282" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">the same computation, and then one step of time</text>
+
+  <defs>
+    <marker id="pipeArrowStepFwd" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

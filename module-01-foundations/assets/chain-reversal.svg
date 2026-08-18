@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 258" role="img" aria-label="Going out from world to base to hand multiplies T_WB by T_BH, and coming back multiplies T_HB by T_BW, which is the same factors in reversed order with each one inverted">
+  <text x="320" y="34" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">to go back, reverse the order and invert every factor</text>
+
+  <rect x="40" y="54" width="560" height="66" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="70" y="94" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--blue, #2d5d7c)">T_WH  =  T_WB · T_BH</text>
+  <text x="410" y="74" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">W</text>
+  <text x="485" y="74" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">B</text>
+  <text x="560" y="74" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">H</text>
+  <circle cx="410" cy="88" r="5" fill="var(--blue, #2d5d7c)"/>
+  <circle cx="485" cy="88" r="5" fill="var(--blue, #2d5d7c)"/>
+  <circle cx="560" cy="88" r="5" fill="var(--blue, #2d5d7c)"/>
+  <line x1="418" y1="88" x2="472" y2="88"
+        stroke="var(--blue, #2d5d7c)" stroke-width="1.4" marker-end="url(#chainRevOut)"/>
+  <line x1="493" y1="88" x2="547" y2="88"
+        stroke="var(--blue, #2d5d7c)" stroke-width="1.4" marker-end="url(#chainRevOut)"/>
+
+  <rect x="40" y="140" width="560" height="66" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="70" y="180" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--green, #15614e)">T_HW  =  T_HB · T_BW</text>
+  <text x="410" y="160" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">W</text>
+  <text x="485" y="160" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">B</text>
+  <text x="560" y="160" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">H</text>
+  <circle cx="410" cy="174" r="5" fill="var(--green, #15614e)"/>
+  <circle cx="485" cy="174" r="5" fill="var(--green, #15614e)"/>
+  <circle cx="560" cy="174" r="5" fill="var(--green, #15614e)"/>
+  <line x1="552" y1="174" x2="498" y2="174"
+        stroke="var(--green, #15614e)" stroke-width="1.4" marker-end="url(#chainRevBack)"/>
+  <line x1="477" y1="174" x2="423" y2="174"
+        stroke="var(--green, #15614e)" stroke-width="1.4" marker-end="url(#chainRevBack)"/>
+
+  <text x="320" y="238" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">socks then shoes going on; shoes then socks coming off</text>
+
+  <defs>
+    <marker id="chainRevOut" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--blue, #2d5d7c)"/>
+    </marker>
+    <marker id="chainRevBack" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--green, #15614e)"/>
+    </marker>
+  </defs>
+</svg>

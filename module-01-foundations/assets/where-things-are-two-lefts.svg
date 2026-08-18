@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 282"
+     role="img" aria-label="Two people stand at opposite ends of one sofa, facing each other. One arrow out of the sofa is labelled your left and points one way; the opposite arrow is labelled your friend's left and points the other way.">
+
+  <!-- the direction you meant -->
+  <line x1="337" y1="124" x2="337" y2="62"
+        stroke="var(--green, #15614e)" stroke-width="1.6" marker-end="url(#twoLeftsArrowGreen)"/>
+  <text x="337" y="46" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--green, #15614e)">your left</text>
+
+  <!-- you -->
+  <rect x="30" y="126" width="150" height="52" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="105" y="150" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--blue, #2d5d7c)">you</text>
+  <text x="105" y="167" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">facing down the stairs</text>
+
+  <line x1="188" y1="152" x2="243" y2="152"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#twoLeftsArrowMuted)"/>
+  <text x="215" y="143" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">facing</text>
+
+  <!-- the sofa -->
+  <rect x="252" y="126" width="170" height="52" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="337" y="157" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--blue, #2d5d7c)">the sofa</text>
+
+  <line x1="494" y1="152" x2="439" y2="152"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#twoLeftsArrowMuted)"/>
+  <text x="466" y="143" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">facing</text>
+
+  <!-- your friend -->
+  <rect x="502" y="126" width="150" height="52" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="577" y="150" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--blue, #2d5d7c)">your friend</text>
+  <text x="577" y="167" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">facing up the stairs</text>
+
+  <!-- the direction they heard -->
+  <line x1="337" y1="180" x2="337" y2="242"
+        stroke="var(--ox, #9c3b2e)" stroke-width="1.6" marker-end="url(#twoLeftsArrowOx)"/>
+  <text x="337" y="264" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--ox, #9c3b2e)">your friend&#8217;s left</text>
+
+  <defs>
+    <marker id="twoLeftsArrowGreen" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--green, #15614e)"/>
+    </marker>
+    <marker id="twoLeftsArrowOx" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--ox, #9c3b2e)"/>
+    </marker>
+    <marker id="twoLeftsArrowMuted" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

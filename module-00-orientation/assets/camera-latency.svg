@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 268" role="img" aria-label="A camera frame passes through exposure, readout, transfer and decode before the policy runs, so the world the command lands in is not the world the image describes">
+  <text x="370" y="22" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">consumer USB camera · photons to command commonly 30–100 ms end to end</text>
+
+  <line x1="40" y1="40" x2="694" y2="40"
+        stroke="var(--line-2, #c8bca3)" stroke-width="1.3" marker-end="url(#cameraLatencyArrow)"/>
+  <text x="712" y="44" text-anchor="start" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">time</text>
+
+  <rect x="40" y="66" width="150" height="58" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="115" y="92" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Exposure</text>
+  <text x="115" y="110" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">shutter open · blur</text>
+
+  <rect x="210" y="66" width="150" height="58" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="285" y="92" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Readout</text>
+  <text x="285" y="110" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">row by row · skew</text>
+
+  <rect x="380" y="66" width="150" height="58" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="455" y="92" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Transfer</text>
+  <text x="455" y="110" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">USB · decode · queue</text>
+
+  <rect x="550" y="66" width="150" height="58" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="625" y="92" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--gold, #b07d22)">Your code</text>
+  <text x="625" y="110" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">policy runs · command out</text>
+
+  <line x1="190" y1="95" x2="206" y2="95" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#cameraLatencyArrow)"/>
+  <line x1="360" y1="95" x2="376" y2="95" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#cameraLatencyArrow)"/>
+  <line x1="530" y1="95" x2="546" y2="95" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#cameraLatencyArrow)"/>
+
+  <line x1="115" y1="124" x2="115" y2="186" stroke="var(--muted, #6b6053)" stroke-width="1.1" stroke-dasharray="4 4"/>
+  <line x1="625" y1="124" x2="625" y2="186" stroke="var(--muted, #6b6053)" stroke-width="1.1" stroke-dasharray="4 4"/>
+
+  <text x="370" y="168" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the gap you are acting across · 4 cm at 0.5 m/s</text>
+
+  <line x1="129" y1="200" x2="611" y2="200" stroke="var(--muted, #6b6053)" stroke-width="1.1" stroke-dasharray="4 4"/>
+
+  <circle cx="115" cy="200" r="11" fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.5"/>
+  <circle cx="625" cy="200" r="11" fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.5"/>
+
+  <text x="40" y="232" text-anchor="start" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--green, #15614e)">the world the image describes</text>
+  <text x="40" y="250" text-anchor="start" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">already in the past</text>
+
+  <text x="700" y="232" text-anchor="end" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--ox, #9c3b2e)">the world the command lands in</text>
+  <text x="700" y="250" text-anchor="end" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">never observed</text>
+
+  <defs>
+    <marker id="cameraLatencyArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

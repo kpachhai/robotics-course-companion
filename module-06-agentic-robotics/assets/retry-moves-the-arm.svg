@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 246" role="img" aria-label="A pick call whose response is lost: the client re-issues the request under a new id exactly as the transport specification requires, and the arm performs the grasp a second time">
+  <rect x="9" y="40" width="172" height="54" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="95" y="64" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">pick(cup)</text>
+  <text x="95" y="81" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">request id 1</text>
+
+  <line x1="183" y1="67" x2="195" y2="67"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m6RetryArrow)"/>
+
+  <rect x="199" y="40" width="172" height="54" rx="8"
+        fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.6"
+        stroke-dasharray="5 4"/>
+  <text x="285" y="64" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--ox, #9c3b2e)">the stream drops</text>
+  <text x="285" y="81" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">no resumability · reply lost</text>
+
+  <line x1="373" y1="67" x2="385" y2="67"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m6RetryArrow)"/>
+
+  <rect x="389" y="40" width="172" height="54" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="475" y="64" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">pick(cup) again</text>
+  <text x="475" y="81" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">re-issued as request id 2</text>
+
+  <line x1="563" y1="67" x2="575" y2="67"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m6RetryArrow)"/>
+
+  <rect x="579" y="40" width="172" height="54" rx="8"
+        fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.6"/>
+  <text x="665" y="64" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--ox, #9c3b2e)">grasp failed</text>
+  <text x="665" y="81" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the only reply you ever see</text>
+
+  <line x1="95" y1="94" x2="95" y2="146"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m6RetryArrow)"/>
+  <line x1="475" y1="94" x2="475" y2="146"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m6RetryArrow)"/>
+
+  <rect x="9" y="150" width="172" height="54" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="95" y="174" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--gold, #b07d22)">the arm moves</text>
+  <text x="95" y="191" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">grasp 1 · the cup is lifted</text>
+
+  <rect x="389" y="150" width="172" height="54" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="475" y="174" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--gold, #b07d22)">the arm moves again</text>
+  <text x="475" y="191" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">grasp 2 · closes on nothing</text>
+
+  <text x="380" y="230" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">one instruction · two motions · nothing in the protocol prevents it</text>
+
+  <defs>
+    <marker id="m6RetryArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

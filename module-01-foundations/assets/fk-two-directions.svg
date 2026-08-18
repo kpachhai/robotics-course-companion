@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 200" role="img" aria-label="Forward kinematics maps a vector of joint angles to exactly one hand pose; the return trip, inverse kinematics, may have no answer, one, two, or infinitely many">
+  <text x="360" y="28" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--green, #15614e)">forward kinematics</text>
+
+  <rect x="40" y="20" width="214" height="96" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="147" y="48" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Joint space</text>
+  <text x="147" y="74" text-anchor="middle" class="svg-disp" font-size="14" font-weight="600"
+        fill="var(--blue, #2d5d7c)">θ = (θ1 … θn)</text>
+  <text x="147" y="98" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">straight off the encoders</text>
+
+  <rect x="310" y="36" width="100" height="64" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="360" y="64" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--green, #15614e)">FK</text>
+  <text x="360" y="82" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">a pure function</text>
+
+  <rect x="466" y="20" width="214" height="96" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="573" y="48" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Task space</text>
+  <text x="573" y="74" text-anchor="middle" class="svg-disp" font-size="14" font-weight="600"
+        fill="var(--blue, #2d5d7c)">pose = (x, y, φ)</text>
+  <text x="573" y="98" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">where the hand is, facing where</text>
+
+  <line x1="256" y1="68" x2="304" y2="68"
+        stroke="var(--green, #15614e)" stroke-width="1.5" marker-end="url(#fkTwoDirFwd)"/>
+  <line x1="412" y1="68" x2="460" y2="68"
+        stroke="var(--green, #15614e)" stroke-width="1.5" marker-end="url(#fkTwoDirFwd)"/>
+
+  <text x="360" y="132" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">same θ in, same pose out, always</text>
+
+  <path d="M573,116 L573,168 L147,168 L147,120" fill="none"
+        stroke="var(--ox, #9c3b2e)" stroke-width="1.3" stroke-dasharray="4 4"
+        marker-end="url(#fkTwoDirBack)"/>
+  <text x="360" y="158" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--ox, #9c3b2e)">inverse kinematics</text>
+  <text x="360" y="190" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">none, one, two, or infinitely many answers · and you have to go looking</text>
+
+  <defs>
+    <marker id="fkTwoDirFwd" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--green, #15614e)"/>
+    </marker>
+    <marker id="fkTwoDirBack" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--ox, #9c3b2e)"/>
+    </marker>
+  </defs>
+</svg>

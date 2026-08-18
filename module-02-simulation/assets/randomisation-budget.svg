@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 240"
+     role="img" aria-label="A band of cube-position randomisation widths. Up to 8 centimetres the scripted expert succeeds 20 out of 20 and every episode is a usable demonstration. Beyond that it succeeds 16 then 15 out of 20, and the failed episodes are still recorded and still labelled expert unless the success predicate filters them out">
+
+  <rect x="60" y="60" width="300" height="44" rx="4"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <rect x="360" y="60" width="270" height="44" rx="4"
+        fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.6"/>
+
+  <text x="210" y="88" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--green, #15614e)">every episode is a demonstration</text>
+  <text x="495" y="88" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--ox, #9c3b2e)">some are failures wearing the label</text>
+
+  <line x1="60" y1="118" x2="630" y2="118" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <g stroke="var(--line-2, #c8bca3)" stroke-width="1.2">
+    <line x1="60" y1="118" x2="60" y2="125"/>
+    <line x1="210" y1="118" x2="210" y2="125"/>
+    <line x1="360" y1="118" x2="360" y2="125"/>
+    <line x1="510" y1="118" x2="510" y2="125"/>
+    <line x1="630" y1="118" x2="630" y2="125"/>
+  </g>
+  <text x="60" y="140" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">0</text>
+  <text x="210" y="140" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">4</text>
+  <text x="360" y="140" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">8</text>
+  <text x="510" y="140" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">12</text>
+  <text x="630" y="140" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">16</text>
+  <text x="345" y="160" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">half-width of the square the cube starts in, cm</text>
+
+  <text x="60" y="48" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">20/20</text>
+  <text x="195" y="48" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">20/20</text>
+  <text x="345" y="48" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">20/20</text>
+  <text x="495" y="48" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">16/20</text>
+  <text x="612" y="48" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">15/20</text>
+
+  <line x1="360" y1="104" x2="360" y2="186"
+        stroke="var(--gold, #b07d22)" stroke-width="1.6" stroke-dasharray="4 4"/>
+  <text x="368" y="182" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--gold, #b07d22)">the edge of the expert, not of the task</text>
+
+  <text x="60" y="212" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">widen past this and you are not collecting harder demonstrations, you are collecting worse ones</text>
+  <text x="60" y="228" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">unless the success predicate throws the failures away before they reach the dataset</text>
+</svg>

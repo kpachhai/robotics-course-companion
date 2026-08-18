@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 276" role="img" aria-label="On the left, a single process containing a read, a policy call and a write. On the right, five separate driver and policy nodes attached to a shared topic bus, with the policy marked as the only one you wrote">
+
+  <text x="160" y="30" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">What you have built</text>
+  <text x="566" y="30" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">What arrives in a crate</text>
+
+  <rect x="20" y="44" width="280" height="196" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="160" y="76" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">One process</text>
+  <text x="160" y="110" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">obs = camera.read()</text>
+  <text x="160" y="132" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">action = policy(obs)</text>
+  <text x="160" y="154" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">arm.send(action)</text>
+  <text x="160" y="196" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">one clock, one language,</text>
+  <text x="160" y="212" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">one place to put a breakpoint</text>
+
+  <rect x="396" y="60" width="100" height="48" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="446" y="82" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">arm driver</text>
+  <text x="446" y="98" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">vendor A</text>
+
+  <rect x="512" y="60" width="110" height="48" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="567" y="82" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">depth camera</text>
+  <text x="567" y="98" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">vendor B</text>
+
+  <rect x="638" y="60" width="100" height="48" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="688" y="82" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">safety</text>
+  <text x="688" y="98" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">certified, 2021</text>
+
+  <line x1="446" y1="108" x2="446" y2="138" stroke="var(--muted, #6b6053)" stroke-width="1.3"/>
+  <line x1="567" y1="108" x2="567" y2="138" stroke="var(--muted, #6b6053)" stroke-width="1.3"/>
+  <line x1="688" y1="108" x2="688" y2="138" stroke="var(--muted, #6b6053)" stroke-width="1.3"/>
+
+  <rect x="392" y="140" width="348" height="22" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="566" y="156" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">topic bus</text>
+
+  <line x1="514" y1="162" x2="514" y2="190" stroke="var(--muted, #6b6053)" stroke-width="1.3"/>
+  <line x1="655" y1="162" x2="655" y2="190" stroke="var(--muted, #6b6053)" stroke-width="1.3"/>
+
+  <rect x="454" y="192" width="120" height="48" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="514" y="214" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--gold, #b07d22)">your policy</text>
+  <text x="514" y="230" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">unchanged inside</text>
+
+  <rect x="600" y="192" width="110" height="48" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="655" y="214" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">recorder</text>
+  <text x="655" y="230" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">writes every stream</text>
+
+  <text x="584" y="178" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">no central broker</text>
+
+  <text x="738" y="264" text-anchor="end" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">peers discover each other; your loop becomes one node among many</text>
+</svg>

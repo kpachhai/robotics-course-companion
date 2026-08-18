@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 292" role="img" aria-label="The three artifacts you can author for a robot task. A rule, which needs a world you can describe and breaks on any variation you did not write down. A set of demonstrations, which needs a task you can perform by hand and breaks in states the demonstrations never visited. A reward, which needs cheap repeatable trials and breaks when the optimiser reads it more literally than you meant it">
+
+  <rect x="14" y="34" width="234" height="176" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="32" y="60" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--blue, #2d5d7c)">You write the rule</text>
+  <text x="32" y="82" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">poses, geometry, a controller</text>
+  <text x="32" y="112" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--blue, #2d5d7c)">needs</text>
+  <text x="32" y="130" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">a world you can describe, and</text>
+  <text x="32" y="144" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">that stays described</text>
+  <text x="32" y="172" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--blue, #2d5d7c)">breaks on</text>
+  <text x="32" y="190" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">any variation you did not write</text>
+
+  <rect x="263" y="34" width="234" height="176" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="281" y="60" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--gold, #b07d22)">You do it, on camera</text>
+  <text x="281" y="82" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">fifty episodes of teleoperation</text>
+  <text x="281" y="112" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--gold, #b07d22)">needs</text>
+  <text x="281" y="130" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">a task you can perform by hand,</text>
+  <text x="281" y="144" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">at the robot's speed</text>
+  <text x="281" y="172" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--gold, #b07d22)">breaks on</text>
+  <text x="281" y="190" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">states no demonstration visited</text>
+
+  <rect x="512" y="34" width="234" height="176" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="530" y="60" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--green, #15614e)">You write the score</text>
+  <text x="530" y="82" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">a reward, and a place to practise</text>
+  <text x="530" y="112" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--green, #15614e)">needs</text>
+  <text x="530" y="130" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">trials that are cheap, repeatable</text>
+  <text x="530" y="144" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">and safe to lose</text>
+  <text x="530" y="172" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--green, #15614e)">breaks on</text>
+  <text x="530" y="190" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">the letter of what you scored</text>
+
+  <line x1="131" y1="210" x2="131" y2="238" stroke="var(--muted, #6b6053)"
+        stroke-width="1.3" marker-end="url(#m3ArtifactArrow)"/>
+  <line x1="380" y1="210" x2="380" y2="238" stroke="var(--muted, #6b6053)"
+        stroke-width="1.3" marker-end="url(#m3ArtifactArrow)"/>
+  <line x1="629" y1="210" x2="629" y2="238" stroke="var(--muted, #6b6053)"
+        stroke-width="1.3" marker-end="url(#m3ArtifactArrow)"/>
+
+  <text x="380" y="258" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--muted, #6b6053)">All three end in a policy. They differ only in what you had to author.</text>
+  <text x="380" y="278" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">So the question is not which algorithm is strongest. It is which of these three you can actually produce for this task.</text>
+
+  <defs>
+    <marker id="m3ArtifactArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

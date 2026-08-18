@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 262" role="img" aria-label="Eye to hand: the camera is clamped to the table and the unknown transform runs from the robot base to the camera, and it never changes. Eye in hand: the camera rides the wrist and the unknown transform runs from the gripper to the camera">
+  <text x="195" y="26" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Eye to hand</text>
+  <text x="195" y="42" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">camera clamped to the table</text>
+
+  <line x1="40" y1="214" x2="360" y2="214" stroke="var(--line-2, #c8bca3)" stroke-width="1.6"/>
+
+  <rect x="60" y="180" width="44" height="34" rx="6"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="82" y="201" text-anchor="middle" class="svg-disp" font-size="11" font-weight="700"
+        fill="var(--blue, #2d5d7c)">base</text>
+
+  <line x1="82" y1="180" x2="140" y2="116" stroke="var(--blue, #2d5d7c)" stroke-width="2.5"/>
+  <line x1="140" y1="116" x2="214" y2="164" stroke="var(--blue, #2d5d7c)" stroke-width="2.5"/>
+  <circle cx="140" cy="116" r="4.5" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.5"/>
+  <line x1="206" y1="168" x2="222" y2="168" stroke="var(--blue, #2d5d7c)" stroke-width="2"/>
+  <line x1="206" y1="168" x2="206" y2="190" stroke="var(--blue, #2d5d7c)" stroke-width="2"/>
+  <line x1="222" y1="168" x2="222" y2="190" stroke="var(--blue, #2d5d7c)" stroke-width="2"/>
+
+  <rect x="272" y="120" width="84" height="34" rx="6"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="314" y="141" text-anchor="middle" class="svg-disp" font-size="12" font-weight="700"
+        fill="var(--blue, #2d5d7c)">camera</text>
+
+  <line x1="106" y1="192" x2="270" y2="144" stroke="var(--ox, #9c3b2e)" stroke-width="1.6"
+        stroke-dasharray="5 4" marker-end="url(#m4HandEyeArrow)"/>
+  <text x="158" y="200" text-anchor="middle" class="svg-disp" font-size="12" font-weight="700"
+        fill="var(--ox, #9c3b2e)">unknown</text>
+  <text x="195" y="244" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">one transform, constant forever</text>
+
+  <line x1="380" y1="16" x2="380" y2="250" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+
+  <text x="565" y="26" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Eye in hand</text>
+  <text x="565" y="42" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">camera bolted to the wrist</text>
+
+  <line x1="410" y1="214" x2="730" y2="214" stroke="var(--line-2, #c8bca3)" stroke-width="1.6"/>
+
+  <rect x="430" y="180" width="44" height="34" rx="6"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="452" y="201" text-anchor="middle" class="svg-disp" font-size="11" font-weight="700"
+        fill="var(--blue, #2d5d7c)">base</text>
+
+  <line x1="452" y1="180" x2="510" y2="116" stroke="var(--blue, #2d5d7c)" stroke-width="2.5"/>
+  <line x1="510" y1="116" x2="584" y2="164" stroke="var(--blue, #2d5d7c)" stroke-width="2.5"/>
+  <circle cx="510" cy="116" r="4.5" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.5"/>
+  <line x1="576" y1="168" x2="592" y2="168" stroke="var(--blue, #2d5d7c)" stroke-width="2"/>
+  <line x1="576" y1="168" x2="576" y2="190" stroke="var(--blue, #2d5d7c)" stroke-width="2"/>
+  <line x1="592" y1="168" x2="592" y2="190" stroke="var(--blue, #2d5d7c)" stroke-width="2"/>
+
+  <rect x="602" y="118" width="76" height="28" rx="6"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="640" y="137" text-anchor="middle" class="svg-disp" font-size="11" font-weight="700"
+        fill="var(--blue, #2d5d7c)">camera</text>
+
+  <line x1="586" y1="160" x2="612" y2="148" stroke="var(--ox, #9c3b2e)" stroke-width="1.6"
+        stroke-dasharray="5 4" marker-end="url(#m4HandEyeArrow)"/>
+  <text x="662" y="176" text-anchor="middle" class="svg-disp" font-size="12" font-weight="700"
+        fill="var(--ox, #9c3b2e)">unknown</text>
+  <line x1="632" y1="172" x2="602" y2="157" stroke="var(--muted, #6b6053)" stroke-width="1"/>
+  <text x="565" y="244" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">constant too, but the base-to-camera pose moves every step</text>
+
+  <defs>
+    <marker id="m4HandEyeArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--ox, #9c3b2e)"/>
+    </marker>
+  </defs>
+</svg>

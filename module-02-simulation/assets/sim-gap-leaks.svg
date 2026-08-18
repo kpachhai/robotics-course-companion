@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 342"
+     role="img" aria-label="The model on the left and the world on the right, with five named gaps stacked between them: guessed parameters, unmodelled dynamics, the actuator, what the camera sees, and objects that are not in the scene at all">
+
+  <rect x="20" y="40" width="140" height="252" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="90" y="158" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--blue, #2d5d7c)">the model</text>
+  <text x="90" y="178" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">an XML file</text>
+  <text x="90" y="192" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">full of numbers</text>
+
+  <rect x="580" y="40" width="140" height="252" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="650" y="158" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--green, #15614e)">the world</text>
+  <text x="650" y="178" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">does not read</text>
+  <text x="650" y="192" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">your XML file</text>
+
+  <g stroke="var(--muted, #6b6053)" stroke-width="1">
+    <line x1="160" y1="63" x2="190" y2="63"/><line x1="550" y1="63" x2="580" y2="63"/>
+    <line x1="160" y1="115" x2="190" y2="115"/><line x1="550" y1="115" x2="580" y2="115"/>
+    <line x1="160" y1="167" x2="190" y2="167"/><line x1="550" y1="167" x2="580" y2="167"/>
+    <line x1="160" y1="219" x2="190" y2="219"/><line x1="550" y1="219" x2="580" y2="219"/>
+    <line x1="160" y1="271" x2="190" y2="271"/><line x1="550" y1="271" x2="580" y2="271"/>
+  </g>
+
+  <rect x="190" y="42" width="360" height="42" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="370" y="62" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--gold, #b07d22)">numbers you guessed</text>
+  <text x="370" y="77" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">mass, inertia, friction coefficient, contact stiffness</text>
+
+  <rect x="190" y="94" width="360" height="42" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="370" y="114" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--gold, #b07d22)">effects nobody modelled</text>
+  <text x="370" y="129" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">backlash, flex, stiction, cable drag, a warm motor</text>
+
+  <rect x="190" y="146" width="360" height="42" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="370" y="166" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--gold, #b07d22)">the actuator</text>
+  <text x="370" y="181" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">servo lag, gain mismatch, a torque ceiling you forgot</text>
+
+  <rect x="190" y="198" width="360" height="42" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="370" y="218" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--gold, #b07d22)">what the camera sees</text>
+  <text x="370" y="233" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">lighting, motion blur, sensor noise, real texture</text>
+
+  <rect x="190" y="250" width="360" height="42" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="370" y="270" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--gold, #b07d22)">the object you never put in the scene</text>
+  <text x="370" y="285" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the one that breaks the demo</text>
+
+  <text x="370" y="318" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">every row is a place your controller can be right in sim and wrong on the bench</text>
+</svg>

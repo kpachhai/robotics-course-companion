@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 366" role="img" aria-label="A two-link arm with the two columns of its Jacobian drawn as arrows from the hand: column one is perpendicular to the line from the base to the hand and is 2.1 times longer, column two is perpendicular to link two and has the length of link two">
+  <text x="370" y="26" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">θ1 = 30° · θ2 = 60° · l1 = 1.0, l2 = 0.7 · hand at (0.87, 1.20)</text>
+
+  <line x1="172" y1="334" x2="228" y2="334"
+        stroke="var(--line-2, #c8bca3)" stroke-width="3" stroke-linecap="round"/>
+
+  <line x1="200" y1="320" x2="330" y2="245"
+        stroke="var(--blue, #2d5d7c)" stroke-width="5" stroke-linecap="round"/>
+  <line x1="330" y1="245" x2="330" y2="140"
+        stroke="var(--blue, #2d5d7c)" stroke-width="5" stroke-linecap="round"/>
+
+  <line x1="200" y1="320" x2="330" y2="140"
+        stroke="var(--muted, #6b6053)" stroke-width="1.2" stroke-dasharray="4 4"/>
+  <path d="M319.5,132.4 L311.9,142.9 L322.4,150.5" fill="none"
+        stroke="var(--muted, #6b6053)" stroke-width="1.2"/>
+
+  <line x1="330" y1="140" x2="252" y2="83"
+        stroke="var(--gold, #b07d22)" stroke-width="2.4" marker-end="url(#jacColArrowA)"/>
+  <line x1="330" y1="140" x2="288" y2="140"
+        stroke="var(--green, #15614e)" stroke-width="2.4" marker-end="url(#jacColArrowB)"/>
+
+  <circle cx="200" cy="320" r="6.5"
+          fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <circle cx="330" cy="245" r="6.5"
+          fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <circle cx="330" cy="140" r="7"
+          fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+
+  <text x="200" y="352" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--blue, #2d5d7c)">base</text>
+  <text x="348" y="250" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--blue, #2d5d7c)">elbow</text>
+  <text x="344" y="136" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--blue, #2d5d7c)">hand</text>
+  <text x="250" y="300" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">l1</text>
+  <text x="346" y="196" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">l2</text>
+  <text x="244" y="76" text-anchor="end" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--gold, #b07d22)">column 1</text>
+  <text x="278" y="162" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--green, #15614e)">column 2</text>
+  <line x1="216" y1="224" x2="265" y2="224"
+        stroke="var(--muted, #6b6053)" stroke-width="1.1"/>
+  <text x="210" y="228" text-anchor="end" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">column 1 ⊥ this line</text>
+
+  <text x="440" y="70" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">each column is a hand velocity, for 1 rad/s at that joint alone</text>
+
+  <text x="440" y="112" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--gold, #b07d22)">column 1 · the shoulder</text>
+  <text x="440" y="134" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">hand swings about the base, radius 1.48</text>
+  <text x="440" y="150" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">direction: perpendicular to base → hand</text>
+  <text x="440" y="166" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">1° of joint 1 moves the hand 25.8 mm</text>
+
+  <text x="440" y="214" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--green, #15614e)">column 2 · the elbow</text>
+  <text x="440" y="236" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">hand swings about the elbow, radius 0.70</text>
+  <text x="440" y="252" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">direction: perpendicular to link 2</text>
+  <text x="440" y="268" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">1° of joint 2 moves the hand 12.2 mm</text>
+
+  <line x1="440" y1="292" x2="700" y2="292"
+        stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <text x="440" y="314" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">arrows drawn to scale: column 1 is 2.1× longer,</text>
+  <text x="440" y="330" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">so the shoulder is the more powerful knob here</text>
+
+  <defs>
+    <marker id="jacColArrowA" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--gold, #b07d22)"/>
+    </marker>
+    <marker id="jacColArrowB" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--green, #15614e)"/>
+    </marker>
+  </defs>
+</svg>

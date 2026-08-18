@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 268" role="img" aria-label="Three cuts drawn to scale. Visual tokens per frame drop from about 1024 to 64, a sixteen-fold reduction. Backbone decoder layers drop from 32 to 16, a halving. The action expert's hidden width drops from 960 to 720, a quarter narrower. The token cut is visibly far larger than the other two.">
+
+  <text x="380" y="16" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">each pair drawn to scale within its own row</text>
+  <text x="380" y="32" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">outline: what the full-size part would be · fill: what SmolVLA runs</text>
+
+  <text x="150" y="68" text-anchor="end" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">visual tokens</text>
+  <text x="150" y="82" text-anchor="end" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">per camera frame</text>
+  <rect x="170" y="56" width="520" height="30" rx="6"
+        fill="none" stroke="var(--line-2, #c8bca3)" stroke-width="1.4"/>
+  <rect x="170" y="56" width="33" height="30" rx="6"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="186" y="75" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">64</text>
+  <text x="446" y="75" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">16x fewer tokens</text>
+  <text x="698" y="75" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">~1024</text>
+
+  <text x="150" y="148" text-anchor="end" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">decoder layers</text>
+  <text x="150" y="162" text-anchor="end" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">of the backbone</text>
+  <rect x="170" y="136" width="520" height="30" rx="6"
+        fill="none" stroke="var(--line-2, #c8bca3)" stroke-width="1.4"/>
+  <rect x="170" y="136" width="260" height="30" rx="6"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="300" y="155" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">16</text>
+  <text x="560" y="155" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">half the stack</text>
+  <text x="698" y="155" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">32</text>
+
+  <text x="150" y="228" text-anchor="end" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">expert width</text>
+  <text x="150" y="242" text-anchor="end" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">hidden size</text>
+  <rect x="170" y="216" width="520" height="30" rx="6"
+        fill="none" stroke="var(--line-2, #c8bca3)" stroke-width="1.4"/>
+  <rect x="170" y="216" width="390" height="30" rx="6"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="365" y="235" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">720</text>
+  <text x="625" y="235" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">25% narrower</text>
+  <text x="698" y="235" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">960</text>
+</svg>

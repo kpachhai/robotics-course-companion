@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 725 398" role="img" aria-label="The robot stack split by layer: learning took task-level behaviour and perception, motion generation is contested, and servo control and the safety monitor stayed hand-written">
+  <text x="330" y="22" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">the split runs by layer, not by camp</text>
+
+  <rect x="160" y="44" width="340" height="58" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="330" y="68" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--green, #15614e)">Task-level behaviour</text>
+  <text x="330" y="87" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">what to do next, and in what order</text>
+
+  <rect x="160" y="112" width="340" height="58" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="330" y="136" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--green, #15614e)">Perception</text>
+  <text x="330" y="155" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">what is there, where it is, whether it will slip</text>
+
+  <rect x="160" y="180" width="340" height="58" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="330" y="204" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--gold, #b07d22)">Motion generation</text>
+  <text x="330" y="223" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the path from here to there</text>
+
+  <rect x="160" y="248" width="340" height="58" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="330" y="272" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Servo control</text>
+  <text x="330" y="291" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">joint torques, hundreds of times a second</text>
+
+  <rect x="160" y="316" width="340" height="58" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="330" y="340" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Safety monitor</text>
+  <text x="330" y="359" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">limits, clamps, cut the power</text>
+
+  <path d="M510 44 L518 44 L518 170 L510 170" fill="none"
+        stroke="var(--green, #15614e)" stroke-width="1.4"/>
+  <text x="530" y="98" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--green, #15614e)">Learning took these</text>
+  <text x="530" y="118" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the specification could</text>
+  <text x="530" y="132" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">never be written down</text>
+
+  <path d="M510 248 L518 248 L518 374 L510 374" fill="none"
+        stroke="var(--blue, #2d5d7c)" stroke-width="1.4"/>
+  <text x="530" y="296" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--blue, #2d5d7c)">Classical kept these</text>
+  <text x="530" y="316" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">physics is the spec, and</text>
+  <text x="530" y="330" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">guarantees are required</text>
+
+  <path d="M150 180 L142 180 L142 238 L150 238" fill="none"
+        stroke="var(--gold, #b07d22)" stroke-width="1.4"/>
+  <text x="132" y="200" text-anchor="end" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--gold, #b07d22)">Contested</text>
+  <text x="132" y="219" text-anchor="end" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">planner with a map,</text>
+  <text x="132" y="233" text-anchor="end" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">policy in clutter</text>
+</svg>

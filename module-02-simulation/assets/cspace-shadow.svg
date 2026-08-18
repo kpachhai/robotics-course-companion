@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 360"
+     role="img" aria-label="Left, four discs around a two-link arm: disc A sits close enough for the upper arm to reach, discs B, C and D sit out near the rim where only the forearm reaches. Right, the matching configuration space: disc A produces one forbidden band running the full height of the square, while discs B, C and D each produce a curved sliver that exists only over a range of elbow angles">
+
+  <text x="20" y="30" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">the bench, seen from above</text>
+
+  <circle cx="135" cy="175" r="82" fill="none" stroke-dasharray="4 4"
+          stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <circle cx="135" cy="175" r="14" fill="none" stroke-dasharray="4 4"
+          stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <text x="135" y="272" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the reachable ring from Module 1</text>
+
+  <line x1="135" y1="175" x2="94" y2="200"
+        stroke="var(--blue, #2d5d7c)" stroke-width="4.5" stroke-linecap="round"/>
+  <line x1="94" y1="200" x2="93" y2="233"
+        stroke="var(--blue, #2d5d7c)" stroke-width="4.5" stroke-linecap="round"/>
+  <circle cx="135" cy="175" r="4" fill="var(--blue, #2d5d7c)"/>
+
+  <circle cx="142" cy="213" r="11"
+          fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.6"/>
+  <text x="142" y="217" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--ox, #9c3b2e)">A</text>
+
+  <circle cx="200" cy="153" r="8"
+          fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="216" y="157" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--gold, #b07d22)">B</text>
+
+  <circle cx="140" cy="105" r="9"
+          fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="160" y="99" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--gold, #b07d22)">C</text>
+
+  <circle cx="73" cy="146" r="8"
+          fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="55" y="150" text-anchor="end" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--gold, #b07d22)">D</text>
+
+  <text x="20" y="300" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">A is 0.81 from the base: the upper arm reaches it</text>
+  <text x="20" y="314" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">B, C and D are 1.42 to 1.45 out: only the forearm does</text>
+
+  <text x="350" y="30" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">configuration space, shaded where the arm hits something</text>
+
+  <rect x="350" y="50" width="260" height="260" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+
+  <clipPath id="m2pShadowClip">
+    <rect x="350" y="50" width="260" height="260" rx="8"/>
+  </clipPath>
+
+  <g clip-path="url(#m2pShadowClip)">
+    <path d="M410.5,310 L410.5,245 L406,115 L389,102 L378,89 L385,76 L404,63 L410.5,50
+             L434.5,50 L434.5,232 L439,245 L458.5,258 L467,271 L463,284 L441,297 L434.5,310 Z"
+          fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.6"/>
+
+    <g fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6">
+      <path d="M470,120 L473.4,140 L480,154 L484.1,167 L488.7,180 L492.8,193 L495.3,206
+               L501.5,219 L508.1,232 L516,239 L518.9,232 L512.7,219 L506.1,206 L501.5,193
+               L497.4,180 L495.3,167 L490.8,154 L486.7,140 Z"/>
+      <path transform="translate(47.7 0)"
+            d="M470,120 L473.4,140 L480,154 L484.1,167 L488.7,180 L492.8,193 L495.3,206
+               L501.5,219 L508.1,232 L516,239 L518.9,232 L512.7,219 L506.1,206 L501.5,193
+               L497.4,180 L495.3,167 L490.8,154 L486.7,140 Z"/>
+      <path transform="translate(97.8 0)"
+            d="M470,120 L473.4,140 L480,154 L484.1,167 L488.7,180 L492.8,193 L495.3,206
+               L501.5,219 L508.1,232 L516,239 L518.9,232 L512.7,219 L506.1,206 L501.5,193
+               L497.4,180 L495.3,167 L490.8,154 L486.7,140 Z"/>
+      <path transform="translate(-162.2 0)"
+            d="M470,120 L473.4,140 L480,154 L484.1,167 L488.7,180 L492.8,193 L495.3,206
+               L501.5,219 L508.1,232 L516,239 L518.9,232 L512.7,219 L506.1,206 L501.5,193
+               L497.4,180 L495.3,167 L490.8,154 L486.7,140 Z"/>
+    </g>
+  </g>
+
+  <text x="422" y="44" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--ox, #9c3b2e)">A</text>
+  <text x="497" y="112" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--gold, #b07d22)">B</text>
+  <text x="545" y="112" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--gold, #b07d22)">C</text>
+  <text x="595" y="112" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--gold, #b07d22)">D</text>
+
+  <text x="480" y="328" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--green, #15614e)">shoulder, -&#960; to +&#960;</text>
+  <text x="344" y="180" text-anchor="end" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--green, #15614e)">elbow</text>
+
+  <text x="626" y="70" class="svg-mono" font-size="9.5" fill="var(--ox, #9c3b2e)">A becomes a band</text>
+  <text x="626" y="84" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">the upper arm's position</text>
+  <text x="626" y="98" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">depends on the shoulder</text>
+  <text x="626" y="112" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">alone, so every elbow</text>
+  <text x="626" y="126" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">value is blocked</text>
+
+  <text x="626" y="176" class="svg-mono" font-size="9.5" fill="var(--gold, #b07d22)">B, C, D become slivers</text>
+  <text x="626" y="190" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">only the forearm reaches</text>
+  <text x="626" y="204" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">them, and the forearm</text>
+  <text x="626" y="218" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">depends on both joints,</text>
+  <text x="626" y="232" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">so the region bends</text>
+
+  <text x="626" y="282" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">D crosses the right edge</text>
+  <text x="626" y="296" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">and returns on the left:</text>
+  <text x="626" y="310" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">the space wraps</text>
+</svg>

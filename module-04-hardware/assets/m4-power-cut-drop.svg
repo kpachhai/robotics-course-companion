@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 250" role="img" aria-label="Three panels: a powered arm holding its pose, then the moment torque is disabled by a keyboard interrupt or a pulled plug, then the arm collapsing under gravity and dropping whatever it held">
+
+  <rect x="24" y="56" width="214" height="140" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="131" y="84" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Torque on</text>
+  <text x="131" y="102" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">holds its pose and its payload</text>
+  <circle cx="70" cy="168" r="9"
+          fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.5"/>
+  <path d="M70 168 L118 126 L196 126" fill="none"
+        stroke="var(--blue, #2d5d7c)" stroke-width="2"/>
+
+  <rect x="274" y="56" width="214" height="140" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="381" y="112" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--gold, #b07d22)">Ctrl+C, or the plug out</text>
+  <text x="381" y="136" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">torque is disabled on disconnect</text>
+  <text x="381" y="152" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">disable_torque_on_disconnect = True</text>
+
+  <rect x="524" y="56" width="212" height="140" rx="8"
+        fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.6"/>
+  <text x="630" y="84" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--ox, #9c3b2e)">Gravity</text>
+  <text x="630" y="102" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">it falls, and drops what it held</text>
+  <circle cx="570" cy="168" r="9"
+          fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.5"/>
+  <path d="M570 168 L614 182 L696 188" fill="none"
+        stroke="var(--ox, #9c3b2e)" stroke-width="2"/>
+  <line x1="660" y1="146" x2="660" y2="178"
+        stroke="var(--ox, #9c3b2e)" stroke-width="1.3" marker-end="url(#m4L14DropArrow)"/>
+
+  <line x1="238" y1="126" x2="270" y2="126"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m4L14DropArrow)"/>
+  <line x1="488" y1="126" x2="520" y2="126"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m4L14DropArrow)"/>
+
+  <text x="380" y="226" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">a stop is not a hold: plan for the drop before you plan for the stop</text>
+
+  <defs>
+    <marker id="m4L14DropArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 244" role="img" aria-label="Both policies are run from the same written list of twenty initial conditions, producing two rows of paired outcomes in which only the columns where the two disagree carry information">
+
+  <rect x="16" y="40" width="150" height="60" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="91" y="66" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">ACT</text>
+  <text x="91" y="86" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">your Module 4 baseline</text>
+
+  <rect x="16" y="170" width="150" height="60" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="91" y="196" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">SmolVLA</text>
+  <text x="91" y="216" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the one you fine-tuned</text>
+
+  <path d="M166,70 H188 V120 H204" fill="none"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m5MatchArrow)"/>
+  <path d="M166,200 H188 V150 H204" fill="none"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m5MatchArrow)"/>
+
+  <rect x="210" y="80" width="200" height="110" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="310" y="110" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">20 initial conditions</text>
+  <text x="310" y="130" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">written down before any trial</text>
+  <g fill="none" stroke="var(--blue, #2d5d7c)" stroke-width="1.2">
+    <rect x="221" y="148" width="7" height="12" rx="2"/>
+    <rect x="230" y="148" width="7" height="12" rx="2"/>
+    <rect x="239" y="148" width="7" height="12" rx="2"/>
+    <rect x="248" y="148" width="7" height="12" rx="2"/>
+    <rect x="257" y="148" width="7" height="12" rx="2"/>
+    <rect x="266" y="148" width="7" height="12" rx="2"/>
+    <rect x="275" y="148" width="7" height="12" rx="2"/>
+    <rect x="284" y="148" width="7" height="12" rx="2"/>
+    <rect x="293" y="148" width="7" height="12" rx="2"/>
+    <rect x="302" y="148" width="7" height="12" rx="2"/>
+    <rect x="311" y="148" width="7" height="12" rx="2"/>
+    <rect x="320" y="148" width="7" height="12" rx="2"/>
+    <rect x="329" y="148" width="7" height="12" rx="2"/>
+    <rect x="338" y="148" width="7" height="12" rx="2"/>
+    <rect x="347" y="148" width="7" height="12" rx="2"/>
+    <rect x="356" y="148" width="7" height="12" rx="2"/>
+    <rect x="365" y="148" width="7" height="12" rx="2"/>
+    <rect x="374" y="148" width="7" height="12" rx="2"/>
+    <rect x="383" y="148" width="7" height="12" rx="2"/>
+    <rect x="392" y="148" width="7" height="12" rx="2"/>
+  </g>
+
+  <path d="M410,120 H436 V98 H452" fill="none"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m5MatchArrow)"/>
+  <path d="M410,150 H436 V158 H452" fill="none"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m5MatchArrow)"/>
+
+  <text x="460" y="84" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">ACT outcome, trial 1 to 20</text>
+  <g stroke-width="1.4">
+    <rect x="460" y="90" width="12" height="16" rx="2" fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)"/>
+    <rect x="474" y="90" width="12" height="16" rx="2" fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)"/>
+    <rect x="488" y="90" width="12" height="16" rx="2" fill="none" stroke="var(--line-2, #c8bca3)"/>
+    <rect x="502" y="90" width="12" height="16" rx="2" fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)"/>
+    <rect x="516" y="90" width="12" height="16" rx="2" fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)"/>
+    <rect x="530" y="90" width="12" height="16" rx="2" fill="none" stroke="var(--line-2, #c8bca3)"/>
+    <rect x="544" y="90" width="12" height="16" rx="2" fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)"/>
+    <rect x="558" y="90" width="12" height="16" rx="2" fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)"/>
+    <rect x="572" y="90" width="12" height="16" rx="2" fill="none" stroke="var(--line-2, #c8bca3)"/>
+    <rect x="586" y="90" width="12" height="16" rx="2" fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)"/>
+    <rect x="600" y="90" width="12" height="16" rx="2" fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)"/>
+    <rect x="614" y="90" width="12" height="16" rx="2" fill="none" stroke="var(--line-2, #c8bca3)"/>
+    <rect x="628" y="90" width="12" height="16" rx="2" fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)"/>
+    <rect x="642" y="90" width="12" height="16" rx="2" fill="none" stroke="var(--line-2, #c8bca3)"/>
+    <rect x="656" y="90" width="12" height="16" rx="2" fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)"/>
+    <rect x="670" y="90" width="12" height="16" rx="2" fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)"/>
+    <rect x="684" y="90" width="12" height="16" rx="2" fill="none" stroke="var(--line-2, #c8bca3)"/>
+    <rect x="698" y="90" width="12" height="16" rx="2" fill="none" stroke="var(--line-2, #c8bca3)"/>
+    <rect x="712" y="90" width="12" height="16" rx="2" fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)"/>
+    <rect x="726" y="90" width="12" height="16" rx="2" fill="none" stroke="var(--line-2, #c8bca3)"/>
+  </g>
+
+  <text x="460" y="144" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">SmolVLA outcome, same 20 trials</text>
+  <g stroke-width="1.4">
+    <rect x="460" y="150" width="12" height="16" rx="2" fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)"/>
+    <rect x="474" y="150" width="12" height="16" rx="2" fill="none" stroke="var(--line-2, #c8bca3)"/>
+    <rect x="488" y="150" width="12" height="16" rx="2" fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)"/>
+    <rect x="502" y="150" width="12" height="16" rx="2" fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)"/>
+    <rect x="516" y="150" width="12" height="16" rx="2" fill="none" stroke="var(--line-2, #c8bca3)"/>
+    <rect x="530" y="150" width="12" height="16" rx="2" fill="none" stroke="var(--line-2, #c8bca3)"/>
+    <rect x="544" y="150" width="12" height="16" rx="2" fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)"/>
+    <rect x="558" y="150" width="12" height="16" rx="2" fill="none" stroke="var(--line-2, #c8bca3)"/>
+    <rect x="572" y="150" width="12" height="16" rx="2" fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)"/>
+    <rect x="586" y="150" width="12" height="16" rx="2" fill="none" stroke="var(--line-2, #c8bca3)"/>
+    <rect x="600" y="150" width="12" height="16" rx="2" fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)"/>
+    <rect x="614" y="150" width="12" height="16" rx="2" fill="none" stroke="var(--line-2, #c8bca3)"/>
+    <rect x="628" y="150" width="12" height="16" rx="2" fill="none" stroke="var(--line-2, #c8bca3)"/>
+    <rect x="642" y="150" width="12" height="16" rx="2" fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)"/>
+    <rect x="656" y="150" width="12" height="16" rx="2" fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)"/>
+    <rect x="670" y="150" width="12" height="16" rx="2" fill="none" stroke="var(--line-2, #c8bca3)"/>
+    <rect x="684" y="150" width="12" height="16" rx="2" fill="none" stroke="var(--line-2, #c8bca3)"/>
+    <rect x="698" y="150" width="12" height="16" rx="2" fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)"/>
+    <rect x="712" y="150" width="12" height="16" rx="2" fill="none" stroke="var(--line-2, #c8bca3)"/>
+    <rect x="726" y="150" width="12" height="16" rx="2" fill="none" stroke="var(--line-2, #c8bca3)"/>
+  </g>
+
+  <g stroke="var(--muted, #6b6053)" stroke-width="1.3">
+    <line x1="480" y1="172" x2="480" y2="180"/>
+    <line x1="494" y1="172" x2="494" y2="180"/>
+    <line x1="522" y1="172" x2="522" y2="180"/>
+    <line x1="564" y1="172" x2="564" y2="180"/>
+    <line x1="578" y1="172" x2="578" y2="180"/>
+    <line x1="592" y1="172" x2="592" y2="180"/>
+    <line x1="634" y1="172" x2="634" y2="180"/>
+    <line x1="648" y1="172" x2="648" y2="180"/>
+    <line x1="676" y1="172" x2="676" y2="180"/>
+    <line x1="704" y1="172" x2="704" y2="180"/>
+    <line x1="718" y1="172" x2="718" y2="180"/>
+  </g>
+
+  <text x="460" y="198" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">filled cell: that policy succeeded</text>
+  <text x="460" y="214" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the 11 marked columns are the whole result</text>
+
+  <defs>
+    <marker id="m5MatchArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

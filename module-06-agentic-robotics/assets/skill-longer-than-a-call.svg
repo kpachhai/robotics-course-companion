@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 310" role="img" aria-label="Two timelines comparing skill length against planner latency: when a skill runs longer than one planner call the robot never waits, and when a skill is shorter than a call the robot sits idle between skills">
+
+  <text x="370" y="18" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">the planner call for the next skill is issued the moment the current one starts</text>
+
+  <text x="150" y="44" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--green, #15614e)">a skill that outlives the call</text>
+
+  <text x="140" y="72" text-anchor="end" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">robot</text>
+  <rect x="150" y="54" width="432" height="28" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="366" y="72" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">place the mug in the bin · 3.0 s</text>
+  <rect x="582" y="54" width="48" height="28" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+
+  <text x="140" y="108" text-anchor="end" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">planner</text>
+  <rect x="150" y="90" width="173" height="28" rx="8"
+        fill="var(--purple-soft, #ede0f5)" stroke="var(--purple, #5e2d8c)" stroke-width="1.6"/>
+  <text x="236" y="108" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">one call · 1.2 s</text>
+  <rect x="323" y="90" width="259" height="28" rx="8"
+        fill="none" stroke="var(--line-2, #c8bca3)" stroke-width="1.3" stroke-dasharray="4 4"/>
+  <text x="452" y="108" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">idle, holding the answer</text>
+  <text x="323" y="136" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the next decision was ready 1.8 s before the robot needed it</text>
+
+  <text x="150" y="176" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--ox, #9c3b2e)">a skill shorter than the call</text>
+
+  <text x="140" y="204" text-anchor="end" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">robot</text>
+  <rect x="150" y="186" width="58" height="28" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <rect x="208" y="186" width="115" height="28" rx="8"
+        fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.3" stroke-dasharray="4 4"/>
+  <rect x="323" y="186" width="58" height="28" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <rect x="381" y="186" width="115" height="28" rx="8"
+        fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.3" stroke-dasharray="4 4"/>
+  <rect x="496" y="186" width="58" height="28" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <rect x="554" y="186" width="76" height="28" rx="8"
+        fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.3" stroke-dasharray="4 4"/>
+
+  <text x="140" y="240" text-anchor="end" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">planner</text>
+  <rect x="150" y="222" width="173" height="28" rx="8"
+        fill="var(--purple-soft, #ede0f5)" stroke="var(--purple, #5e2d8c)" stroke-width="1.6"/>
+  <rect x="323" y="222" width="173" height="28" rx="8"
+        fill="var(--purple-soft, #ede0f5)" stroke="var(--purple, #5e2d8c)" stroke-width="1.6"/>
+  <rect x="496" y="222" width="134" height="28" rx="8"
+        fill="var(--purple-soft, #ede0f5)" stroke="var(--purple, #5e2d8c)" stroke-width="1.6"/>
+  <text x="208" y="268" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">0.4 s of work per 1.2 s of clock: the arm is still one third of its life</text>
+
+  <line x1="150" y1="284" x2="630" y2="284" stroke="var(--muted, #6b6053)" stroke-width="1.3"/>
+  <line x1="150" y1="284" x2="150" y2="290" stroke="var(--muted, #6b6053)" stroke-width="1.3"/>
+  <text x="150" y="304" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">0 s</text>
+  <line x1="294" y1="284" x2="294" y2="290" stroke="var(--muted, #6b6053)" stroke-width="1.3"/>
+  <text x="294" y="304" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">1 s</text>
+  <line x1="438" y1="284" x2="438" y2="290" stroke="var(--muted, #6b6053)" stroke-width="1.3"/>
+  <text x="438" y="304" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">2 s</text>
+  <line x1="582" y1="284" x2="582" y2="290" stroke="var(--muted, #6b6053)" stroke-width="1.3"/>
+  <text x="582" y="304" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">3 s</text>
+</svg>

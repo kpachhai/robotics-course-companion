@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 348" role="img" aria-label="Three ways to draw the line between the slow half and the fast half of a robot policy: pi zero puts two experts inside one attention stack, GR00T puts a diffusion head after one backbone and passes a hidden-state tensor, and Gemini Robotics uses two separate models that pass an English sentence">
+  <text x="24" y="66" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">&#960;<tspan font-size="10" dy="3">0</tspan><tspan font-size="14" dy="-3"> / &#960;</tspan><tspan font-size="10" dy="3">0.5</tspan></text>
+  <text x="24" y="86" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">two experts,</text>
+  <text x="24" y="100" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">one transformer</text>
+
+  <rect x="222" y="50" width="230" height="42" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="337" y="70" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--blue, #2d5d7c)">vision-language expert</text>
+  <text x="337" y="84" text-anchor="middle" class="svg-mono" font-size="9"
+        fill="var(--muted, #6b6053)">images and the instruction</text>
+  <rect x="488" y="50" width="230" height="42" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="603" y="70" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--green, #15614e)">action expert</text>
+  <text x="603" y="84" text-anchor="middle" class="svg-mono" font-size="9"
+        fill="var(--muted, #6b6053)">joint angles and noisy actions</text>
+  <line x1="458" y1="71" x2="482" y2="71"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3"
+        marker-start="url(#m5SplitBack)" marker-end="url(#m5SplitArrow)"/>
+
+  <rect x="222" y="98" width="496" height="22" rx="6" fill="none"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" stroke-dasharray="4 4"/>
+  <text x="470" y="113" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">one shared attention stack: each sees the other inside a single forward pass</text>
+
+  <text x="24" y="170" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">GR00T N1.7</text>
+  <text x="24" y="190" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">one backbone,</text>
+  <text x="24" y="204" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">one action head</text>
+
+  <rect x="222" y="154" width="230" height="42" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="337" y="174" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--blue, #2d5d7c)">Cosmos-Reason 2B</text>
+  <text x="337" y="188" text-anchor="middle" class="svg-mono" font-size="9"
+        fill="var(--muted, #6b6053)">images and the instruction</text>
+  <rect x="488" y="154" width="230" height="42" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="603" y="174" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--green, #15614e)">diffusion head</text>
+  <text x="603" y="188" text-anchor="middle" class="svg-mono" font-size="9"
+        fill="var(--muted, #6b6053)">denoises an action chunk</text>
+  <line x1="456" y1="175" x2="482" y2="175"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m5SplitArrow)"/>
+  <text x="470" y="216" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">what crosses: a hidden-state tensor, which no human reads</text>
+
+  <text x="24" y="274" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Gemini Robotics 2</text>
+  <text x="24" y="294" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">two models,</text>
+  <text x="24" y="308" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">two machines</text>
+
+  <rect x="222" y="258" width="230" height="42" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="337" y="278" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--blue, #2d5d7c)">embodied reasoning</text>
+  <text x="337" y="292" text-anchor="middle" class="svg-mono" font-size="9"
+        fill="var(--muted, #6b6053)">plans, off the robot</text>
+  <rect x="488" y="258" width="230" height="42" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="603" y="278" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--green, #15614e)">the VLA</text>
+  <text x="603" y="292" text-anchor="middle" class="svg-mono" font-size="9"
+        fill="var(--muted, #6b6053)">acts, on the robot</text>
+  <line x1="456" y1="279" x2="482" y2="279"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m5SplitArrow)"/>
+
+  <rect x="330" y="308" width="280" height="22" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="470" y="323" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">what crosses: "open the fridge, middle shelf"</text>
+
+  <defs>
+    <marker id="m5SplitArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+    <marker id="m5SplitBack" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M8,0 L0,4 L8,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

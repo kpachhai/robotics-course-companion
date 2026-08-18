@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 348" role="img" aria-label="The three tiers Figure describes for Helix 02: a slow System 2 for semantics, a 200 hertz System 1 visuomotor transformer, and a 1 kilohertz System 0 whole-body controller of about ten million parameters trained in simulation">
+  <text x="110" y="86" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--blue, #2d5d7c)">slow</text>
+  <text x="110" y="106" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">rate not published</text>
+
+  <rect x="180" y="44" width="400" height="76" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="200" y="72" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--blue, #2d5d7c)">System 2</text>
+  <text x="200" y="92" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">semantic reasoning, scene understanding,</text>
+  <text x="200" y="108" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">language</text>
+
+  <text x="600" y="80" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">emits a latent goal</text>
+  <text x="600" y="96" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">nobody can read</text>
+
+  <line x1="380" y1="120" x2="380" y2="144" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m5HelixArrow)"/>
+
+  <text x="110" y="190" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--green, #15614e)">200 Hz</text>
+  <text x="110" y="210" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">every 5 ms</text>
+
+  <rect x="180" y="148" width="400" height="76" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="200" y="176" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--green, #15614e)">System 1</text>
+  <text x="200" y="196" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">visuomotor transformer: head and palm cameras,</text>
+  <text x="200" y="212" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">touch, joint angles</text>
+
+  <text x="600" y="184" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">emits full-body</text>
+  <text x="600" y="200" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">motor commands</text>
+
+  <line x1="380" y1="224" x2="380" y2="248" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m5HelixArrow)"/>
+  <text x="392" y="242" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">this contract is not published</text>
+
+  <text x="110" y="294" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--gold, #b07d22)">1 kHz</text>
+  <text x="110" y="314" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">every 1 ms</text>
+
+  <rect x="180" y="252" width="400" height="76" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="200" y="280" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--gold, #b07d22)">System 0</text>
+  <text x="200" y="300" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">10M-parameter whole-body controller, trained</text>
+  <text x="200" y="316" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">in simulation across 200,000+ environments</text>
+
+  <text x="600" y="288" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">keeps the robot</text>
+  <text x="600" y="304" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">standing up</text>
+
+  <defs>
+    <marker id="m5HelixArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

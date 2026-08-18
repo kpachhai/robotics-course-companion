@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 336"
+     role="img" aria-label="The same point put through the same two operations in two orders. Rotating first and then translating lands on 3.05, 2.18. Translating first and then rotating lands on 2.28, 3.05, which is 1.16 away.">
+
+  <!-- left panel: rotate, then translate -->
+  <text x="78" y="112" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--green, #15614e)">rotate, then translate</text>
+
+  <line x1="78" y1="288" x2="254" y2="288"
+        stroke="var(--line-2, #c8bca3)" stroke-width="1.3" marker-end="url(#orderAxisL)"/>
+  <line x1="78" y1="288" x2="78" y2="137"
+        stroke="var(--line-2, #c8bca3)" stroke-width="1.3" marker-end="url(#orderAxisL)"/>
+  <text x="262" y="293" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--muted, #6b6053)">x<tspan font-size="9.5" dy="3">W</tspan></text>
+  <text x="78" y="124" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--muted, #6b6053)">y<tspan font-size="9.5" dy="3">W</tspan></text>
+
+  <path d="M138.9,261.4 A66.4,66.4 0 0 0 127.7,244.0"
+        fill="none" stroke="var(--muted, #6b6053)" stroke-width="1.3"
+        marker-end="url(#orderStepL)"/>
+  <text x="110" y="266" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">R(30&#176;)</text>
+
+  <line x1="127.9" y1="235.4" x2="198.9" y2="199.9"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" stroke-dasharray="4 4"
+        marker-end="url(#orderStepL)"/>
+  <text x="170" y="228" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">+ t</text>
+
+  <circle cx="141" cy="267" r="4.5" fill="none"
+          stroke="var(--blue, #2d5d7c)" stroke-width="1.5"/>
+  <text x="150" y="278" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">p<tspan font-size="9.5" dy="3">B</tspan></text>
+  <circle cx="122.1" cy="238.3" r="4" fill="none"
+          stroke="var(--muted, #6b6053)" stroke-width="1.3"/>
+  <circle cx="206.1" cy="196.3" r="5.5"
+          fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.8"/>
+  <text x="216" y="192" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--green, #15614e)">(3.05, 2.18)</text>
+  <text x="216" y="207" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the right answer</text>
+
+  <line x1="352" y1="96" x2="352" y2="312"
+        stroke="var(--line-2, #c8bca3)" stroke-width="1.1"/>
+
+  <!-- right panel: translate, then rotate -->
+  <text x="400" y="112" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--ox, #9c3b2e)">translate, then rotate</text>
+
+  <line x1="400" y1="288" x2="576" y2="288"
+        stroke="var(--line-2, #c8bca3)" stroke-width="1.3" marker-end="url(#orderAxisR)"/>
+  <line x1="400" y1="288" x2="400" y2="137"
+        stroke="var(--line-2, #c8bca3)" stroke-width="1.3" marker-end="url(#orderAxisR)"/>
+  <text x="584" y="293" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--muted, #6b6053)">x<tspan font-size="9.5" dy="3">W</tspan></text>
+  <text x="400" y="124" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--muted, #6b6053)">y<tspan font-size="9.5" dy="3">W</tspan></text>
+
+  <line x1="468.8" y1="264.1" x2="539.8" y2="228.6"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" stroke-dasharray="4 4"
+        marker-end="url(#orderStepR)"/>
+  <text x="510" y="258" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">+ t</text>
+
+  <path d="M544.5,219.5 A159.9,159.9 0 0 0 502.1,164.9"
+        fill="none" stroke="var(--muted, #6b6053)" stroke-width="1.3"
+        marker-end="url(#orderStepR)"/>
+  <text x="500" y="206" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">R(30&#176;)</text>
+
+  <circle cx="463" cy="267" r="4.5" fill="none"
+          stroke="var(--blue, #2d5d7c)" stroke-width="1.5"/>
+  <text x="472" y="278" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">p<tspan font-size="9.5" dy="3">B</tspan></text>
+  <circle cx="547" cy="225" r="4" fill="none"
+          stroke="var(--muted, #6b6053)" stroke-width="1.3"/>
+  <circle cx="495.8" cy="159.9" r="5.5"
+          fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.8"/>
+  <text x="496" y="132" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--ox, #9c3b2e)">(2.28, 3.05)</text>
+  <text x="496" y="146" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">1.16 away, every time</text>
+
+  <defs>
+    <marker id="orderAxisL" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--line-2, #c8bca3)"/>
+    </marker>
+    <marker id="orderAxisR" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--line-2, #c8bca3)"/>
+    </marker>
+    <marker id="orderStepL" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+    <marker id="orderStepR" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

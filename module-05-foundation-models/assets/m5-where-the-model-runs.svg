@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 316" role="img" aria-label="Three places a policy can run: on a board bolted to the robot with no network leg but a memory ceiling, on a workstation across a local network you control, or on a rented cloud GPU whose round trip you do not control">
+
+  <rect x="40" y="52" width="380" height="56" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="230" y="76" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--green, #15614e)">Robot with the board on board</text>
+  <text x="230" y="96" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">Jetson-class module, 16 GB or so</text>
+  <text x="444" y="72" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">no network leg &#183; nothing to drop mid-grasp</text>
+  <text x="444" y="90" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">the memory ceiling picks your model for you</text>
+  <text x="444" y="108" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">fine-tuning happens somewhere else, always</text>
+
+  <rect x="40" y="144" width="160" height="56" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="120" y="168" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Robot host</text>
+  <text x="120" y="188" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">wired to the arm</text>
+  <line x1="204" y1="172" x2="246" y2="172"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m5runsArrow)"/>
+  <text x="225" y="162" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">LAN</text>
+  <rect x="250" y="144" width="170" height="56" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="335" y="168" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Workstation GPU</text>
+  <text x="335" y="188" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">24 GB and up, in the room</text>
+  <text x="444" y="164" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">one hop you own, on a switch you can see</text>
+  <text x="444" y="182" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">run 3B models the robot could never hold</text>
+  <text x="444" y="200" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">this is the default for course work</text>
+
+  <rect x="40" y="236" width="160" height="56" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="120" y="260" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--gold, #b07d22)">Robot host</text>
+  <text x="120" y="280" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">wired to the arm</text>
+  <line x1="204" y1="264" x2="246" y2="264"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" stroke-dasharray="4 4"
+        marker-end="url(#m5runsArrow)"/>
+  <text x="225" y="254" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">internet</text>
+  <rect x="250" y="236" width="170" height="56" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="335" y="260" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--gold, #b07d22)">Rented GPU</text>
+  <text x="335" y="280" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">80 GB, by the hour</text>
+  <text x="444" y="256" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">the only way to full-fine-tune a 3B model</text>
+  <text x="444" y="274" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">a round trip you do not control, and it varies</text>
+  <text x="444" y="292" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">fine for training, poor for a closed loop</text>
+
+  <defs>
+    <marker id="m5runsArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

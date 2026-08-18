@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 146" role="img" aria-label="Four skill calls whose postconditions all held, followed by a separate goal check that fails because an object nobody planned for is still on the desk">
+  <path d="M11 38 L11 32 L539 32 L539 38" fill="none"
+        stroke="var(--muted, #6b6053)" stroke-width="1.1"/>
+  <text x="275" y="24" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">the step check · after every call</text>
+
+  <path d="M561 38 L561 32 L751 32 L751 38" fill="none"
+        stroke="var(--muted, #6b6053)" stroke-width="1.1"/>
+  <text x="656" y="24" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">the goal check</text>
+
+  <rect x="11" y="48" width="120" height="56" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="71" y="73" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--green, #15614e)">pick cup</text>
+  <text x="71" y="90" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">postcondition held</text>
+
+  <line x1="133" y1="76" x2="143" y2="76"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m6ChecksArrow)"/>
+
+  <rect x="147" y="48" width="120" height="56" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="207" y="73" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--green, #15614e)">place cup</text>
+  <text x="207" y="90" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">postcondition held</text>
+
+  <line x1="269" y1="76" x2="279" y2="76"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m6ChecksArrow)"/>
+
+  <rect x="283" y="48" width="120" height="56" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="343" y="73" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--green, #15614e)">pick pen</text>
+  <text x="343" y="90" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">postcondition held</text>
+
+  <line x1="405" y1="76" x2="415" y2="76"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m6ChecksArrow)"/>
+
+  <rect x="419" y="48" width="120" height="56" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="479" y="73" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--green, #15614e)">place pen</text>
+  <text x="479" y="90" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">postcondition held</text>
+
+  <line x1="541" y1="76" x2="557" y2="76"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m6ChecksArrow)"/>
+
+  <rect x="561" y="48" width="190" height="56" rx="8"
+        fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.6"/>
+  <text x="656" y="73" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--ox, #9c3b2e)">the desk is not clear</text>
+  <text x="656" y="90" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">nobody planned for the mug</text>
+
+  <text x="380" y="130" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">every step succeeded · the task did not</text>
+
+  <defs>
+    <marker id="m6ChecksArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

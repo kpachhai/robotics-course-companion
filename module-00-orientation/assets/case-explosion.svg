@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 258" role="img" aria-label="Five independent scene factors multiply to about 190,000 distinct scenes, while forty-seven hand-written rules cover only a sliver of that space">
+  <text x="380" y="26" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">rules add one case each; scenes multiply</text>
+
+  <rect x="20" y="52" width="96" height="54" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="68" y="76" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Object</text>
+  <text x="68" y="94" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">20 items</text>
+
+  <text x="129" y="86" text-anchor="middle" class="svg-disp" font-size="14" font-weight="600"
+        fill="var(--muted, #6b6053)">&#215;</text>
+
+  <rect x="142" y="52" width="96" height="54" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="190" y="76" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Pose</text>
+  <text x="190" y="94" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">50 placements</text>
+
+  <text x="251" y="86" text-anchor="middle" class="svg-disp" font-size="14" font-weight="600"
+        fill="var(--muted, #6b6053)">&#215;</text>
+
+  <rect x="264" y="52" width="96" height="54" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="312" y="76" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Light</text>
+  <text x="312" y="94" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">6 conditions</text>
+
+  <text x="373" y="86" text-anchor="middle" class="svg-disp" font-size="14" font-weight="600"
+        fill="var(--muted, #6b6053)">&#215;</text>
+
+  <rect x="386" y="52" width="96" height="54" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="434" y="76" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Backdrop</text>
+  <text x="434" y="94" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">8 surfaces</text>
+
+  <text x="495" y="86" text-anchor="middle" class="svg-disp" font-size="14" font-weight="600"
+        fill="var(--muted, #6b6053)">&#215;</text>
+
+  <rect x="508" y="52" width="96" height="54" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="556" y="76" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Occlusion</text>
+  <text x="556" y="94" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">4 degrees</text>
+
+  <text x="618" y="86" text-anchor="middle" class="svg-disp" font-size="14" font-weight="600"
+        fill="var(--muted, #6b6053)">=</text>
+
+  <rect x="636" y="52" width="110" height="54" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="691" y="76" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--gold, #b07d22)">190,000</text>
+  <text x="691" y="94" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">distinct scenes</text>
+
+  <line x1="691" y1="106" x2="691" y2="150"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3"/>
+
+  <rect x="20" y="150" width="726" height="38" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <rect x="25" y="155" width="52" height="28" rx="5"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.5"/>
+  <text x="420" y="173" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">every other scene the robot will actually meet</text>
+
+  <line x1="51" y1="188" x2="51" y2="217"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3"/>
+  <text x="22" y="228" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--green, #15614e)">47 hand-written rules</text>
+  <text x="22" y="244" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">cover this much; sliver not drawn to scale</text>
+</svg>

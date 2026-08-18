@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 748 274" role="img" aria-label="The MJCF file passes through a compiler once at load time, producing MjModel, the constant description with masses and inertias filled in. MjData is then allocated from MjModel and holds everything that changes as the simulation runs.">
+
+  <rect x="20" y="82" width="176" height="76" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="108" y="112" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--gold, #b07d22)">two_link.xml</text>
+  <text x="108" y="132" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">text you wrote</text>
+  <text x="108" y="145" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">and can diff</text>
+
+  <line x1="196" y1="120" x2="230" y2="120"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#compileArrow)"/>
+
+  <rect x="238" y="82" width="184" height="76" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="330" y="112" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--blue, #2d5d7c)">the MJCF compiler</text>
+  <text x="330" y="132" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">runs once, when</text>
+  <text x="330" y="145" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">you load the file</text>
+
+  <line x1="330" y1="158" x2="330" y2="184"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3"/>
+  <text x="330" y="202" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">you never wrote a mass; it worked out</text>
+  <text x="330" y="215" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">0.4105 kg from the capsule&#8217;s volume</text>
+  <text x="330" y="228" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">at the default density of 1000 kg/m&#179;</text>
+  <text x="330" y="248" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">and resolved every &lt;default&gt; the same way</text>
+
+  <path d="M422 120 L440 120 L440 58 L456 58" fill="none"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#compileArrow)"/>
+
+  <rect x="464" y="20" width="264" height="76" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="596" y="50" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--green, #15614e)">MjModel</text>
+  <text x="596" y="70" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">constant: the tree, masses, inertias,</text>
+  <text x="596" y="83" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">limits, and which slot every joint owns</text>
+
+  <line x1="596" y1="96" x2="596" y2="140"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#compileArrow)"/>
+  <text x="588" y="122" text-anchor="end" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">MjData(model)</text>
+
+  <rect x="464" y="148" width="264" height="76" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="596" y="178" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--blue, #2d5d7c)">MjData</text>
+  <text x="596" y="198" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">changing: qpos, qvel, ctrl, contacts,</text>
+  <text x="596" y="211" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">sensordata, time</text>
+
+  <defs>
+    <marker id="compileArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

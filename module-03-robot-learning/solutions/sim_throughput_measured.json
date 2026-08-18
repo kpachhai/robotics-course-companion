@@ -1,0 +1,5 @@
+{
+  "_comment": "One core of a 2018 4-core Intel laptop, idle. These are the numbers Lesson 3.16 quotes in prose, pinned here so the figure cannot drift away from the text when someone regenerates figures on a different machine. Run sim_throughput.py to measure your own machine; that is the exercise.",
+  "physics_only": 31000,
+  "with_policy": 8500
+}

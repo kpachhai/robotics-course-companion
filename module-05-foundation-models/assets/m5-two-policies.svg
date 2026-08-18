@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 412" role="img" aria-label="Two ways to build a robot policy side by side: on the left, fifty episodes train a policy from scratch, so everything the policy knows came from those episodes; on the right, a backbone pretrained on web images and text feeds an action head that is fine-tuned on the same fifty episodes, so only the last stage came from the robot data">
+
+  <text x="190" y="18" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Trained from scratch</text>
+  <text x="570" y="18" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--purple, #5e2d8c)">Pretrained, then fine-tuned</text>
+
+  <rect x="50" y="32" width="280" height="58" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="190" y="58" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Your 50 episodes</text>
+  <text x="190" y="77" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">camera pixels paired with joint angles</text>
+
+  <line x1="190" y1="90" x2="190" y2="118"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m5TwoPolArrow)"/>
+
+  <rect x="50" y="122" width="280" height="70" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="190" y="150" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--blue, #2d5d7c)">The whole policy</text>
+  <text x="190" y="169" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">every weight fitted to those pairs</text>
+  <text x="190" y="183" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">and to nothing else</text>
+
+  <line x1="190" y1="192" x2="190" y2="302"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m5TwoPolArrow)"/>
+
+  <rect x="430" y="32" width="280" height="58" rx="8"
+        fill="var(--purple-soft, #ede0f5)" stroke="var(--purple, #5e2d8c)" stroke-width="1.6"/>
+  <text x="570" y="58" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--purple, #5e2d8c)">Web images and text</text>
+  <text x="570" y="77" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">enormous, and containing no robot actions</text>
+
+  <line x1="570" y1="90" x2="570" y2="118"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m5TwoPolArrow)"/>
+
+  <rect x="430" y="122" width="280" height="70" rx="8"
+        fill="var(--purple-soft, #ede0f5)" stroke="var(--purple, #5e2d8c)" stroke-width="1.6"/>
+  <text x="570" y="150" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--purple, #5e2d8c)">Vision-language backbone</text>
+  <text x="570" y="169" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">a representation that already separates</text>
+  <text x="570" y="183" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">objects, words and relations</text>
+
+  <line x1="570" y1="192" x2="570" y2="218"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m5TwoPolArrow)"/>
+
+  <rect x="430" y="222" width="280" height="70" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="570" y="250" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--gold, #b07d22)">Action head</text>
+  <text x="570" y="269" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the only stage fitted to</text>
+  <text x="570" y="283" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">your 50 episodes</text>
+
+  <line x1="570" y1="292" x2="570" y2="302"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m5TwoPolArrow)"/>
+
+  <rect x="50" y="306" width="280" height="50" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="190" y="336" text-anchor="middle" class="svg-disp" font-size="14" font-weight="600"
+        fill="var(--blue, #2d5d7c)">An action chunk</text>
+
+  <rect x="430" y="306" width="280" height="50" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="570" y="336" text-anchor="middle" class="svg-disp" font-size="14" font-weight="600"
+        fill="var(--blue, #2d5d7c)">An action chunk</text>
+
+  <text x="190" y="380" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">everything it knows came from 50 episodes,</text>
+  <text x="190" y="394" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">so a blue block is a new world</text>
+
+  <text x="570" y="380" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the 50 episodes taught it your arm;</text>
+  <text x="570" y="394" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the web taught it what a block is</text>
+
+  <defs>
+    <marker id="m5TwoPolArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

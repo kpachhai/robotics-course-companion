@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 330"
+     role="img" aria-label="Three kinds of randomisation compared: appearance changes the pixels and nothing else, object pose changes the actions the expert takes, and dynamics changes the physics but barely changes either the actions or the outcome. Measured spread of the recorded joint trajectory is zero degrees, 2.73 degrees and 0.08 degrees respectively">
+
+  <rect x="16" y="30" width="228" height="196" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="130" y="56" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--blue, #2d5d7c)">appearance</text>
+  <text x="130" y="76" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">colours, lighting, camera pose</text>
+  <text x="130" y="106" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">changes: the pixels</text>
+  <text x="130" y="126" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">51 of 255 per pixel, on average</text>
+  <text x="130" y="156" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">expert success unchanged</text>
+  <text x="130" y="186" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">0.000 deg</text>
+  <text x="130" y="204" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">spread in the joint trace</text>
+
+  <rect x="256" y="30" width="228" height="196" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="370" y="56" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--gold, #b07d22)">object pose</text>
+  <text x="370" y="76" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">where the cube starts</text>
+  <text x="370" y="106" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">changes: the actions</text>
+  <text x="370" y="126" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">a different reach every episode</text>
+  <text x="370" y="156" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">expert success falls past 8 cm</text>
+  <text x="370" y="186" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--gold, #b07d22)">2.730 deg</text>
+  <text x="370" y="204" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">spread in the joint trace</text>
+
+  <rect x="496" y="30" width="228" height="196" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="610" y="56" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--green, #15614e)">dynamics</text>
+  <text x="610" y="76" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">mass, friction, servo gains</text>
+  <text x="610" y="106" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">changes: the physics</text>
+  <text x="610" y="126" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">40x mass, 14x friction, 20x gain</text>
+  <text x="610" y="156" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">expert success unchanged</text>
+  <text x="610" y="186" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--green, #15614e)">0.083 deg</text>
+  <text x="610" y="204" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">spread in the joint trace</text>
+
+  <text x="16" y="266" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">all three score the same success rate, so the label tells you nothing about which one you turned on</text>
+  <text x="16" y="286" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">the spread of the recorded trajectory does: it is the part a policy actually learns from</text>
+  <text x="16" y="306" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">measured over 8 episodes each, mean per-joint standard deviation across the whole rollout</text>
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 268" role="img" aria-label="The published robotics record holds tutorials, documentation, announcements and benchmark wins in quantity, while conditions, failure rates, root causes, real latencies and abandoned approaches are largely absent, and a new piece belongs in the second column">
+
+  <text x="196" y="30" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">already in the record, in quantity</text>
+
+  <rect x="16" y="42" width="360" height="196" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="196" y="72" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">What everyone writes</text>
+  <text x="196" y="102" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">getting-started tutorials</text>
+  <text x="196" y="124" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">documentation restated at greater length</text>
+  <text x="196" y="146" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">release announcements</text>
+  <text x="196" y="168" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">benchmark wins, self-reported</text>
+  <text x="196" y="190" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">demo videos with no denominator</text>
+  <text x="196" y="218" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">writing here competes with everything above it</text>
+
+  <text x="564" y="30" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">searched for constantly, almost never written</text>
+
+  <rect x="384" y="42" width="360" height="196" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="564" y="72" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--gold, #b07d22)">What is missing</text>
+  <text x="564" y="102" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the conditions a number was measured under</text>
+  <text x="564" y="124" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">failure rates, and which cases fail</text>
+  <text x="564" y="146" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">root causes, traced rather than guessed</text>
+  <text x="564" y="168" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">real latency, on hardware somebody owns</text>
+  <text x="564" y="190" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the approach that was tried and abandoned</text>
+  <text x="564" y="218" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">writing here competes with nothing at all</text>
+
+  <text x="380" y="258" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">your capstone produced the right-hand column as a by-product, and you did not throw it away</text>
+</svg>

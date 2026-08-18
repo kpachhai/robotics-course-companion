@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 306"
+     role="img" aria-label="A trapezoidal velocity profile for a 90 degree move: accelerate at the limit for half a second, cruise at the speed limit for 0.55 seconds, decelerate at the limit for half a second. The area under the curve is the distance travelled">
+  <line x1="112" y1="250" x2="512" y2="250" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <line x1="112" y1="74" x2="112" y2="250" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <line x1="112.0" y1="250" x2="112.0" y2="255" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <text x="112.0" y="268" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">0.0 s</text>
+  <line x1="241.3" y1="250" x2="241.3" y2="255" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <text x="241.3" y="268" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">0.5 s</text>
+  <line x1="370.5" y1="250" x2="370.5" y2="255" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <text x="370.5" y="268" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">1.0 s</text>
+  <line x1="499.8" y1="250" x2="499.8" y2="255" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <text x="499.8" y="268" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">1.5 s</text>
+  <line x1="107" y1="250.0" x2="112" y2="250.0" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <text x="103" y="253.5" text-anchor="end" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">0 rad/s</text>
+  <line x1="107" y1="174.6" x2="112" y2="174.6" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <text x="103" y="178.07142857142856" text-anchor="end" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">0.75 rad/s</text>
+  <line x1="107" y1="99.1" x2="112" y2="99.1" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <text x="103" y="102.64285714285714" text-anchor="end" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">1.5 rad/s</text>
+  <polygon fill="var(--green-soft, #e3ede7)" stroke="none" opacity="0.55" points="112.0,250.0 112.0,250.0 241.3,99.1 383.0,99.4 511.2,249.1 512.0,250.0"/>
+  <polyline fill="none" stroke="var(--green, #15614e)" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"
+            points="112.0,250.0 241.3,99.1 383.0,99.4 511.2,249.1"/>
+  <line x1="241.3" y1="250.0" x2="241.3" y2="99.1" stroke="var(--line-2, #c8bca3)" stroke-width="1.1" stroke-dasharray="4 4"/>
+  <line x1="382.7" y1="250.0" x2="382.7" y2="99.1" stroke="var(--line-2, #c8bca3)" stroke-width="1.1" stroke-dasharray="4 4"/>
+  <line x1="112" y1="99.1" x2="512.0" y2="99.1" stroke="var(--muted, #6b6053)" stroke-width="1.1" stroke-dasharray="5 4"/>
+  <text x="118" y="91.14285714285714" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">speed limit, 1.5 rad/s</text>
+  <text x="176.63298750871232" y="286.0" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700" fill="var(--gold, #b07d22)">speed up</text>
+  <text x="176.63298750871232" y="300.0" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">at the accel limit</text>
+  <text x="312.0" y="286.0" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700" fill="var(--green, #15614e)">cruise</text>
+  <text x="312.0" y="300.0" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">0.55 s</text>
+  <text x="447.36701249128765" y="286.0" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700" fill="var(--gold, #b07d22)">slow down</text>
+  <text x="447.36701249128765" y="300.0" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">at the accel limit</text>
+  <text x="312.0" y="187.6457142857143" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700" fill="var(--green, #15614e)">area = 1.571 rad = 90°</text>
+  <text x="312.0" y="202.6457142857143" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">the whole move</text>
+  <polyline fill="none" stroke="var(--blue, #2d5d7c)" stroke-width="1" stroke-dasharray="3 3" points="514.0,250.0 528.0,168.0"/>
+  <text x="534" y="172" class="svg-disp" font-size="13" font-weight="700" fill="var(--blue, #2d5d7c)">1.547 s in total</text>
+  <text x="534" y="187" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">0.50 s speeding up</text>
+  <text x="534" y="199" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">0.55 s cruising</text>
+  <text x="534" y="211" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">0.50 s slowing down</text>
+</svg>

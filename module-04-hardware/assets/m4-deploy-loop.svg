@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 240" role="img" aria-label="The deployment loop: run twenty trials, tag the stage each failure happened at, choose exactly one fix, record episodes targeting that stage, retrain, and run the twenty trials again">
+
+  <rect x="24" y="60" width="132" height="76" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="90" y="90" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--green, #15614e)">Run 20 trials</text>
+  <text x="90" y="110" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">uncut, logged</text>
+
+  <rect x="168" y="60" width="132" height="76" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="234" y="90" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Tag the stage</text>
+  <text x="234" y="110" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">where it went wrong</text>
+
+  <rect x="312" y="60" width="132" height="76" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="378" y="90" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Choose one fix</text>
+  <text x="378" y="110" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">exactly one</text>
+
+  <rect x="456" y="60" width="132" height="76" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="522" y="90" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Record more</text>
+  <text x="522" y="110" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">10 to 20 targeted</text>
+
+  <rect x="600" y="60" width="132" height="76" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="666" y="90" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Retrain</text>
+  <text x="666" y="110" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">same recipe</text>
+
+  <line x1="156" y1="98" x2="164" y2="98"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m4L14LoopArrow)"/>
+  <line x1="300" y1="98" x2="308" y2="98"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m4L14LoopArrow)"/>
+  <line x1="444" y1="98" x2="452" y2="98"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m4L14LoopArrow)"/>
+  <line x1="588" y1="98" x2="596" y2="98"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m4L14LoopArrow)"/>
+
+  <path d="M666 136 L666 186 L90 186 L90 140" fill="none"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#m4L14LoopArrow)"/>
+  <text x="378" y="206" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">one change per turn of the loop, or the next number tells you nothing</text>
+
+  <text x="378" y="42" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the success rate is the only ground truth in this diagram</text>
+
+  <defs>
+    <marker id="m4L14LoopArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

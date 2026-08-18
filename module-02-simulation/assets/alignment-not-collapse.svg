@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 250"
+     role="img" aria-label="Three sketches of where simulated and real episodes sit in a policy's internal feature space: far apart, which transfers nothing; close but still distinguishable, which is where transfer happens; and collapsed onto each other, which throws away a distinction the policy needed">
+
+  <text x="110" y="28" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--ox, #9c3b2e)">far apart</text>
+  <text x="350" y="28" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--green, #15614e)">close, still distinct</text>
+  <text x="590" y="28" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--ox, #9c3b2e)">collapsed</text>
+
+  <rect x="20" y="42" width="180" height="140" rx="8"
+        fill="none" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <ellipse cx="66" cy="82" rx="32" ry="25"
+           fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="66" y="86" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">sim</text>
+  <ellipse cx="154" cy="146" rx="32" ry="25"
+           fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="154" y="150" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--green, #15614e)">real</text>
+  <text x="110" y="204" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the real episodes are out of</text>
+  <text x="110" y="218" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">distribution, so nothing carries over</text>
+
+  <rect x="260" y="42" width="180" height="140" rx="8"
+        fill="none" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <ellipse cx="326" cy="110" rx="34" ry="27"
+           fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="312" y="114" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">sim</text>
+  <ellipse cx="376" cy="116" rx="34" ry="27"
+           fill="none" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="392" y="120" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--green, #15614e)">real</text>
+  <text x="350" y="204" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">shared structure, and the</text>
+  <text x="350" y="218" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">difference is still visible</text>
+
+  <rect x="500" y="42" width="180" height="140" rx="8"
+        fill="none" stroke="var(--line-2, #c8bca3)" stroke-width="1.2"/>
+  <ellipse cx="590" cy="112" rx="34" ry="27"
+           fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <ellipse cx="590" cy="112" rx="34" ry="27"
+           fill="none" stroke="var(--green, #15614e)" stroke-width="1.6" stroke-dasharray="4 3"/>
+  <text x="590" y="116" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--muted, #6b6053)">sim = real</text>
+  <text x="590" y="204" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the model can no longer tell</text>
+  <text x="590" y="218" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the two apart, and pays for it</text>
+
+  <text x="20" y="242" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">position in the policy's internal feature space, sketched; the middle panel is the target and it is not the closest one</text>
+</svg>

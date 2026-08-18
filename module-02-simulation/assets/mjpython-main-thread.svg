@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" role="img" aria-label="Under plain python your script runs on the macOS main thread, so the main thread is taken and the viewer window cannot open. Under mjpython a native launcher keeps the macOS main thread free for the window and runs your script on a worker thread instead, so the window opens.">
+
+  <text x="24" y="52" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--muted, #6b6053)">python</text>
+  <text x="24" y="70" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">script.py</text>
+
+  <rect x="122" y="24" width="204" height="66" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="224" y="50" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">your script</text>
+  <text x="224" y="70" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">runs on the main thread</text>
+
+  <line x1="326" y1="57" x2="368" y2="57"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#mjpyArrow)"/>
+
+  <rect x="376" y="24" width="186" height="66" rx="8"
+        fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.6"/>
+  <text x="469" y="50" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--ox, #9c3b2e)">macOS main thread</text>
+  <text x="469" y="70" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">taken</text>
+
+  <line x1="562" y1="57" x2="604" y2="57"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#mjpyArrow)"/>
+
+  <rect x="612" y="24" width="124" height="66" rx="8"
+        fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.6"/>
+  <text x="674" y="50" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--ox, #9c3b2e)">the window</text>
+  <text x="674" y="70" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">refuses to open</text>
+
+  <line x1="674" y1="90" x2="674" y2="108"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3"/>
+  <text x="674" y="124" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">RuntimeError</text>
+
+  <line x1="24" y1="152" x2="736" y2="152"
+        stroke="var(--line-2, #c8bca3)" stroke-width="1"/>
+
+  <text x="24" y="212" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--muted, #6b6053)">mjpython</text>
+  <text x="24" y="230" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">script.py</text>
+
+  <rect x="122" y="184" width="204" height="66" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="224" y="210" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">your script</text>
+  <text x="224" y="230" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">runs on a worker thread</text>
+
+  <line x1="326" y1="217" x2="368" y2="217"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#mjpyArrow)"/>
+
+  <rect x="376" y="184" width="186" height="66" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="469" y="210" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--green, #15614e)">macOS main thread</text>
+  <text x="469" y="230" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">left free, on purpose</text>
+
+  <line x1="562" y1="217" x2="604" y2="217"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#mjpyArrow)"/>
+
+  <rect x="612" y="184" width="124" height="66" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="674" y="210" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--green, #15614e)">the window</text>
+  <text x="674" y="230" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">opens, and stays</text>
+
+  <line x1="674" y1="250" x2="674" y2="268"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3"/>
+  <text x="674" y="284" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">and your loop keeps stepping</text>
+
+  <defs>
+    <marker id="mjpyArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 296" role="img" aria-label="Approximate shelf life of four classes of claim: version numbers last weeks, prices and part lists about six months, deployment status about a year, and the four questions outlast all of them">
+
+  <text x="40" y="30" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--ox, #9c3b2e)">Version numbers</text>
+  <text x="172" y="30" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">MuJoCo 3.x · model releases · which policies exist</text>
+  <rect x="40" y="38" width="110" height="22" rx="8"
+        fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.6"/>
+
+  <text x="40" y="92" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--gold, #b07d22)">Prices and part lists</text>
+  <text x="212" y="92" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">arm bill of materials · kits · VRAM tables</text>
+  <rect x="40" y="100" width="290" height="22" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+
+  <text x="40" y="154" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--gold, #b07d22)">Who has deployed what</text>
+  <text x="212" y="154" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">pilots · contracts · unit counts · who is open</text>
+  <rect x="40" y="162" width="460" height="22" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+
+  <text x="40" y="216" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--green, #15614e)">The four questions</text>
+  <text x="192" y="216" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">who ran it · whose hardware · human in the loop · named customer</text>
+  <rect x="40" y="224" width="650" height="22" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <line x1="694" y1="235" x2="716" y2="235" stroke="var(--green, #15614e)"
+        stroke-width="1.4" marker-end="url(#halflifeArrowRight)"/>
+
+  <line x1="40" y1="262" x2="722" y2="262" stroke="var(--line-2, #c8bca3)" stroke-width="1.3"/>
+  <line x1="150" y1="262" x2="150" y2="268" stroke="var(--line-2, #c8bca3)" stroke-width="1.3"/>
+  <line x1="330" y1="262" x2="330" y2="268" stroke="var(--line-2, #c8bca3)" stroke-width="1.3"/>
+  <line x1="500" y1="262" x2="500" y2="268" stroke="var(--line-2, #c8bca3)" stroke-width="1.3"/>
+  <line x1="690" y1="262" x2="690" y2="268" stroke="var(--line-2, #c8bca3)" stroke-width="1.3"/>
+  <text x="150" y="282" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">weeks</text>
+  <text x="330" y="282" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">about six months</text>
+  <text x="500" y="282" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">about a year</text>
+  <text x="722" y="282" text-anchor="end" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the rest of your career</text>
+
+  <defs>
+    <marker id="halflifeArrowRight" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--green, #15614e)"/>
+    </marker>
+  </defs>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 310" role="img" aria-label="Inside one servo, EEPROM holds identity, travel limits, protection limits and control gains across power cycles, while SRAM holds the live torque enable, goal position and present measurements that vanish at power-off">
+
+  <text x="20" y="30" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">inside one motor</text>
+
+  <rect x="20" y="40" width="720" height="252" rx="8"
+        fill="none" stroke="var(--muted, #6b6053)" stroke-width="1.4"/>
+
+  <rect x="48" y="68" width="320" height="182" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="208" y="96" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--blue, #2d5d7c)">EEPROM</text>
+  <text x="208" y="115" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">survives power-off</text>
+  <text x="70" y="142" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">ID, Baud_Rate</text>
+  <text x="70" y="160" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">Min / Max_Position_Limit</text>
+  <text x="70" y="178" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">Homing_Offset, Operating_Mode</text>
+  <text x="70" y="196" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">Max_Torque_Limit, Protection_Current</text>
+  <text x="70" y="214" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">Max_Temperature_Limit, Overload_Torque</text>
+  <text x="70" y="232" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">P, I and D_Coefficient</text>
+
+  <text x="208" y="272" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">written at setup and calibration</text>
+
+  <rect x="392" y="68" width="320" height="182" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="552" y="96" text-anchor="middle" class="svg-disp" font-size="15" font-weight="700"
+        fill="var(--gold, #b07d22)">SRAM</text>
+  <text x="552" y="115" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">gone at power-off</text>
+  <text x="414" y="142" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">Torque_Enable</text>
+  <text x="414" y="160" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">Goal_Position</text>
+  <text x="414" y="178" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">Present_Position</text>
+  <text x="414" y="196" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">Present_Load, Present_Current</text>
+  <text x="414" y="214" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">Present_Temperature</text>
+
+  <text x="552" y="272" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">written and read every control cycle</text>
+</svg>

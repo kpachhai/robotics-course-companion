@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400"
+     role="img" aria-label="The same two tool positions joined two ways: interpolating the joint angles sweeps the tool along a circular arc that bulges 1.14 metres above the straight line joining the same two points">
+  <polyline fill="none" stroke="var(--blue, #2d5d7c)" stroke-width="4" opacity="0.28" stroke-linecap="round" points="356.0,330.0 288.9,176.0 356.0,79.4"/>
+  <polyline fill="none" stroke="var(--blue, #2d5d7c)" stroke-width="4" opacity="0.8" stroke-linecap="round" points="356.0,330.0 490.0,228.6 599.6,271.2"/>
+  <polyline fill="none" stroke="var(--blue, #2d5d7c)" stroke-width="4" opacity="0.8" stroke-linecap="round" points="356.0,330.0 190.5,359.1 112.4,271.2"/>
+  <circle cx="356.0" cy="330.0" r="7" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="368.0" y="346.0" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">base</text>
+  <polyline fill="none" stroke="var(--ox, #9c3b2e)" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6 4"
+            points="599.6,271.2 112.4,271.2"/>
+  <polyline fill="none" stroke="var(--green, #15614e)" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"
+            points="599.6,271.2 598.2,265.8 596.7,260.4 595.1,255.1 593.4,249.8 591.6,244.5 589.6,239.3 587.5,234.2 585.4,229.0 583.1,224.0 580.6,218.9 578.1,214.0 575.5,209.1 572.7,204.2 569.9,199.4 566.9,194.7 563.9,190.0 560.7,185.5 557.4,180.9 554.1,176.5 550.6,172.1 547.1,167.8 543.4,163.6 539.7,159.5 535.8,155.5 531.9,151.5 527.9,147.7 523.8,143.9 519.6,140.2 515.4,136.6 511.0,133.1 506.6,129.7 502.1,126.4 497.6,123.2 492.9,120.1 488.2,117.1 483.5,114.2 478.6,111.5 473.7,108.8 468.8,106.2 463.8,103.8 458.7,101.4 453.6,99.2 448.5,97.1 443.3,95.1 438.0,93.2 432.7,91.4 427.4,89.8 422.1,88.3 416.7,86.9 411.3,85.6 405.8,84.4 400.3,83.4 394.8,82.4 389.3,81.6 383.8,81.0 378.3,80.4 372.7,80.0 367.1,79.7 361.6,79.5 356.0,79.4 350.4,79.5 344.9,79.7 339.3,80.0 333.7,80.4 328.2,81.0 322.7,81.6 317.2,82.4 311.7,83.4 306.2,84.4 300.7,85.6 295.3,86.9 289.9,88.3 284.6,89.8 279.3,91.4 274.0,93.2 268.7,95.1 263.5,97.1 258.4,99.2 253.3,101.4 248.2,103.8 243.2,106.2 238.3,108.8 233.4,111.5 228.5,114.2 223.8,117.1 219.1,120.1 214.4,123.2 209.9,126.4 205.4,129.7 201.0,133.1 196.6,136.6 192.4,140.2 188.2,143.9 184.1,147.7 180.1,151.5 176.2,155.5 172.3,159.5 168.6,163.6 164.9,167.8 161.4,172.1 157.9,176.5 154.6,180.9 151.3,185.5 148.1,190.0 145.1,194.7 142.1,199.4 139.3,204.2 136.5,209.1 133.9,214.0 131.4,218.9 128.9,224.0 126.6,229.0 124.5,234.2 122.4,239.3 120.4,244.5 118.6,249.8 116.9,255.1 115.3,260.4 113.8,265.8 112.4,271.2"/>
+  <line x1="356.0" y1="79.4" x2="356.0" y2="271.2" stroke="var(--muted, #6b6053)" stroke-width="1.2" marker-start="url(#trajGapA)" marker-end="url(#trajGapB)"/>
+  <text x="366.0" y="169.30195532251906" class="svg-disp" font-size="13" font-weight="700" fill="var(--muted, #6b6053)">1.14 m apart</text>
+  <text x="366.0" y="184.30195532251906" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">at the middle of the move</text>
+  <text x="356.0" y="26" text-anchor="middle" class="svg-disp" font-size="13.5" font-weight="700" fill="var(--green, #15614e)">interpolate the joint angles</text>
+  <text x="356.0" y="42" text-anchor="middle" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">the shoulder sweeps; the tool traces an arc</text>
+  <line x1="500" y1="292.2" x2="500" y2="276.2" stroke="var(--ox, #9c3b2e)" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="452" y="306.2" class="svg-disp" font-size="13.5" font-weight="700" fill="var(--ox, #9c3b2e)">interpolate the tool position</text>
+  <text x="452" y="322.2" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">a straight line, whatever the joints must do</text>
+  <circle cx="599.6" cy="271.2" r="6" fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.6"/>
+  <text x="611.6" y="259.20000000000005" class="svg-disp" font-size="13" font-weight="700" fill="var(--ox, #9c3b2e)">start</text>
+  <circle cx="112.4" cy="271.2" r="6" fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.6"/>
+  <text x="100.4" y="259.19999999999993" text-anchor="end" class="svg-disp" font-size="13" font-weight="700" fill="var(--ox, #9c3b2e)">end</text>
+  <defs>
+    <marker id="trajGapA" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M8,0 L0,4 L8,8 Z" fill="var(--muted, #6b6053)"/></marker>
+    <marker id="trajGapB" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/></marker>
+  </defs>
+</svg>

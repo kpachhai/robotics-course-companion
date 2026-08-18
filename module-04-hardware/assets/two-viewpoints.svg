@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 296" role="img" aria-label="Side view of the arm on a table: a fixed camera above covering the whole strip of table where the object may start, and a wrist camera that travels with the gripper and sees only the last few centimetres">
+  <line x1="60" y1="248" x2="560" y2="248" stroke="var(--line-2, #c8bca3)" stroke-width="2"/>
+  <text x="68" y="264" class="svg-mono" font-size="9.5" fill="var(--muted, #6b6053)">table</text>
+
+  <rect x="246" y="26" width="108" height="46" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="300" y="48" text-anchor="middle" class="svg-disp" font-size="13" font-weight="700"
+        fill="var(--blue, #2d5d7c)">fixed camera</text>
+  <text x="300" y="63" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">the whole scene</text>
+
+  <line x1="256" y1="72" x2="120" y2="252" stroke="var(--muted, #6b6053)" stroke-width="1.2" stroke-dasharray="4 4"/>
+  <line x1="344" y1="72" x2="430" y2="252" stroke="var(--muted, #6b6053)" stroke-width="1.2" stroke-dasharray="4 4"/>
+
+  <line x1="120" y1="258" x2="430" y2="258" stroke="var(--muted, #6b6053)" stroke-width="1.3"/>
+  <line x1="120" y1="252" x2="120" y2="264" stroke="var(--muted, #6b6053)" stroke-width="1.3"/>
+  <line x1="430" y1="252" x2="430" y2="264" stroke="var(--muted, #6b6053)" stroke-width="1.3"/>
+  <text x="275" y="278" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">what the fixed camera covers</text>
+
+  <rect x="86" y="212" width="52" height="36" rx="6"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="112" y="235" text-anchor="middle" class="svg-disp" font-size="12" font-weight="700"
+        fill="var(--blue, #2d5d7c)">base</text>
+
+  <line x1="112" y1="212" x2="200" y2="120" stroke="var(--blue, #2d5d7c)" stroke-width="3"/>
+  <line x1="200" y1="120" x2="282" y2="186" stroke="var(--blue, #2d5d7c)" stroke-width="3"/>
+  <circle cx="200" cy="120" r="5" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.5"/>
+  <circle cx="282" cy="186" r="5" fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.5"/>
+
+  <line x1="272" y1="190" x2="296" y2="190" stroke="var(--blue, #2d5d7c)" stroke-width="2.5"/>
+  <line x1="272" y1="190" x2="272" y2="244" stroke="var(--blue, #2d5d7c)" stroke-width="2.5"/>
+  <line x1="296" y1="190" x2="296" y2="244" stroke="var(--blue, #2d5d7c)" stroke-width="2.5"/>
+
+  <rect x="276" y="222" width="16" height="26" rx="3"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="232" y="214" text-anchor="end" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">block</text>
+  <line x1="236" y1="217" x2="275" y2="224" stroke="var(--muted, #6b6053)" stroke-width="1"/>
+
+  <rect x="262" y="138" width="58" height="26" rx="6"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="291" y="155" text-anchor="middle" class="svg-disp" font-size="11" font-weight="700"
+        fill="var(--blue, #2d5d7c)">wrist</text>
+  <text x="291" y="130" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">on the gripper</text>
+  <line x1="291" y1="164" x2="282" y2="181" stroke="var(--muted, #6b6053)" stroke-width="1"/>
+
+  <line x1="288" y1="166" x2="284" y2="216" stroke="var(--muted, #6b6053)" stroke-width="1.2"
+        stroke-dasharray="4 4" marker-end="url(#m4ViewArrow)"/>
+
+  <defs>
+    <marker id="m4ViewArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

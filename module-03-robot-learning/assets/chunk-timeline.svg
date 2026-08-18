@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 336" role="img" aria-label="Two execution timelines over the same twenty-four control steps. The upper one queries the policy at every step, giving twenty-four decision points. The lower one queries once every eight steps and executes the remaining seven blind, giving three decision points and three blind windows.">
+
+  <text x="20" y="30" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">one action per query</text>
+  <text x="20" y="48" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">24 decision points, never blind</text>
+
+  <line x1="88" y1="96" x2="690" y2="96"
+        stroke="var(--line-2, #c8bca3)" stroke-width="1.3"/>
+
+  <g fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.4">
+    <circle cx="95" cy="76" r="4"/><circle cx="120" cy="76" r="4"/><circle cx="145" cy="76" r="4"/>
+    <circle cx="170" cy="76" r="4"/><circle cx="195" cy="76" r="4"/><circle cx="220" cy="76" r="4"/>
+    <circle cx="245" cy="76" r="4"/><circle cx="270" cy="76" r="4"/><circle cx="295" cy="76" r="4"/>
+    <circle cx="320" cy="76" r="4"/><circle cx="345" cy="76" r="4"/><circle cx="370" cy="76" r="4"/>
+    <circle cx="395" cy="76" r="4"/><circle cx="420" cy="76" r="4"/><circle cx="445" cy="76" r="4"/>
+    <circle cx="470" cy="76" r="4"/><circle cx="495" cy="76" r="4"/><circle cx="520" cy="76" r="4"/>
+    <circle cx="545" cy="76" r="4"/><circle cx="570" cy="76" r="4"/><circle cx="595" cy="76" r="4"/>
+    <circle cx="620" cy="76" r="4"/><circle cx="645" cy="76" r="4"/><circle cx="670" cy="76" r="4"/>
+  </g>
+  <g stroke="var(--muted, #6b6053)" stroke-width="1.1">
+    <line x1="95" y1="88" x2="95" y2="104"/><line x1="120" y1="88" x2="120" y2="104"/>
+    <line x1="145" y1="88" x2="145" y2="104"/><line x1="170" y1="88" x2="170" y2="104"/>
+    <line x1="195" y1="88" x2="195" y2="104"/><line x1="220" y1="88" x2="220" y2="104"/>
+    <line x1="245" y1="88" x2="245" y2="104"/><line x1="270" y1="88" x2="270" y2="104"/>
+    <line x1="295" y1="88" x2="295" y2="104"/><line x1="320" y1="88" x2="320" y2="104"/>
+    <line x1="345" y1="88" x2="345" y2="104"/><line x1="370" y1="88" x2="370" y2="104"/>
+    <line x1="395" y1="88" x2="395" y2="104"/><line x1="420" y1="88" x2="420" y2="104"/>
+    <line x1="445" y1="88" x2="445" y2="104"/><line x1="470" y1="88" x2="470" y2="104"/>
+    <line x1="495" y1="88" x2="495" y2="104"/><line x1="520" y1="88" x2="520" y2="104"/>
+    <line x1="545" y1="88" x2="545" y2="104"/><line x1="570" y1="88" x2="570" y2="104"/>
+    <line x1="595" y1="88" x2="595" y2="104"/><line x1="620" y1="88" x2="620" y2="104"/>
+    <line x1="645" y1="88" x2="645" y2="104"/><line x1="670" y1="88" x2="670" y2="104"/>
+  </g>
+  <text x="700" y="80" class="svg-mono" font-size="9.5"
+        fill="var(--blue, #2d5d7c)">query</text>
+  <text x="700" y="100" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">step</text>
+
+  <text x="20" y="176" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--gold, #b07d22)">eight actions per query</text>
+  <text x="20" y="194" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">3 decision points, 7 blind steps each</text>
+
+  <rect x="88" y="230" width="200" height="40" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <rect x="288" y="230" width="200" height="40" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <rect x="488" y="230" width="200" height="40" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+
+  <g stroke="var(--muted, #6b6053)" stroke-width="1.1">
+    <line x1="120" y1="242" x2="120" y2="258"/><line x1="145" y1="242" x2="145" y2="258"/>
+    <line x1="170" y1="242" x2="170" y2="258"/><line x1="195" y1="242" x2="195" y2="258"/>
+    <line x1="220" y1="242" x2="220" y2="258"/><line x1="245" y1="242" x2="245" y2="258"/>
+    <line x1="270" y1="242" x2="270" y2="258"/>
+    <line x1="320" y1="242" x2="320" y2="258"/><line x1="345" y1="242" x2="345" y2="258"/>
+    <line x1="370" y1="242" x2="370" y2="258"/><line x1="395" y1="242" x2="395" y2="258"/>
+    <line x1="420" y1="242" x2="420" y2="258"/><line x1="445" y1="242" x2="445" y2="258"/>
+    <line x1="470" y1="242" x2="470" y2="258"/>
+    <line x1="520" y1="242" x2="520" y2="258"/><line x1="545" y1="242" x2="545" y2="258"/>
+    <line x1="570" y1="242" x2="570" y2="258"/><line x1="595" y1="242" x2="595" y2="258"/>
+    <line x1="620" y1="242" x2="620" y2="258"/><line x1="645" y1="242" x2="645" y2="258"/>
+    <line x1="670" y1="242" x2="670" y2="258"/>
+  </g>
+
+  <g fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6">
+    <circle cx="95" cy="210" r="6"/><circle cx="295" cy="210" r="6"/><circle cx="495" cy="210" r="6"/>
+  </g>
+  <g stroke="var(--blue, #2d5d7c)" stroke-width="1.3" marker-end="url(#chunkTlDrop)">
+    <line x1="95" y1="218" x2="95" y2="226"/>
+    <line x1="295" y1="218" x2="295" y2="226"/>
+    <line x1="495" y1="218" x2="495" y2="226"/>
+  </g>
+
+  <line x1="288" y1="290" x2="288" y2="302"
+        stroke="var(--muted, #6b6053)" stroke-width="1.1"/>
+  <line x1="120" y1="290" x2="120" y2="302"
+        stroke="var(--muted, #6b6053)" stroke-width="1.1"/>
+  <line x1="120" y1="302" x2="288" y2="302"
+        stroke="var(--muted, #6b6053)" stroke-width="1.1"/>
+  <text x="204" y="320" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--ox, #9c3b2e)">nothing observed in here</text>
+
+  <defs>
+    <marker id="chunkTlDrop" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--blue, #2d5d7c)"/>
+    </marker>
+  </defs>
+</svg>

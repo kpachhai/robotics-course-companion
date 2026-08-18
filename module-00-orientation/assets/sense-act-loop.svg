@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" role="img" aria-label="The robot control loop: sense, think, act, and the physical world feeding back into sense">
+  <rect x="34" y="60" width="184" height="86" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="126" y="92" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Sense</text>
+  <text x="126" y="112" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">cameras · joint encoders</text>
+  <text x="126" y="126" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">force sensors</text>
+
+  <rect x="288" y="60" width="184" height="86" rx="8"
+        fill="var(--green-soft, #e3ede7)" stroke="var(--green, #15614e)" stroke-width="1.6"/>
+  <text x="380" y="92" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--green, #15614e)">Think</text>
+  <text x="380" y="112" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">controller · policy</text>
+  <text x="380" y="126" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">learned model</text>
+
+  <rect x="542" y="60" width="184" height="86" rx="8"
+        fill="var(--gold-soft, #f3e7c9)" stroke="var(--gold, #b07d22)" stroke-width="1.6"/>
+  <text x="634" y="92" text-anchor="middle" class="svg-disp" font-size="16" font-weight="700"
+        fill="var(--gold, #b07d22)">Act</text>
+  <text x="634" y="112" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">motors apply</text>
+  <text x="634" y="126" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">torques</text>
+
+  <line x1="218" y1="103" x2="284" y2="103"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#senseActLoopArrow)"/>
+  <line x1="472" y1="103" x2="538" y2="103"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#senseActLoopArrow)"/>
+
+  <rect x="288" y="206" width="184" height="54" rx="8"
+        fill="none" stroke="var(--ox, #9c3b2e)" stroke-width="1.6" stroke-dasharray="5 4"/>
+  <text x="380" y="230" text-anchor="middle" class="svg-disp" font-size="14" font-weight="600"
+        fill="var(--ox, #9c3b2e)">The physical world</text>
+  <text x="380" y="248" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">noisy · delayed · no undo</text>
+
+  <path d="M634 146 L634 233 L476 233"
+        fill="none" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#senseActLoopArrow)"/>
+  <path d="M284 233 L126 233 L126 150"
+        fill="none" stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#senseActLoopArrow)"/>
+
+  <text x="380" y="30" text-anchor="middle" class="svg-mono" font-size="10"
+        fill="var(--muted, #6b6053)">50–1000 Hz · the whole loop runs again every few milliseconds</text>
+
+  <defs>
+    <marker id="senseActLoopArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>

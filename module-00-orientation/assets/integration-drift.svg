@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 292" role="img" aria-label="Integrating a gyroscope once turns a constant bias into error growing linearly with time; integrating an accelerometer twice turns it into error growing with time squared">
+  <rect x="30" y="20" width="170" height="56" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="115" y="44" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Gyroscope</text>
+  <text x="115" y="62" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">rad/s · bias b</text>
+
+  <line x1="200" y1="48" x2="281" y2="48"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#integrationDriftArrow)"/>
+  <text x="240" y="40" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">integrate</text>
+
+  <rect x="285" y="20" width="170" height="56" rx="8"
+        fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.6"/>
+  <text x="370" y="44" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--ox, #9c3b2e)">Angle</text>
+  <text x="370" y="62" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">rad</text>
+
+  <line x1="370" y1="76" x2="370" y2="92" stroke="var(--muted, #6b6053)" stroke-width="1.1"/>
+  <text x="370" y="108" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--ox, #9c3b2e)">error = b · t</text>
+  <text x="370" y="126" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">0.5°/s of bias → 30° after one minute</text>
+
+  <line x1="30" y1="150" x2="694" y2="150"
+        stroke="var(--line-2, #c8bca3)" stroke-width="1"/>
+
+  <rect x="30" y="170" width="170" height="56" rx="8"
+        fill="var(--blue-soft, #dfeaf0)" stroke="var(--blue, #2d5d7c)" stroke-width="1.6"/>
+  <text x="115" y="194" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--blue, #2d5d7c)">Accelerometer</text>
+  <text x="115" y="212" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">m/s² · bias b</text>
+
+  <line x1="200" y1="198" x2="281" y2="198"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#integrationDriftArrow)"/>
+  <text x="240" y="190" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">integrate</text>
+
+  <rect x="285" y="170" width="140" height="56" rx="8"
+        fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.6"/>
+  <text x="355" y="194" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--ox, #9c3b2e)">Velocity</text>
+  <text x="355" y="212" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">m/s</text>
+
+  <line x1="425" y1="198" x2="506" y2="198"
+        stroke="var(--muted, #6b6053)" stroke-width="1.3" marker-end="url(#integrationDriftArrow)"/>
+  <text x="465" y="190" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">integrate</text>
+
+  <rect x="510" y="170" width="140" height="56" rx="8"
+        fill="var(--ox-soft, #f1ddd6)" stroke="var(--ox, #9c3b2e)" stroke-width="1.6"/>
+  <text x="580" y="194" text-anchor="middle" class="svg-disp" font-size="14" font-weight="700"
+        fill="var(--ox, #9c3b2e)">Position</text>
+  <text x="580" y="212" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">m</text>
+
+  <line x1="580" y1="226" x2="580" y2="242" stroke="var(--muted, #6b6053)" stroke-width="1.1"/>
+  <text x="580" y="258" text-anchor="middle" class="svg-disp" font-size="13" font-weight="600"
+        fill="var(--ox, #9c3b2e)">error = ½ · b · t²</text>
+  <text x="580" y="276" text-anchor="middle" class="svg-mono" font-size="9.5"
+        fill="var(--muted, #6b6053)">0.01 m/s² of bias → 18 m after one minute</text>
+
+  <defs>
+    <marker id="integrationDriftArrow" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--muted, #6b6053)"/>
+    </marker>
+  </defs>
+</svg>
