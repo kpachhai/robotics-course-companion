@@ -44,6 +44,8 @@
 
 Figures live in [`assets/`](assets/) as hand-authored SVG, so they diff and review like any other source. The milestone scaffold is in [`project/`](project/): [`clear_the_desk.py`](project/clear_the_desk.py) ships a complete world, skill layer and scorer, and stubs exactly the three pieces that make it an agent - the planner loop, the goal check and the episode driver. There is deliberately no solutions directory. The interesting part of this milestone is the ablation you run on your own loop, and a reference loop would hand you the answer the experiment exists to produce.
 
+Lesson 13 carries an interactive widget on the course site. The markdown states in words what the widget shows when you drag it, so nothing is lost reading the files directly.
+
 ## Milestone project (summary; full spec in [lesson 14](https://robotics.biblio.guru/course/agentic-robotics/project-clear-the-desk/))
 
 **Required on both paths.** A planner over a skill library, clearing a simulated desk of four filable objects plus one that belongs nowhere and must be left alone. Three dials inject three failure classes independently: a grasp that misses, a detector that omits or mislabels an object, and a world that drifts under a plan made a moment ago. Build it in five checkpoints, then cross three loops - plan once, retry on error, re-perceive every cycle - with three dial settings, five hundred episodes per cell. Report full-task success and step completion side by side for all nine. The finding is the cell where a recovery mechanism does nothing at all, because that is the failure class your loop cannot see from the inside.

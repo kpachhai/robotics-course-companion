@@ -50,6 +50,8 @@
 
 Each lesson has runnable companions in [`code/`](code/) (starters with `TODO(you)` markers) and full versions in [`solutions/`](solutions/). Figures live in [`assets/`](assets/): hand-authored SVG for the schematics, generated plots for everything that reports a measurement. The milestone scaffold is in [`project/`](project/) and deliberately has no solution file.
 
+Lessons 4 and 6 carry an interactive widget on the course site. The markdown states in words what the widget shows when you drag it, so nothing is lost reading the files directly.
+
 ## Milestone project (summary; full spec in [lesson 19](https://robotics.biblio.guru/course/robot-learning/project-act-vs-diffusion/))
 
 One artifact: a comparison that survives someone else re-running it.
